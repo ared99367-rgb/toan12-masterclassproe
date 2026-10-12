@@ -1,0 +1,57 @@
+Tác giả: Lê Xuân Hưng,Tên FB: Hưng Xuân Lê
+Chọn A
+Xét phép thử T : “Chọn ngẫu nhiên một số tự nhiên từ tập E”.
+Biến cố A:” Số chọn được có dạng xaa a a a a , trong đó a a a a a a ”.
+1 2 3 4 5 6 1 2 3 4 5 6
+Số phần tử của không gian mẫu là  6.A5 4320.
+6
+Ta có 15a a a a a a 21 do đó a a 5, 6, 7.
+1 2 3 4 5 6 1 2
+TH 1: Ba tập a , a , a , a , a , a  là 1, 6, 2, 5 và 3, 4.
+1 2 3 4 5 6
+Số các số x là 3!.2!.2!.2!48 số.
+TH 2: Ba tập a , a , a , a , a , a  là 0, 6, 2, 4 và 1, 5.
+1 2 3 4 5 6
+Số các số x là 3!.2!.2!.2!2!.2!.2!40 số.
+TH 2: Ba tập a , a , a , a , a , a  là 0, 5, 1, 4 và 2, 3.
+1 2 3 4 5 6
+Số các số x là 3!.2!.2!.2!2!.2!.2!40 số.
+Số kết quả thuận lợi của biến cố A là  484040128.
+A
+ 128 4
+Xác suất xảy ra biến cố A là PA A   .
+ 4320 135
+hoainam2732003@gmail.com
+Câu 49. Lấy ngẫu nhiên một số tự nhiên có 9 chữ số khác nhau. Tính xác suất để số đó chia hết cho 3.
+17 11 1 5
+A. . B. . C. . D. .
+81 27 9 18
+Lời giải
+Tác giả : Trình Hoài Nam, FB: Trình Hoài Nam
+Chọn D
+* n9.A8.
+9
+* Gọi A là biến cố lấy được số chia hết cho 3. Giả sử B 0;1;2;...;9 ta thấy tổng các phần tử
+của B bằng 453 nên số có chín chữ số đôi một khác nhau và chia hết cho 3 sẽ được tạo thành từ
+9 chữ số của các tập B\0;B\3; B\6;B\9 nên số các số loại này là 9!3.8.8!.
+ nA9!3.8.8!
+nA
+9!3.8.8! 11
+Vậy xác suất cần tìm là pA  
+n 9.A8 27
+9
+tdphuong.hss@hue.edu.vn
+Câu 50. Cho đa giác đều 2n đỉnh, lấy ngẫu nhiên một đường chéo của đa giác này thì xác suất để đường
+1
+7
+chéo được chọn có độ dài lớn nhất là . Tìm hệ số của số hạng chứa x trong khai triển
+9
+ 2 n
+x 3x2 .
+A. -1364. B. -5418. C. -3812. D. -4028.
+Lời giải
+Tác giả : Trần Đức Phương, FB: Phuong Tran Duc
+Chọn B
+Số đường chéo trong đa giác đều 2n đỉnh là C2 2n.
+2n
+Trang 9/26 - Mã đề thi 483

@@ -1,0 +1,77 @@
+Đường chéo có độ dài lớn nhất là đường chéo đi qua tâm của đa giác đều, có n đường chéo
+như vậy.
+n 1
+Theo giả thiết:  n6
+C 2 2n 9
+2n
+ 2 6
+Xét khai triển x 3x2 có số hạng tổng quát là:
+C
+k
+.C
+l
+.2
+6k
+.
+
+x
+2kl .3xl
+C
+k
+.C
+l
+.2
+6k .3l
+.x
+2kl
+6 k 6 k
+k 4
+
+l 1
+2kl 7
+
+ k 5
+Số hạng chứa x 7 trong khai triển ứng với k,l thỏa mãn: 0l k 6 
+
+l 3
+k,l
+ 
+k 6
+
+
+ l 5
+Vậy hệ số của số hạng chứa x 7 là: C4.C1.22.3C5.C3.2.33C6.C5.35 5418
+6 4 6 5 6 6
+thaygiaothaogiay@gmail.com
+Câu 51. Gieo một con súc sắc cân đối đồng chất hai lần. Giả sử m là tích số chấm mà con súc sắc xuất
+hiện sau hai lần gieo. Tính xác suất sao cho hàm số
+ym3x2412mx2
+đồng biến
+trên khoảng 0;.
+1 2 3 17
+A. . B. . C. . D. .
+2 3 4 36
+Lời giải
+Tác giả : Đinh Phước Tân, FB: Tân Độc
+Chọn C
+ a;b|a,b;1a,b6  n36.
+Gọi biến cố A: “ hàm số đã cho đồng biến trên khoảng 0;”.
+Ta xét các trường hợp sau:
++ TH1: m30m3, ta được: y 35x2 đồng biến trên  nên y cũng đồng biến trên
+0;.
++ TH2: m3:
+a 0
+ a 0 m30 41
+Hàm số đồng biến trên 0;  b     3m .
+
+ 0 b0 412m0 2
+ 2a
+Từ hai trường hợp ta suy ra 3m20.
+ A 1;1,1;2,2;1,4;6,6;4,5;5,5;6,6;5,6;6 n  A  9.
+ 
+n A 3
+ pA1 p  A  1  .
+n 4
+(Cám ơn thầy Phùng Đức Cường, cô Lưu Thêm, thầy Trịnh Văn Thạch đã góp ý và chỉnh sửa
+bài giải!)
+Trang 10/26 - Mã đề thi 483

@@ -1,0 +1,38 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 02
+\
+Tổng 5 số được điền trên Cột 1 bằng 15;
+Trên mỗi hàng, các số được sắp xếp theo thứ tự tăng dần từ trái sang phải.
+Hai cách điền gọi là giống nhau nếu số điền ở mỗi ô tương ứng trong 15 ô là giống nhau. Gọi là số cách
+T
+T
+điền khác nhau để bạn Bình vượt qua được thử thách. Giá trị của bằng bao nhiêu?
+12600
+Câu 3 [HTN]: (THPT 2026) Một khung hình trang trí có dạng một đa giác đều 12 cạnh (xem
+AA...A
+1 2 12
+hình dưới) được gắn cố định trên một trần nhà. Bạn Dũng có 12 bóng đèn gồm bốn bóng màu đỏ và tám
+bóng màu xanh, có công suất đôi một khác nhau. Bạn Dũng lắp ngẫu nhiên 12 bóng đèn trên vào 12 đỉnh
+sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là xác suất để mỗi hình vuông (có bốn đỉnh
+A,A,...,A P
+1 2 12
+là các đỉnh của đa giác đã cho) đều có ít nhất một bóng đèn màu đỏ. Giá trị của bằng bao nhiêu?
+3190P
+Câu 4 [HTN]: (Phát triển lại THPT 2026) Một khung hình trang trí có dạng đa giác đều 20 cạnh được gắn
+cố định trên một trần nhà. Bạn Dũng có 20 bóng đèn gồm 5 bóng màu đỏ, 5 bóng màu xanh, 5 bóng màu
+vàng và 5 bóng màu tím, có công suất đôi một khác nhau. Bạn Dũng lắp ngẫu nhiên 20 bóng đèn trên vào 20
+đỉnh của đa giác sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là xác suất để mỗi hình vuông (có bốn đỉnh
+P
+là các đỉnh của đa giác đã cho) đều có đủ 4 loại bóng đèn mang 4 màu khác nhau. Giá trị của
+2263261P
+bằng bao nhiêu?
+Câu 5 [HTN]: (Phát triển lại THPT 2026) Một khung hình trang trí có dạng một đa giác đều 16 cạnh. Bạn
+Dũng có 16 bóng đèn gồm 4 bóng màu đỏ, 4 bóng màu xanh và 8 bóng màu vàng, có công suất đôi một khác
+nhau. Bạn Dũng lắp ngẫu nhiên 16 bóng đèn vào 16 đỉnh sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là
+P
+xác suất để mỗi hình vuông (có bốn đỉnh là các đỉnh của đa giác đã cho) đều có đúng một bóng đèn màu
+đỏ và đúng một bóng đèn màu xanh. Giá trị của bằng bao nhiêu?
+25025P
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

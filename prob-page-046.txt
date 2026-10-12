@@ -1,0 +1,55 @@
+ab3
+Giả sử 2 số được chọn là a,b. Theo giả thiết  a2 b2 3abab3 
+
+ab3
+Nếu ab3 thì a, b phải đồng dư khi chia 3  số cách chọn là: C2 C2 C2
+16 17 17
+Nếu ab3 thì hoặc a và b cùng chia hết cho 3 hoặc một số chia 3 dư 1, một số chia 3 dư 2
+ số cách chọn là: C2 C1 .C1
+16 17 17
+  ab3 a3
+Lại có:    số cách chọn là: C2
+
+ab3 b3 16
+Do đó: nA  C2 C2 C2    C2 C1C1  C2 C2 C2 C2 C1C1
+16 17 17 16 17 17 16 16 17 17 17 17
+C2 C2 C2 C1C1 681
+Vậy PA 16 17 17 17 17 
+C2 1225
+50
+ptpthuyedu@gmail.com
+Câu 42. Chọn ngẫu nhiên một số tự nhiên có năm chữ số. Tính xác suất để số được chọn có dạng abcde
+trong đó 1 abc d e9.
+143 138 11 3
+A. . B. . C. . D. .
+10000 1420 200 7
+Lời giải
+Tác giả : Phạm Thị Phương Thúy, FB: thuypham
+Chọn A
+Cách 1
+Lập số tự nhiên có 5 chữ số có 9.104(số) n()9.104.
+Biến cố A:"Số được chọn có dạng abcde trong đó 1 abc d e9."
+Ta có
+1a bcd e91ab1c2 d3e413.
+Như vậy chọn a;b1;c2;d3;e4 có C5 (cách).
+13
+ Chọn a;b;c;d;ecó C5 (cách)  n(A)C5 .
+13 13
+n(A) C5 143
+Vậy P(A)  13  .
+n() 9.104 10000
+Cách 2
+Lập số tự nhiên có 5 chữ số có 9.104(số) n()9.104.
+Biến cố A:"Số được chọn có dạng abcde trong đó 1 abc d e9."
+TH1: Số có 5 chữ số giống nhau (Số được lập từ 1 chữ số, ví dụ 11111) có C1 số.
+9
+TH2: Số được lập từ bộ 2 chữ số (Ví dụ bộ {1; 2} có 11112, 11122, 11222, 12222)  có 4.C2
+9
+số.
+TH3: Số được lập từ bộ 3 chữ số (Ví dụ bộ {1; 2; 3} có 11123; 11223; 11233; 12223; 12233;
+12333)  có 6.C3 số.
+9
+TH4: Số được lập từ bộ 4 chữ số (Ví dụ bộ {1; 2; 3; 4} có 11234; 12234; 12334; 12344)  có
+4.C4 số.
+9
+Trang 5/26 - Mã đề thi 483

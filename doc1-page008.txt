@@ -1,0 +1,17 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 08
+\
+Câu 23 [HTN]: Bạn Quỳnh và bạn Hà tham gia chơi trò chơi sau:
+Quỳnh chọn trước một trong ba vòng quay được cho trong hình.
+Sau đó, Hà chọn một trong hai vòng còn lại.
+Cả hai quay vòng của mình. Người có số lớn hơn là người thắng.
+Biết rằng mỗi vùng trên vòng quay đều có xác suất như nhau. Tính xác suất mà Quỳnh chiến thắng. Làm tròn
+kết quả đến hàng phần trăm.
+Câu 24 [HTN]: Điền ngẫu nhiên các số 0; 1; 2; 3; 4; 5; 6; 7; 8 vào các ô của một bảng ô vuông kích thước
+sao cho mỗi số được điền vào đúng một ô. Tính xác suất để số 1 được điền vào ô chính giữa, biết rằng
+33
+tổng của các số hàng dưới cùng là một số lẻ và số 0 được điền vào ô góc trên cùng bên trái của bảng ô vuông.
+(Kết quả làm tròn đến hàng phần trăm)
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

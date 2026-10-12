@@ -1,0 +1,27 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 04
+\
+Câu 9 [HTN]: Trong một trò chơi thám hiểm, anh Nghĩa phải vượt qua một mê cung gồm các phòng thông
+nhau như sơ đồ dưới đây. Tại mỗi phòng, anh Nghĩa sẽ chọn ngẫu nhiên một trong các cửa thông với phòng
+hiện tại, với xác suất như nhau, để đi tiếp. Quá trình di chuyển diễn ra liên tục và trò chơi sẽ kết thúc ngay
+khi anh bước vào phòng chứa Kho báu hoặc phòng có Bẫy. Biết anh Nghĩa bắt đầu từ Phòng 1, tính xác suất
+để anh tìm được kho báu. Kết quả làm tròn đến hàng phần trăm.
+Câu 10 [HTN]: Có bao nhiêu cách chọn sáu số từ chín số nguyên 1, 2,..., 9 và điền vào các ô của hình dưới
+đây (mỗi ô chỉ điền đúng một số) sao cho tổng các số ở mỗi cột (kể cả cột có một ô) bằng nhau?
+Câu 11 [HTN]: Trong một trò chơi, có 20 chiếc đèn được bố trí cách đều nhau trên một vòng tròn lớn. Khi
+người chơi bấm nút, hệ thống máy tính sẽ chọn ngẫu nhiên 3 chiếc đèn để thắp sáng đồng thời. Nếu xuất hiện
+tam giác tạo bởi 3 bóng đèn được thắp sáng là vuông hoặc cân thì người chơi được nhận một phần quà. Mỗi
+người chơi thực hiện 5 lần bấm nút. Gọi là xác suất để một người chơi may mắn giành được đúng 1 phần
+P
+quà. Tính 104P .
+Câu 12 [HTN]: Cho tập hợp gồm 18 số tự nhiên. Chọn
+S {1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18}
+ngẫu nhiên 9 số tự nhiên từ tập và điền vào 9 ô vuông của một bảng như hình vẽ bên dưới. Gọi
+S 33 T
+là số cách điền thỏa mãn các số trên mỗi đường chéo (theo thứ tự từ góc này sang góc đối diện) lập thành
+T
+một cấp số nhân. Tính giá trị của biểu thức: .
+100
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

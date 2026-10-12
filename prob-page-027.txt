@@ -1,0 +1,62 @@
+TH 3: An và Bình nhận bộ sách Lý – Hóa, số cách phát 10 bộ sách còn lại cho 10 học sinh:
+10!
+4200
+3!4!3!
+Tổng số cách phát 12 bộ sách cho 12 học sinh mà An và Bình nhận phần thưởng giống nhau:
+n( )7980
+A
+19
+Đáp số: P(A)
+66
+Nguyendac1080@gmail.com
+Câu 15. Ba bạn An, Bình, Nam chơi phi tiêu, ai phi trúng mục tiêu trước thì người đó thắng cuộc chơi và
+được hai bạn còn lại mua tặng vé xem trận bán kết AFF Susuki Cup 2018 của tuyển Việt Nam.
+Thứ tự chơi lần lượt là: An, Bình, Nam; An, Bình, Nam; … Xác suất phi trúng mục tiêu trong
+một lần phi tiêu của An, Bình, Nam tương ứng là 0,2; 0,4 và 0,6. Gọi P , P , P lần lượt là xác
+1 2 3
+suất giành chiến thắng của ba bạn An, Bình, Nam. Khi đó, khẳng định nào sau đây đúng?
+A. P < P < P . B. P > P > P .
+1 2 3 1 2 3
+C. P >P >P . D. chưa đủ dữ kiện tính.
+2 3 1
+Lời giải
+Tác giả :Nguyễn Văn Đắc, FB: Đắc Nguyễn
+Chọn C
+Gọi các biến cố:
+A, B, C lần lượt là biến cố An thắng, Bình thắng, Nam thắng.
+A : “ An thắng nhờ bắn trúng mục tiêu ở lượt bắn thứ n của mình”
+n
+B : “ Bình thắng nhờ bắn trúng mục tiêu ở lượt bắn thứ n của mình”
+n
+C : “ Nam thắng nhờ bắn trúng mục tiêu ở lượt bắn thứ n của mình”
+n
+Khi đó: A A A A ... và A , A , A , … đôi một xung khắc.
+1 2 3
+1 2 3
+Để A xảy ra thì ở n-1 lượt phi tiêu đầu cả An, Bình, Nam đều phi trượt và An phi trúng ở lượt
+n
+phi tiêu thứ n của mình. Ta có: P(A )(0,8.0,6.0,4)n1.0,20,192n1.0,2
+n
+Vậy dãy số P(A ) là cấp số nhân lùi vô hạn với công bội 0,192 và số hạng đầu bằng 0,2
+n
+0,2 25
+Do đó xác suất để An giành chiến thắng là P(A)P(A )P(A )P(A )... 
+1 2 3 10,192 101
+40
+Tương tự ta có: P(B )(0,8.0,6.0,4)n1.0,8.0,40,192n1.0,32 và P(B)
+n 101
+36
+P(C )(0,8.0,6.0,4)n1.0,8.0,6.0,60,192n1.0,288 và P(C)
+n 101
+Từ đó P >P >P .
+2 3 1
+Nguyendac1080@gmail.com
+Xác suất bắn trúng mục tiêu trong một lần bắn của ba xạ thủ A, B, C lần lượt là 0,9; 0,8 và 0,7.
+Tính xác suất sau 3 lượt bắn của mỗi xạ thủ, xạ thủ A bắn trúng mục tiêu nhiều hơn hai xạ thủ
+còn lại, kết quả làm tròn đến hàng phần triệu.
+A.0,333333. B.0,233729. C.0,504. D.0,234323.
+Lời giải
+Tác giả :Nguyễn Văn Đắc, FB: Đắc Nguyễn
+Chọn D
+Gọi các biến cố:
+Trang 10/24 - Mã đề thi 483

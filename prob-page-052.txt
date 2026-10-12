@@ -1,0 +1,55 @@
+Email: tc_ngduychien2006@yahoo.com
+Câu 52. Hộp A chứa 3 quả bóng màu trắng và 4 quả bóng màu đen, hộp B chứa 4 quả bóng màu trắng và
+6 quả bóng màu đen. Lấy ngẫu nhiêu một quả bóng từ hộp B và bỏ vào hộp A. Sau đó lấy ngẫu
+nhiên một quả bóng từ hộp A. Tính xác suất để quả bóng lấy được là màu đen.
+9 23 8 5
+A. . B. . C. . D. .
+20 10 17 8
+Lời giải
+Tác giả : Nguyễn Duy Chiến
+Chọn B
+4
+TH1: Quả bóng lấy từ hộp B là màu trắng: P  , sau đó lấy từ hộp A (sau khi bỏ bóng
+BTr 10
+4 4 4
+trắng vào) P  . Theo quy tắc nhân xác suất P  . .
+AD 8 1 10 8
+6
+TH2: Quả bóng lấy từ hộp B là màu đen: P  , sau đó lấy từ hộp A (sau khi bỏ bóng
+BD 10
+5 6 5
+trắng vào) P  . Theo quy tắc nhân xác suất P  . .
+AD 8 2 10 8
+23
+Xác suất cần tìm P  P P  .
+1 2 40
+hoxuandung1010@gmail.com
+Câu 53. Cho tập A{0,1,2,3,4,5,6,7,8,9}. Gọi S là tập hợp tất cả các số có 5 năm chữ số phân biệt
+được lập từ A. Chọn ngẫu nhiên một số từ S. Khi đó xác suất để chọn được số có dạng
+aa a a a sao cho a a a và a a a là:
+1 2 3 4 5 1 2 3 3 4 5
+5 1 5 1
+A. . B. . C. . D. .
+7 12 12 24
+Lời giải
+Tác giả: Hồ Xuân Dũng ; Fb: Dũng Hồ Xuân
+Chọn D
+Số phần tử của tập hợp S là |S|9.9.8.7.6 27216.
+Gọi B là tập hợp các số có dạng aa a a a sao cho a a a và a a a .
+1 2 3 4 5 1 2 3 3 4 5
+Ta xác định số phần tử của tập B như sau:
+Trường hợp 1
+Chọn 5 chữ số bất kỳ không có chữ số 0 có C5 cách, sau đó xếp 5 chữ số vào 5 vị trí
+9
+aa a a a .
+1 2 3 4 5
+- Vị trí a có 1 cách chọn, vì a lớn nhất.
+3 3
+- Có C2 cách chọn hai số để xếp vào hai vị trí aa .
+4 1 2
+- Có 1 cách chọn hai số để xếp vào hai vị trí a a .
+4 5
+Suy ra có C5C2 756 (số).
+9 4
+Trường hợp 2
+Trang 11/26 - Mã đề thi 483

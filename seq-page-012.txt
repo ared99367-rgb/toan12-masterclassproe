@@ -1,0 +1,60 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+Bài 26'. Tam giác ABC thỏa mãn điều kiện : tagA,tangB,tangC theo thứ tự đó lập
+thành cấp số cộng Hãy tìm giá trị nhỏ nhất của góc B có thể có được ?
+HƯỚNG DẪN
+Theo giả thiết : tanA,tanB,tanC lập thành cấp số cộng thì ta có : tanA+tanC=2tanB
+sinAC
+sinB 2sinB sinB
+tanA+tanC=   
+cosA.cosC cosA.cosC cosB cosA.cosC
+2 1
+   2cosA.cosC=cosBcosA+CcosA-CcosB
+cosB cosA.cosC
+1 1
+ cosB+cosA-CcosBcosB= cosA-C 2( vì 0<cos(A-C)1 )
+2 2
+
+Do 0<BGiá trị nhỏ nhất của B 
+3
+A B C
+Bài 27. Tam giác ABC có : cot ,cot ,cot theo thứ tự đó lập thành một cấp số
+2 2 2
+cộng . Hãy chứng minh rằng ba cạnh a,b,c theo thứ tự đó cũng lập thành một cấp số
+cộng ?
+HƯỚNG DẪN
+AC B AC
+sin cos sin
+A C B
+Theo đầu bài ta có : cot cot 2cot  2 2 2 2 2
+2 2 2 A C B A+C
+sin sin sin cos
+2 2 2 2
+ AC A+C A C AC  A-C A+C AC
+sin cos 2sin sin sin  cos cos sin
+     
+ 2   2  2 2 2  2 2  2
+AC A+C A-C AC 1
+2sin cos cos sin 2sinAC sin AsinC
+2 2 2 2 2
+sinAsinC2sinBac2b. Chứng tỏ ba cạnh của tam giác lập thành cấp số
+cộng
+Bài 28. Tam giác ABC có : cot A,cotB,cotC theo thứ tự đó lập thành một cấp cộng .
+Hãy chứng minh rằng : a2,b2,c2 theo thứ tự đó cũng lập thành một cấp số cộng ?
+HƯỚNG DẪN
+Theo giả thiết ta có : cotA+cotC=2cotB
+sinAC
+2cosB
+  sin2 B2sinBsinCcosBcosA-CcosA+CcosB
+ 
+sinAsinC sinB
+sin2 BcosA-CcosB-cosA+CcosB=-cosA-CcosA+Ccos2B
+1 1
+sin2 B cos2A+cos2C1sin2 B  12sin2 A12sin2C  1sin2 B
+2 2
+2sin2 Bsin2 Asin2C 2b2 a2 c2
+Vậy chứng tỏ a2,b2,c2 theo thứ tự đó cũng lập thành một cấp số cộng.
+Bài 29. Cho tam giác ABC cân ( AB=AC ), có cạnh đáy BC , đường cao AH , cạnh
+bên AB theo thứ tự đó lập thành một cấp số nhân . Hãy tính công bội q của cấp số
+nhân đó ?
+HƯỚNG DẪN
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 1 2 ĐT : 0985.270.218

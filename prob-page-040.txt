@@ -1,0 +1,55 @@
+Suy ra nAn2n2.
+n2n2
+1
++ Theo đề bài ta có phương trình  n 8.
+C3 5
+2n
++ Tổng các ước nguyên dương của n là : 124815.
+Email: doanphunhu@gmail.com
+Câu 32. Gọi S là tập hợp các số tự nhiên có 5 chữ số được lập từ các số thuộc tập X 0;1;2;3;4;5;6;7;8
+. Lấy ngẫu nhiên một số thuộc tập S. Tính xác suất để số lấy được chia hết cho 15.
+2 1 4 5
+A. . B. . C. . D. .
+27 9 27 27
+Lời giải
+Tác giả :Đoàn Phú Như,Tên FB: Như Đoàn
+Chọn A
+Giải : Ta phân hoạch tập X thành ba tập X 0;3;6,X 1;4;7,X 2;5;8 và gọi abcde
+0 1 2
+là số thỏa mãn bài toán. Ta có 2 cách chọn e, 8 cách chọn a, 9 cách chọn b, 9 cách chọn c. Với
+mỗi cách chọn a,b,c,e ta đều có 3 cách chọn d (d chỉ thuộc một trong ba tập X ,X ,X ) nên có
+0 1 2
+2.8.9.9.3 2
+tất cả 2.8.9.9.3 số . Vậy p  
+8.9.9.9.9 27
+Email: dangvietdong.ninhbinh.vn@gmail.com
+Câu 33. Từ các chữ số {0,1;2;3;4;5,6} viết ngẫu nhiên một số tự nhiên gồm 6 chữ số khác nhau có dạng
+aa a a a a Tính xác suất để viết được các số thỏa mãn điều kiện a a a a a a
+1 2 3 4 5 6 1 2 3 4 5 6
+5 4 4 3
+A. . B. . C. . D. .
+158 135 85 20
+Lời giải
+Sưu tầm: Đặng Việt Đông Tên FB: Đặng Việt Đông
+Chọn B
+Để viết một số có 6 chữ số khác nhau bất kì ta có n6.6.5.4.3.24320số.
+Gọi A là biến cố số thỏa mãn điều kiện a a a a a a
+1 2 3 4 5 6
+TH1: a a a a a a 5, ta có 0514235
+1 2 3 4 5 6
+- Nếu a ;a 0;5có 1 cách chọna ;a 
+1 2 1 2
+Có 2 cách chọn a ;a , hai số này có thể đổi vị trí cho nhau nên có 4 cách chọn.
+3 4
+Tương tự a ;a có 2 cách chọn.
+5 6
+Suy ra có 1.4.28 số thỏa mãn.
+- Nếu a ;a (0;5)có 2 cách chọn a ;a , 2 số này có thể đổi vị trí cho nhau nên có 4 cách
+1 2 1 2
+chọn.
+Có 2 cách chọn a ;a , hai số này có thể đổi vị trí cho nhau nên có 4 cách chọn.
+3 4
+Tương tự a ;a có 2 cách chọn.
+5 6
+Suy ra có 4.4.232 số thỏa mãn.
+Trang 23/24 - Mã đề thi 483

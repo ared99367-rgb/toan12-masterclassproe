@@ -1,0 +1,51 @@
+TH3 : Số có 8 chữ số lấy từ tập B\1,8có dạng aa a a a a a a và chia hết cho 5 nên có 2
+1 2 3 4 5 6 7 8
+trường hợp :
+* a 0 có 7! số.
+8
+* a 5 có 6.6! số.
+8
+Suy ra trong trường hợp này có 7!6.6! số. Tương tự các trường hợp B\2,7,B\3,6mỗi
+trường hợp có 7!6.6! số.
+Số kết quả thuận lợp cho biến cố A là  2.7!3.7!6.6!38160. Vậy xác suất biến cố
+A
+ 38160 53
+A là pA A   .
+ A8  A7 2268
+10 9
+Email: trandongphong.c3lehongphong@lamdong.edu.vn.
+Câu 6. Cho tập A0;1;2;3;4;5;6. Gọi X là tập các số tự nhiên có 5 chữ số khác nhau được lập từ
+A. Chọn một số từ X , tính xác suất sao cho số được chọn có đúng 3 chữ số chẵn
+4 17 281 2
+A. . B. . C. . D. .
+7 35 540 3
+Lời giải
+Tác giả: Trần Đông Phong FB: Phong Do
+Chọn C
+Có 6.A4 2160 số tự nhiên có 5 chữ số khác nhau lập từ A, nX2160
+6
+Chọn một số từ X , số phần tử của không gian mẫu là n2160
+Gọi B là biến cố “chọn được số có đúng 3 chữ số chẵn”
+Xét: abcde là số tự nhiên có 5 chữ số khác nhau trong đó có đúng 3 chữ số chẵn
+TH1: Xét bộ có 5 số trong đó có 3 chữ số chẵn có mặt số 0 và 2 số lẻ. Có tất cả C2.C2 bộ.
+3 3
+Ứng với mỗi bộ có 4.4! số
+Suy ra có: C2.C2.4.4!864 số
+3 3
+TH2: Xét bộ có 5 số trong đó có 3 chữ số chẵn không có số 0 và 2 chữ số lẻ. Có tất cả C2 bộ.
+3
+Ứng với mỗi bộ trên có 5! số
+Suy ra có: C2.5!360 số
+3
+- Vậy số phần tử của biến cố B là nB1224
+nB 281
+Xác suất PA 
+n 540
+Email: huunguyen1979@gmail.com
+Câu 7. Gọi S là tập hợp các số tự nhiên gồm 10 chữ số lập từ tập X 6;8. Chọn 1 số từS , tính xác
+suất để số được chọn là số không có hai chữ số 6 nào đứng cạnh nhau?.
+9 143 143 145
+A. . B. . C. . D. .
+26 210 26 210
+Lời giải
+Trang 4/24 - Mã đề thi 483

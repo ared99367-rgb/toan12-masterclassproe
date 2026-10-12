@@ -1,0 +1,44 @@
+Câu 5
+Đa giác đều 16 cạnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác được tạo bởi các
+đỉnh cách nhau 4 bước.
+Do đó 16 đỉnh được chia thành 4 nhóm, mỗi nhóm 4 đỉnh:
+{i,i+4,i+8,i+12}, i = 1,2,3,4.
+Mỗi nhóm chính là một hình vuông.
+Có 4 bóng đỏ, 4 bóng xanh, 8 bóng vàng. Điều kiện là mỗi hình vuông đều có đúng
+một bóng đỏ và đúng một bóng xanh. Vì mỗi hình vuông có 4 đỉnh, nên trong mỗi hình
+vuông phải có dạng 1R, 1X, 2V.
+Xét một hình vuông:
+– Chọn vị trí đặt bóng đỏ: 4 cách;
+– Chọn vị trí đặt bóng xanh trong 3 vị trí còn lại: 3 cách;
+– Hai vị trí còn lại tự động là bóng vàng.
+Vậy một hình vuông có 4·3 = 12 cách tô màu. Có 4 hình vuông độc lập, nên số mẫu
+màu thuận lợi là 124.
+Tổng số mẫu màu khi có 4 đỏ, 4 xanh, 8 vàng là:
+16!
+.
+4!4!8!
+Vậy:
+124 ·4!4!8!
+P =
+16!
+576
+=
+25025
+Suy ra:
+25025P = 576 .
+Câu 6
+Có 17 cây cau trồng quanh một vòng tròn. Cần chặt 4 cây sao cho không có hai cây kề
+nhau bị chặt.
+Ta xem 4 cây bị chặt là 4 mốc trên vòng tròn. Gọi x ,x ,x ,x là số cây không bị chặt
+1 2 3 4
+nằm giữa hai cây bị chặt liên tiếp. Vì không có hai cây bị chặt nào kề nhau, nên x ≥ 1.
+i
+Tổng số cây không bị chặt là 17−4 = 13. Vậy:
+x +x +x +x = 13, x ≥ 1.
+1 2 3 4 i
+Số nghiệm nguyên dương của phương trình này là:
+(cid:18) (cid:19) (cid:18) (cid:19)
+13−1 12
+= = 220.
+4−1 3
+4

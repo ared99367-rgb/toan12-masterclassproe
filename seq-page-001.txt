@@ -1,0 +1,62 @@
+Bài tập bổ sung chương III- DÃY SỐ - CẤP SỐ CỘNG - CẤP SỐ NHÂN
+BÀI TẬP VỀ DÃY SỐ-CẤP SỐ CỘNG - CẤP SỐ NHÂN
+I. DÃY SỐ
+1. viết số hạng tổng quát của dãy số tự nhiên , mà mỗi số hạng của nó khi chia cho 3
+còn dư 2 .
+2. Dãy số u được xác định bằng công thức quy nạp : u 3,u 2u . Tìm số hạng
+n 1 n1 n
+tổng quát của dãy số đó và tích 4 số hạng đầu của dãy số .
+3. Tìm số hạng tổng quát của dãy số xác định bằng công thức quy nạp :
+1
+a. u 3,u 2 u
+1 n1 2 n
+b. u a,u abu ( Với a,b là hằng số )
+1 n1 n
+4. Các dãy số sau có đơn điệu không ?
+1 2n 1  1 n
+a. u  b. u  c. u  
+ 
+n n2 1 n 2n n  2
+an2
+5. Với giá trị nào của a,b ,dãy số : u  là một dãy số không giảm ,tăng?giảm?
+n bn1
+6. Trong các dãy số sau , dãy số nào bị chặn ? Bị chặn trên hay bị chặn dưới ?
+1 1
+a. u 2n1 b. u  c. u 
+n n n2 n nn1
+n
+ 1
+d. u 3.2n1 e. u  
+ 
+n n  3
+n1 n2 u 
+7. Cho dãy số : u  ;v  . Tính : u v ;u .v ; n 
+n n n n n n n n v
+ 
+n
+II. CẤP SỐ CỘNG .
+1. Ba góc của một tam giác vuông lập thành một cấp số cộng . Tìm ba góc đó ?
+A B C
+2. Chứng minh tam giác ABC có ba góc với : cot ,cot ,cot theo thứ tự đó lập
+2 2 2
+thành một cấp số cộng thì ba cạnh theo thứ tự đó cũng tạo thành một cấp số cộng ?
+3. Số hạng thứ 2 và số hạng thứ 7 của một cấp số cộng có tổng bằng 92, số hạng thứ
+tư và số hạng thứ 11 có tổng bằng 71 . Tìm 4 số hạng đó ?
+4. Một cấp số cộng có 11 số hạng . Tổng các số hạng đó bằng 176 . Hiệu số hạng
+cuối và số hạng đầu là 30 . Tìm cấp số đó ?
+5. Bốn số hạng lập thành một cấp số cộng . Tổng của chúng bằng 22. Tổng các bình
+phương của chúng bằng 166. Tìm 4 số đó ?
+6. Năm số lập thành một cấp số cộng . Biết tổng S , tích P của chúng . Tìm năm số đó
+7. Bốn số nguyên lập thành một cấp số cộng . Tổng của chúng bằng 20, tổng các
+25
+ngịch đảo của chúng bằng . Tìm bốn số đó ?
+24
+8. Người ta trồng 3003 cây theo hình một tam giác như sau : hàng thứ nhất có 1 cây ,
+hàng thứ hai có 2 cây, hàng thứ ba có 3 cây , v.v...Hỏi có bao nhiêu hàng ?
+9. Xác định cấp số cộng sao cho tổng n số hạng đầu bằng n+1 lần một nửa số hạng
+thứ n
+III. CẤP SỐ NHÂN
+1. Một cấp số nhân có số hạng thứ nhất u 2, công bội q bằng 3, và 5 số hạng . Tìm
+1
+số hạng cuối cùng và tổng của 5 số hạng đó ?
+Sưu tầm : Nguyễn Đình Sỹ ĐT: 0985.270.218

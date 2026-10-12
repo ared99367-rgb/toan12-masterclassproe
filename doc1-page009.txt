@@ -1,0 +1,44 @@
+Câu 1
+Ta có tập số:
+{0,1,2,3,4,5,6,7,8,10,11,12,15,16,20}.
+Điều kiện đề bài nói rằng hiệu hai số trên cùng hàng hoặc cùng cột không chia hết cho
+5. Điều này tương đương với việc: trên cùng một hàng hoặc cùng một cột, không được có
+hai số cùng phần dư khi chia cho 5.
+Ta chia các số theo phần dư modulo 5:
+0 : 0,5,10,15,20 ⇒ 5 số,
+1 : 1,6,11,16 ⇒ 4 số,
+2 : 2,7,12 ⇒ 3 số,
+3 : 3,8 ⇒ 2 số,
+4 : 4 ⇒ 1 số.
+Hình gồm 15 ô, xếp thành dạng bậc thang có số ô theo từng hàng là 1,2,3,4,5.
+Ta xét vị trí của các số có phần dư 0. Có 5 số thuộc lớp dư 0, mà trên cùng một hàng
+hoặc cùng một cột không được lặp lại phần dư. Vì có đúng 5 hàng và 5 cột, nên các số
+dư 0 phải nằm trên 5 hàng khác nhau và 5 cột khác nhau.
+Do hàng trên cùng chỉ có một ô, ô đó bắt buộc phải nhận phần dư 0. Khi đó cột chứa
+ô này đã có phần dư 0, nên ở hàng kế tiếp, ô nằm cùng cột đó không thể nhận phần dư
+0. Vì hàng kế tiếp chỉ có hai ô, phần dư 0 bị ép sang ô còn lại.
+Tiếp tục lập luận như vậy, toàn bộ vị trí của lớp dư 0 bị xác định. Sau đó, với phần
+dư 1, phần dư 2, phần dư 3, phần dư 4, ta cũng lần lượt bị ép tương tự. Vì thế cách bố
+trí các phần dư là duy nhất.
+Sau khi vị trí của từng phần dư đã cố định, ta chỉ cần hoán vị các số trong từng lớp
+dư. Do đó:
+H = 5!·4!·3!·2!·1!.
+Tính:
+H = 120·24·6·2 = 34560.
+H
+Đề hỏi . Suy ra:
+30
+H 34560
+= = 1152 .
+30 30
+Câu 2
+Ta cần điền các số 1,2,3,...,15 vào hình bậc thang gồm 15 ô. Điều kiện quan trọng là:
+– Tổng 5 số ở cột 1 bằng 15;
+– Trên mỗi hàng, các số tăng dần từ trái sang phải.
+Vì mỗi hàng tăng dần từ trái sang phải nên số ở cột 1 chính là số nhỏ nhất của hàng
+đó.
+Gọi 5 số ở cột 1 là a ,a ,a ,a ,a . Theo đề:
+1 2 3 4 5
+a +a +a +a +a = 15.
+1 2 3 4 5
+1

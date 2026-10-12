@@ -1,0 +1,49 @@
+TH1: Con bắt từ chuồng 2 vào chuồng 1 là đen: Có 7 cách Sau đó chuồng 1 có 6 đen + 10
+trắng. Số cách làm bất kì để được thỏ trắng là 10, số cách thỏa mãn là 10
+Vậy TH1 số cách làm bất kì: 70; số cách làm thỏa mãn: 70
+TH2: Con bắt từ chuồng 2 vào chuồng 1 là trắng: Có 3 cách Sau đó chuồng 1 có 5 đen + 11
+trắng. Số cách làm bất kì để được thỏ trắng là 11, số cách thỏa mãn là 10
+Vậy TH1 số cách làm bất kì: 33; số cách làm thỏa mãn: 30
+Vậy không gian mẫu là 103 phần tử, số cách làm thỏa mãn là 100.
+Câu 37. Một chuồng gà có 9 con gà mái và 1 con trống. Chuồng gà kia có 1 con mái và 5 con trống. Bắt
+ngẫu nhiên từ mỗi chuồng 1 con để làm thịt, số gà còn lại ở cả hai chuồng được dồn chung vào
+chuồng thứ 3, bắt ngẫu nhiên một con nữa ra để làm thịt. Tính xác suất để con thứ ba bắt ra là
+con trống.
+34 6 38 1
+A. . B. . C. . D. .
+84 16 105 6
+Lời giải
+Tác giả : Trần Văn Đoàn,Tên FB: Trần Văn Đoàn
+Chọn C
+TH1: Chuồng 1 bắt ra con mái, chuồng 2 bắt ra con mái: Số cách làm ngẫu nhiên là 9.1.14 =
+126
+Số cách làm thỏa mãn: 9.1.6 = 54
+TH2: Chuồng 1 bắt ra con trống, chuồng 2 bắt ra con mái:
+Số cách làm ngẫu nhiên là 1.1.14 = 14
+Số cách làm thỏa mãn: 1.1.5 = 5
+TH3: Chuồng 1 bắt ra con mái, chuồng 2 bắt ra con trống:
+Số cách làm ngẫu nhiên là 9.5.14 = 630
+Số cách làm thỏa mãn: 9.5.5 = 225
+TH4: Chuồng 1 bắt ra con trống, chuồng 2 bắt ra con trống:
+Số cách làm ngẫu nhiên là 1.5.14 = 70
+Số cách làm thỏa mãn: 1.5.4 = 20
+304 38
+Tổng số cách ngẫu nhiên: 840 Số cách thỏa mãn: 304 Nên xác suất là 
+840 105
+tiendv@gmail.com
+Câu 38. Mỗi lượt, ta gieo một con súc sắc (loại 6 mặt, cân đối, đồng chất) và một đồng xu (cân đối, đồng
+chất). Tính xác suất để trong 3 lượt gieo như vậy, có ít nhất một lượt gieo được kết quả con súc
+sắc xuất hiện mặt 1 chấm, đồng tiền xu suất hiện mặt sấp.
+397 1 398 125
+A. . B. C. D.
+1728 1728 1728 1728
+Lời giải
+Tác giả: Đào Văn Tiến.
+Chọn A
+Xét phép thử gieo ba lần một con súc sắc và một đồng tiền xu với không gian mẫu . Số phần
+tử của không gian mẫu là:
+n6.23
+1728.
+Xét biến cố E “trong ba lượt gieo như vậy có ít nhất một lượt gieo được kết quả con súc sắc
+xuất hiện mặt 1 chấm, đồng tiền xu suất hiện mặt sấp”
+Trang 2/26 - Mã đề thi 483

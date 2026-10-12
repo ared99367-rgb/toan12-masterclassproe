@@ -1,0 +1,51 @@
+Trường hợp 2 : a không là số lẻ
+1
+Chọn vị trí cho 3 chữ số lẻ có 2 cách
+Xếp 3 số lẻ vào 3 vị trí có 3! cách
+Chọn 2 số chẵn xếp vào 2 vị trí còn lại có 3.3 cách
+Vậy có 2.3!.3.3108 số
+Vậy tổng cộng có 360108468 số
+thantaithanh@gmail.com
+Câu 12. Từ các chữ số 1,2,3,4,5,6,7,8,9 có thể lập được bao nhiêu số tự nhiên có 15 chữ số, trong đó
+các chữ số 1 và 2 mỗi chữ số xuất hiện 5 lần, các chữ số còn lại xuất hiện không quá 1 lần và các
+chữ số lớn hơn 2 không có bất kì hai chữ số nào đứng cạnh nhau.
+A. 293388478. B. 293388479. C. 293388480. D. 293388481.
+Lời giải
+Tác giả : Nguyễn Trung Thành
+Chọn C
+Trước hết ta sắp xếp 5 chữ số 1 và 5 chữ số 2 vào 10 vị trí sắp xếp thành 1 hàng ngang. Chọn 5
+trong 10 vị trí để sắp xếp chữ số 1 có C5 cách chọn. Các vị trí còn lại ta sắp xếp chữ số 2.
+10
+Giữa các chữ số 1 và chữ số hai sắp sắp xếp như trên có 9 vị trí xen giữa và hai vị trí hai đầu mút.
+Để các chữ số khác lớn hơn 2 mà không có bất kì hai chữ số nào đứng cạnh nhau thì ta cần chọn
+ra 5 trong 7 chữ số còn lại rồi sắp xếp chúng vào 11 vị trí nói trên:
+- Có C5 cách chọn ra 5 trong 7 chữ số lớn hơn 2.
+7
+- Với 5 chữ số vừa chọn sắp xếp vào 11 vị trí có: A5 cách sắp xếp.
+11
+Vậy có: C5.C5.A5 293388480.
+10 7 11
+quangnam68@gmail.com
+Câu 13. Cho hai tập hợp hợp L và C biết L={các số tự nhiên có 2018 chữ số được lập từ các số0,1,2
+mà số 0 xuất hiện lẻ lần }, C={các số tự nhiên có2018 chữ số được lập từ các số0,1,2 mà số
+0 xuất hiện chẵn lần ( kể cả số 0không xuất hiện) }. Gọi L , C lần lượt là số lượng các phần
+tử của tập hợp L và C.Giá trị của biểu thức M 2 L  C là
+A. 32018 1 B. 32018 1 C. 32019 1 D. 32019 1
+Lời giải
+Tác giả:Nguyễn Quang Nam ; Fb: quang nam
+Chọn A
+Giả sử số cần lập có dạng : aa ...a
+1 2 2018
++) Tính L như sau: giả sử số cần lập có k số0( k lẻ) ta tiến hành lập số đó như sau:
+- Chọn số cho a có 2 cách ( vì a 0 ).
+1 1
+- Chọn vị trí cho k số 0 từ 2017 vị trí có Ck cách.
+2017
+- Chọn số cho các vị trí còn trống có 22017k cách.
+có 2.Ck .22017k số thỏa mãn tính chất trên.
+2017
+ L 2.(C1 .22016 C3 .22014 ...C2017).
+2017 2017 2017
++) Tính C : lí luận tương tự như trên.
+C 2.(C0 .22017 C2 .22015 ...C2016.2)
+2017 2017 2017

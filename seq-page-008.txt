@@ -1,0 +1,77 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+Để 3 số hạng đó lập thành cấp số cộng , ta có :
+ 51x 51x   25x 25x 2 a  a5  5x  1    52x  1 
+     
+2  5x   52x 
+1 1
+Theo bất đẳng thức cô si , ta có : 5x  2 12,52x  2a5.2212.
+5x 52x
+Vậy với : a12 , thì ba số đó lập thành cấp số cộng .
+Bài 13. Chứng minh rằng dãy số : a 2.3n lập thành một cấp số nhân và tính tổng
+n
+của 8 số hạng đầu tiên của nó ?
+HƯỚNG DẪN
+a 2.3n1
+Xét : n1  31. Chứng tỏ a là một cấp số nhân , có công bội q=3 ,a 2.36
+a 2.3n n 1
+n
+6  38 1 
+Do vậy : S  3.  38 1  17.680.
+8 31
+Bài 14. Giả sử a,b,c,d lập thành một cấp số nhân . Hãy tính giá trị biểu thức :
+ac2 bc2 bd2 ad2
+HƯỚNG DẪN
+Ta có :
+A=ac2 bc2 bd2 ad2
+
+ aaq22
+
+ aqaq22
+
+ aqaq32
+
+ aaq32
+0
+Bài 15. Giả sử các số : 5x-y,2x+3y, và x+2y lập thành một cấp số cộng , còn các số :
+y12 ,xy1,x12 lập thành cấp số nhân . Tìm x,y ?
+HƯỚNG DẪN
+Theo giả thiết ta có hệ :
+ 10
+x
+
+ 3
+2x5y 
+   5x yx2y22x3y     2 x x   y 5y 2     x y 2      y  4 3
+ y12x12 xy12
+
+
+xyx y 0
+
+
+
+
+2x5y 
+x0,y 0
+  y5y5y2y 0  
+ 3 3
+ x ,y 
+
+ 4 10
+Bài 16. Cho một cấp số cộng : u ,u ,u ,u . Chứng minh rằng nếu : uu u u 6 thì
+1 2 3 4 1 4 2 3
+biểu thức A= xu xu xu xu 9 có nghĩa với mọi x ?
+1 2 3 4
+HƯỚNG DẪN
+Theo tính chất của cấp số cộng , ta có : u u u u
+1 4 2 3
+Do đó : xu xu xu xu  x2 u u xuu x2 u u xu u  (*)
+1 2 3 4  1 4 1 4 2 3 2 3
+Đắt : t x2 u u xx2u u x, khi đó :
+1 4 2 3
+(*) f(t)tuu tu u 9t2uu u u tuu u u 9
+1 4 2 3 1 4 2 3 1 4 2 3
+Với :  uu uu 2 4uu u u 36uu u u 2 36.
+t 1 4 1 3 1 2 3 4 1 4 2 3
+Rõ ràng : uu u u 6 0 f(t)0t  A có nghĩa với mọi x..
+1 4 2 3 t
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 8 ĐT : 0985.270.218

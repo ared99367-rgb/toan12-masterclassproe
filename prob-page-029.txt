@@ -1,0 +1,42 @@
+1 1 2
+Do đó, trường hợp này có: C .C .3!A .3!.2! cách xếp.
+5 4 4
+2.  A2.A2.3!.A2 C1.C1.3!A2.3!.2! 
+5 4 4 5 4 4 2
+Vậy xác suất cần tính là: 
+10! 105
+Email: quangtqp@gmail.com
+Câu 17. Hai bạn Nam và Minh hẹn gặp nhau tại thư viện từ 8 giờ đến 9 giờ. Người đến trước đợi quá 10
+phút mà không gặp thì rời đi. Tìm xác suất để hai người đi ngẫu nhiên để đến nơi hẹn theo quy
+định mà gặp nhau.
+7 11 10 13
+A. B. C. D.
+36 36 36 36
+Lời giải
+Tác giả: Phí Văn Quang Tên FB: QuangPhi
+Chọn B
+Gọi x (phút) là thời gian mà bạn Nam đến chờ ở thư viện.
+Gọi y (phút) là thời gian mà bạn Minh đến chờ ở thư viện.
+Điều kiện: 0 x60,0 y60
+n602 3600 (là diện tích hình vuông cạnh 60)
+Điều kiện gặp nhau là x y 10 x10 y  x10 (*)
+Do điểm M x;y thỏa điều kiện * thuộc lục giác gạch sọc giới hạn bởi 2 đường thẳng
+y  x10,y  x10 là hình vuông của không gian mẫu.
+Lục giác có diện tích S'S502 602 502 1100
+S' 1100 11
+Vậy xác suất để 2 người gặp nhau là: P    .
+S 3600 36
+hoainam2732003@gmail.com
+Câu 18. Hai người bắn độc lập vào một mục tiêu, mỗi người bắn 1 lần. Xác suất trúng của người thứ nhất
+2
+là 0,9; của người thứ hai là 0,7. Tìm giá trị lớn nhất của biểu thức M 13p10p , trong đó p là
+xác suất của một biến cố.
+169 528 4221
+A. . B. . C. . D. 3.
+40 125 1000
+Lời giải
+Tác giả : Trình Hoài Nam, FB: Trình Hoài Nam
+Chọn B
+Gọi A là biến cố người thứ nhất bắn trúng, A là biến cố người thứ hai bắn trúng.
+1 2
+Trang 12/24 - Mã đề thi 483

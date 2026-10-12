@@ -1,0 +1,1394 @@
+
+
+----- PAGE 1 -----
+KỸ NĂNG BÓ TRONG TOÁN TỔ HỢP
+MỤC LỤC
+PHẦN I — MỞ ĐẦU . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.1. Đặt vấn đề . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.2. Ý tưởng trực giác — ”Gom lại, xem như một” . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3. Tên gọi và vị trí trong hệ thống tổ hợp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+PHẦN II — NỀN TẢNG LÝ THUYẾT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.1. Nguyên lý nền tảng — Quy tắc nhân . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.2. Mô hình tổng quát . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2.3. Phân tích từng tầng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2.4. Điều kiện để áp dụng kỹ năng bó . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2.5. Công thức tổng quát . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2.6. Minh họa trực quan — Tại sao hai tầng độc lập? . . . . . . . . . . . . . . . . . . . . . . . 6
+2.7. So sánh với phương pháp không dùng bó . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+PHẦN III — PHÂN LOẠI CÁC DẠNG BÀI . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Dạng 1 — Bó trong hoán vị hàng ngang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Dạng 2 — Bó trong hoán vị vòng tròn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Dạng 3 — Bó trong tổ hợp (chọn nhóm có ràng buộc) . . . . . . . . . . . . . . . . . . . . . . . 9
+Dạng 4 — Bó có cấu trúc phân cấp (Bó lồng bó) . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Dạng 5 — Bó kết hợp với điều kiện cấm vị trí . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+Dạng 6 — Bó trong bài toán phân phối và chia nhóm . . . . . . . . . . . . . . . . . . . . . . . 11
+Bảng tổng kết 6 dạng . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+PHẦN IV — KỸ THUẬT NÂNG CAO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.1. Bó âm — Bó kết hợp với nguyên lý bù . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+4.2. Bó linh hoạt — Tầng trong có điều kiện phụ . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4.3. Nhiều bó độc lập — Xử lý đồng thời . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+4.4. Bó phụ thuộc — Khi ràng buộc chồng lấp . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+4.5. Bó trong bài toán xác suất . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+PHẦN V — CÁC SAI LẦM THƯỜNG GẶP . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+5.1. Phân tích sâu — Ba sai lầm nguy hiểm nhất . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+5.2. Checklist kiểm tra trước khi nộp bài . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+PHẦN VI — QUY TRÌNH GIẢI BÀI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+6.1. Sơ đồ tóm tắt quy trình . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+6.2. Ví dụ minh họa toàn quy trình — Áp dụng đầy đủ 8 bước . . . . . . . . . . . . . . . . . . 23
+PHẦN VII — HỆ THỐNG BÀI TẬP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+7.1. Bài tập cơ bản . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+7.2. Bài tập trung bình . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+7.4. Bảng tóm tắt đáp số và dạng bài . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+7.5. Gợi ý và chiến lược luyện tập . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+1
+
+----- PAGE 2 -----
+PHẦN VIII — MỞ RỘNG: LÝ THUYẾT BẬC CAO VÀ OLYMPIAD . . . . . . . . . . . . . 28
+8.1. Khi Kỹ năng Bó chạm giới hạn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+8.2. Đa thức Xe (Rook Polynomials) — Đại số hóa điều kiện cấm vị trí . . . . . . . . . . . . . . 28
+8.3. Bài toán Ménage — Giới hạn của hoán vị vòng tròn . . . . . . . . . . . . . . . . . . . . . . 29
+8.4. Phương pháp Ma trận chuyển trạng thái (Transfer Matrix Method) . . . . . . . . . . . . . . 29
+8.5. Định lý đếm Pólya & Bổ đề Burnside — Vòng tròn có đối xứng. . . . . . . . . . . . . . . . 30
+8.6. Phương pháp chùm Goulden-Jackson (Cluster Method) . . . . . . . . . . . . . . . . . . . . 30
+PHẦN IX — KẾT LUẬN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+9.1. Nhìn lại toàn bộ hành trình . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+9.2. Bản chất sâu xa của kỹ năng bó . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+9.3. Kỹ năng bó trong hệ sinh thái tổ hợp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+9.4. Những điều cần nhớ nhất . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+9.5. Lời khuyên cho người học . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+9.6. Câu hỏi mở để tiếp tục khám phá . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+9.7. Tóm tắt một câu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+2
+
+----- PAGE 3 -----
+PHẦN I — MỞ ĐẦU
+1.1. Đặt vấn đề
+Hãy thử suy nghĩ về bài toán sau: Có 6 học sinh xếp thành hàng ngang để chụp ảnh, trong đó
+haibạnAnvàBìnhnhấtđịnhphảiđứngcạnhnhau.Hỏicóbaonhiêucáchxếp?
+Nếutiếpcậnmộtcáchngâythơ—tứclàliệtkêtừngtrườnghợp—tasẽnhanhchóngnhậnra
+đâylàcôngviệccựckỳtốncông.Với6người,tổngsốcáchxếpkhônghạnchếlà6! = 720cách.
+Nhưng trong số đó, ta phải lọc ra đúng những cách mà An và Bình đứng kề nhau — một ràng
+buộclàmchobàitoánkhôngcòntựdonữa.
+Đây chính là vấn đề cốt lõi mà kỹ năng bó ra đời để giải quyết: trong rất nhiều bài toán tổ hợp
+thựctế,cácphầntửkhônghoàntoàntựdomàbịràngbuộctheonhóm—mộtsốphầntửphải
+luôn xuất hiện cạnh nhau, phải được chọn cùng nhau, hoặc phải hành xử như một thể thống
+nhất.
+Nhữngràngbuộckiểunàyxuấthiệnởkhắpnơi:
+- Trongbàitoánxếpchỗngồi:”Haivợchồngphảingồicạnhnhau”,”Bathànhviêncủamột
+độiphảingồiliềnkề”.
+- Trongbàitoánchọnngười:”NếuchọnAthìbắtbuộcphảichọncảBvàC”,”Nhómlãnhđạo
+gồmhaingườiphảicùngvàoban”.
+- Trong bài toán sắp xếp từ / mã: ”Hai chữ cái đặc biệt phải đứng liền nhau trong chuỗi ký
+tự”.
+- Trongbàitoánchianhóm:”Haingườibạnthânnhấtđịnhphảiởcùngmộtnhóm”.
+Điểmchungcủatấtcảcácbàitoántrênlà:takhôngthểxéttừngphầntửmộtcáchđộclập,bởi
+vìchúngbị”buộc”vàonhaubởiđiềukiệncủađềbài.
+1.2. Ý tưởng trực giác — ”Gom lại, xem như một”
+Cáchxửlýtrựctiếp(lọctừtổngsốtrườnghợp)thườngdàidòngvàdễsai.Kỹnăngbóđềxuất
+mộthướngtưduyhoàntoànkhác:thayvìlọcbỏ,hãythayđổicáchnhìnvềbàitoán.
+Ý tưởng cốt lõi: Nếu một nhóm phần tử bắt buộc phải ”đi cùng nhau”, ta hãy coi cả nhóm đó
+như một phần tử duy nhất — một ”bó” — rồi giải bài toán trên tập mới (ít phần tử hơn, không
+cònràngbuộcphứctạp).
+Quay lại ví dụ trên: thay vì nghĩ đến 6 người riêng lẻ với điều kiện An-Bình phải liền nhau, ta
+gom An và Bình thành một khối duy nhất — gọi là khối [AB]. Lúc này bài toán biến thành: xếp
+5 đơn vị (khối [AB], Cường, Dung, Em, Phúc) vào hàng ngang — hoàn toàn tự do, không ràng
+buộcgì.Sốcáchxếp5đơnvịlà5!.Nhưngbêntrongkhối[AB],AnvàBìnhcóthểhoánđổivịtrí
+chonhau:AB hoặcBA—tứclà2!cách.Kếtquảcuốicùng:5!×2! = 120×2 = 240cách.
+Toànbộphéptínhchỉcầnhaibướcđơngiản,thayvìhàngtrămtrườnghợpliệtkê.Đóchínhlà
+sứcmạnhcủakỹnăngbó.
+1.3. Tên gọi và vị trí trong hệ thống tổ hợp
+Kỹnăngnàyđượcgọibằngnhiềutêntrongcáctàiliệukhácnhau:
+- Phươngphápbó(tiếngViệt)—tênphổbiếnnhấttrongSGKvàtàiliệuônthiViệtNam.
+- Bundlemethod/Gluingmethod(tiếngAnh)—haydùngtrongtàiliệuquốctế.
+3
+
+----- PAGE 4 -----
+- Blocktreatment/treatingasasingleunit—cáchdiễnđạtmôtảđúngbảnchấtthaotác.
+Trong hệ thống các kỹ thuật tổ hợp, kỹ năng bó nằm ở tầng kỹ thuật tư duy, bên cạnh các kỹ
+thuậtkhácnhư:nguyênlýbù(complementarycounting),nguyênlýbaohàm-loạitrừ(inclusion-
+exclusion), và kỹ thuật cố định (fixing an element). Đặc điểm nổi bật của bó là nó biến đổi cấu
+trúcbàitoánthayvìchỉthayđổicáchđếm.
+PHẦN II — NỀN TẢNG LÝ THUYẾT
+2.1. Nguyên lý nền tảng — Quy tắc nhân
+Trướckhiđivàokỹnăngbó,cầnnắmvữngnềntảnglogiccủanó,vìtoànbộkỹthuậtnàyđược
+xâydựngtrênquytắcnhân(multiplicationprinciple).
+Quytắcnhânphátbiểunhưsau:
+Nếumộtcôngviệcđượcthựchiệnquahaigiaiđoạnđộclập,trongđógiaiđoạn1có
+m cách thực hiện và giai đoạn 2 có n cách thực hiện (bất kể giai đoạn 1 đã chọn gì),
+thìtổngsốcáchthựchiệncảcôngviệclàm×n.
+Kỹnăngbókhaithácquytắcnàytheohaitầnglồngnhau:
+- Tầngngoài(outerlevel):Sắpxếphoặcchọncác”đơnvị”trongbàitoánmới(trongđóbó
+đóng vai trò một siêu phần tử). Hai tầng này độc lập nhau vì quyết định về thứ tự của bó
+bênngoàikhôngảnhhưởngđếnsốcáchsắpxếpbêntrongbó,vàngượclại.
+- Tầngtrong(innerlevel):Sắpxếphoặcchọncácphầntửbêntrongbó.
+Dohaitầngnàyđộclập,tađượcphépnhânkếtquả:
+Đápán = f(bàitoánmới)×g(bêntrongbó)
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+tầngngoài tầngtrong
+2.2. Mô hình tổng quát
+Dướiđâylàsơđồtưduytổngquátcủakỹnăngbó:
+Bókphầntử
+córàngbuộc
+Bàitoánmới
+Bàitoángốc →1khối Kếtquả
+n-k+1phầntử,tựdo
+nphầntử,córàngbuộc Ngoài×Trong
+(bólà1siêuphầntử)
+TẦNGNGOÀI
+Vídụ
+Giảibàitoánmới
+n=6,k=2→xếp5đơnvị Kếtquảcuối
+Hoánvị/Tổhợpthôngthường
+→5!=120cách =Tầngngoài×Tầngtrong
+= 5!×2!
+TẦNGTRONG
+= 120×2
+Vídụ
+Sắpxếptrongbó
+= 240cách
+Bó{An,Bình}→ABhoặcBA
+kphầntửphânbiệt
+→2!=2cách
+4
+
+----- PAGE 5 -----
+2.3. Phân tích từng tầng
+Tầngngoài—Bàitoánmới(đơngiảnhơn)
+Saukhigomk phầntửcóràngbuộcthành1bó,bàitoántổngthểgiờcón−k+1đơnvị(gồm
+n−k phầntửcònlạivà1bó).Bàitoánnàykhôngcònràngbuộcliềnkề,tứclàcácđơnvịhoàn
+toàntựdo.Lúcnàytaápdụngcôngthứchoánvịhoặctổhợpthôngthườngtùytheoyêucầu:
+Dạngtầngngoài Côngthức
+Xếpmđơnvịvàohàngngang m!
+Xếpmđơnvịvàovòngtròn (m−1)!
+Chọnr đơnvịtừmđơnvị
+(cid:0)m(cid:1)
+r
+Tầngtrong—Sắpxếpbêntrongbó
+Bên trong bó, k phần tử vẫn có thể được sắp xếp theo nhiều cách khác nhau. Số cách này phụ
+thuộcvào:
+- Bó mềm (soft bundle): Bên trong bó không có thêm ràng buộc nào. Khi đó k phần tử
+phânbiệtcók!cáchsắpxếp.
+- Bó cứng (fixed bundle): Thứ tự bên trong bó đã được cố định (ví dụ: ”A phải đứng trước
+B”).Khiđótầngtrongchỉcó1cách.
+- Bó có điều kiện thêm: Bên trong bó còn có ràng buộc phụ (ví dụ: ”A không được đứng
+đầubó”).Khiđótầngtrong=sốhoánvịcủak phầntửthỏađiềukiệnphụđó.
+2.4. Điều kiện để áp dụng kỹ năng bó
+Khôngphảibàitoánnàocũngphùhợpvớikỹnăngbó.Dướiđâylàbatiêuchíđểnhậnbiết:
+Tiêuchí1—Córàngbuộc”liềnnhau”hoặc”cùngchọn”.
+Đây là điều kiện cần. Nếu đề bài nói ”A và B phải đứng cạnh nhau”, ”nhóm X phải được chọn
+cùngnhau”,hoặc”bangườiP,Q,Rphảiởcùngmộthàng”—đólàdấuhiệuđểbó.
+Tiêuchí2—Cácphầntửtrongbócóthểphânbiệtvớinhau.
+Điều này ảnh hưởng đến cách tính tầng trong. Nếu các phần tử trong bó phân biệt (An khác
+Bình), tầng trong có k! cách. Nếu các phần tử không phân biệt (3 viên bi đỏ giống nhau), tầng
+trongchỉcó1cách—vàlúcnàytacầnthậntrọnghơn,khôngnênvộinhânvớik!.
+Tiêuchí3—Cácbókhácnhaukhôngchồnglấp(khôngdùngchungphầntử).
+Nếuràngbuộclà”AliềnB”và”BliềnC”—takhôngtạorahaibóriêng{A,B}và{B,C},vìBxuất
+hiện trong cả hai. Thay vào đó, ta phải bó cả ba: {A, B, C}. Việc phân tích ràng buộc để tránh
+chồnglấplàkỹnăngquantrọngkhiápdụngbó.
+2.5. Công thức tổng quát
+Với bài toán hoán vị hàng ngang có n phần tử phân biệt, trong đó k phần tử nhất định phải
+đứngliềnnhauvàbêntrongbótựdo:
+A = (n−k+1)!×k!
+Vớibàitoánhoánvịvòngtròncónphầntử,trongđók phầntửphảingồiliềnnhau:
+A = (n−k)!×k!
+5
+
+----- PAGE 6 -----
+Vớibàitoáncónhiềubóđộclập,bó1gồmk phầntử,bó2gồmk phầntử(vàk +k ≤ n,hai
+1 2 1 2
+bókhôngchồnglấp):
+A = (n−k −k +2)!×k !×k !
+1 2 1 2
+2.6. Minh họa trực quan — Tại sao hai tầng độc lập?
+Hãycùngxemxétkỹhơntạisaotađượcphépnhânkếtquảcủahaitầng.Đâylàđiểmmànhiều
+họcsinhhiểumáymócmàkhônghiểubảnchất.
+Khi ta đã quyết định xếp khối [AB] vào vị trí cụ thể nào đó trong hàng (ví dụ: vị trí 3), việc bên
+trongkhốiđóAnđứngtrướchayBìnhđứngtrướchoàntoànkhôngphụthuộcvàosựlựachọn
+đó. Dù ta xếp khối ở vị trí 1, 2, 3, 4 hay 5 — bên trong khối luôn có đúng 2 cách (AB hoặc BA).
+Ngượclại,bấtkểbêntrongkhốilàABhayBA,tầngngoàivẫncóđúng5!cáchxếp5đơnvị.
+Đây chính xác là định nghĩa của hai sự kiện độc lập trong quy tắc nhân. Vì thế, phép nhân là
+hoàntoànhợplệvềmặttoánhọc.
+2.7. So sánh với phương pháp không dùng bó
+Đểthấyrõgiátrịcủakỹnăngbó,hãysosánhhaicáchgiảicùngmộtbàitoán:
+Bàitoán:Xếp4ngườiA,B,C,Dvàohàngngang.AvàBphảiđứngcạnhnhau.
+Phươngphápliệtkê/lọc Phươngphápbó
+Bước1 Tínhtổngsốcách:4! = 24 Bó{A,B}→còn3đơnvị
+Bước2 ĐếmsốcáchAvàBkhôngliềnnhau Xếp3đơnvị:3! = 6cách
+Bước3 Lấy24trừđikếtquảbước2 Tầngtrong:2! = 2cách
+Kếtquả Cầntínhthêm,dễsai 3!×2! = 12cách(cid:88)
+Nhậnxét Phứctạphơn,giántiếp Trựctiếp,gọngàng
+(Lưuý:phươngpháplọcởđâythựcralàdùngnguyênlýbù—mộtkỹthuậtriêng.Kỹnăngbóthường
+nhanhhơnkhiràngbuộclà”phảiliềnnhau”,trongkhinguyênlýbùthườngmạnhhơnkhiràngbuộc
+là”khôngđượcliềnnhau”.)
+PHẦN III — PHÂN LOẠI CÁC DẠNG BÀI
+Kỹ năng bó không có một khuôn mẫu duy nhất. Tùy theo cấu trúc của bài toán — xếp hàng
+ngang, ngồi vòng tròn, chọn nhóm, hay chia đội — thao tác bó và công thức tính sẽ có những
+biếnthểkhácnhau.Phầnnàytrìnhbàyhệthốnghóa6dạngbàicơbản,từđơngiảnđếnphức
+tạp.
+Dạng 1 — Bó trong hoán vị hàng ngang
+Nhậndạng
+Đây là dạng bài nền tảng và xuất hiện nhiều nhất. Đặc trưng nhận dạng: bài toán yêu cầu xếp
+n phần tử phân biệt vào một hàng thẳng, kèm điều kiện một nhóm k phần tử phải đứng liền
+nhau. Các từ khóa thường gặp trong đề: ”phải đứng cạnh nhau”, ”phải đứng liền nhau”, ”phải
+đứngkềnhau”,”khôngđượctáchrời”.
+6
+
+----- PAGE 7 -----
+Phântíchvàcôngthức
+Bước đầu tiên là bó k phần tử có ràng buộc thành một siêu phần tử B. Bài toán mới giờ có
+m = n−k+1đơnvị(gồmn−k phầntửcònlạicộngvớibóB).Vìđâylàhàngthẳngnênmđơn
+vịnàyđượcxếphoàntoàntựdo:
+Tầngngoài = (n−k+1)!
+Bêntrongbó,k phầntửphânbiệtcóthểxếptheobấtkỳthứtựnào:
+Tầngtrong = k!
+Vậykếtquảtổngquát:
+A = (n−k+1)!×k!
+Hìnhsauminhhọabàitoán6người,bó{A,B}xếphàngngang:
+Bàitoángốc—6người,AvàBphảiđứngcạnhnhau
+A B C D E F
+Bó{A,B}
+thànhBà1iktoháốni mới—5đơnvị,hoàntoàntựdo
+[A B] C D E F
+Tầng ngoài: 5!=120
+Kết quả
+120×2=240
+Tầng trong: 2!=2
+Vídụminhhọachitiết
+Ví dụ 1 (cơ bản): Xếp 7 học sinh vào hàng ngang. Ba bạn Hoa, Lan, Mai phải đứng liền nhau.
+Hỏicóbaonhiêucáchxếp?
+- Bó{Hoa,Lan,Mai}→còn7−3+1 = 5đơnvị.
+- Tầngngoài:5! = 120cách.
+- Tầngtrong:3! = 6cách(Hoa,Lan,Maihoánvịtựdo).
+- Kếtquả:5!×3! = 120×6 = 720cách.
+Vídụ2(cóthêmđiềukiệnvịtrí):Xếp5ngườiA,B,C,D,Evàohàngngang.AvàBphảiđứng
+cạnhnhauvàcảcụmA-Bphảiđứngởmộttronghaiđầuhàng.
+- Bó{A,B}→còn4đơnvị:[AB],C,D,E.
+- Điềukiện:khối[AB]phảiởđầuhoặccuối→có2vịtrídànhchokhối.
+- Cònlại3ngườiC,D,Exếpvào3vịtrícònlại:3!cách.
+- Tầngtrong:2!cách.
+7
+
+----- PAGE 8 -----
+- Kếtquả:2×3!×2! = 2×6×2 = 24cách.
+Mởrộng—Nhiềubóđộclập
+Khi đề có hai nhóm cùng phải đứng liền nhau (và hai nhóm không dùng chung thành viên), ta
+tạorahaibóđộclậprồiápdụngquytắcnhânbatầng:
+A = (n−k −k +2)!×k !×k !
+1 2 1 2
+Vídụ:7ngườixếphàng.{A,B}phảiliềnnhau,đồngthời{C,D,E}cũngphảiliềnnhau.
+- Bó1:{A,B}—1khối.Bó2:{C,D,E}—1khối.Cònlại:F,G.
+- Tổngđơnvị:7−2−3+2 = 4đơnvị:[AB],[CDE],F,G.
+- Tầngngoài:4! = 24.Tầngtrongbó1:2!.Tầngtrongbó2:3!.
+- Kếtquả:4!×2!×3! = 24×2×6 = 288cách.
+Dạng 2 — Bó trong hoán vị vòng tròn
+Nhậndạng
+Dạng này xuất hiện khi bài toán yêu cầu xếp n người quanh một bàn tròn (hoặc bất kỳ sơ đồ
+vòng tròn nào), kết hợp với điều kiện một nhóm phải ngồi kề nhau. Từ khóa: ”ngồi quanh bàn
+tròn”,”xếpthànhvòngtròn”,”ngồikềnhau”.
+ĐiểmkhácbiệtthenchốtsovớiDạng1
+Trong hoán vị vòng tròn, ta cố định vị trí tương đối, tức là phép xoaytoàn bộ vòng trònkhông
+tạoracáchxếpmới.Vìvậynngườingồivòngtrònchỉcó(n−1)!cáchthayvìn!.
+Khiápdụngbó:saukhigomkngườithành1khối,bàitoáncònn−k+1đơnvị,ngồivòngtròn
+tạora(n−k+1−1)! = (n−k)!cách.
+A = (n−k)!×k!
+Sơđồsausosánhtrựctiếphaitrườnghợpnày:
+Hàng ngang Vòng tròn
+C cốđịnh
+[AB] C D E D [AB]
+E
+4đơnvị—xếptựdo
+4đơnvị—cốđịnh1,xếp3cònlại
+Tầng ngoài: (n−k+1)!=4!
+Tầng ngoài: (n−k)!=3!
+Tầng trong: k!=2!
+Kết quả: 3!×2!=12
+Kết quả: 4!×2!=48
+8
+
+----- PAGE 9 -----
+Vídụminhhọachitiết
+Ví dụ 1 (cơ bản): 6 người ngồi quanh bàn tròn. Hai vợ chồng An và Bình phải ngồi cạnh nhau.
+Hỏicóbaonhiêucách?
+- Bó{An,Bình}→còn6−2+1 = 5đơnvị.
+- Tầngngoài—vòngtròn5đơnvị:(5−1)! = 4! = 24cách.
+- Tầngtrong:2! = 2cách(An-BìnhhoặcBình-An).
+- Kếtquả:4!×2! = 24×2 = 48cách.
+Vídụ2(haicặpcùngphảikềnhau):8ngườingồivòngtròn.Cặp{A,B}phảikềnhau,cặp{C,
+D}cũngphảikềnhau.
+- Bó{A,B}và{C,D}→còn8−2−2+2 = 6đơnvị.
+- Tầngngoài—vòngtròn6đơnvị:(6−1)! = 5! = 120.
+- Tầngtrongbó1:2!.Tầngtrongbó2:2!.
+- Kếtquả:5!×2!×2! = 120×2×2 = 480cách.
+Lưuýquantrọng—Bàntròncóphânbiệtchiềukhông?
+Mộtsốbàitoánhỏivềbàntrònnhưngcóphânbiệtchiềuthuận/nghịch(vídụbàntròncóđánh
+(m−1)!
+dấuđiểmcốđịnh).Khiđó,sốcáchxếpmđơnvịlà thayvì(m−1)!.Cầnđọckỹngữcảnh
+2
+đềbàiđểxửlýđúng.
+Dạng 3 — Bó trong tổ hợp (chọn nhóm có ràng buộc)
+Nhậndạng
+Dạng này không xếp thứ tự, mà chỉ chọn ra một nhóm k phần tử từ n phần tử, kèm điều kiện:
+mộtsốphầntửphảiđượcchọncùngnhauhoặcbịloạicùngnhau.Từkhóa:”chọnk ngườitừn
+người”,”phảicùngđượcchọn”,”nếuchọnAthìphảichọncảB”.
+Haitrườnghợpchính
+Trườnghợp1—Nhómbắtbuộcphảichọnđủhoặcbỏhết:
+Có n người, phải chọn k người, trong đó nhóm {A ,A ,...,A } hoặc phải chọn cả m người,
+1 2 m
+hoặckhôngchọnaitrongnhómđó.Tachialàmhainhánh:
+- Nhánh1:Chọncảnhómmngười→cònphảichọnthêmk−mngườitừn−mngườicòn
+(cid:18) (cid:19)
+n−m
+lại: cách.
+k−m
+(cid:18) (cid:19)
+n−m
+- Nhánh 2: Không chọn ai trong nhóm → chọn k người từ n − m người còn lại:
+k
+cách.
+(cid:18) (cid:19) (cid:18) (cid:19)
+n−m n−m
+A = +
+k−m k
+Vídụ:Chọn4ngườitừnhóm9,gồm{X,Y,Z}phảichọncả3hoặckhôngchọnai.
+(cid:18) (cid:19) (cid:18) (cid:19)
+6 6
+A = + = 6+15 = 21cách
+1 4
+(cid:124)(cid:123)(cid:122)(cid:125) (cid:124)(cid:123)(cid:122)(cid:125)
+chọncả3,thêm1 khôngchọnaitrongnhóm
+9
+
+----- PAGE 10 -----
+Trườnghợp2—Mộtngườichỉđượcchọnkhicómặtngườikia:
+Điều kiện dạng: ”Nếu chọn A thì bắt buộc phải chọn B” (nhưng chọn B không nhất thiết phải
+chọn A). Đây là ràng buộc một chiều, không đối xứng. Ta dùng nguyên lý bù kết hợp với phân
+tíchtrườnghợp:
+(cid:18) (cid:19)
+n−1
+- Trường hợp A không được chọn: Chọn k người từ n − 1 người còn lại (bỏ A ra):
+k
+cách.
+- TrườnghợpAđượcchọn:BắtbuộcBcũngcómặt→chọnthêmk−2ngườitừn−2người
+(cid:18) (cid:19)
+n−2
+cònlại: cách.
+k−2
+(cid:18) (cid:19) (cid:18) (cid:19)
+n−1 n−2
+A = +
+k k−2
+Trườnghợp3—Haingườikhôngđượcchọncùngnhau:
+Điềukiện:AvàBkhôngthểcùngxuấthiệntrongnhómđượcchọn.Dùngnguyênlýbù:
+(cid:18) (cid:19) (cid:18) (cid:19)
+n n−2
+A = −
+k k−2
+(TổngtấtcảcáchchọntrừđisốcáchcócảAvàBcùngxuấthiện.)
+Dạng 4 — Bó có cấu trúc phân cấp (Bó lồng bó)
+Nhậndạng
+Đâylàdạngkhóhơn,xuấthiệnkhibêntrongmộtbólạicóthêmràngbuộcphụ.Nóicáchkhác,
+tacầnthựchiệnthaotácbóởhaitầnglồngvàonhau.Dấuhiệunhậnbiết:đềcónhiềuhơnmột
+lớpđiềukiện,vídụ”A,B,Cphảiliềnnhau,vàtrongnhómđóA,Bphảiđứngkềnhau”.
+Phântích
+Vớidạngnày,tagiảitừtrongrangoài:
+1. Xácđịnhràngbuộctrongcùng→bólớptrongtrước.
+2. Coikếtquảcủabólớptrongnhưmộtđơnvị→bólớpngoài.
+3. Nhânkếtquảtheoquytắc:Ngoàicùng×Giữa×Trongcùng.
+Vídụminhhọa:Xếp8ngườivàohàngngang.BangườiA,B,Cphảiđứngliềnnhau.Thêmđiều
+kiện:trongnhóm{A,B,C},AvàBphảiđứngkềnhau.
+- Bước1—Bótrong:Bêntrong{A,B,C},bó{A,B}thànhmộtkhối[AB].Trongnhóm{A,B,
+C}giờcó[AB]vàC—có2!cáchsắpxếp:[AB]C hoặcC[AB].Bêntrong[AB]:2!cách.
+- Bước2—Bóngoài:Coicảnhóm{A,B,C}(vớicấutrúcbêntrongđãtính)làmộtsiêukhối
+[ABC].Cùngvới5ngườicònlại,tacó8−3+1 = 6đơnvị,xếphàngthẳng:6!cách.
+Kếtquả:
+A = 6! × 2! × 2! = 720×2×2 = 2880cách
+(cid:124)(cid:123)(cid:122)(cid:125) (cid:124)(cid:123)(cid:122)(cid:125) (cid:124)(cid:123)(cid:122)(cid:125)
+tầngngoàicùng sắptrongnhóm[ABC] sắptrong[AB]
+Côngthứctổngquátchobólồngbóhailớp
+Giảsửcónngười.Nhómngoàigồmkngườiphảiliềnnhau,bêntrongnhómđócój ngườiphải
+liềnnhau(vớij < k):
+A = (n−k+1)!×(k−j +1)!×j!
+10
+
+----- PAGE 11 -----
+Dạng 5 — Bó kết hợp với điều kiện cấm vị trí
+Nhậndạng
+Dạngnàykếthợphailoạiràngbuộc:ràngbuộc”phảiliềnnhau”(xửlýbằngbó)vàràngbuộcvề
+vị trí cụ thể như ”không được đứng đầu”, ”phải đứng ở vị trí lẻ”, ”không được ở hai đầu hàng”.
+Nguyêntắc:Bótrước,ápđiềukiệnvịtrílênbósau—vìsaukhibó,khốitrởthànhmộtphầntử
+thôngthườngvàtacóthểápmọiđiềukiệnvịtrílênnónhưvớibấtkỳphầntửnào.
+Vídụminhhọa
+Ví dụ 1: Xếp 6 người A, B, C, D, E, F vào hàng ngang. A và B phải đứng liền nhau và khối [AB]
+khôngđượcđứngởhaiđầuhàng.
+- Bó{A,B}→5đơnvị:[AB],C,D,E,F.
+- Tổngcáchxếp5đơnvị:5! = 120.
+- Trừđi:sốcách[AB]đứngởđầuhoặccuối.Nếu[AB]ởđầu:4!cáchcònlại;nếuởcuối:thêm
+4!cách.Tổngcầntrừ:2×4! = 48.
+- Tầngngoàihợplệ:120−48 = 72cách.
+- Tầngtrong:2!cách.
+- Kếtquả:72×2 = 144cách.
+Ví dụ 2: Xếp 5 người vào hàng. {X, Y} phải liền nhau và cả cụm phải đứng ở vị trí số lẻ (tính từ
+trái,vịtrí1,3,5;cụmchiếm2ôliêntiếpnênđầucụmởvịtrí1,2,3,4;phảiđứngởđầuvịtrílẻ
+tứcvịtrí1hoặc3).
+- Bó{X,Y}→4đơnvị.
+- Vị trí bắt đầu hợp lệ của khối trong 5 ô: cụm ở ô 1-2 (đầu = 1, lẻ (cid:88)) hoặc ô 3-4 (đầu = 3, lẻ
+(cid:88))hoặcô2-3(đầu=2,chẵn×)hoặcô4-5(đầu=4,chẵn×)→2vịtríhợplệ.
+- Vớimỗivịtrícủakhối:3ngườicònlạixếp3ôcònlại:3! = 6cách.
+- Tầngtrong:2!cách.
+- Kếtquả:2×3!×2! = 2×6×2 = 24cách.
+Lưuýkhikếthợpbóvớiđiềukiệncấm
+Điềukiệncấmđôikhiáplênphầntửriênglẻbêntrongbó,chứkhôngphảilêntoànbộkhối.Ví
+dụ:”AvàBphảiliềnnhau,vàAkhôngđượcđứngđầuhàng”.Lúcnày:
+- Bó{A,B}→2cáchtrongbó:AB hoặcBA.
+- Khikhốiđứngởvịtrí1(đầuhàng):chỉcóBAhợplệ(Akhôngởđầu),khôngthểdùngAB
+→tầngtronglúcnàychỉcó1cách.
+- Khikhốiđứngởcácvịtríkhác:cảAB vàBAđềuhợplệ→tầngtrongcó2cách.
+Cầnphântíchcẩnthậnthayvìmáymócnhânvớik!chotầngtrong.
+Dạng 6 — Bó trong bài toán phân phối và chia nhóm
+Nhậndạng
+Dạng này liên quan đến việc chia n phần tử vào các nhóm (hoặc phân công vào các vị trí, tổ,
+hàng...),kèmđiềukiệnmộtsốphầntửphảiởcùngnhómvớinhau.Đâylàdạngđadạngnhất,
+vìcáchđếmphụthuộcmạnhvàoviệccácnhómcóphânbiệtkhông(nhómAkhácnhómB)và
+cácphầntửtrongnhómcócóthứtựkhông.
+11
+
+----- PAGE 12 -----
+Trườnghợp1—Chiathànhcácnhómphânbiệt
+Vídụ:Chia8họcsinhthành2lớp4người(lớpAvàlớpBphânbiệt).HaibạnMinhvàTuấnphải
+ởcùnglớp.
+(cid:18) (cid:19)
+6
+- Nhánh 1: Minh và Tuấn ở lớp A → chọn thêm 2 người từ 6 người còn lại vào lớp A:
+2
+cách.
+(cid:18) (cid:19)
+6
+- Nhánh2:MinhvàTuấnởlớpB→tươngtự: cách.
+2
+(cid:18) (cid:19)
+6
+Kếtquả:2× = 2×15 = 30cách.
+2
+Trườnghợp2—Chiathànhcácnhómkhôngphânbiệt
+Vídụ:Chia6ngườithành2nhóm3người(hainhómnganghàng,khôngcótên).HaingườiPvà
+Qphảicùngnhóm.
+- Coi{P,Q}nhưmộtđơnvị→chọnthêm1ngườitừ4ngườicònlạiđểlấpđầynhómcủa{P,
+(cid:18) (cid:19)
+4
+Q}: = 4cách.
+1
+- 3ngườicònlạitựnhiênthànhnhómkia.
+Vìhainhómkhôngphânbiệt,takhôngnhân2:kếtquảlà4cách.
+(Lưu ý: Nếu hai nhóm phân biệt thì kết quả sẽ là 4×2 = 8 cách — nhưng bài này không phân
+biệtnênkhôngnhân.)
+Trườnghợp3—Xếpvàocáchàng/bàncóthứtự
+Vídụ:9họcsinhxếpvào3bàn,mỗibàn3người.Babạntrongnhómtrưởng{A,B,C}phảingồi
+cùngmộtbàn.Cácbànphânbiệtnhau.
+- Bước1:Chọnbànchonhóm{A,B,C}:3cáchchọnbàn.
+- Bước2:XếpA,B,Cvàobànđó:3! = 6cách(nếucóthứtựtrongbàn)hoặc1cách(nếuchỉ
+cầncùngbàn,khôngxétthứtự).
+(cid:18) (cid:19)
+6
+- Bước3:Chia6ngườicònlạivào2bàncònlại(mỗibàn3người,phânbiệt): = 20cách
+3
+chọnngườichobànthứhai,bàncuốinhậnphầncònlại.
+Kếtquả(khôngxétthứtựtrongbàn):3×20 = 60cách.
+Bảngtổngkết—ChọncôngthứcchoDạng6
+Cấutrúcbàitoán Nhómphânbiệt? Thứtựtrongnhóm? Cáchtính
+Chiađộithểthaocótên Có Không Bó→
+(cid:0)n−m(cid:1)
+×sốnhóm
+k−m
+Chianhómhọctậpnganghàng Không Không Bó →
+(cid:0)n−m(cid:1)
+÷ số nhóm
+k−m
+giốngnhau
+Phâncôngcatrựccótên Có Có Bó→nhânthêmk!
+Xếpchỗngồitheodãybàn Có Có Bó+điềukiệnvịtrí(kếthợp
+Dạng5)
+12
+
+----- PAGE 13 -----
+Bảng tổng kết 6 dạng
+Dướiđâylàbảnđồtổngquátgiúpnhậndạngnhanhvàchọncôngthức:
+Kỹ năng Bó
+Córàngbuộcliềnnhau/cùngchọn
+Dạng 1 Dạng 2 Dạng 3
+Hoán vị hàng ngang Hoán vị vòng tròn Tổ hợp (chọn nhóm)
+(n−k+1)!×k! (n−k)!×k! C(n-m,k-m)+C(n-m,k)
+hàngthẳng vòngtròn chọntổhợp
+Dạng 4 Dạng 5 Dạng 6
+Bó lồng bó Bó + cấm vị trí Chia nhóm / phân phối
+(n−k+1)!×(k−j+1)!×j! Bó→xétvịtríkhối Tùycấutrúcnhóm
+2lớpràngbuộc kếthợpđiềukiện phânbiệt/khôngphânbiệt
+Dạng1-3:Bócơbản—Dạng4-6:Bókếthợpnângcao
+Dạngcơbản Dạngnângcao Côngthứctươngứng
+PHẦN IV — KỸ THUẬT NÂNG CAO
+Nếu ba phần trước là nền tảng để nhận dạng và áp dụng kỹ năng bó, thì phần này đi sâu vào
+những tình huống mà bó đơn thuần không đủ — cần kết hợp thêm các công cụ tư duy khác,
+hoặccầnđiềuchỉnhcáchnhìnvềbàitoán.Đâylànơikỹnăngbópháthuyhếtchiềusâucủanó.
+4.1. Bó âm — Bó kết hợp với nguyên lý bù
+Bảnchất
+”Bóâm”khôngphảimộtkỹthuậtđộclập,màlàcáchdùngbóđểđếmsốtrườnghợpviphạm,
+sau đó lấy tổng trừ đi. Kỹ thuật này xuất hiện khi điều kiện của bài là ”không được đứng cạnh
+nhau”—tứclàđiềukiệncấm,khôngphảibắtbuộc.
+Nguyênlýbù:Sốcáchhợplệ=Tổngkhôngràngbuộc–Sốcáchviphạm
+Sốcáchviphạm(tứclàcáccặpbịcấmlạiđứngcạnhnhau)chínhxáclàbàitoánbóthôngthường
+—tatínhnóbằngkỹnăngbórồiđemtrừ.
+Quytrìnhgiải
+- Bước1:Tínhtổngsốcáchsắpxếpkhôngcóràngbuộcgì.
+- Bước2:Bócácphầntửbịcấmđứngcạnhnhau→tínhsốcáchviphạm(bódương).
+- Bước3:Lấykếtquảbước1trừbước2.
+Vídụchitiết
+Ví dụ 1 — Một cặp cấm: Xếp 6 người A, B, C, D, E, F vào hàng ngang. A và B không được đứng
+cạnhnhau.
+13
+
+----- PAGE 14 -----
+- Tổngkhôngràngbuộc:6! = 720.
+- Sốcáchviphạm(AvàBđứngcạnhnhau):bó{A,B}→ 5!×2! = 240.
+- Kếtquả:720−240 = 480cách.
+Vídụ2—Haicặpcùngbịcấm(cầncẩntrọng):Xếp6người.CảA-BlẫnC-Dđềukhôngđượcđứng
+cạnhnhau.
+Đâylànơinhiềuhọc sinhmắcbẫy:khôngthểđơn giảnlấy 6! trừđihailầnkết quảbó,vìhaivi
+phạmcóthểđồngthờixảyra(cảA-Bvừacạnhnhau,vừaC-Dcạnhnhau).Phảidùngnguyênlý
+baohàm-loạitrừ(Inclusion-Exclusion):
+Hợplệ = |S|−|A |−|A |+|A ∩A |
+1 2 1 2
+Trongđó:
+- |S| = 6! = 720
+- |A |=A,Bcạnhnhau=5!×2! = 240
+1
+- |A |=C,Dcạnhnhau=5!×2! = 240
+2
+- |A ∩A |=cảA-BlẫnC-Dđềucạnhnhau=bóhaicặp→ 4!×2!×2! = 96
+1 2
+Kếtquả = 720−240−240+96 = 336cách
+Bẫythườnggặpvớibóâm
+Khi điều kiện là ”không ai trong nhóm {A, B, C} được đứng cạnh nhau” — tức là cả ba đôi A-B,
+B-C, A-C đều bị cấm — bài toán trở nên phức tạp hơn nhiều và cần Inclusion-Exclusion đầy đủ
+với3tập.Trongtrườnghợpnày,mộthướngkháchiệuquảhơnlàdùngkỹthuậtchèn(chèncác
+phầntửbịcấmvàokhoảngtrốnggiữanhữngphầntửcònlại),thayvìbóâm.
+4.2. Bó linh hoạt — Tầng trong có điều kiện phụ
+Bảnchất
+Trong phần lý thuyết cơ bản, ta luôn tính tầng trong là k! (tức là k phần tử trong bó xếp hoàn
+toàn tự do). Nhưng thực tế, bên trong bó còn có thể có thêm ràng buộc riêng — lúc này tầng
+trongkhôngcònlàk!đơngiảnmàcầntínhriêngtheođiềukiệnphụđó.
+Cácdạngđiềukiệnphụphổbiếnbêntrongbó
+- Dạnga—Thứtựcốđịnhmộtphần:”AvàBphảiđứngcạnhnhau,vàAphảiđứngtrước
+B.”
+Bó{A,B}→tầngtrongchỉcó1cách(bắtbuộclàAB,khôngchophépBA).Tầngngoàitính
+bìnhthường.
+- Dạng b — Một phần tử không được đứng đầu bó: ”A, B, C phải liền nhau và A không
+được đứng ở vị trí đầu tiên của cụm (chú ý: đây là đầu cụm/đầu bó, chứ không phải đầu
+hàng).”
+Tầng trong: xếp 3 người trong cụm sao cho A không đứng ở vị trí đầu tiên của cụm =
+3!−2! = 6−2 = 4cách.(TổnghoánvịtrừđisốcáchAđứngđầucụm.)
+- Dạng c — Xen kẽ trong bó: ”Nhóm {A ,A ,B ,B } gồm 2 nam và 2 nữ phải đứng liền
+1 2 1 2
+nhau,bêntrongxenkẽnamnữ.”
+Tầngtrong:sốcáchxếpxenkẽ=2!×2!×2 = 8cách.(Chọnaiđứngđầu:namhaynữ—2
+cách;xếp2nam:2!;xếp2nữ:2!.)
+14
+
+----- PAGE 15 -----
+Vídụchitiết
+Bàitoán:Xếp7ngườigồm3nam(M ,M ,M )và4nữvàohàngngang.Bangườinamphảiđứng
+1 2 3
+liềnnhau,vàtrongcụmnamphảixếptheothứtựM ,M ,M từtráisangphải.
+1 2 3
+- Bó{M ,M ,M } →còn7−3+1 = 5đơnvị.
+1 2 3
+- Tầngngoài:5! = 120cách.
+- Tầngtrong:thứtựcốđịnhM M M →chỉ1cách.
+1 2 3
+- Kếtquả:5!×1 = 120cách.
+Sosánh:nếukhôngcóđiềukiệnthứtựcốđịnh,kếtquảsẽlà5!×3! = 720cách—lớngấp6lần.
+4.3. Nhiều bó độc lập — Xử lý đồng thời
+Bảnchất
+Khiđềbàicótừhainhómràngbuộctrởlên,mỗinhómkhôngdùngchungphầntử,tatạonhiều
+bósongsongrồiápdụngquytắcnhânquatấtcảcáctầng.
+Điềukiệnđểhaibólà”độclập”
+HaibóB = {a ,...,a }vàB = {b ,...,b }làđộclậpkhivàchỉkhiB ∩B = ∅(khôngcóphần
+1 1 k1 2 1 k2 1 2
+tửchung).Khiđó,sốcáchxếpbêntrongB hoàntoànkhôngảnhhưởngđếnsốcáchxếpbên
+1
+trongB ,vàtađượcphépnhân.
+2
+Côngthứctổngquátchor bóđộclập
+Gọinlàtổngsốphầntử,bóthứicók phầntử(i = 1,2,...,r):
+i
+(cid:32) r (cid:33) r
+(cid:88) (cid:89)
+A = n− k +r !× k !
+i i
+i=1 i=1
+(Sốđơnvịsaukhibó=n−k −k −...−k +r;mỗibóđónggóp1đơnvị.)
+1 2 r
+Vídụchitiết
+Bài toán: Xếp 9 người vào hàng ngang. Nhóm {A, B} phải liền nhau, nhóm {C, D, E} phải liền
+nhau,vànhóm{F,G}cũngphảiliềnnhau.Hỏicóbaonhiêucách?
+Thànhphần Chitiết
+Tổngphầntử n = 9
+Bó1:{A,B} k = 2,tầngtrong= 2! = 2
+1
+Bó2:{C,D,E} k = 3,tầngtrong= 3! = 6
+2
+Bó3:{F,G} k = 2,tầngtrong= 2! = 2
+3
+Sốđơnvịsaubó 9−2−3−2+3 = 5
+Tầngngoài 5! = 120
+A = 5!×2!×3!×2! = 120×2×6×2 = 2880cách
+4.4. Bó phụ thuộc — Khi ràng buộc chồng lấp
+Bảnchất—Cáibẫynguyhiểmnhất
+Đây là tình huống nhiều học sinh xử lý sai nhất. Bó phụ thuộc xảy ra khi hai ràng buộc dùng
+15
+
+----- PAGE 16 -----
+chungítnhấtmộtphầntử,tứclàB ∩B (cid:54)= ∅.
+1 2
+Ví dụ điển hình: đề bài nói ”A và B phải đứng cạnh nhau và B và C phải đứng cạnh nhau”. Phần
+tử B xuất hiện trong cả hai ràng buộc. Sai lầm phổ biến là tạo ra bó {A, B} và bó {B, C} riêng lẻ
+—điềunàyhoàntoànsaivìBkhôngthểthuộccảhaibó.
+Cáchphântíchđúng
+Khihairàngbuộcchiasẻmộtphầntử,tacầngộptấtcảcácphầntửliênquanvàomộtbóduy
+nhấtlớnhơn.Hãyvẽsơđồkếtnối:
+- A—B(AphảicạnhB)
+- B—C(BphảicạnhC)
+Vì A-B-C đã kết thành một chuỗi liên thông, toàn bộ {A, B, C} phải đứng liền nhau → bó thành
+mộtkhốiduynhất.
+Thuậttoánnhậnbiếtvàxửlýbóphụthuộc
+1. Bước1:Vẽđồthịkếtnối—mỗiphầntửlàmộtđỉnh,mỗiràngbuộc”XcạnhY”làmộtcạnh.
+2. Bước2:Tìmcácthànhphầnliênthôngtrongđồthị.
+3. Bước3:Mỗithànhphầnliênthông→1bó(dùbanđầutưởnglànhiềubóriêng).
+4. Bước4:Ápdụngkỹnăngbóchotừngthànhphần.
+Vídụchitiết—Phântíchtừngbước
+Bài toán: Xếp 7 người A, B, C, D, E, F, G vào hàng ngang. Biết: A phải cạnh B, B phải cạnh C, D
+phảicạnhE.Hỏicóbaonhiêucách?
+Bước1—Vẽđồthị:
+A B C D E F G
+(chuỗiliênthông1) (chuỗi2) (đơnlẻ) (đơnlẻ)
+Bước2—Xácđịnhcácbó:
+- Bó1:{A,B,C}(baphầntửliênthông)
+- Bó2:{D,E}(haiphầntửliênthông)
+- FvàGlàđơnvịđộclập
+Bước3—Tính:
+Thànhphần Đơnvịsaubó Tầngtrong
+Bó1:{A,B,C} k = 3 2(chỉcóABChoặcCBA)
+1
+Bó2:{D,E} k = 2 2! = 2
+2
+Sốđơnvịtổng 7−3−2+2 = 4 —
+Tầngngoài 4! = 24 —
+A = 4!×2×2! = 24×2×2 = 96cách
+Sosánhvớicáchsai:Nếutạobó{A,B},bó{B,C},bó{D,E}riênglẻvànhânlại—kếtquảsẽhoàn
+toàn vô nghĩa về mặt toán học. Không bao giờ bó một phần tử vào hai bó khác nhau. (Đồng
+thờicũng cầnlưu ý: doB phải đứnggiữa A vàC nênsố hoán vịtrongbó 1chỉ là 2,không phải
+3! = 6).
+16
+
+----- PAGE 17 -----
+4.5. Bó trong bài toán xác suất
+Bảnchất
+Kỹnăngbókhôngchỉdùngđểđếmsốcáchsắpxếp,màcònlàcôngcụtínhxácsuấttrongcác
+bàitoánngẫunhiên.Côngthứcxácsuấtcổđiển:
+Sốtrườnghợpthuậnlợi
+P(sựkiện) =
+Tổngsốtrườnghợpđồngkhảnăng
+Tửsố(sốtrườnghợpthuậnlợi)thườngđượctínhbằngkỹnăngbó;mẫusốlàtổngsốcáchsắp
+xếp/chọnkhôngràngbuộc.
+Vídụchitiết
+Ví dụ 1 — Xác suất ngồi cạnh nhau: Chọn ngẫu nhiên cách xếp 6 người A, B, C, D, E, F ngồi vào
+hàng.TínhxácsuấtđểAvàBngồicạnhnhau.
+5!×2! 120×2 240 1
+P = = = =
+6! 720 720 3
+1
+Cáchđọckếtquả:Trongmọicáchxếpngẫunhiên,xácsuấtđểAvàBngồicạnhnhaulà .
+3
+Ví dụ 2 — Xác suất ngồi cạnh nhau vòng tròn: 5 người ngồi vòng tròn ngẫu nhiên. Tính xác suất
+đểhaingườiPvàQngồikềnhau.
+- Mẫusố:(5−1)! = 4! = 24.
+- Tửsố:(5−2)!×2! = 3!×2! = 12.
+3!×2! 12 1
+P = = =
+4! 24 2
+Vídụ3—Xácsuấttừbàitoánchọn:Chọnngẫunhiên4ngườitừ10người(gồm4namvà6nữ).
+Tínhxácsuấtđể4ngườiđượcchọncóítnhất1cặpanhem(biếttrongnhóm10ngườicóđúng
+1cặpanhem:M vàM ).
+1 2
+- Tổngsốcáchchọn:
+(cid:0)10(cid:1)
+= 210.
+4
+- SốcáchchọncócảM vàM (bó{M ,M }cùngđượcchọn):
+(cid:0)8(cid:1)
+= 28.
+1 2 1 2 2
+28 2
+P = =
+210 15
+Mẹotổngquátkhilàmbàixácsuấtcókỹnăngbó
+Luôn kiểm tra xem nên tính xác suất trực tiếp (tử số dùng bó) hay xác suất bù (dùng P = 1−
+P(khôngthỏamãn)). Khi sự kiện thuận lợi phức tạp nhưng sự kiện bổ sung đơn giản hơn —
+hãyđitheohướngbù.
+PHẦN V — CÁC SAI LẦM THƯỜNG GẶP
+Phần này được thiết kế như một bảng kiểm tra (checklist) trước khi nộp bài. Mỗi sai lầm đều
+đượcphântíchkỹ:nguyênnhântâmlýkhiếnhọcsinhmắcphải,cáchnhậnbiết,vàcáchphòng
+tránh.
+17
+
+----- PAGE 18 -----
+Sai lầm 1 Quên nhân tầng trong — chỉ tính tầng ngoài
+Nguyên nhân: Sau khi bó và giải bài toán mới, học sinh nộp luôn kết quả tầng ngoài mà quên
+rằngbêntrongbócũngcónhiềucáchsắpxếp.
+Sai — 6 người, bó {A,B} Đúng
+Kếtquả=5!=120X Kếtquả=5!×2!=240(cid:88)
+Bỏquahoàntoàntầngtrong. Luônhỏi:”bêntrongbócómấycách?”
+Sai lầm 2 Bó chồng lấp — bó một phần tử vào hai bó khác nhau
+Nguyênnhân:Đọcràngbuộc”AcạnhB”và”BcạnhC”rồitạorabó{A,B}vàbó{B,C}độclập→B
+bịđếmhailần,bàitoánsaihoàntoànvềcấutrúc.
+Sai Đúng
+Tạo bó {A,B} riêng và bó {B,C} riêng → Vẽ đồ thị kết nối: A-B-C là chuỗi liên
+nhân hai tầng trong. B không thể cùng thông → bó cả {A,B,C} thành một khối
+lúcởcuốibó{A,B}vàđầubó{B,C}. duynhất.
+Sai lầm 3 Nhầm công thức hàng ngang và vòng tròn
+Nguyênnhân:Khôngđểýtừkhóa”vòngtròn”trongđề,dùngcôngthứchàngngang→kếtquả
+lớnhơnthựctếđúng(n-k)!lần.
+Sai — vòng tròn Đúng — vòng tròn
+(n−k+1)!×k! (n−k)!×k!
+Sai vì dùng công thức hàng ngang cho Bàntròn:cốđịnh1đơnvị,xếp(m-1)còn
+bàntròn. lại.
+Sai lầm 4 Nhầm bó mềm / bó cứng — nhân k! khi không được phép
+Nguyênnhân:Mặcđịnhtầngtrongluônlàk!,khôngđọckỹđiềukiệnbêntrongbó.Vídụđềnói
+”thứtựcốđịnh”hoặc”AphảiđứngtrướcB”nhưngvẫnnhân2!.
+Sai — A phải đứng trước B Đúng
+Tầngtrong=2!=2(tínhcảABlẫnBA)→ Tầngtrong=1(chỉAB,khôngcóBA).Đọc
+kếtquảgấpđôithựctế. kỹđiềukiệnbêntrongbótrướckhitính.
+18
+
+----- PAGE 19 -----
+Sai lầm 5 Dùng bó khi điều kiện là ”không được cạnh nhau” — áp dụng sai chiều
+Nguyênnhân:Nhìnthấyhaingườibịđềcập→phảnxạbóngay.Nhưngđiềukiện”khôngđược
+cạnhnhau”làcấm,khôngphảibắtbuộc—bótrựctiếpsẽchosốcáchviphạmchứkhôngphải
+sốcáchhợplệ.
+Sai — ”A, B không được cạnh nhau”
+Đúng — dùng bó âm
+Bó {A,B} rồi lấy kết quả làm đáp án →
+thựcrađangtínhsốcáchA,Bđứngcạnh Tổngtấtcảcách-Bó{A,B}(sốviphạm)=
+nhau(tứcsốtrườnghợpbịcấm). Sốcáchhợplệ.
+Sai lầm 6 Nhầm nhóm phân biệt / không phân biệt trong bài toán chia nhóm
+Nguyênnhân:Khôngđểýxemcácnhómcótên/chứcnăngkhácnhaukhông.Nhóm”lớpA,lớp
+B”làphânbiệt(nhân2!);nhóm”haiđộinganghàng”làkhôngphânbiệt(khôngnhân2!).
+Đúng
+Sai — nhóm không phân biệt
+Hỏi: ”Hai nhóm này có phân biệt nhau
+Nhân thêm 2 (số nhóm) vì nhầm thành không?”—nếukhông,chiakếtquảcho
+nhómcótên→kếtquảgấpđôi. sốhoánvịcủacácnhómgiốngnhau.
+Sai lầm 7 Dùng bó khi các phần tử trong nhóm không phân biệt
+Nguyên nhân: Áp công thức k! cho tầng trong mà không kiểm tra xem các phần tử trong bó có
+thực sự phân biệt nhau không. Ví dụ: bó ”3 viên bi đỏ giống nhau” phải xếp cạnh nhau — tầng
+trong=1,khôngphải3!.
+Sai — bi giống nhau Đúng
+Tầngtrong=3!=6→tínhthừavì3viên Tầngtrong=1.Trướckhiápk!,kiểmtra:
+biđỏnhưnhau,hoánđổichỗkhôngtạo cácphầntửtrongbócóphânbiệtnhau
+ratrạngtháimới. không?
+5.1. Phân tích sâu — Ba sai lầm nguy hiểm nhất
+Sailầm2—Bóchồnglấplàsailầmvềbảnchất
+Đâylàsailầmnghiêmtrọngnhấtvìnókhôngchỉchokếtquảsaimàcònsaingaytừtưduycấu
+trúc.Hãyhiểutạisao:
+Khi ta đặt một phần tử vào hai bó khác nhau, ta đang ngầm giả định rằng phần tử đó có thể
+vừa ở cuối bó này vừa ở đầu bó kia — điều này vật lý không thể xảy ra trong một hàng thẳng.
+Bó {A,B} nghĩa là A và B kề nhau, bó {B,C} nghĩa là B và C kề nhau. Nếu cả hai điều kiện cùng
+thỏamãnthìA,B,Cbắtbuộcphảixếpthànhchuỗiliêntiếp,tứclà{A,B,C}làmộtbóduynhất.
+Quytắckiểmtranhanh:Nếuvẽđồthịvàthấycácđiềukiệntạothànhmộtđườngđiliênthông,
+toànbộđườngđiđólàmộtbó.
+Sailầm5—Nhầm”phảicạnhnhau”và”khôngđượccạnhnhau”
+19
+
+----- PAGE 20 -----
+Đâylàsailầmvềđọcđề,nhưnghậuquảrấtlớnvìchokếtquảngượcchiềusovớiyêucầu.Một
+mẹonhỏđểtránhnhầm:trướckhigiải,hãytựhỏivàviếtragiấy:”Điềukiệnnàylàbắtbuộchay
+cấmđoán?”
+- Bắtbuộc→Bótrựctiếp,lấykếtquảlàmđápán.
+- Cấmđoán→Bóđểtínhsốviphạm,lấytổngtrừđi.
+Sailầm3—Nhầmcôngthứchàngvàvòngtròn
+Mẹo nhớ nhanh: Trong vòng tròn, ta mất đi một bậc tự do so với hàng ngang (vì xoay toàn bộ
+vòngkhôngtạoracáchmới).Vìthếcôngthứcvòngtrònluônkémhàngngangđúng1thừasố
+ởtầngngoài:
+(n−k+1)! = (n−k+1)×(n−k)!
+(cid:124) (cid:123)(cid:122) (cid:125) (cid:124) (cid:123)(cid:122) (cid:125)
+hàngngang vòngtròn
+5.2. Checklist kiểm tra trước khi nộp bài
+Saukhihoànthànhbàigiải,hãychạyquadanhsáchnày:
+Vềnhậndạng:
+- Điềukiệnlà”phảicạnhnhau”(bótrựctiếp)hay”khôngđượccạnhnhau”(bóâm)?
+- Cóđiềukiệnnàovềvịtríthêm(đầu,cuối,lẻ,chẵn)không?
+Vềcấutrúcbó:
+- Có phần tử nào xuất hiện trong hai ràng buộc không? Nếu có → phải gộp thành một bó
+lớn.
+- Cácphầntửtrongbócóphânbiệtnhaukhông?Nếukhông→tầngtrong=1,khôngnhân
+k!.
+Vềcôngthức:
+- Bàilàhàngnganghayvòngtròn?→Chọnđúngcôngthứctầngngoài.
+- Đãnhâncảtầngngoàilẫntầngtrongchưa?
+- Bêntrongbócóđiềukiệnphụkhông(thứtựcốđịnh,aikhôngđượcđứngđầu...)?→Tầng
+trongcầntínhriêng.
+Vềchianhóm:
+- Cácnhómcóphânbiệtnhaukhông?→Quyếtđịnhcónhânthêmhệsốhaykhông.
+- Bàihỏitổhợp(chỉchọn,khôngxétthứtự)hayhoánvị(cóxétthứtựtrongnhóm)?
+Kiểmtracuối:
+- Thửvớinnhỏ(vídụn = 3hoặcn = 4):liệtkêtayvàsosánhvớicôngthức.Nếuhaikếtquả
+khớp—rấtcóthểđúng.
+PHẦN VI — QUY TRÌNH GIẢI BÀI
+Sáu phần trước đã trang bị đầy đủ lý thuyết, phân loại dạng và các kỹ thuật nâng cao của kỹ
+năngbó. Phần nàytổng hợp tấtcả lạithành một quytrình giải bàiduy nhất —một checklist 8
+20
+
+----- PAGE 21 -----
+bướcmàhọcsinhcóthểápdụngmộtcáchcóhệthốngchobấtkỳbàitoántổhợpnàocóràng
+buộcnhóm.
+Quy trình này không phải là ”công thức nhớ máy móc” — mà là một chuỗi câu hỏi dẫn dắt tư
+duy,giúphọcsinhkhôngbỏsótđiềukiện,khôngnhầmcôngthức,vàkiểmsoátđượctoànbộ
+quátrìnhgiải.
+Bước1:Đọcđềvànhậndạng
+Mụctiêu:Trướckhilàmbấtcứđiềugì,hãyđọckỹđềítnhấthailần.
+Cầntrảlờicáccâuhỏi:
+- Bàitoánxếpthứtự(hoánvị)haychỉchọn(tổhợp)?
+- Hàngnganghayvòngtròn?
+- Cóbaonhiêuphầntửtổngcộng?
+- Ràng buộc là gì: ”phải đứng cạnh nhau”, ”phải cùng được chọn”, hay ”không được đứng
+cạnhnhau”?
+- Từkhóanhậndạngbó:”liềnnhau”,”kềnhau”,”cạnhnhau”,”khôngtáchrời”,”cùngđược
+chọn”,”bắtbuộcởcùngnhóm”.
+- Từkhóanhậndạngbóâm:”khôngđượckềnhau”,”khôngđượcđứngcạnh”,”phảicách
+xanhau”.
+Lưuý:Đừngbắtđầutínhtoánởbướcnày.Mụctiêuduynhấtlàhiểurõcấutrúcbàitoán.
+Bước2:Xácđịnhcácbó
+Mụctiêu:Liệtkêđầyđủtấtcảcácnhómcầnbó.
+Thaotác:
+- Với mỗi ràng buộc ”phải liền nhau” hoặc ”cùng được chọn”, xác định tập hợp phần tử bị
+ràngbuộc.
+- Ghirõ:Bó1={...},Bó2={...},…
+- Đếmsốphầntửtrongmỗibó:k ,k ,...
+1 2
+Ví dụ: Đề: ”8 người xếp hàng, {A, B} phải liền nhau và {C, D, E} phải liền nhau” → Bó 1 = {A, B},
+k = 2;Bó2={C,D,E},k = 3.
+1 2
+Bước3:Kiểmtrachồnglấp(Cựckỳquantrọng)
+Đâylàbướcquantrọngnhất,dễsainhất.
+Câuhỏikiểmtra:Cóphầntửnàoxuấthiệntronghairàngbuộckhácnhaukhông?
+(cid:88)
+Sai × Đúng
+Ràngbuộc:AcạnhBvàBcạnhC Ràngbuộc:AcạnhBvàBcạnhC
+Tạo bó {A,B} và bó {B,C} riêng → SAI, vì B Vẽ đồ thị: A–B–C là chuỗi liên thông → Bó
+dùngchung. duynhất:{A,B,C}.
+21
+
+----- PAGE 22 -----
+Thuật toán kiểm tra nhanh: Vẽ đồ thị kết nối — mỗi ràng buộc ”X cạnh Y” là một cạnh. Mỗi
+thànhphầnliênthôngchínhlàmộtbó.
+Bước4:Thiếtlậpbàitoánmới
+Mụctiêu:Biếnbàitoánphứctạpthànhbàitoánđơngiảnhơn,khôngcònràngbuộcliềnnhau.
+Thaotác:
+- Thaythếmỗibóbằng1siêuphầntử(kýhiệu[AB],[CDE],...).
+- Đếmsốđơnvịtrongbàitoánmới:m = n−k −k −···+(sốbó).
+1 2
+- Viếtlạibàitoán:”Xếpmđơnvị…”hoặc”Chọntừmđơnvị…”.
+Côngthứcsốđơnvị:m = n−(k +k +···+k )+r (Vớir làsốbó,k làkíchthướcbóthứi).
+1 2 r i
+Bước5:Giảitầngngoài
+Mụctiêu:Tínhsốcáchsắpxếp/chọncácđơnvịtrongbàitoánmới.Chọncôngthứctầngngoài:
+Dạngbài Tầngngoài Lưuý
+Hàngngang(mđơnvị) m! Khôngcầncốđịnh
+Vòngtròn(mđơnvị) (m−1)! Cốđịnh1đơnvị
+Tổhợp—chọnr từm
+(cid:0)m(cid:1)
+Khôngcóthứtự
+r
+Vòngtròncóđốixứng (m−1)!/2 Khôngphânbiệtchiều
+Bước6:Giảitầngtrong
+Mụctiêu:Đếmsốcáchhoánvịcácphầntửbêntrongtừngbó.
+Batrườnghợptầngtrong:
+- Bómềm—khôngcóđiềukiệnphụ:Tầngtrong=k!(k phầntửphânbiệt,xếptựdo).
+- Bócứng—thứtựcốđịnh:Tầngtrong=1(chỉcómộtthứtựduynhất).
+- Bócóđiềukiệnphụ:Tínhriêngtheođiềukiện:aikhôngđượcđứngđầu,xenkẽ,v.v.
+Câu hỏi bắt buộc phải hỏi trước khi tính tầng trong: ”Bên trong bó, các phần tử có bị ràng
+buộcthêmkhông?”
+Kiểmtraphânbiệt:Nếucácphầntửtrongbókhôngphânbiệtnhau(vídụ:3viênbiđỏgiống
+nhau),tầngtrong=1,khôngphảik!.
+Bước7:Nhânkếtquả
+Mụctiêu:Tổnghợpkếtquảtừtầngngoàivàtấtcảcáctầngtrong.
+Côngthứctổngquát(r bóđộclập):
+Kếtquả = (Tầngngoài)×(Tầngtrongbó1)×(Tầngtrongbó2)×···×(Tầngtrongbór)
+Cơ sở toán học: Các tầng độc lập nhau — quyết định ở tầng ngoài không ảnh hưởng đến số
+cáchbêntrongbó,vàngượclại.Vìthếquytắcnhânhoàntoànhợplệ.
+Vídụ:9người,bó{A,B}(k = 2),bó{C,D,E}(k = 3),bó{F,G}(k = 2):
+1 2 3
+m = 9−2−3−2+3 = 5đơnvị→Kếtquả=5!×2!×3!×2! = 2880cách.
+22
+
+----- PAGE 23 -----
+Bước8:Kiểmtralại
+Mụctiêu:Xácnhậntínhđúngđắncủakếtquả—đặcbiệtquantrọngtrongcáckỳthi.
+- Cách kiểm tra 1 — Liệt kê (dùng khi n nhỏ): Thay n = 3 hoặc n = 4, liệt kê tay toàn bộ
+trườnghợpthỏamãn.Ápcôngthứcvừatìmđượcvàonnhỏđó.Nếuhaikếtquảkhớp→
+rấtcóthểcôngthứcđúng.
+- Cáchkiểmtra2—Nguyênlýbù:Tính:Tổngkhôngràngbuộc=Kếtquảbó+Kếtquảbó
+âm.Nếutổngđúngbằngn!(hoặc(n−1)!vớivòngtròn)→kếtquảhợplý.
+- Cách kiểm tra 3 — Kiểm tra cận biên: Nếu k = n (bó tất cả): kết quả phải bằng n! (tầng
+trong)×1(tầngngoài,chỉ1đơnvị).Nếuk = 1(bó1người—khôngcóràngbuộc):kếtquả
+phảibằngn!.
+Mẹonhớnhanh:”Liệtkêkhinnhỏ,bùkhicóthể,cậnbiênkhinghingờ.”
+6.1. Sơ đồ tóm tắt quy trình
+Bước 1: Đọc đề Bước 2: Liệt kê bó
+Nhận dạng loại bài và ràng buộc Xác định thành phần và kích thước
+Bước 4: Bài toán mới Bước 3: Kiểm tra chồng lấp
+Đặt mỗi bó = 1 siêu phần tử, tính m Vẽ đồ thị kết nối, gộp bó đúng
+Bước 5: Giải tầng ngoài Bước 6: Giải tầng trong
+Chọn công thức hàng/vòng/tổ hợp Kiểm tra điều kiện phụ, tính từng bó
+Bước 8: Kiểm tra Bước 7: Nhân kết quả
+Bằng liệt kê, bù, hoặc cận biên Áp dụng quy tắc nhân độc lập
+6.2. Ví dụ minh họa toàn quy trình — Áp dụng đầy đủ 8 bước
+�Bàitoántổnghợp
+Đề bài: Xếp 8 người A, B, C, D, E, F, G, H vào hàng ngang. Biết: A và B phải đứng cạnh nhau; C,
+D,Ephảiđứngliềnnhau;trongnhóm{C,D,E},Ckhôngđượcđứngởvịtríđầucụm.Hỏicóbao
+nhiêucáchxếp?
+- Bước1—Nhậndạng:Hoánvịhàngngang,n = 8.Cóhairàngbuộc”phảiliềnnhau”:{A,B}
+và{C,D,E}.Ràngbuộcphụtrongbó{C,D,E}:Ckhôngđứngđầucụm.
+- Bước2—Xácđịnhbó:Bó1={A,B},k = 2.Bó2={C,D,E},k = 3.
+1 2
+- Bước3—Kiểmtrachồnglấp:{A,B}∩{C,D,E} = ∅ →Haibóđộclập.Khôngcầngộp.
+- Bước4—Bàitoánmới:m = 8−2−3+2 = 5đơnvị:[AB],[CDE],F,G,H.
+- Bước5—Tầngngoài:Hàngngang5đơnvị:5! = 120cách.
+- Bước6—Tầngtrong:
+23
+
+----- PAGE 24 -----
+- Bó1{A,B}:tựdo→ 2! = 2cách.
+- Bó2{C,D,E}:cóđiềukiệnphụ(Ckhôngđứngđầucụm).Tổnghoánvị3người:3! = 6.
+SốcáchCđứngđầu:2! = 2.Tầngtrongbó2:6−2 = 4cách.
+- Bước7—Nhân:Kếtquả=5!×2!×4 = 120×2×4 = 960cách.
+- Bước8—Kiểmtra:Cậnbiên:NếukhôngcóđiềukiệnCđứngđầu,kếtquảsẽlà5!×2!×3! =
+1440.Kếtquảcóđiềukiện(960)< 1440 →hợplývìthêmđiềukiệnlàmgiảmsốcách.
+PHẦN VII — HỆ THỐNG BÀI TẬP
+Hệthốngbàitậpđượcchiathànhbacấpđộ,mỗicấpđộtươngứngvớimộtgiaiđoạnhọctập.
+Cấpcơbảngiúphọcsinhnắmvữngtừngdạngbàiriênglẻ;cấptrungbìnhyêucầukếthợphai
+kỹnăng;cấpnângcaođòihỏitưduysâuvàsửdụngnhiềukỹthuậtđồngthời.
+Với mỗi bài tập, lời giải chi tiết được trình bày theo đúng quy trình 8 bước ở Phần VI, giúp học
+sinhtựđốichiếuvàpháthiệnsaisóttrongquátrìnhluyệntập.
+7.1. Bài tập cơ bản
+Mụctiêu:Rèntừngkỹnăngđơnlẻ,làmquenvớitừngdạngbài.Phùhợpvớihọcsinhmớitiếp
+cậnkỹnăngbó.
+STT Đềbài Đápsố Dạng
+1 Xếp 6 học sinh vào hàng ngang để chụp ảnh. Hai bạn 240 Dạng1
+AnvàBìnhphảiđứngcạnhnhau.Hỏicóbaonhiêucách
+xếp?
+2 Xếp7ngườivàohàngngang.BangườiX,Y,Zphảiđứng 720 Dạng1
+liềnnhau.Hỏicóbaonhiêucách?
+3 5ngườingồiquanhbàntròn.HaingườiPvàQphảingồi 48 Dạng2
+cạnhnhau.Hỏicóbaonhiêucách?
+4 6ngườingồivòngtròn.BangườiM,N,Ophảingồiliền 72 Dạng2
+nhau.Hỏicóbaonhiêucách?
+5 Chọn4ngườitừnhóm10người(cócặpanhemAvàB). 28 Dạng3
+HỏicóbaonhiêucáchchọnmàAvàBcùngđượcchọn?
+6 Chọn3ngườitừ8người.HaibạnKvàLhoặcphảicùng 26 Dạng3
+đượcchọn,hoặckhôngchọnai.Hỏicóbaonhiêucách?
+7 Xếp 5 người A, B, C, D, E vào hàng ngang. A và B không 72 Bóâm
+đượcđứngcạnhnhau.Hỏicóbaonhiêucách?
+8 Xếp 5 người vào hàng ngang. A và B phải đứng cạnh 24 Dạng5
+nhau và khối [AB] phải ở vị trí đầu hoặc cuối hàng. Hỏi
+cóbaonhiêucách?
+Lờigiảichitiết—Bàitậpcơbản(chọnlọc)
+�Bài1—Xếp6họcsinh,AnvàBìnhđứngcạnhnhau
+- Bó{An,Bình}→còn6−2+1 = 5đơnvị:[AnBinh],C,D,E,F.
+24
+
+----- PAGE 25 -----
+- Tầngngoài:5! = 120cách.
+- Tầngtrong:2! = 2cách(An-BìnhhoặcBình-An).
+- Kếtquả:5!×2! = 120×2 = 240cách.
+�Bài5—Chọn4ngườitừ10,AvàBcùngđượcchọn
+- Coi {A, B} là ”bó đã chọn” → còn phải chọn thêm 4−2 = 2 người từ 10−2 = 8 người còn
+lại.
+- Sốcách=
+(cid:0)8(cid:1)
+= 28cách.
+2
+- Kếtquả:28cách.
+�Bài6—Chọn3ngườitừ8,KvàLcùngchọnhoặcbỏ
+- Nhánh 1: Chọn cả K và L → chọn thêm 3−2 = 1 người từ 8−2 = 6 người còn lại:
+(cid:0)6(cid:1)
+= 6
+1
+cách.
+- Nhánh2:KhôngchọnKvàL→chọn3ngườitừ6ngườicònlại:
+(cid:0)6(cid:1)
+= 20cách.
+3
+- Kếtquả:
+(cid:0)6(cid:1)
++
+(cid:0)6(cid:1)
+= 6+20 = 26cách.
+1 3
+�Bài7—Xếp5người,AvàBkhôngđượccạnhnhau(Bóâm)
+- Tổngkhôngràngbuộc:5! = 120.
+- SốcáchAvàBđứngcạnhnhau(bó{A,B}):4!×2! = 48.
+- SốcáchAvàBkhôngcạnhnhau:120−48 = 72.
+- Kếtquả:72cách.
+7.2. Bài tập trung bình
+Mụctiêu:Kếthợpkỹnăngbóvớicácđiềukiệnbổsunghoặcnhiềubóđồngthời.Phùhợpvới
+mứcônthihọckỳvàthitốtnghiệp.
+Lờigiảichitiết—Bàitậpnângcao(chọnlọc)
+�Bài17—Bólồngbó:9người,{A,B,C}liềnnhau,trongđóA,Bkềnhau
+- Bước1—Bótrong:Bêntrongnhóm{A,B,C},bó{A,B}thành[AB].Nhóm{A,B,C}giờgồm2
+đơnvị:[AB]vàC→ 2! = 2cáchsắpxếptrongnhóm.Bêntrong[AB]:2! = 2cách.
+- Bước 2 — Bó ngoài: Coi cả nhóm {A,B,C} là 1 siêu khối → còn 9−3+1 = 7 đơn vị. Tầng
+ngoàicùng:7! = 5040.
+- Bước3—Nhân:Kếtquả=7!×2!×2! = 5040×2×2 = 20160cách.
+�Bài23—Bóphụthuộc:AcạnhB,BcạnhC,DcạnhE
+- Phân tích ràng buộc: Ràng buộc 1: A–B. Ràng buộc 2: B–C. Chung phần tử B → chuỗi liên
+thôngA–B–C.Ràngbuộc3:D–E.Độclậpvới{A,B,C}.
+- Xácđịnhbóđúng:Bó1={A,B,C}(k = 3).Bó2={D,E}(k = 2).
+1 2
+- Sốđơnvịmới:m = 7−3−2+2 = 4đơnvị:[ABC],[DE],F,G.
+- Tầngngoài:4! = 24.Tầngtrongbó1:2(chỉcóABChoặcCBA).Tầngtrongbó2:2! = 2.
+- Kếtquả:4!×2×2! = 24×2×2 = 96cách.
+�Bài22—Xácsuấtvòngtròn:PvàQngồicạnhnhautrong5người
+25
+
+----- PAGE 26 -----
+STT Đềbài Đápsố Dạng
+1 Xếp 9 người vào hàng ngang. Nhóm {A, B, C} phải liền 20160 Dạng4(bólồngbó)
+nhauvàbêntrongnhómđó,AvàBphảikềnhau.Hỏicó
+baonhiêucách?
+2 Xếp 6 người vào hàng ngang. Cả 3 cặp {A,B}, {C,D} và 96 Bóâm+IE
+{E,F}đềukhôngđượcđứngcạnhnhau.DùngInclusion-
+Exclusiontínhsốcáchhợplệ.
+3 Chọn ngẫu nhiên cách xếp 5 người vào vòng tròn. Tính 1/2 Dạng2+Xácsuất
+xácsuấtđểhaingườicụthểPvàQngồicạnhnhau.
+4 Xếp10ngườigồm4namvà6nữvàohàngngang.3nam 14400 Dạng4+xenkẽ
+nhấtđịnhphảiliềnnhau.Bêntrongcụm3nam,phảixếp
+xen kẽ: nam-nam không được kề nhau nếu cụm có nữ
+— điều kiện thực tế: 2 nam + 1 nữ kẹp giữa. Hỏi có bao
+nhiêucách?
+5 8người(4cặpvợchồng)ngồivòngtròn.Tấtcả4cặpđều 384 Dạng2(4bó)
+phảingồicạnhnhau.Hỏicóbaonhiêucách?
+6 TừchữcáiA,A,B,B,C,D,E(có2chữAgiốngnhauvà2chữ 360 Dạng1(khôngpb)
+Bgiốngnhau),xếpthànhchuỗi7chữsaochohaichữA
+luônđứngliềnnhau.Hỏicóbaonhiêuchuỗiphânbiệt?
+7 Xếp 7 người vào hàng ngang: A-B phải liền nhau, B-C 96 Dạng4.4(phụthuộc)
+phải liền nhau, D-E phải liền nhau. Hỏi có bao nhiêu
+cách?
+8 Chọn ngẫu nhiên 3 người từ 8 người gồm nhóm {X,Y,Z} 5/56 Dạng3+Xácsuất
+phải cùng chọn hoặc bỏ. Tính xác suất để nhóm {X,Y,Z}
+đượcchọnđầyđủ.
+- Tổngsốcách(mẫusố):5ngườingồivòngtròn:(5−1)! = 4! = 24.
+- Sốcáchthuậnlợi(tửsố):Bó{P,Q}→4đơnvị,vòngtròn:(4−1)! = 3! = 6.Tầngtrong:2! = 2.
+Sốcáchthuậnlợi=3!×2! = 12.
+- P = 12/24 = 1/2.
+- Nhậnxét:Trongmọicáchngồivòngtrònngẫunhiên5người,xácsuấtđểPvàQngồicạnh
+nhau luôn bằng 1/2. Đây là kết quả thú vị — không phụ thuộc vào vị trí của P; Q chỉ cần
+ngồiở1trong4ghếcònlại,mà2trongsốđókềP.
+�Bài21—8người(4cặpvợchồng),tấtcảđềuphảikềnhau,vòngtròn
+- Bó4cặp:{V C },{V C },{V C },{V C },mỗibókíchthước2.
+1 1 2 2 3 3 4 4
+- Sốđơnvịmới:m = 8−4×2+4 = 4đơnvị.
+- Tầngngoài(vòngtròn4đơnvị):(4−1)! = 3! = 6.
+- Tầngtrongmỗibó:2! = 2.Bốnbóđộclập:24 = 16.
+- Kếtquả:3!×24 = 6×16 = 96cách.
+- Lưuý:Đápsố384trongbảnglàkhibànphânbiệtchiều(nhânthêmhệsố4docó4cách
+xoaycặpđầutiên).Vớibàntrònthuầntúy(khôngphânbiệtchiều),kếtquảlà96.
+26
+
+----- PAGE 27 -----
+7.4. Bảng tóm tắt đáp số và dạng bài
+Bảngdướiđâylàcôngcụtựkiểmtranhanh.Saukhigiảixongmộtbài,đốichiếuđápsốvàdạng
+bàiđểpháthiệnsaisót.
+Bài Cấpđộ Kỹthuậtchính Côngthứcápdụng Đápsố
+1 Cơbản Bóhàngngang (6−2+1)!×2! = 5!×2! 240
+2 Cơbản Bóhàngngang (7−3+1)!×3! = 5!×3! 720
+3 Cơbản Bóvòngtròn (5−2)!×2! = 3!×2! 48
+4 Cơbản Bóvòngtròn (6−3)!×3! = 3!×3! 72
+5 Cơbản Tổhợpbó
+(cid:0)8(cid:1)
+28
+2
+6 Cơbản Tổhợpbó
+(cid:0)6(cid:1)
++
+(cid:0)6(cid:1)
+26
+1 3
+7 Cơbản Bóâm 5!−4!×2! 72
+8 Cơbản Bó+vịtrí 2×3!×2! 24
+9 Trungbình Haibóđộclập 5!×2!×3! 1440
+10 Trungbình Bó+cấmđầucuối (6!−2×5!)×2! 960
+11 Trungbình Haibóvòngtròn (6−1)!×2!×2! 480
+13 Trungbình Bó+điềukiệnA Phântích2TH 1320
+17 Nângcao Bólồngbó 7!×2!×2! 20160
+18 Nângcao Bóâm+IE Inclusion-Exclusion 96
+19 Nângcao Bó+Xácsuất P = (3!×2!)/4! 1/2
+21 Nângcao 4bóvòngtròn 3!×24 96/384
+23 Nângcao Bóphụthuộc 4!×2×2! 96
+7.5. Gợi ý và chiến lược luyện tập
+Lộtrìnhluyệntậptheocấpđộ
+- Tuần1—Cơbản:Làmtấtcả8bàicơbản,tựápdụngđủ8bước.Khôngxemđápántrước
+khigiải.
+- Tuần2—Trungbình:Làm8bàitrungbình.Saumỗibàisai,đọclạiPhầnV(sailầmthường
+gặp)đểxácđịnhmìnhmắclỗigì.
+- Tuần3—Nângcao:Làm8bàinângcao.Tựviếtlờigiảitrìnhbàyrõràng,đủ8bước.Ưu
+tiênhiểubảnchấthơnnhớcôngthức.
+- Tuần4—Tổngôn:Trộnngẫunhiêncácbàitừcả3cấp,khôngbiếttrướcdạng.Tậpnhận
+dạngnhanhvàchọnđúngcôngthức.
+Banguyêntắcvàngkhiluyệntập
+1. Viếtbước—khôngtínhnhẩm:Họcsinhgiỏitổhợpkhôngphảivìnhớnhiềucôngthức,
+màvìkhôngbỏquabướcnàotrongquytrình.
+2. Tự đặt câu hỏi trước khi làm: Trước mỗi bài, viết ra: ”Bó gì?”, ”Tầng ngoài là gì?”, ”Tầng
+trongcóđiềukiệnphụkhông?”.Thóiquennàyngănchặn80%sailầmphổbiến.
+27
+
+----- PAGE 28 -----
+3. Kiểmtrabằngnnhỏ:Vớibấtkỳbàinàobạnchưachắcchắn,thayn = 3hoặcn = 4vàliệt
+kêtay.Đâylàcáchkiểmtrahiệuquảnhấtvàkhôngtốnnhiềuthờigian.
+PHẦN VIII — MỞ RỘNG: LÝ THUYẾT BẬC CAO VÀ OLYMPIAD
+8.1. Khi Kỹ năng Bó chạm giới hạn
+Trong suốt 7 phần trước, chúng ta đã thấy sức mạnh tuyệt vời của Kỹ năng Bó trong việc thu
+gọn không gian mẫu. Tuy nhiên, kỹ thuật này (kể cả khi kết hợp với Nguyên lý Bao hàm - Loại
+trừ)vẫnmangtínhcụcbộ(local).Nóhoạtđộnghoànhảokhi:
+- Sốlượngđiềukiệnràngbuộcít.
+- Cácphầntửbịràngbuộccóthểdễdànggomlạithànhcáckhốiđộclập.
+- Độdàicủadãysắpxếp(n)tươngđốinhỏ.
+Trong các kỳ thi chuyên sâu, bài toán thường vượt qua những giới hạn này: các điều kiện cấm
+vịtríchồngchéophứctạp,chuỗixếpcóđộdàikhổnglồ(N = 109),hoặckhônggianxếpmang
+tínhđốixứngcao.ĐólàlúcKỹnăngBóphảinhườngchỗ(hoặctiếnhóa)thànhcáccôngcụđại
+sốvàđồthịmạnhmẽhơn.Dướiđâylà5hướngmởrộngkinhđiển.
+8.2. Đa thức Xe (Rook Polynomials) — Đại số hóa điều kiện cấm vị trí
+Mởrộngtừ:Dạng5(Bókếthợpvớiđiềukiệncấmvịtrí).
+Bảnchấtvấnđề:ỞDạng5,tagiảiquyếtbàitoán”Khối[AB]khôngđượcđứngởhaiđầuhàng”
+bằngphươngphápphầnbù.Nhưngnếucó5khốibókhácnhau,mỗikhốibịcấmở3vịtríngẫu
+nhiên,việcsửdụngNguyênlýbù(PIE)thủcôngsẽtạorahàngchụctậpgiaonhaurấtphứctạp.
+Giảipháp:Môhìnhhóabàitoánthànhmộtbàncờ.
+- Cácphầntử(hoặccáckhốibó)tươngứngvớicácquânxe(Rooks).
+- Cácvịtrítronghàngtươngứngvớicáccộtcủabàncờ.
+- Cácvịtríbịcấmđốivớimộtphầntửđượcđánhdấulàôcấm(tôđen).
+- Sắp xếp hợp lệ đồng nghĩa với: Đặt n quân xe lên các ô trắng sao cho chúng không ăn
+nhau(khôngcùnghàng,khôngcùngcột).
+ĐathứcXecủaphầnbàncờbịcấm(gọilàB)đượcđịnhnghĩalà:
+R(x,B) = 1+r x+r x2+···+r xk
+1 2 k
+Trong đó r là số cách đặt k quân xe không ăn nhau lên các ô bị cấm. Số cách sắp xếp hợp lệ
+k
+toàncụcđượctínhbằngcôngthức:
+n
+(cid:88)
+Sốcáchhợplệ = (−1)k ·r ·(n−k)!
+k
+k=0
+Ýnghĩa:ĐathứcXebiếnmộtbàitoánđếmvịtríphứctạpthànhphépnhâncácđathứcđạisố,
+giúphệthốnghóacácđiềukiệncấmlộnxộn.
+28
+
+----- PAGE 29 -----
+8.3. Bài toán Ménage — Giới hạn của hoán vị vòng tròn
+Mởrộngtừ:Dạng2(Vòngtròn)kếthợpBóâm.
+Bản chất vấn đề: Bài toán kinh điển của Édouard Lucas (1891): ”Có n cặp vợ chồng ngồi quanh
+mộtbàntròn.HỏicóbaonhiêucáchxếpsaochonamnữngồixenkẽVÀkhôngcóngườichồngnào
+ngồicạnhvợcủamình?”
+TạisaoKỹnăngBóthấtbại?
+- DùngBódương(gomvợvàchồngthành1khối)sẽphávỡđiềukiện”namnữxenkẽ”.
+- Dùng Bó âm kết hợp PIE sẽ gặp bế tắc: Trên một vòng tròn, tập vi phạm của cặp số 1 có
+thể dính liền với tập vi phạm của cặp số n (do vòng tròn khép kín). Sự chồng lấp này phụ
+thuộcvàovịtrítươngđối,làmPIEthôngthườngkhôngcònchínhxác.
+Giảipháp:Đòihỏikỹthuậtđếmvòngtrònchuyênsâu,dẫnđếnCôngthứcTouchard(1934):
+n (cid:18) (cid:19)
+(cid:88) 2n 2n−k
+M = 2·n! (−1)k (n−k)!
+n
+2n−k k
+k=0
+Ý nghĩa: Bài toán Ménage cho thấy khi cấu trúc không gian (vòng tròn) kết hợp với điều kiện
+cấm (bó âm), ta cần những hệ số điều chỉnh đặc biệt mà trực giác đếm thông thường không
+baoquátđược.
+8.4. Phương pháp Ma trận chuyển trạng thái (Transfer Matrix Method)
+Mởrộngtừ:Dạng4.4(Bóphụthuộc/Ràngbuộcchồnglấp).
+Bảnchấtvấnđề:ỞDạng4.4,tadùngđồthịđểgomcácràngbuộcliênthôngthànhkhối[ABC].
+NhưngtrongTinhọcthiđấu,bàitoánthườngcódạng:”ĐếmsốchuỗiđộdàiN = 109 từ4kýtự
+A, B, C, D sao cho: A không đứng trước B, B phải đứng trước C hoặc D, C không đứng cạnh A.” Với
+N quálớn,khôngthểtạobóhaydùngquyhoạchđộng(DP)tuyếntínhvìsẽvượtquágiớihạn
+thờigian(TimeLimitExceeded).
+Giải pháp (Ma trận kề): Coi mỗi ký tự là một ”trạng thái” (đỉnh đồ thị). Điều kiện ”được phép
+đứngcạnhnhau”làcác”cạnh”cóhướng.LậpMatrậnkềM kíchthước4×4,trongđóM[i][j] = 1
+nếukýtựiđượcđứngngaytrướcj,ngượclạibằng0.
+Đạisốtuyếntínhchứngminhrằng:SốlượngchuỗihợplệđộdàiN bắtđầubằngivàkếtthúc
+bằngj chínhlàphầntửMN−1[i][j].
+29
+
+----- PAGE 30 -----
+MãC++(Lũythừamatrận)
+// Định nghĩa cấu trúc Ma trận
+struct Matrix {
+long long mat[4][4];
+};
+// Hàm nhân 2 ma trận modulo 10^9+7
+Matrix multiply(Matrix A, Matrix B) {
+Matrix C; // Khởi tạo toàn 0
+for(int i=0; i<4; i++)
+for(int j=0; j<4; j++)
+for(int k=0; k<4; k++)
+C.mat[i][j] = (C.mat[i][j] + A.mat[i][k] * B.mat[k][j]) % MOD;
+return C;
+}
+// Lũy thừa ma trận nhị phân O(K^3 * logN)
+Matrix power(Matrix A, long long p) {
+Matrix res; // Khởi tạo ma trận đơn vị (đường chéo = 1)
+while (p > 0) {
+if (p % 2 == 1) res = multiply(res, A);
+A = multiply(A, A);
+p /= 2;
+}
+return res;
+}
+Ýnghĩa:Phươngphápnàyquymộtbàitoánđếmkhổnglồthànhphépnhânmatrận,giảmđộ
+phứctạpthờigiantừO(N)xuốngO(K3logN)—mộtkỹthuậtnềntảngtronglậptrìnhthiđấu.
+8.5. Định lý đếm Pólya & Bổ đề Burnside — Vòng tròn có đối xứng
+Mởrộngtừ:Dạng2(Hoánvịvòngtròn)kếthợpvớiphầntửkhôngphânbiệt.
+Bảnchấtvấnđề:Xếpmđơnvịvàovòngtròncó(m−1)!cách,nếuvòngtròncóthểlậtthìchia
+đôithành(m−1)!/2.Tuynhiên,nếutacó3hạtcườmĐỏgiốngnhauvà3hạtXanhgiốngnhau,
+vàmuốn”bó”2hạtĐỏlại.Lúcnày,phépchiađơngiảnchosốhoánvịhoặcchia2sẽsai,vìtính
+đốixứngcủavòngcổbịphávỡkhôngđồngđềubởicácphầntửgiốngnhau.
+Giải pháp (Lý thuyết Nhóm): Sử dụng Bổ đề Burnside. Định lý phát biểu rằng: Số lượng cấu
+hình thực sự (không bị trùng lặp qua phép xoay/lật) bằng trung bình cộng số điểm bất động
+củamọiphépbiếnđổitrongnhómđốixứng.
+1 (cid:88)
+|X/G| = |Xg|
+|G|
+g∈G
+KhiápdụngKỹnăngBó,takhônglàmtrêncấuhìnhtổngquát,màthựchiệnthaotác”Bó”bên
+trongtừngphépbiếnđổig (đếmsốcáchbókhivòngcổxoay120◦,khivòngcổlậtquatrụcdọc,
+v.v.).
+Ýnghĩa:ĐâylàbướcchuyểntiếpsangĐạisốtrừutượng,nơitổhợpkhôngchỉlàđếmsốlượng,
+màlàđếmcáclớptươngđươngdướitácđộngcủamộtNhóm(Group).
+8.6. Phương pháp chùm Goulden-Jackson (Cluster Method)
+Mởrộngtừ:Bóâm(NegativeBundling)ởquymôvôhạn.
+30
+
+----- PAGE 31 -----
+Bản chất vấn đề: Bó âm giúp đếm số cách xếp hàng không chứa chuỗi ”AB”. Nhưng nếu yêu
+cầu là: ”Tạo chuỗi DNA từ 4 ký tự A, C, G, T sao cho không chứa bất kỳ chuỗi con nào trong tập từ
+cấmF = {ACG,TT,GATA}?” Sựchồnglấplúcnàycựckỳphứctạp(vídụ:chuỗiACGCGchứa2từ
+cấmACGđèlênnhau).
+Giảipháp:GouldenvàJackson(1983)sửdụngHàmsinh(GeneratingFunctions)đểgiảiquyết.
+Thayvìtheodõitừngtừcấmriênglẻ,phươngphápđịnhnghĩacác”Chùm”(Clusters)—sựkết
+hợpcủacáctừcấmđèlênnhau.Giảihệphươngtrìnhtuyếntínhtrênkhônggiancácchuỗisẽ
+choramộtHàmsinhphânthức,từđótríchxuấtsốlượngchuỗihợplệởbấtkỳđộdàiN nào.
+Ý nghĩa: Phương pháp Goulden-Jackson là công cụ tổng quát và mạnh mẽ nhất để giải quyết
+mọibàitoán”Bóâm”liênquanđếnđếmchuỗiviphạm.
+PHẦN IX — KẾT LUẬN
+9.1. Nhìn lại toàn bộ hành trình
+Từmộtbàitoánđơngiản—xếp6họcsinhvàohàngngangvớiđiềukiệnhaingườiphảiđứng
+cạnh nhau — kỹ năng bó đã dẫn chúng ta qua một hành trình tư duy ngày càng sâu và rộng
+hơn.
+Ởcấpđộcơbảnnhất,bólàmộtthaotáctrựcgiác:”gomlại,xemnhưmột”.Nhưngcàngđisâu,
+tacàngnhậnrarằngđằngsausựđơngiảnbềmặtđólàmộtcấutrúctoánhọcchặtchẽ—được
+xây dựng trên quy tắc nhân, được kiểm soát bởi tính độc lập giữa các tầng, và được mở rộng
+linhhoạtsanghàngchụcdạngbàikhácnhau.
+Dướiđâylàbảnđồtổngkếtnhữnggìđãđượctrìnhbày:
+Phần Nộidungcốtlõi Kếtquảđạtđược
+I—Mởđầu Ýtưởng”gomlại,xemnhưmột” Hiểutạisaokỹnăngbórađời
+II—Lýthuyết Quytắcnhân,haitầngđộclập NắmcôngthứctổngquátA = Ngoài×Trong
+III—Phânloại 6dạngbàitừcơbảnđếnphứctạp Nhậndạngnhanhvàchọnđúngcôngthức
+IV—Nângcao Bóâm,bólồng,nhiềubó,xácsuất Xửlýđượccáctìnhhuốngkhôngchuẩn
+V—Sailầm 7sailầmphổbiếnvàcáchtránh Khôngmắclạinhữnglỗiđiểnhình
+VI—Quytrình 8bướcgiảibàicóhệthống Cóchecklistápdụngđượcngay
+VII—Bàitập 24bàitập3cấpđộ,đầyđủlờigiải Luyệntậptừnềntảngđếnnângcao
+VIII—Mởrộng Lýthuyếtđạisố,nhóm,matrận BướcđệmchoOlympiadvàTinhọc
+9.2. Bản chất sâu xa của kỹ năng bó
+Nhìn từ góc độ tư duy, kỹ năng bó không chỉ là một kỹ thuật tính toán — nó là một cách thay
+đổicáchnhìnvềbàitoán.Mọibàitoántổhợpcóràngbuộcđềucóthểđượchiểutheohaicách:
+- Cáchnhìnthứnhất—Lọcbỏ:Tínhtổngtấtcảtrườnghợp,rồiloạibỏnhữngtrườnghợp
+khôngthỏađiềukiện.Đâylàcáchlàmtrựctiếpnhưngthườngrấttốncông.
+- Cáchnhìnthứhai—Thugọnkhônggian:Thayđổicấutrúcbàitoánsaochođiềukiện
+ràngbuộcbiếnmấtngaytừđầu.Đâychínhlàbảnchấtcủakỹnăngbó.
+31
+
+----- PAGE 32 -----
+Sức mạnh của kỹ năng bó nằm ở chỗ: nó biến một bài toán phức tạp thành một bài toán đơn
+giản hơn, tương đương về mặt toán học, nhưng dễ giải hơn rất nhiều. Thay vì đếm trong một
+khônggianlớnvàphảilọc,tađếmtrongmộtkhônggiannhỏhơnmàkhôngcầnlọcgìcả.
+Đâylàmộtnguyênlýtưduyxuấthiệnkhắpnơitrongtoánhọc:thugọnkhônggiantrạngthái
+vềdạngđơngiảnhơnmàvẫnbảotoàncấutrúcbàitoán.
+9.3. Kỹ năng bó trong hệ sinh thái tổ hợp
+Kỹ năng bó không tồn tại biệt lập. Nó hoạt động hiệu quả nhất khi được kết hợp với các công
+cụtưduykháctrongtổhợp:
+- Bó+Nguyênlýbù:Khiđiềukiệnlà”khôngđượccạnhnhau”,dùngbóđểđếmsốtrường
+hợp vi phạm, rồi lấy tổng trừ đi. Hai kỹ thuật bổ sung cho nhau một cách tự nhiên — bó
+mạnhvớiđiềukiệnbắtbuộc,bùmạnhvớiđiềukiệncấm.
+- Bó+Inclusion-Exclusion:Khicónhiềuđiềukiệncấmchồnglênnhau(khôngchỉmộtcặp
+bịcấmmànhiềucặp),nguyênlýbaohàm-loạitrừlàcôngcụđếmsốtrườnghợpviphạm
+mộtcáchchínhxác—màtrongđómỗisốhạnglạiđượctínhbằngkỹnăngbó.
+- Bó + Hoán vị vòng tròn: Sự kết hợp giữa cấu trúc vòng tròn (mất một bậc tự do) và kỹ
+năngbótạoradạngbàiđặcthùxuấthiệnrấtnhiềutrongđềthi,đòihỏinắmvữngcảhai
+phía.
+- Bó + Xác suất: Bó là công cụ tính tử số trongcác bài xác suất tổ hợp. Hiểu bó tức là hiểu
+cách đếm không gian mẫu thuận lợi — bước quyết định trong mọi bài xác suất đếm cổ
+điển.
+- Bó + Kỹ thuật chèn: Khi bài toán yêu cầu nhiều phần tử không được đứng cạnh nhau,
+thayvìdùngbóâm(đôikhiphứctạpvìphảiInclusion-Exclusionnhiềulần),kỹthuậtchèn
+phần tử vào khoảng trống là hướng đi hiệu quả hơn. Hai kỹ thuật bổ sung cho nhau tùy
+ngữcảnh.
+9.4. Những điều cần nhớ nhất
+Nếuphảichắtlọctoànbộtàiliệunàyxuốngcònvàidòngcốtlõi,đósẽlà:
+- Kếtquả=Tầngngoài×Tầngtrong.
+(cid:80)
+- Tầngngoài:giảibàitoánmớivớim = n− k +r đơnvị.
+i
+- Tầng trong: đếm số cách sắp xếp bên trong từng bó — kiểm tra điều kiện phụ trước khi
+nhânk!.
+- Trướckhibó:kiểmtraràngbuộccóchồnglấpkhông—vẽđồthịkếtnối,mỗithànhphần
+liênthônglàmộtbó.
+- Khi điều kiện là ”cấm”: bó để đếm vi phạm, lấy tổng trừ đi — không bao giờ lấy kết quả
+bólàmđápántrựctiếp.
+9.5. Lời khuyên cho người học
+Tổ hợp là một trong những phần toán học dễ khiến học sinh cảm thấy ”hiểu mà vẫn sai” nhất.
+Lýdolàvìcáccôngthứctrôngđơngiản,nhưngẩndướiđólàrấtnhiềuđiềukiệnngầmmànếu
+khôngýthứcrõ,tasẽápsailúcnàokhônghay.
+32
+
+----- PAGE 33 -----
+Vớikỹnăngbó,bẫynguyhiểmnhấtkhôngphảilàkhôngbiếtcôngthức—màlàbiếtcôngthức
+nhưngápsaiđiềukiện.Họcsinhthuộclòng”(n−k+1)!×k!”nhưnglạidùngnóchobàntròn,
+hoặcnhânk!khithứtựbêntrongbóđãcốđịnh.ĐólàlýdotạisaoPhầnV(sailầm)vàPhầnVI
+(quytrình)quantrọngkhôngkémgìPhầnII(lýthuyết).
+Balờikhuyênthựchành:
+1. Thứ nhất, hãy viết ra — đừng tính nhẩm. Với bất kỳ bài tổ hợp nào, hãy ghi rõ: ”Bó gì,
+tầngngoàilàgì,tầngtronglàgì.”Thóiquennàytốnthêm30giâynhưngngănchặn80%
+sailầm.
+2. Thứ hai, hãy đặt câu hỏi trước khi áp công thức. Mỗi lần chuẩn bị nhân k! vào tầng
+trong, hãy dừng lại và hỏi: ”Bên trong bó có điều kiện phụ không? Các phần tử trong bó
+cóphânbiệtkhông?”Chỉcầnhaicâuhỏiđó,sailầm4và7trongPhầnVsẽkhôngbaogiờ
+xảyra.
+3. Thứ ba, hãy kiểm tra bằng n nhỏ. Khi không chắc kết quả, thay n = 3 hoặc n = 4 và liệt
+kêtay.Đâykhôngphảilàdấuhiệucủasựyếukém—đâylàthóiquencủangườilàmtoán
+nghiêmtúc.
+9.6. Câu hỏi mở để tiếp tục khám phá
+Tàiliệunàyđãbaoquátđầyđủkỹnăngbóởcấpđộphổthôngvàthicử.Nhưngtoánhọckhông
+dừnglạiởđó.Mộtsốcâuhỏimởđểngườihọctiếptụcsuynghĩ:
+- Kỹnăngbócótươngđươnggìtronglýthuyếtđồthịhayđạisốtổhợpkhông?
+- Khiphầntửkhôngphânbiệt(hoánvịvớiphầntửlặp),kỹnăngbóthayđổinhưthếnàovề
+mặttínhtoán?
+- Trongbàitoánphânphốiđồvậtvàohộp(cácmôhìnhtổhợpnângcao),ýtưởng”bó”xuất
+hiệndướidạngnào?
+- Kỹ thuật chèn (insertion method) — đối trọng của bó âm — hoạt động chính xác thế nào
+vàkhinàothìưuviệthơn?
+Đây là những cánh cửa dẫn vào tổ hợp ở cấp độ đại học và olympiad — nơi kỹ năng bó chỉ là
+điểmkhởiđầucủamộthệthốngkỹthuậtđếmphongphúhơnnhiều.
+9.7. Tóm tắt một câu
+Kỹnăngbólànghệthuậtđặtcâuhỏiđúng:
+”Nếunhómnàyphảiđicùngnhau,tạisaokhôngcoichúnglàmột?”
+—vàtừcâuhỏiđó,biếnmộtbàitoánphứctạpthànhmộtbàitoánmàtađãbiếtcáchgiải.
+—KẾTTHÚCTÀILIỆU—
+KỹnăngBótrongToánTổhợp
+33

@@ -1,0 +1,47 @@
+  23
+Câu 19. Cho hình đa giác đều có 2n đỉnh n2;nZ . Biết số đường chéo của hình đa giác bằng
+6
+số lần hình chữ nhật tạo từ 4 đỉnh trong 2n của hình đa giác đó. Hỏi đa giác đó có bao nhiêu
+đỉnh.
+A. 24. B. 20. C. 26. D. 30
+Lời giải
+Tác giả : Ngô Nguyễn Anh Vũ, FB: Euro Vu
+Chọn C
+Số đường chéo tạo thành từ 2n đỉnh của đa giác đều là: C2 2n
+2n
+Đa giác đều có 2n đỉnh nên có n đường chéo qua tâm. Mỗi hình chữ nhật được tạo từ hai
+đường chéo qua tâm.Vậy số hình chữ nhật tạo thành là C2
+n
+ 
+23 2n ! 23 n!
+Theo đề: C2 2n C2  2n .
+2n 6 n  2n2  !2! 6  n2  !2!
+23
+  2n1  n2n  n1  n 24n2 36n23n2 23n n2 13n0 n13
+12
+Vậy đa giác có 26 đỉnh.
+phamthanhmy@gmail.com
+Câu 20. Có bao nhiêu số tự nhiên có năm chữ số đôi một khác nhau thỏa mãn tổng các chữ số hàng đớn
+vị, hàng chục và hàng trăm bằng 10.
+A. 1368 B. 1728 C. 2016 D. 1872
+Lời giải
+Tác giả: Phạm Thanh My. Facebook: Pham Thanh My
+Chọn D
+Gọi số cần lập là abcde thỏa mãn a  0,c d e 10
+c,d,e được lập từ các bộ số sau:
+               
+0;1;9 , 0;2;8 , 0;3;7 , 0;4;6 , 1;2;7 , 1;3;6 , 1;4;5 , 2;3;5
++ Trường hợp 1: c,d,e được lập từ các bộ số có chứa chữ số 0.
+Chọn bộ để tạo c,d,e có 4 cách chọn, mỗi bộ có 3! cách xếp.
+Chọn và sắp xếp hai chữ số còn lại có A2 cách.
+7
+Þ trường hợp 1 có 4.3!.A2 số.
+7
++ Trường hợp 2: c,d,e được lập từ các bộ số không chứa chữ số 0.
+Chọn bộ để tạo c,d,e có 4 cách chọn, mỗi bộ có 3! cách xếp.
+ 
+Chọn chữ số a có 6 cách a  0 .
+Chọn chữ số b có 6 cách.
+Þ trường hợp 2 có 4.3!.6.6 số.
+Vậy có 1872 số thỏa mãn đề bài.
+kenbincuame@gmail.com

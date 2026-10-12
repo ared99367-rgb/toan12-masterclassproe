@@ -1,0 +1,42 @@
+Xóa tiếp 17 điểm, còn lại 2000 điểm. Xen giứa 2000 điểm này có 1999 khoảng trống không kề
+với vị trí điểm A. 17 điểm bị xóa (không kể điểm A) tương ứng với 17 trong số 1999 khoảng
+trống nên có C17
+1999
+C17
+Vậy số cách xóa thỏa mãn yêu cầu bài toán là C18 C17  2018. 1999
+2000 1999 18
+Cách 2 (Lờigiải của thầy Trịnh Văn Thạch)
+Chọn một điểm đầu tiên để xóa có 2018 cách. Với cách chọn này.
+Gọi x ,x ,...,x là số phần tử giữa các khoảng này. Ta có x x ...x 201818 (*)
+1 2 18 1 2 18
+Số cách chọn 17 điểm để xóa là số nghiệm nguyên dương của pt (*) nên cóC17 cách
+1999
+(Số nghiệm nguyên dương của PT x x ...x n là Ck1 )
+1 2 k n1
+( Bài toán chia kẹo Euler :
+Có bao nhiêu cách chia k chiếc kẹo giống nhau cho t đứa trẻ (k⩾t) sao cho ai cũng có kẹo ?
+Giải :
+Số cách cần tìm chính là số nghiệm nguyên dương của phương trình :x x ...x k
+1 2 t
+Xếp k chiếc kẹo thành 1 hàng ngang, giữa chúng có k-1 chỗ trống.
+Số cách chia kẹo thỏa mãn điều kiện đề bài chính là số cách đặt t-1 "vách ngăn" vào t-1 chỗ
+trống trong số k-1 chỗ trống nói trên (mỗi chỗ trống được chọn đặt 1 "vách ngăn"), tức là bằng
+Ct1
+k1
+Vậy đáp án là Ct1cách.)
+k1
+C17
+Do đó số cách chọn 18 điểm để xóa là 2018. 1999 ( Chia cho 18 do lặp 18 lần khi thay đổi vị trí
+18
+đầu tiên)
+Cách 3 (Lờigiải của thầy Nguyễn Văn Quý)
+Chọn điểm thứ nhất có 2018 cách, đánh số từ 1 đến 2017 theo chiều kim đồng hồ từ điểm tiếp
+theo; gọi thứ tự 17 điểm còn lại bị xóa là a ,...a : 1a ...a 2017
+1 17 1 17
+Để các điểm không cạnh nhau: 1a a 1a 2...a 162001. Số cáchchọn 17
+1 2 3 17
+C17
+điểm này là C17 . Do đó số cách chọn 18 điểm để xóa là 2018. 1999 ( Chia cho 18 do lặp 18
+1999 18
+lần khi thay đổi vị trí đầu tiên)
+Trang 26/26 - Mã đề thi 483

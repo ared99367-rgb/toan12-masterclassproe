@@ -1,0 +1,54 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+a
+5x151x, ,25x 25x lập thành một cấp số cộng ?
+2
+13. Chứng minh rằng dãy số : a 2.3n lập thành một cấp số nhân và tính tổng của 8
+n
+số hạng đầu tiên của nó ?
+14. Giả sử a,b,c,d lập thành một cấp số nhân . Hãy tính giá trị biểu thức :
+ac2 bc2 bd2 ad2
+15. Giả sử các số : 5x-y,2x+3y, và x+2y lập thành một cấp số cộng , còn các số :
+y12 ,xy1,x12 lập thành cấp số nhân . Tìm x,y ?
+16. Cho một cấp số cộng : u ,u ,u ,u . Chứng minh rằng nếu : uu u u 6 thì biểu
+1 2 3 4 1 4 2 3
+thức A= xu xu xu xu 9 có nghĩa với mọi x ?
+1 2 3 4
+17. Chứng minh rằng : Nếu 0N 1 thì điều kiện ắt có và đủ để ba số dương a,b,c
+tạo thành một cấp số nhân ( theo thứ tự đó ) là :
+log N log N log N
+a  a b a,b,c1
+log N log N log N
+c b c
+18. Chứng minh rằng , nếu log a,log b,log c tạo thành một cấp số cộng ( theo thứ tự
+x y z
+2log xlog z
+đó ) thì : log y  a c 0 x,y,z,a,b,c1.
+b log xlog z
+a c
+19. Cho ba số : x,3,y lập thành một cấp số nhân và x4  y 3. Tìm x,y và công bội q
+của cấp số đó ?
+20.Cho ba số tạo thành một cấp số nhân mà tổng của chúng bằng 93. Ta có thể sắp
+đặt chúng ( theo thứ tự của cấp số nhân kể trên ) như là số hạng thứ nhất , thứ hai và
+thứ bẩy của một cấp số cộng . Tìm ba số đó ?
+21.a. Tính tổng của n số hạng : 333333...
+b. Tìm x để ba số : ln2,ln  2x 1  ,ln  2x 3  lập thành một cấp số cộng ?
+22. Tìm bốn số biết rằng ba số hạng đầu lập thành một cấp số nhân , ba số hạng sau
+lập thành một cấp số cộng . Tổng của hai số hạng đầu và cuối bằng 14, còn tổng của
+hai số ở giữa là 12 ?
+23. Tổng của số hạng thứ hai và thứ tư của một cấp số nhân tăng nghiêm ngặt là 30 ,
+và tích của chúng bằng 144. Tìm tổng mười số hạng đầu tiên của dãy số đó ?
+6
+24. Cho tam giác ABC có A900 còn a,b, ,c theo thứ tự đó lập thành một cấp số
+3
+nhân . Tam giác ABC là tam giác có đặc điểm gì ?
+25. Cho tam giác ABC, có ba cạnh a,b,c , theo thứ tự đó lập thành một cấp số cộng .
+A C
+Hãy chứng minh rằng : cot .cot 3.
+2 2
+26. Tam giác ABC thỏa mãn điều kiện : tagA.tangB=6 và tangA.tangC=3 . Hãy
+chứng tỏ : tangA,tgB,tgC theo thứ tự dó lập thành cấp số cộng ?
+A B C
+27. Tam giác ABC có : cot ,cot ,cot theo thứ tự đó lập thành một cấp số cộng .
+2 2 2
+Hãy chứng minh rằng ba cạnh a,b,c theo thứ tự đó cũng lập thành một cấp số cộng ?
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 3 ĐT : 0985.270.218

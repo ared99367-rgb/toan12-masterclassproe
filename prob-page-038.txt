@@ -1,0 +1,49 @@
+ 123552 198
+C
+Vậy xác suất của biến cố A là P(C)   .
+ C5 4165
+52
+Câu 29. Cho tập hợp M 1;2;3;4. Gọi E là tập hợp các số tự nhiên có 6 chữ số được lập từ tập M.
+Lấy ngẫu nhiên một số từ tập E. Tính xác suất để số được chọn thỏa mãn chữ số 1 xuất hiện
+không quá 2 lần, chữ số 2 xuất hiện không quá 3 lần, các chữ số 3, 4 xuất hiện không quá 1 lần.
+105 345 45 135
+A. . B. . C. . D. .
+1024 512 64 2048
+Tác giả: Trần Tố Nga, FB: Tố Nga Trần
+Lời giải
+Số phần tử của không gian mẫu là:  46.
+Gọi A là biến cố: “số được chọn thỏa mãn chữ số 1 xuất hiện không quá 2 lần, chữ số 2 xuất
+hiện không quá 3 lần, các chữ số 3, 4 xuất hiện không quá 1 lần.”
+Vì số có 6 chữ số mà các chữ số 2 xuất hiện không quá 3 lần, các chữ số 3, 4 xuất hiện không
+quá 1 lần nên chữ số 1 xuất hiện ít nhất 1 lần.
+Ta xếp các chữ số vào vị trí 6 ô:
+TH1: Chữ số 1 xuất hiện 1 lần, chữ số 2 xuất hiện 3 lần và các chữ số 3, 4 xuất hiện
+đúng 1 lần
+Vậy TH này có 6.C3.2120 cách chọn.
+5
+TH2: Chữ số 1 xuất hiện 2 lần, chữ số 2 xuất hiện 3 lần và một trong hai chữ số 3, 4
+xuất hiện đúng 1 lần.
+Vậy TH này có C2.C3.2120 cách chọn.
+6 4
+TH3: Chữ số 1 xuất hiện 2 lần, chữ số 2 xuất hiện 2 lần và các chữ số 3, 4 xuất hiện
+đúng 1 lần.
+Vậy TH này có C2.C2.2180 cách chọn.
+6 4
+Số phần tử của tập A là: A 120120180420
+A 105
+Xác suất cần tìm là: PA   Chọn A
+ 1024
+Tác giả: Trần Tố Nga, FB: Tố Nga Trần
+vungatoannvx@gmail.com
+Câu 30. Nhân dịp chào năm mới 2019 và cũng là sinh nhật lần thứ 27của ông chủ shop thời trang nổi
+tiếng tại Bắc Giang. Shop mở chương trình tri ân khách hàng bốc thăm trúng thưởng. Mỗi khách
+hàng sẽ được bốc ngẫu nhiên 3 phiếu trong 2019 phiếu được đánh số là các số tự nhiên liên tiếp
+từ 1 đến 2019. Biết giải nhất dành cho khách hàng bốc được ba phiếu mà tích số ghi trên ba
+phiếu đó chia hết cho 27. Cô Huệ là khách hàng thân thiết được mời bốc thăm đầu tiên. Xác suất
+(được làm tròn đến hàng phần trăm) để cô Huệ trúng giải nhất là
+A. 0,21. B. 0,31. C. 0,19. D. 0,39.
+Lờigiải
+Tácgiả :Vũ Nga
+Chọn A
+Bài toán viết gọn lại như sau:
+Trang 21/24 - Mã đề thi 483

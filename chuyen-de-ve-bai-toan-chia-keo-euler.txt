@@ -1,0 +1,2290 @@
+
+
+----- PAGE 1 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Về bài toán chia kẹo Euler
+† Biên soạn: PimaX
+Hướng tới kì thi Học sinh giỏi, TSA, THPT Quốc Gia
+´ Thời gian làm bài: 90 phút
+BàitoánchiakẹoEulerlàmộttrongnhữngphầnkiếnthứcquantrọngcủatổhợp,đóngvaitròthen
+chốttrongviệchìnhthànhtưduyxửlýcácbàitoánvềtổhợp.Trướcđâybàitoánnàyhayxuấthiện
+trong các đề thi học sinh giỏi từ cấp địa phương tới quốc gia, tuy nhiên dạo gần đây cũng bắt đầu
+"len lỏi"vào các kì thi thử tuyển sinh đại học, đánh giá tư duy,... Và đấy cũng chính là lí do mà tài
+liệu bạn đang đọc ra đời. Bài viết là tuyển tập các bài toán, các kĩ thuật mà tác giả đã được tiếp thu
+trong quá trình dạy và học tập từ thời học sinh tới lúc ra trường. Các kiến thức trong tài liệu được
+mình sưu tầm và soạn lại từ các quyển sách và các tài liệu trên mạng, có những vấn đề mình tự giải
+quyếttựgõlại,cũngcónhữngbàitoánđượcLATEXvàchỉnhsửalạidựatheoýtưởngcủangườikhác,
+vì thế rất mong nếu tác giả của những lời giải hoặc những bài toán xuất hiện trong tài liệu, có đọc
+được thì có thể bỏ qua những thiếu sót vì chưa xin phép được đầy đủ. Chuyên đề không thể tránh
+khỏi những thiếu sót về mặt ý tưởng, trình bày, hay tính toán, rất mong nhận được sự thông cảm và
+góp ý từ phía các bạn đọc. Bây giờ chúng ta cùng bắt đầu!
+1 Mở đầu về bài toán chia kẹo Euler
+Trước hết, ta đếm số cách chia kẹo mà mỗi em đều có kẹo: Xếp n viên kẹo lên một đường thẳng.
+ddddddddddddddd
+Giữa các viên kẹo có đúng n´1 khoảng trống, ta tìm cách đặt các thanh chắn vào giữa chúng để
+chia các viên kẹo thành k phần. Ta lấy phần đầu tiên chia cho em bé thứ nhất, phần thứ hai chia
+cho em bé thứ hai và cứ thế, phần cuối cùng chia cho em bé thứ k. Như thế thì rõ ràng số cách chia
+kẹo cũng chính là số cách đặt các thanh chắn ở trên.
+dd|ddd|ddddd|ddddd
+Chọn k´1 khoảng trống trong n´1 khoảng trống để đặt các thanh chắn, có
+ˆ ˙
+n´1
+k´1
+1 cách để đặt. Đây cũng chính là đáp số cho bài toán.
+Từ kết quả của bài toán này, ta có các dạng phát biểu dưới dạng số học khác như sau.
+Ví dụ 1 (Bài toán gốc).
+Phương trình x `x `¨¨¨`x “n,n ⩾ k có bao nhiêu nghiệm nguyên dương?
+1 2 k
+— LỜI GIẢI
+Coi x là phần kẹo của em nhỏ thứ i trong bài toán chia kẹo thì số nghiệm của phương trình chính
+i
+là số cách chia n chiếc kẹo cho k em nhỏ. Vậy phương trình có
+ˆ ˙
+n´1
+k´1
+ˆ ˙
+n
+1Ởtrongtàiliệunàytácgiảdùngkíhiệu thaychoCk.
+k n
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 1
+
+----- PAGE 2 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+nghiệm nguyên dương.
+Ví dụ 2. Phương trình x `x `¨¨¨`x “n,n ⩾ k có bao nhiêu nghiệm nguyên không âm?
+1 2 k
+— LỜI GIẢI
+Vấn đề của bài toán này đó là điều kiện của các biến x không giống như với bài toán gốc, khi đó ta
+i
+có một thủ thuật nho nhỏ để biến nó về bài toán gốc như sau.
+x `x `¨¨¨`x “nôpx `1q`px `1q`¨¨¨`px `1q“n`k.
+1 2 k 1 2 k
+Đặt x1 “ x `1 thì x1 là các số nguyên dương. Như vậy ta có tất cả
+i i i ˆ ˙
+n`k´1
+k´1
+nghiệm nguyên không âm của phương trình.
+Trong bài toán này chúng ta sẽ cần nhớ cách giải và kết quả của 2 bài toán gốc này, đây là nền tảng
+cho các bài toán phía sau, trong quá trình làm bài các bạn đưa các bài toán của mình về bài toán 1
+hay 2 đều được cả nhé.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 2
+
+----- PAGE 3 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Các ví dụ minh họa
+Ví dụ 1. Xét khai triển P “p2022a`2023b`2024c`2025dq2025, hỏi có tất cả bao nhiêu số
+hạng trong khai triển này?
+— LỜI GIẢI
+Bài toán này thật ra rất đơn giản, ta chú ý số hạng tổng quát khi khai triển thì sẽ có dạng như sau
+rhệ sốsˆax 1 ¨bx 2 ¨cx 3 ¨dx 4,
+trong đó x là các số tự nhiên thỏa mãn x ` x ` x ` x “ 2025. Từ đây theo bài toán chia kẹo
+i 1 2 3 4
+Euler ta có ngay kết quả của bài toán.
+Ví dụ 2. Có bao nhiêu bộ số tự nhiên x , i “1,5 thỏa mãn
+i
+x `x `x `x `x “2016,
+1 2 3 4 5
+với x ⩾ 5, x ⩾ 4, x ⩾ 3, x ⩾ 2, x ⩾ 1.
+1 2 3 4 5
+— LỜI GIẢI
+Bài này rất đơn giản thôi, ta đặt y “ x ´5, y “ x ´4, y “ x ´3, y “ x ´2, y “ x ´1 thì
+1 1 2 2 3 3 4 4 5 5
+y ` y ` y ` y ` y `5“2001, y ⩾ 0.
+ˆ1 2 3 ˙4 ˆ ˙ i
+2001`5´1 2005
+Khi đó số bộ số thỏa mãn là “ .
+5´1 4
+Bài tập tương tự 1. Bà Lan ra cửa hàng hoa quả, bà lấy ngẫu nhiên 7 quả trong số các loại
+quả: cam, xoài, na, mít (có thể có loại quả bà không chọn). Tính xác suất trong số quả bà Lan
+mua, số quả xoài lớn hơn hoặc bằng 2?
+ÿ
+k
+Tổng quát. Phương trình x “n thỏa mãn đồng thời 2 điều kiện
+i
+i“1
+ÿ
+k
+x ⩾ d pd ⩾ 0q,n ⩾ d pk ⩾ 1q
+i i i i
+ˆ ˙ i“1
+ÿ
+k
+n`k´D´1
+có tất cả nghiệm, trong đó D“ d .
+k´1 i
+i“1 $
+’ &x
+i
+1 ⩾ 1
+ÿ ÿ
+Chứng minh. Tương tự bài toán trên, ta đặt x 1 “ x ´d `1ñ k k .
+i i i ’ % x 1 “n`k´ d
+i i
+i“1 i“1
+Đến đây áp dụng kết quả của bài toán chia kẹo Euler ta có ngay điều phải chứng minh.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 3
+
+----- PAGE 4 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 3. Có bao nhiêu bộ số tự nhiên x ,i “1,6 thỏa mãn
+i
+x `x `x `x `x `x “100,
+1 2 3 4 5 6
+với x là bội của 5.
+i
+— LỜI GIẢI
+Đặt x “5y ,i “1,6 thì y ` y ` y ` y ` y ` y “20. Khi đó số nghiệm là
+i i 1 2 3 ˆ 4 5 ˙6 ˆ ˙
+20`6´1 25
+“ .
+6´1 5
+Ví dụ 4. Có bao nhiêu bộ số tự nhiên x thỏa mãn
+i
+x `x `x “1000,
+1 2 3
+với x ⩽ 100.
+1
+— LỜI GIẢI
+Với bài toán này ta sẽ sử dụng phần bù để giải quyết, ta sẽ đếm theo các bước sau
+1 đếm các bộ số tự nhiên thỏa mãn yêu cầu bài toán;
+2 đếm các bộ số tự nhiên thỏa mãn yêu cầu bài toán nhưng với điều kiện x ⩾ 101.
+1
+Trước tiên, số nghiệm không âm của phương trình x `x `x “1000 là
+ˆ ˙1 ˆ 2 ˙3
+1000`3´1 1002
+“ .
+3´1 2
+Tiếp theo với x ⩾ 101 thì đặt y “ x ´101, đưa về phương trình
+1 1 1
+y `x `x “899,
+ˆ ˙ 1 2 3 ˆ ˙ ˆ ˙
+901 1002 901
+số nghiệm là . Do đó, số bộ số thỏa mãn yêu cầu bài toán là ´ .
+2 2 2
+Ví dụ 5. Có bao nhiêu bộ số tự nhiên x thỏa mãn
+i
+x `x `x “10,
+1 2 3
+với x ‰3.
+3
+— LỜI GIẢI
+Bài này sẽ tiếp tục dùng nguyên lý bù trừ giống bài toán trên, trước tiên ta thấy số nghiệm của
+phương trình x `x `x “10 là
+1 2 3 ˆ ˙ ˆ ˙
+10`3´1 12
+“ “66.
+3´1 2
+Nếu x “3 thì ta đưa về xét x `x “7 với số nghiệm là
+3 1 2 ˆ ˙ ˆ ˙
+7`2´1 8
+“ “8.
+2´1 1
+Khi đó số bộ số tự nhiên thỏa mãn là 66´8“58.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 4
+
+----- PAGE 5 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 6 (Đề thi thử Sở Phú Thọ 2025). Có bao nhiêu số tự nhiên có 4 chữ số mà tổng tất
+cả các chữ số của số đó bằng 7?
+— LỜI GIẢI
+Đây là một bài toán mới đây đã xuất hiện trong đề thi của sở Phú Thọ, nhìn chung ý tưởng khá là
+dễ. Trước tiên ta giả sử rằng số thỏa mãn có dạng
+abcd.
+Khi đó theo giả thiết ta sẽ có a` b`c`d “7, ở đây a ⩾ 1 và b,c,d ⩾ 0. Chú ý rằng bài toán gốc
+của chúng ta xét có điều kiện các biến đều lớn hơn hoặc bằng 1, như vậy để đưa về bài toán Euler
+thì ta cần áp dụng thủ thuật giống như ví dụ 2 ở phần trước. Ta có
+loomaoon`lpboom`o1onq`lpcoom`o1onq`lpdoom`o1onq“10.
+⩾1 ⩾1 ⩾1ˆ ⩾˙1
+10´1
+Tới đây thì quá đơn giải rồi, số bộ số thỏa mãn sẽ là “84.
+4´1
+Ví dụ 7 (Chọn đội tuyển lớp 11 Bình Dương 2020´2021).
+Có 5 con xúc xắc được đánh 5 số thứ tự 1,2,3,4,5. Gieo đồng thời cả 5 xúc xắc đó. Tính xác
+suất để tổng của 5 số trên mặt xuất hiện của 5 xúc xắc bằng 14.
+— LỜI GIẢI
+Gọi con số xuất hiện trên con xúc sắc thứ i (1 ⩽ i ⩽ 5) là x (1 ⩽ x ⩽ 6). Khi này ta cần tìm số
+i i
+nghiệm nguyên dương của phương trình
+x `x `x `x `x “14,1 ⩽ x ⩽ 6.
+1 2 3 4 5 i
+Ở đây chú ý rằng không thể có 2 giá trị x và x nào cùng lớn hơn hoặc bằng 7 cả nên để đếm số
+j k
+nghiệm của bài toán ta sẽ thực hiện theo 2 bước sau
+Bước 1. Đếm số bộ nghiệm nguyên dương của phương trình x `x `x `x `x “14;
+1 2 3 4 5
+Bước 2. Trừ đi các trường hợp mà có một giá trị x nào đó lớn hơn hoặc bằng 7.
+k
+Đầu tiên, theo bài toán chia kẹo Euler thì số nghiệm nguyên dương của phương trình
+x `x `x `x `x “14
+ˆ ˙ 1 2 3 4 5
+13
+là . Tiếp theo ta đếm các trường hợp mà có một giá trị x nào đó lớn hơn hoặc bằng 7. Giả sử
+4 k
+⩾
+x 7,
+1
+khi đó ta đổi biến y “ x ´6 ⩾ 1, phương trình trở thành
+1 1
+y `x `x `x `x “9,
+1 2 3 4 5
+theo bài toán chia kẹo số nghiệm nguyên dương của phương trình này là
+ˆ ˙ ˆ ˙
+8´1 7
+“ .
+5´1 4
+Vì các trường hợp gieo xúc xắc là độc lập nhau hay nên số nghiệm của trường hợp này sẽ là
+ˆ ˙
+7
+5ˆ .
+4
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 5
+
+----- PAGE 6 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Như vậy nếu ta gọi Alà biến cố để tổng 5 số bằng 14 thì
+ˆ ˙ ˆ ˙
+13 7
+npAq“ ´5ˆ “540.
+4 4
+Cuối cùng ta có npΩq“65 “7776 nên xác suất cần tính
+npAq 540 5
+(cid:80)pAq“ “ “ .
+npΩq 7776 72
+Bài tập tương tự 2 (Đề chọn học sinh giỏi Tuyên Quang 2021).
+Nhân dịp khai giảng năm học mới, thầy giáo chủ nhiệm dự định tặng 20 quyển vở cho 6 bạn
+họcsinhlàViệt,Nam,Quyết,Tâm,Chiến,Thắng.Hỏithầygiáocóbaonhiêucáchtặnghết20
+quyểnvởcho6bạnhọcsinhtrênsaochomỗibạnđềunhậnđượcítnhất1quyểnvởvàkhông
+nhiều hơn 9 quyển vở (hai cách tặng là khác nhau khi và chỉ khi có ít nhất một em học sinh
+nhận được số vở khác nhau trong 2 lần tặng).
+Ví dụ 8. Có bao nhiêu bộ số nguyên dương pa;b;cq thỏa mãn aă băc và a`b`c “222?
+— LỜI GIẢI
+Trước tiên ta thấy chưa quan tâm vội tới điều kiện aă băc, khi đó số bộ số thỏa mãn điều kiện là
+ˆ ˙ ˆ ˙
+222´1 221
+“ “24310.
+3´1 2
+Tới đây ta sẽ sử dụng phần bù cho bài toán này, xét các trường hợp sau.
+222
+1 Nếu a“ b“c “ thì ở đây có 1 bộ số duy nhất.
+3
+2 Nếu a“ b‰c thì 2a`c “222, từ đây suy ra c chẵn, hay
+" *
+222
+c Pt2;4,6;...;220uz .
+3
+Trường hợp này có tất cả 110´1“109 bộ số thỏa mãn. Tương tự như vậy với các trường hợp
+a“c ‰ b và b“c ‰a, tổng hợp 3 trường hợp này ta sẽ có tất cả
+3ˆ109,
+bộ số thỏa mãn yêu cầu bài toán.
+Do đó số cách chọn các bộ số a,b,c phân biệt thỏa mãn sẽ là 24310´p3ˆ109`1q “ 23982, tuy
+nhiên nếu ta chỉ xét a ă b ă c thì cần chia cho số lần lặp của a,b,c, tức là số bộ số thỏa mãn yêu
+cầu bài toán sẽ là 23982 “3997 bộ.
+3!
+Bài tập tương tự 3. Có bao nhiêu cách chọn ra bộ 3 số tự nhiên pa,b,cq phân biệt có tổng
+bằng 91?
+Ví dụ 9. GọiS làtậptấtcảcácsốtựnhiêncó3chữsốđượclậptừtậpX “t0,1,2,3,4,5,6,7u.
+RútngẫunhiênmộtmộtsốthuộctậpS.Tínhxácsuấtđểrútđượcsốmàtrongđóchữsốđứng
+sau luôn lớn hơn hoặc bằng chữ số đứng trước.
+— LỜI GIẢI
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 6
+
+----- PAGE 7 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Trước tiên ta tính được không gian mẫu là |Ω|“7¨8¨8“448. Xét một số abc thỏa mãn đề bài thì
+⩽ ⩽ ⩽ ⩽
+1 a b c 7.
+Đểxửlýđiềukiệnnàytasẽcómộtphépđổibiếnnhưsau.Đặt x “a´1; y “ b´a;z “c´b;t “7´c
+ta có x, y,z,t ⩾ 0,x, y,z,t P(cid:90) và
+x ` y `z`t “6. (*)
+Vậysốnghiệmnguyênkhôngâmcủaphươngtrình(*)chínhlàsốcácsố abc thỏamãnđềbài.Theo
+bài toán chia kẹo Euler thì số bộ số thỏa mãn là
+ˆ ˙ ˆ ˙
+6`4´1 9
+“ “84.
+4´1 3
+84 3
+Do đó có 84 số thỏa mãn biến cố xảy ra, vậy xác suất cần tính là P “ “ .
+448 16
+Bài tập tương tự 4. Có bao nhiêu cách chọn ra số tự nhiên có 3 chữ số abc thỏa mãn điều
+kiện a ⩽ b ⩽ c.
+Ví dụ 10 (Đề chọn đội tuyển HSG Hà Nội 2020´2021).
+Tìm số bộ nguyên dương pa ,a ,¨¨¨ ,a q thỏa mãn đồng thời các điều kiện sau
+1 2 15
+1 1 ⩽ a ăa ă¨¨¨ăa ⩽ 2020;
+1 2 15
+2 a ”i2 pmod 5q,@i “1,2,...,15.
+i
+— LỜI GIẢI
+Ta có phép đặt như sau
+a “5k ´4
+1 1
+a ´a “5k ´2
+2 1 2
+a ´a “5k
+3 2 3
+a ´a “5k ´3
+4 3 4
+a ´a “5k ´1
+5 4 5
+a ´a “5k ´4
+6 5 6
+...
+a ´a “5k ´1
+15 14 15
+2020´a “5k ´5,
+15 16
+ở đây k là các số nguyên dương. Cộng vế theo vế ta được
+i
+2020“5pk `k `¨¨¨`k q´35ñk `k `¨¨¨`k “411.
+1 2 16 1 2 16
+Như vậy tới đây, theo kết quả của bài toán chia kẹo Euler thì phương trình trên có
+ˆ ˙
+410
+15
+bộ nghiệm nguyên dương. Đây cũng chính là kết quả của bài toán.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 7
+
+----- PAGE 8 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 11. Một tập hợp S ‰∅ chứa hữu hạn các số nguyên dương được gọi là tập anh em nếu
+S là tập hợp gồm 2 số nguyên dương liên tiếp, hoặc tồn tại các tập hợp S ,S ,...,S sao cho
+1 2 k
+S “S YS Y¨¨¨YS ,S XS “∅ ,@1 ⩽ i ă j ⩽ k
+1 2 k i j
+và mỗi tập hợp S pi “1,2,...,kq đều là tập hợp gồm 2 số nguyên dương liên tiếp. Hỏi có bao
+i
+nhiêu tập anh em là tập hợp con gồm 4 phần tử của tập hợp t1;2;...;2024u?
+— LỜI GIẢI
+Một tập thỏa mãn yêu cầu bài toán có dạng A“ta;b;c;du. Giả sử
+1 ⩽ aă băc ăd ⩽ 2024.
+Theo giả thiết ta có $
+’ &b“a`1
+c “ b`1
+’
+%
+d “c`1.
+Tới đây ta sẽ thực hiện phép đổi biến như sau
+pa´1,b´a,c´b,d´c,2024´dqÑpx ,x ,x ,x ,x q.
+1 2 3 4 5
+Như vậy ta được x `x `¨¨¨`x “2023, hay
+1 2 5
+x `x `x “2021.
+1 3 5
+Đặt x “ x ´1“1, phương trình trên trở thành
+6 3
+x `x `x “2020.
+ˆ1 5˙ 6
+2022
+Theo bài toán kéo Euler thì bài trên có nghiệm, đây cũng chính là kết quả của bài toán.
+2
+Ví dụ 12. Có bao nhiêu bộ số tự nhiên x thỏa mãn
+i
+x `x `x `x `x ⩽ 44.
+1 2 3 4 5
+— LỜI GIẢI
+Từ giả thiết ta thấy rằng sẽ tồn tại một số tự nhiên k nào đó để
+x `x `x `x `x `k“44,
+1 2 3 4 5
+rõ ràng số nghiệmˆcủa phương˙trìnhˆnày˙bằng với số nghiệm của phương trình ban đầu. Do đó, số
+44`6´1 49
+nghiệm cần tìm là “ .
+6´1 5
+Chú ý. Như vậy một cách tổng quát ta sẽ thu được 2 kết quả sau
+ˆ ˙
+ÿ
+k
+n´1
+1 Bất phương trình x ănpn ⩾ k`1q có nghiệm nguyên dương;
+i k
+i“1
+ˆ ˙
+ÿ
+k
+n
+2 Bất phương trình x ⩽ npn ⩾ kq có nghiệm nguyên dương.
+i k
+i“1
+Mở rộng bài toán này, ta có ví dụ sau.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 8
+
+----- PAGE 9 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 13 (Đề chọn HSG thành phố Hà Nội 2023´2024).
+Xét tập hợp S gồm tất cả các bộ số px, y;zq với x, y,z ⩽ 30 là các số nguyên dương.
+a) Hỏi có bao nhiêu bộ số px, y;zq thuộc tập hợp S thỏa mãn x ` y `z “5?
+b) Lấy ngẫu nhiên một bộ số pa;b;cq từ tập hợp S. Tính xác suất để lấy được bộ số thỏa mãn
+a`b`c ă30.
+— LỜI GIẢI
+a) Ta có 5“1`2`2“1`1`3. Do vai trò x, y,z như nhau nên mỗi bộ px; y;zq tương ứng như
+vậy sẽ có 3 hoán vị lặp (trừ khi x “ y “z thì chỉ có 1). Do đó có 6 bộ px; y;zq thỏa mãn
+x ` y `z “6.
+b) Không gian mẫu có số phần tử là 303 “27000. Do a`b`c ă30 nên tồn tại d P(cid:90)` sao cho
+a`ˆb`˙c`d “30.
+29 3654
+Suy ra số bộ pa;b;cq thỏa mãn đề bài là “3654, suy ra xác suất cần tìm bằng .
+3 27000
+Bài tập tương tự 5 (Đề chọn đội tuyển HSG An Giang 2023).
+Tínhtheo nsốcácđiểmtrênmặtphẳngtọađộOxy cótọađộpx; yqvới x; y đềulàsốnguyên
+thỏa mãn |x|`|y|⩽ n với n là số tự nhiên cho trước.
+Ví dụ 14. Có bao nhiêu bộ số nguyên dương x thỏa mãn
+i
+100 ⩽ x `x `x `x `x `x ⩽ 200.
+1 2 3 4 5 6
+— LỜI GIẢI
+Thật ra bài này chỉ là nguyên lý bù trừ thôi, ta có số nghiệm của bất phương trình
+x `x `x `x `x `x ⩽ 200
+ˆ ˙ 1 2 3 4 5 6
+206
+là . Ngoài ra, số nghiệm của bất phương trình
+6
+x `x `x `x `x `x ⩽ 99
+ˆ ˙ 1 2 3 4 5 ˆ6 ˙ ˆ ˙
+105 206 105
+là . Vậy số nghiệm của bất phương trình đã cho là ´ .
+6 6 6
+Bài tập tương tự 6. Tìm số nghiệm của phương trình
+x `x `x `x “14
+1 2 3 4
+và |x |⩽ 5,i “1,4.
+i
+Ví dụ 15. Rút gọn tổng sau
+ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙
+9 10 11 99
+A“ ` ` `¨¨¨` .
+9 9 9 9
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 9
+
+----- PAGE 10 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+— LỜI GIẢI
+ˆ ˙ ˆ ˙
+k k`1´1
+Chú ý rằng có thể viết thành , đây chính là số nghiệm của phương trình
+9 10´1
+x `x `¨¨¨`x “k`1.
+1 2 10
+Do đó, A chính là số nghiệm nguyên dương của bất phương trình 10 ⩽ x ` x `¨¨¨` x ⩽ 100.
+1 2 10
+Bài toán này giống bài toán trên.
+Ví dụ 16. Trên một đoạn đường, có 11 địa điểm bao gồm một trung tâm ở chính giữa và 10
+nơi để tham quan, mua sắm; hai địa điểm cạnh nhau thì cách nhau 100 mét. Những người
+khách xuất phát từ trung tâm và muốn đi tham quan tổng cộng 3 lượt, mỗi đi một nơi khác
+nhau (họ đến địa điểm đó tham quan sau đó quay về trung tâm và chuẩn bị cho lần đi tiếp
+theo).Hỏicóbaonhiêucáchchọnrabađịađiểm,cóthứtựvàkhôngnhấtthiếtphânbiệt,sao
+cho tổng quãng đường cả đi lẫn về không vượt quá 1 km?
+— LỜI GIẢI
+Ta có sơ đồ sau
+2 4 6 8 10
+1 3 5 7 9 11
+Giả sử tọa độ của trung tâm là 0 thì tọa độ các điểm tham quan là ´5, ´4, ´3, ´2, ´1, 1, 2, 3, 4,
+5. Gọi x, y, z là tọa độ của các nơi họ đến thì theo đề bài, ta có
+2p|x|`|y|`|z|q⩽ 10ô|x|`|y|`|z|⩽
+5
+ˆ ˙
+5
+Theo bài toán trên thì bất phương trình này có nghiệm nguyên dương. Tuy nhiên, với mỗi giá
+3
+trị |x|, |y|, |z| ta đều có hai cách chọn là ´x hay x. Vì thế tổng số cách chọn là 23¨10“80 cách.
+Ví dụ 17. Trong mặt phẳng pOxyq cho hình chữ nhật OMNP với Mp0;10q;Np100;10q và
+Pp100;0q. Gọi S là tập hợp tất cả các điểm Apx, yq,x, y P (cid:78) nằm bên trong (kể cả trên cạnh)
+của OMNP. Lấy ngẫu nhiên 1 điểm Apx, yqPS. Tính xác suất để x ` y ⩽ 90.
+— LỜI GIẢI
+Đầutiêntatínhkhônggianmẫu,tađượcnpΩq“101ˆ11“1111.Khiđótacầnđếmbộcácnghiệm
+không âm của
+x ` y ⩽ 90 (*)
+với 0 ⩽ x ⩽ 100 và 0 ⩽ y ⩽ 10. Ở đây điều kiện của x thì không phải vấn đề, tuy nhiên với điều
+kiện của y ta cần sử dụng phần bù để đếm.
+1 Tính số nghiệm nguyên không âm của (*). Đổi biến x1 “ x `1 ⩾ 1; y1 “ y `1 ⩾ 1 ta được
+x1` y1 ⩽ 92.
+ˆ ˙
+92
+Khi đó theo kết quả của bài toán chia kẹo ta có số nghiệm là .
+2
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 10
+
+----- PAGE 11 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Tính số nghiệm nguyên không âm của (*) với y ⩾ 11. Đổi biến x1 “ x`1; y1 “ y´10 ta được
+px `1q`py ´10q⩽ 81ô x1` y1 ⩽ 81.
+ˆ ˙
+81
+Khi đó theo kết quả của bài toán chia kẹo ta có số nghiệm là .
+2
+Vậy số nghiệm của (*) thỏa mãn yêu cầu bài toán là
+ˆ ˙ ˆ ˙
+92 81
+´ “946.
+2 2
+946 86
+Vậy xác suất cần tính của bài toán là P “ “ .
+1111 101
+Ví dụ 18. Xét các số tự nhiên a , a , a , a , a và một bảng ô vuông có kích thước 5ˆ5.
+1 2 3 4 5
+j
+i a i ˆa j
+Người ta điền vào ô ở hàng i cột j của bảng này số a ˆa với mọi 1 ⩽ i, j ⩽ 5. Gọi m là tổng
+i j
+các số điền trên bảng. Hỏi có bao nhiêu dãy các số như trên sao cho 0 ⩽ m ⩽ 2017?
+— LỜI GIẢI
+Trước tiên ta thấy rằng tổng các số trên bảng là
+ÿ ÿ ÿ ÿ
+m“ a a ` a a “ a2`2 a a “pa `a `a `a `a q2 .
+i j i j i i j 1 2 3 4 5
+1⩽i,j⩽5,i“j 1⩽i,j⩽5,i‰j 1⩽i⩽5 1⩽iăj⩽5
+Như vậy m là số chính phương không vượt quá 2017. Ta có 442 ă2017ă452 nên m ⩽ 442, suy ra
+0 ⩽ a `a `a `a `a ⩽ 44.
+1 2 3 4 5
+Tới đây áp dụng kết quả bài toán ở trên ta có ngay số bộ nghiệm của bất phương trình trên cũng
+chính là số dãy số thỏa mãn yêu cầu bài toán là
+ˆ ˙ ˆ ˙
+44`6´1 49
+“ .
+6´1 5
+#
+a “a `a ,ną3
+n tnu rns
+Ví dụ 19. Cho dãy số tự nhiên pa q được xác định bởi 3 2 . Hỏi có bao
+n a P(cid:78)
+n
+nhiêu dãy số như trên thỏa mãn điều kiện a `a `a `a `a `a “15.a.
+1 2 3 4 5 6
+atxulàsốnguyênlớnnhấtlớnnhấtkhôngvượtquá x,cònrxslàsốnguyênnhỏnhấtkhôngnhỏhơn x
+— LỜI GIẢI
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 11
+
+----- PAGE 12 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Thay lần lượt n“4,5,6 vào giả thiết ta được
+a “a `a ,a “a `a ,a “a `a .
+4 1 2 5 1 3 6 2 3
+Khi đó giả thiết trở thành
+3pa `a `a q“15ôa `a `a “5.
+1 2 3 1 2 3
+Theo bài toán chia kẹo Euler thì phương trình này có
+ˆ ˙
+5`3´1
+“21
+3´1
+nghiệm nguyên không âm, tức là có 21 dãy số thỏa mãn.
+Ví dụ 20. Có bao nhiêu bộ số tự nhiên x và y thỏa mãn
+i i
+px `x `x qpy ` y ` y ` y q“2017.
+1 2 3 1 2 3 4
+— LỜI GIẢI
+Do 2017 là số nguyên tố nên ta chỉ có 2 trường hợp
+w Nếu x `x `x “1, y ` y ` y ` y “2017 có
+1 2 3 1ˆ 2 3˙ˆ4 ˙ ˆ ˙ˆ ˙
+1`3´1 2017`4´1 3 2020
+“ .
+3´1 4´1 2 3
+w Nếu x `x `x “2017, y ` y ` y ` y “1 có
+1 2 3 ˆ 1 2 3˙ˆ4 ˙ ˆ ˙ˆ ˙
+2017`3´1 1`4´1 2019 4
+“ .
+3´1 4´1 2 3
+ˆ ˙ˆ ˙ ˆ ˙ˆ ˙
+3 2020 2019 4
+Vậy số nghiệm của phương trình là ` .
+2 3 2 3
+Qua các ví dụ vừa rồi phần nào đó ta đã hình dung ra cách để giải quyết một lớp các bài toán đếm
+nghiệm nguyên dương sử dụng phương pháp chia kẹo Euler, tiếp theo ta sẽ ứng dụng những thứ
+vừa tìm hiểu để mô hình hóa một số bài toán đếm hình học khác, cùng tìm hiểu ví dụ sau.
+Ví dụ 21. Cho một đa giác đều pHq gồm có 30 đỉnh. Hỏi có tất cả bao nhiêu tam giác có 3
+đỉnh là các đỉnh của pHq sao cho có một góc lớn hơn 133˝?
+— LỜI GIẢI
+Đầutiêntaquansáthìnhvẽmôtảđagiácđềunhưsau,ởđâytacoigóc BAC làgóctùlớnhơn133˝
+của tam giác thỏa mãn yêu cầu bài toán.
+c
+A
+B
+b
+a
+C
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 12
+
+----- PAGE 13 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ý tưởng câu này ta sẽ xử lý như sau, ta đặt số lượng các cạnh nằm trên các cung là a,b,c như hình
+vẽ trên, như vậy ta có ngay
+a`b`c “30.
+Tới đây ta sẽ đi tìm xem rằng với một cung tròn cần chứa ít nhất bao nhiêu cạnh để số đo góc cung
+này lớn hơn 133ˆ2“266˝, đây là điều kiện của a. Ta có sơ đồ sau.
+30 cạnh Ñ360˝
+30ˆ266
+«22,1 cạnh Ñ133˝
+360
+Như vậy ta có được điều kiện a ⩾ 23 và b,c ⩾ 1. Lúc này áp dụng kết quả của bài toán chia kẹo
+Euler là bài toán đã được giải quyết trọn vẹn.
+Bài tập tương tự 7. Cho một đa giác đều pHq có 48 đỉnh. Hỏi có tất cả bao nhiêu tam giác
+có 3 đỉnh là các đỉnh của đa giác pHq và là tam giác tù?
+Lưu ý. Bài này giống bài trên.
+Bài tập tương tự 8. Cho một đa giác đều pHq có 48 đỉnh. Hỏi có tất cả bao nhiêu tam giác
+có 3 đỉnh là đỉnh của đa giác pHq và là tam giác nhọn?
+Lưu ý. Ta cần lấy số các tam giác tạo thành từ 48 đỉnh, trừ số tam giác vuông và tam giác tù.
+Bài tập tương tự 9. Cho một đa giác đều pHq có 48 đỉnh. Hỏi có tất cả bao nhiêu tam giác
+có 3 đỉnh là các đỉnh của đa giác pHq và không có góc nào nhỏ hơn 45˝?
+Lưu ý. Vì các tam giác có số đo các góc không nhỏ hơn 45˝ sẽ bao gồm cả các tam giác đều, mà các tam
+giác đều bị lặp lại 3 lần do vị trí của 3 đỉnh là như như. Khi đó ta cần lấy kết quả trừ đi 2ˆ 48 số tam
+3
+giác bị lặp thì kết quả bài toán sẽ đúng.
+Bài tập tương tự 10. Cho một đa giác đều pHq có 48 đỉnh. Hỏi có tất cả bao nhiêu tam giác
+có 3 đỉnh là các đỉnh của đa giác pHq đồng thời có một góc lớn hơn 45˝ và một góc nhỏ hơn
+110˝?
+Ví dụ 22. Cho đa giác lồi A A ...A có n đỉnh với n ą 5. Từ các đỉnh của đa giác trên ta có
+1 2 n
+thể tạo ra được bao nhiêu tam giác mà cạnh của tam giác không là cạnh của đa giác?
+— LỜI GIẢI
+A
+4
+A
+3
+A
+2
+A
+1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 13
+
+----- PAGE 14 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Xét tam giác A A A theo một chiều quay đồng hồ là một tam giác thỏa yêu cầu bài. Gọi x là số
+1 i j 1
+đỉnh của đa giác nằm giữa hai đỉnh A và A (không trùng với hai đỉnh đó), x là số đỉnh của đa
+1 i 2
+giác nằm giữa hai đỉnh A và A (không trùng với hai đỉnh đó), x là số đỉnh của đa giác nằm giữa
+i j 3
+hai đỉnh A và A (không trùng với hai đỉnh đó). Khi đó ta có phương trình
+j i
+x `x `x “n´3,
+1 2 3
+với x là các số nguyên dương. Ta thấy ngay, mỗi bộ nghiệm cˆủa phư˙ơng trình tương ứng với một
+i
+n´4
+tam giác như thế thỏa yêu cầu đề. Nên số tam giác như thế là . Bây giờ ta thay đỉnh A bởi
+2 1
+lần lượt n´1 đỉnh khác của đa giác, ta sẽ có đáp án tương tự. Tuy nhiên, với cách làm này ta thấy
+một tam giác bị đếm lặp 3 lần. Vậy số tam giác thỏa yêu cầu bài là
+ˆ ˙
+n n´4
+¨ .
+3 2
+Ví dụ 23. Cho đa giác lồi A A ...A có n đỉnh với ną10. Từ các đỉnh của đa giác trên ta có
+1 2 n
+thể tạo ra được bao nhiêu tứ giác mà cạnh của tứ giác không là cạnh của đa giác?
+— LỜI GIẢI
+A
+4
+A
+3
+A
+2
+A
+1
+Xét tứ giác A A A A theo chiều quay kim đồng hồ, ta gọi x là số đỉnh nằm giữa hai đỉnh A và A
+1 i j k 1 1 i
+(không trùng với hai đỉnh đó); x là số đỉnh nằm giữa hai đỉnh A và A (không trùng với hai đỉnh
+2 i j
+đó); x là sốđỉnh nằm giữa haiđỉnh A và A (không trùngvới hai đỉnh đó); x là sốđỉnh nằm giữa
+3 j k 4
+hai đỉnh A và A (không trùng với hai đỉnh đó). Khi đó ta có phương trình
+k 1
+x `x `x `x “n´4
+1 2 3 4
+với x là các số nguyên dương. Ta thấy ngay, mỗi bộ nghiệm của phương trình là một tứ giác thỏa
+i
+yêu cầu đề. Ta tiếp tục thay thứ tự điểmˆA bởi˙các điểm tương ứng khác và mỗi tứ giác bị đếm lặp
+1
+n n´5
+4 lần, nên ta có số tứ giác cần tìm là ¨ .
+4 3
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 14
+
+----- PAGE 15 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 24. Cho đa giác đều A A ...A có 19 đỉnh. Từ các đỉnh của đa giác trên ta có thể tạo
+1 2 19
+ra được bao nhiêu tam giác nhọn mà cạnh của tam giác không trùng với cạnh đa giác?
+— LỜI GIẢI
+A
+4
+A
+3
+A
+2
+A
+1
+O
+Gọi O là tâm đường tròn ngoại tiếp đa giác. Khi đó ∠ A OA “ 360˝ . Xét tam giác A A A theo một
+i i`1 19 1 i j
+chiều quay đồng hồ là một tam giác thỏa yêu cầu bài. Gọi x là số đỉnh của đa giác nằm giữa hai
+1
+đỉnh A và A (không trùng với hai đỉnh đó), x là số đỉnh của đa giác nằm giữa hai đỉnh A và A
+1 i 2 i j
+(khôngtrùngvớihaiđỉnhđó), x làsốđỉnhcủađagiácnằmgiữahaiđỉnhA vàA (khôngtrùngvới
+3 j i
+hai đỉnh đó). Để góc ∠ A A A ă90˝ thì 1 ⩽ x ⩽ 9, tương tự cho các số khác. Khi đó ta có phương
+i 1 j 2
+trình
+x `x `x “16
+1 2 3
+với x làcácsốnguyêndươngthỏa1 ⩽ x ⩽ 9.Tathấyngay,mỗibộnghiệmcủaphươngtrìnhtương
+i i
+ứng với một tam giác như thế thỏa yêu cầu đề. Bây giờ, ta đi tìm số bộ nghiệm của phương trình
+trên theo cách loại trừ. Số bộ nghiệm nguyên dương của phương trình là
+ˆ ˙
+15
+.
+2
+Ta đếm số bộ nghiệm mà tồn tại x ą9. Ta có
+i
+x `x `x “16ôpx ´9q`x `x “16´9
+1 2 3 1 2 3
+ô y `x `x “5
+1 2ˆ ˙3
+4
+Số bộ nghiệm nguyên dương của phương trình này là . Vậy số bộ nghiệm mà tồn tại x ą9 là
+2 i
+ˆ ˙
+4
+3 .
+2
+ˆ ˙ ˆ ˙
+15 4
+Vậy số bộ nghiệm thỏa điều kiện ban đầu là ´3 . Hay số tam giác thỏa yêu cầu đề là
+2 2
+ˆˆ ˙ ˆ ˙˙
+16 15 4
+´3 .
+3 2 2
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 15
+
+----- PAGE 16 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 25. Robinson Crusoe lạc trên đảo hoang hơn 28 năm. Trong chừng ấy quãng thời gian,
+mỗi năm, ông ta tìm một cái cây nào đó rồi khắc lên thân nó một hình đa giác lồi thật lớn để
+kỷ niệm. Biết rằng tổng tất cả các góc của các đa giác lồi ấy vừa đúng 1687π, năm mà ông ấy
+được cứu thoát, đưa trở về thế giới loài người. Bạn hãy cho biết có bao nhiêu cách ông khắc
+các đa giác lên cây thỏa mãn yêu cầu trên, biết rằng trong 10 năm đầu tiên, mỗi năm, ông ấy
+khắc lên cây một đa giác có ít nhất 100 cạnh.
+— LỜI GIẢI
+Đa giác có n cạnh thì có tổng các góc trong là pn´2qπ. Do đó, ta cần đếm số nghiệm của
+$
+ÿ
+’ 28
+&
+px ´2qπ“1687π,x P(cid:78)
+i i
+’ %i“1
+x ⩾ 100,i “1,10,x ⩾ 3,i “11,28.
+i i
+Biến đổi phương trình trên để đưa về dạng chuẩn ta được
+ÿ ÿ
+28 28
+px ´2qπ“1687πô x “1743.
+i i
+i“1 i“1
+Đặt x “ y `100,i “1,10 và x “ y `3,i “11,28, ta có phương trình
+i i i i
+ÿ ÿ ÿ
+10 28 28
+y `10¨100` `18¨3“1743ô y “689.
+i 1
+i“1 i“11 ˆ i“1 ˙ ˆ ˙
+689`28´1 716
+Vậy số nghiệm nguyên không âm của phương trình là “ .
+28´1 27
+Ví dụ 26. Cho đa giác đều 20 đỉnh. Lấy ngẫu nhiên 3 đỉnh. Tính xác suất để 3 đỉnh đó tạo
+thành một tam giác vuông không cân.
+— LỜI GIẢI
+Gọi pOq là đường tròn ngoại tiếp đa giác đều 20 đỉnh và gọi số đo mỗi cung chắn bởi 1 cạnh của đa
+giác là 1 đơn vị, ta có 20 cung như vậy. Xét 1 tam giác vuông tại một đỉnh của đa giác, gọi m,n là
+số đo hai cung căng bởi hai cạnh bên của tam giác, ta có
+m`n“10,n,m ⩾ 1;m,nP(cid:90).
+Do đó số tam giác vuông tạo thành từ 1 đỉnh là
+ˆ ˙
+9
+“9
+1
+trong đó có 1 tam giác vuông cân khi m“ n“5 nên có 8 tam giác vuông không cân từ 1 đỉnh. Vậy
+có tất cả 20ˆ8“160 tam giác vuông không cân thỏa mãn.
+160 8
+Vậy xác suất cần tính là P “ “ .
+p20q 57
+3
+Ví dụ 27. Cho n ⩾ 4 giác đều nội tiếp đường tròn pOq. Có bao nhiêu hình thang (không là
+hình chữ nhật) mà 4 đỉnh là các đỉnh của đa giác đều đã cho?
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 16
+
+----- PAGE 17 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+— LỜI GIẢI
+Gọi mỗi cung chứa một cạnh của đa giác đều trên đường tròn là 1 đơn vị (có n cung như vậy). Xét
+mộthìnhthangthỏamãnmàđỉnhđầutiênchứađáynhỏlàA ,cácđỉnhtiếptheotheothứtựthuận
+i
+chiều kim đồng hồ. Gọi x, y,z lần lượt là số đo các cung chứa đáy nhỏ, hai cạnh bên và đáy lớn của
+hình thang, ta có
+x `2y `z “n,1 ⩽ x, y,z P(cid:90),x ăz.
+Ta có phương trình (*) tương đương với
+x `z “n´2y (**)
+với mỗi y thỏa mãn 1 ⩽ y ă n´2. Theo bài toán chia kẹo Euler, phương trình (**) có n´2y ´1
+2
+nghiệm nguyên dương. Bây giờ ta đếm các nghiệm nguyên dương của (**) mà x ăz.
+1 Nếu n lẻ thì (**) không có nghiệm x “z nên số nghiệm thỏa mãn x ăz là n´2y´1.
+2
+2 Nếu n chẵn thì (**) có đúng 1 nghiệm x “z nên số nghiệm thỏa mãn x ăz là n´2y´2.
+2
+Vậy số nghiệm của (*) thỏa mãn các ràng buộc đã cho là
+ÿn´3
+2 n´2y ´1 1
+“ pn´1qpn´3q với n lẻ ;
+2 8
+y“1
+ÿn´4
+2 n´2y ´2 1
+“ pn´2qpn´4q với n chẵn .
+2 8
+y“1
+Với mỗi bộ số x, y,z thỏa mãn (*) xuất phát từ 1 đỉnh đa giác là đỉnh đầu tiên của đáy nhỏ hình
+thang (ứng với cạnh x) theo chiều thuận kim đồng hồ ta có 1 hình thang thỏa mãn. Vậy tổng số
+hình thang thỏa mãn là $
+’1
+& npn´1qpn´3q với n lẻ ;
+8
+’ %1
+npn´2qpn´4q với n chẵn .
+8
+Ví dụ 28 (Saudi Arabian Mathematical Competitions 2017).
+Có bao nhiêu cách điền một hoặc nhiều dấu ` vào giữa 30 số 1 trong dãy bên dưới
+111111111111111111111111111111
+sao cho tổng thu được chia hết cho 30?
+— LỜI GIẢI
+Trước tiên ta chú ý rằng số ban đầu là một số chia hết cho 3 (vì có 30 chữ số 1), mặt khác ta lại có
+nhận xét rằng
+Spxq” x pmod 3q,
+trong đó Spxq là tổng các chữ số của x thì. Do đó, tổng sau quá trình ta điền dấu ` luôn chia hết
+cho 3. Giả sử ta điền k dấu ` thì sẽ chia các số 1 thành k`1 phần. Mỗi phần có tận cùng là 1 nên
+tổng của chúng có tận cùng là k`1 pmod 10q. Suy ra để tổng thu được chia hết cho 30 thì ta phải
+có k`1”0 pmod 10q hay k Pt9,19,29u. Gọi a ,a ,...,a là số chữ số của mỗi phần được chia
+1 2 k`1
+từ k dấu cộng, khi đó
+a `a `a `¨¨¨`a “30
+1 2 3 k`1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 17
+
+----- PAGE 18 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˆ ˙
+29
+Phương trình này có nghiệm. Do đó, số cách chèn các dấu cộng là
+k
+ˆ ˙ ˆ ˙ ˆ ˙
+29 29 29
+` ` .
+9 19 29
+Ví dụ 29 (AIME, 2011). Một học sinh có 5 quả cầu màu xanh giống nhau và một số quả
+cầu màu đỏ giống nhau. Bạn ấy muốn xếp các quả cầu thành một dãy và nếu đặt a là số quả
+cầu mà quả bên phải nó cùng màu với nó, b là số quả cầu mà quả cầu bên phải nó khác màu
+với nó thì a “ b. Gọi m là số lớn nhất các quả cầu màu đỏ có thể dùng sao cho tồn tại cách
+xếp m`5 quả cầu thành một dãy thỏa mãn điều kiện nêu trên.
+1 Xác định m.
+2 Ứng với m ở trên, tìm số cách xếp các quả cầu để có a“ b.
+— LỜI GIẢI
+1 Do có 5 quả cầu màu xanh và mỗi quả sẽ đặt cạnh không quá hai quả cầu đỏ (khác màu với
+nó) nên số cặp quả cầu khác màu nhau là b ⩽ 10. Suy ra a ⩽ 10. Kí hiệu quả cầu màu xanh,
+đỏ lần lượt là X, D thì có thể xây dựng dãy thỏa mãn đề bài từ dãy gốc như sau
+DXDXDXDXDXD.
+Sauđóthêmvàokhôngquá10quảcầumàuđỏnữa(vìmỗiquảsẽlàmtănggiátrị a lên1đơn
+vị). Từ đó suy ra m“10`6“16.
+2 Để đếm số cách xếp thỏa mãn, xét dãy 16 quả cầu đỏ. Ta cần xếp vào đây 5 quả cầu xanh sao
+không có hai quả nào cạnh nhau. Gọi x ,x ,...,x là số lượng quả cầu đỏ bị chia ra bởi các
+1 2 6
+quả cầu xanh thì
+#
+x `x `¨¨¨`x “16
+1 2 6
+x ,x ,...,x P(cid:90)`.
+ˆ 1˙2 ˆ ˙6
+16´1 15
+Khi đó, số cách xếp cần tìm là “ .
+6´1 5
+Ví dụ 30. Có bao nhiêu bộ số nguyên dương x thỏa mãn
+i
+x `x `x `x `x “2016
+1 2 3 4 5
+với x không chia hết cho 3,i “1,5.
+i
+— LỜI GIẢI
+Đây là một bài toán có chút yêu tố số học, theo giả thiết thì ta sẽ đặt
+x “3y `r
+i i i
+với i “1,5 và 1 ⩽ r ⩽ 2,i “1,5. Ta có
+i
+2016“ x `x `x `x `x “3py ` y ` y ` y ` y q`r `r `r `r `r .
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+Chú ý rằng 2016 là số chia hết cho 3 nên tổng r `r `r `r `r cũng chia hết cho 3, tuy nhiên
+1 2 3 4 5
+chú ý tới điều kiện của r thì ta sẽ có
+i
+5 ⩽ r `r `r `r `r ⩽ 10.
+1 2 3 4 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 18
+
+----- PAGE 19 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Như vậy r `r `r `r `r sẽ nhận 1 trong 2 giá trị là 6 hoặc 9. Đến đây quá đơn giản, ta sẽ xét
+1 2 3 4 5
+hai trường hợp
+ˆ ˙
+5
+w Nếu r `r `r `r `r “6 thì có 4 số 1 và 1 số 2, chọn 4 số trong 5 số, có cách chọn.
+1 2 3 4 5 4
+Bên cạnh đó ta có
+3py ` y ` y ` y ` y q“2010ô y ` y ` y ` y ` y “670.
+1 2 3 4 5 1 2 3 4 5
+Theo bài toán Euler thì số nghiệm của phương trình trên là
+ˆ ˙ ˆ ˙
+670`5´1 674
+“ .
+5´1 4
+ˆ ˙ˆ ˙
+5 674
+Theo quy tắc nhân thì trường hợp này có nghiệm.
+4 4
+ˆ ˙
+5
+w Nếu r `r `r `r `r “9 thì có 4 số 2 và 1 số 1 nên tương tự, ta cũng có cách chọn.
+1 2 3 4 5 4
+Bên cạnh đó ta có
+3py ` y ` y ` y ` y q“2007ô y ` y ` y ` y ` y “669.
+1 2 3 4 5 1 2 3 4 5
+Theo bài toán Euler thì số nghiệm của phương trình trên là
+ˆ ˙ ˆ ˙
+669`5´1 673
+“ .
+5´1 4
+ˆ ˙ˆ ˙
+5 673
+Theo quy tắc nhân thì trường hợp này có nghiệm.
+4 4
+ˆ ˙ˆ ˙ ˆ ˙ˆ ˙
+5 674 5 673
+Vậy số nghiệm của phương trình ban đầu là ` .
+4 4 4 4
+Ví dụ 31. Có 10 cái hộp khác nhau được đánh số từ 1 đến 10 và 10 viên bi giống nhau (mỗi
+hộp không nhất thiết có bi).
+l1ooooom2oooo3on 4 5 6 7
+l
+8
+oooooo
+9
+mooo
+1
+oo
+0
+on
+tổnglàsốchẵn tổnglàsốlẻ
+Hỏi có bao nhiêu cách sắp xếp 10 viên bi vào 10 hộp sao cho tổng số viên bi trong các hộp số
+1, 2, 3 là số chẵn, còn tổng các viên bi trong các hộp 8, 9, 10 là số lẻ?
+— LỜI GIẢI
+Lần đầu tiên làm bài này mình đã làm theo cách liệt kê như sau. Trước tiên ta thấy rằng tổng
+các viên bi ở hộp 1,2,3 và 8,9,10 là số lẻ, mà có tất cả là 10 (số chẵn) viên bi cho nên tổng các viên
+bi ở hộp 4,5,6,7 phải là một số lẻ. Ta xét 5 trường hợp có thể có cho tổng số bi của 3 hộp 1,2,3.
+Trường hợp 1. Tổng số bi của 3 hộp 1,2,3 là 8. Số cách chọn thỏa mãn là
+ˆ ˙ˆ ˙ˆ ˙
+3`8´1 3`1´1 4`1´1
+A “ “540.
+1 3´1 3´1 4´1
+Trường hợp 2. Tổng số bi của 3 hộp 1,2,3 là 6. Số cách chọn thỏa mãn là
+ˆ ˙ˆˆ ˙ˆ ˙ ˆ ˙ˆ ˙˙
+8 6 3 4 5
+A “ ` “2800.
+2 2 3 2 3 2
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 19
+
+----- PAGE 20 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Trường hợp 3. Tổng số bi của 3 hộp 1,2,3 là 4. Số cách chọn thỏa mãn là
+ˆ ˙ˆˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙˙
+6 8 3 6 5 4 7
+A “ ` ` “6780.
+3 2 3 2 3 2 3 2
+Trường hợp 4. Tổng số bi của 3 hộp 1,2,3 là 2. Số cách chọn thỏa mãn là
+ˆ ˙ˆˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙˙
+4 10 3 8 5 6 7 4 9
+A “ ` ` ` “8904.
+4 2 3 2 3 2 3 2 3 2
+Trường hợp 5. Tổng số bi của 3 hộp 1,2,3 là 0. Số cách chọn thỏa mãn là
+ˆ ˙ˆˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙ ˆ ˙ˆ ˙˙
+2 12 3 10 5 8 7 6 9 4 11
+A “ ` ` ` ` “3976.
+5 2 3 2 3 2 3 2 3 2 3 2
+ÿ
+5
+Vậy tổng số cách sắp xếp thỏa mãn là A“ A “23000.
+i
+i“1
+Ởbàinàytacòncóthểgiảiquyếtbằng1cáchkhácnhưsau.Đặt y làsốbicótrongcáchộp
+1,2,3,8,9,10thì y phảilàsốlẻ.Gọi x ,x ,x ,x lầnlượtlàsốbicótrongcáchộp4,5,6,7
+1 2 3 4
+thì ta có
+y `x `x `x `x “10ô x `x `x `x “10´ y.
+1 2 3 4 1 2 3 4
+Theo bài toán chia kẹo Euler thì số nghiệm của phương trình trên sẽ là
+ˆ ˙ ˆ ˙
+10´ y `4´1 13´ y
+“ .
+4´1 3
+Tuy nhiên ta cần đếm thêm xem có bao nhiêu cách chọn số bi cho các hộp 1,2,3,8,9,10.
+Ta gọi z ,i “1,2,3,4,5,6, lần lượt là số bi được đặt vào các hộp 1,2,3,8,9,10, như vậy
+i
+z `z `z `z `z `z “ y,z ⩾ 0.
+1 2 3 4 5 6 i
+Tới đây theo bài toán chia kẹo Euler thì số bộ số thỏa mãn là
+ˆ ˙ ˆ ˙
+y `6´1 y `5
+“ .
+6´1 5
+Chú ý rằng cần chia cho số trường hợp lặp ở các bộ 1,2,3 và 8,9,10. Số cách chọn là
+ˆ ˙ˆ ˙
+ÿ
+1 13´ y y `5
+ˆ “23000.
+2 3 5
+iPt1,3,5,7,9u
+Bài tập tương tự 11. Có 8 viên giống nhau và 12 hộp bi khác nhau. Hỏi có bao nhiêu cách
+sắp xếp 8 viên bi đó vào các hộp sao cho tổng số bi trong hộp 1,2,3 là chẵn?
+Ví dụ 32. Gọi S là tập hợp các số tự nhiên có 7 chữ số mà tổng các chữ số của nó bằng 59.
+Chọn ngẫu nhiên một số từ tập hợp S. Tính xác suất để số được chọn chia hết cho 11.
+— LỜI GIẢI
+Gọi Alà biến cố: Số được chọn có tổng các chữ số bằng 59 và chia hết cho 11.
+Số tự nhiên được chọn có dạng abcdef g, như vậy theo giả thiết ta có ngay
+a`b`c`d`e` f `g “59. (1)
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 20
+
+----- PAGE 21 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Do a,b,c,d,e,g, f ⩽ 9đồngthờisốnàychiahếtcho11nêntổngđandấuphảichiahếtcho11,hay
+|pa`c`e`gq´pb`d` fq|Pt0;11;22u. (2)
+Tới đây xét các trường hợp ở trên và ta giải hệ phương trình theo ẩn
+#
+u“a`c`e`g
+v “ b`d` f
+ta tìm được trường hợp duy nhất thỏa mãn là
+#
+35“a`c`e`g
+,
+24“ b`d` f
+vì b`d ` f ⩽ 27 nên không thể bằng 35 được. Tới đây chính là bài toán chia kẹo Euler rồi, điều
+kiện chặn dưới của các biến thì không phải vấn đề, tuy nhiên xử lý chặn trên (nhỏ hơn hoặc bằng
+9) thì sao? Ở đây biến a thì không thể bằng 0 được do nếu a “ 0 thì c`e` g “ 35, vô lý. Do vậy
+các biến của ta đều sẽ có điều kiện lớn hơn hoặc bằng 1. Quay lại vấn đề ban đầu, ta sẽ dùng một
+thủ thuật nhỏ, ta biến đổi như sau
+$
+’ ’l1o0om´ooan`l1o0om´oonc`l1o0om´oone`1lo0om´oogn“5
+’
+&
+x 1 ⩾1 x 2 ⩾1 x 3 ⩾1 x 4 ⩾1
+’
+’
+’
+1lo0om´oobn`1lo0om´oodn`1lo0om´oofn“6.
+%
+y 1 ⩾1 y 2 ⩾1 y 3 ⩾1
+Như vậy số bộ số thỏa mãn yêu cầu của bài toán là
+ˆ ˙ ˆ ˙
+4 5
+ˆ .
+3 2
+Cuối cùng ta đi tìm không gian mẫu, áp dụng kỹ thuật tương tự như trên, ta có
+l1o0om´ooan`l1o0om´oonc`l1o0om´oone`1lo0om´oogn`1lo0om´oobn`1lo0om´oodn`1lo0om´oofn“11
+ˆx 1 ⩾1˙ x 2 ⩾1 x 3 ⩾1 x 4 ⩾1 y 1 ⩾1 y 2 ⩾1 y 3 ⩾1
+10
+Như vậy npΩq“ . Suy ra xác suất cần tính là
+6
+npAq 4
+(cid:80)pAq“ “ .
+npΩq 21
+Ví dụ 33. Từ các số 0,1,2,3,4,5,6 lập được bao nhiêu số tự nhiên có 5 chữ số (các chữ số
+không nhất thiết khác nhau) và chia hết cho 9.
+— LỜI GIẢI
+Giả sử số cần tìm có dạng a a ...a , khi đó theo giả thiết ta có
+1 2 5
+a `a `a `a `a “t9;18;27u.
+1 2 3 4 5
+Ta xét các trường hợp sau.
+Trường hợp 1. Nếu a `a `a `a `a “9 với 1 ⩽ a ⩽ 6;0 ⩽ a ⩽ 6pi “2,...,5q, khi đó ta đổi
+1 2 3 4 5 1 i
+biến x “a `1,i “2,...,5 thì 1 ⩽ a ⩽ 6 và 1 ⩽ x ⩽ 7 đồng thời
+i i i i
+a `x `x `x `x “13. (1)
+1 2 3 4 5
+Tới đây ta sẽ sử dụng phần bù để giải quyết nó.
+ˆ ˙
+12
+w Số bộ số nguyên dương thỏa mãn (1) là “495.
+4
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 21
+
+----- PAGE 22 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+w Nếu a ⩾ 7 thì x ` x ` x ` x ⩽ 6, suy ra x ă 7, do đó trường hợp này sẽ
+1 2 3 4 5 i
+không lặp lại các kết quả khi x ⩾ 8. Lúc này bất phương trình có tất cả
+i ˆ ˙
+6
+“15
+4
+bộ nghiệm nguyên dương.
+w Nếu giá trị x nào đó lớn hơn hoặc bằng 8, giả sử x ⩾ 8 thì
+i 2
+a `x `x `x ⩽ 5,
+1 3 4 5
+suy ra a ,x ,x ,x ă6 nên trường hợp này cũng không lặp lại các kết quả với
+1 3 4 5
+trường hợp trên. Lúc này theo bài toán chia kẹo Euler, bất phương trình sẽ có
+ˆ ˙
+5
+“5
+4
+bộ nghiệm nguyên dương, mà ta lại có 4 giá trị x có nên sẽ có tất cả
+ˆ ˙ i
+5
+4ˆ “20
+4
+bộ nghiệm nguyên dương.
+Trường hợp 2. Các trường hợp còn lại ta xử lý tương tự trường hợp này.
+Như vậy tổng kết lại ta có tất cả
+ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙
+12 16 7 6 10 5 9
+` ` ´ ´ ´4 ´4 “1601
+4 4 4 4 4 4 4
+cách chọn.
+Ví dụ 34. Xâu nhị phân là một chuỗi kí tự chỉ bao gồm chữ số 0 và 1. Hỏi có bao nhiêu xâu
+nhị phân có độ dài 20 sao cho sau mỗi số 0, có ít nhất 3 chữ số 1?
+— LỜI GIẢI
+Đầu tiên để ý thấy rằng nếu có k số 0 trong xâu thì phải có thêm ít nhất 3k số 1. Mặt khác độ dài
+của xâu này là 20 nên k`3k ⩽ 20, hay k ⩽ 5. Giả sử có k số 0 thì đặt a ,a ,...,a lần lượt là số
+0 1 k
+các số 1 nằm trước số 0 thứ nhất, giữa số 0 thứ nhất và thứ hai,..., sau số 0 cuối cùng.
+.l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n.¨¨¨ 0 .l.oo.o.m..o.oo.n.
+a ⩾0 a ⩾3 a ⩾3 a ⩾3 a ⩾3
+0 1 2 3 k
+Ta phải có a `a `¨¨¨`a “20´k và a ,a ,...,a ⩾ 3. Đặt b “a ´3,i “1,k khi đó
+0 1 k 1 2 k i i
+a `b `¨¨¨`b “20´4k.
+0 1 k
+Theo bài toán chia kẹo Euler thì số nghiệm nguyên của phương trình này là
+ˆ ˙ ˆ ˙
+20´4k`k 20´3k
+“ .
+k k
+ˆ ˙
+ÿ
+5
+20´3k
+Do đó, số xâu nhị phân cần tìm là “344.
+k
+k“1
+Ví dụ 35. Có bao nhiêu cách chọn từ 2016 số nguyên dương đầu tiên ra 10 số a ,a ,...,a
+1 2 10
+sao cho |a ´a |ą1 với mọi i ‰ j?
+i j
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 22
+
+----- PAGE 23 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+— LỜI GIẢI
+Ta giả sử a ăa ă¨¨¨ăa , lúc này giả thiết tương đương
+1 2 10
+a ´a ⩾ 2,i “1,9.
+i`1 i
+Các số a này không liên tiếp nhau. Gọi x là số các số trước a , x là các số sau a , còn lại x là
+i 1 1 11 10 k
+số các số nằm giữa a và a .
+k´1 k
+1 ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ 2016
+1 2 3 10
+x x x ... x
+1 2 3 11
+Khi đó ta có
+x `x `¨¨¨`x “2006,x ⩾ 0,x ⩾ 0,x ⩾ 1,i “2,10.
+1 2 11 1 11 i
+Tới đây đổi biến y “ x ´1 ⩾ 0,i “2,10 ta được
+i i
+x ` y `¨¨¨` y `x “1997.
+1 2 10 11
+Lúc này áp dụng kết quả của bài toánˆchia kẹo Euler˙thì sˆố các c˙ách chọn thỏa mãn cũng chính là
+1997`11´1 2007
+số bộ nghiệm của phương trình và là “ .
+11´1 10
+Ví dụ 36. Trongvòngloạimột cuộcthichạy1000mcó9bạnthamgiatrong đócó2bạnlớp
+A , 3 bạn lớp A và 4 bạn đến từ các lớp khác nhau. Thầy giáo xếp ngẫu nhiên các bạn kể trên
+1 2
+thành một hàng ngang để xuất phát. Có bao nhiêu cách xếp sao cho không có học sinh nào
+cùng lớp đứng kề nhau.
+— LỜI GIẢI
+Gọi 3 bạn lớp A là M ,N ,P , hai bạn lớp A là M ,N . Số cách xếp ngẫu nhiên 9 bạn vào cùng một
+2 2 2 2 1 1 1
+hàng ngang là 9! cách. Ta có nhận xét sau.
+Số cách xếp sao cho không có bạn nào cùng lớp bằng số cách xếp sao cho ba bạn M ,N ,P
+2 2 2
+không đứng cạnh nhau trừ đi số cách xếp sao cho ba bạn M ,N ,P không đứng cạnh nhau
+2 2 2
+và hai bạn M ,N đứng cạnh nhau.
+1 1
+Khi đó ta sẽ chia bài toán đếm làm 2 bước như sau.
+1 Đếm số cách xếp sao cho ba bạn M ,N ,P không đứng cạnh nhau.
+2 2 2
+Đầu tiên ta xếp ba bạn M ,N ,P đứng cạnh nhau, có 3!“6 cách. Xét trường hợp ba bạn này
+2 2 2
+được xếp theo thứ tự M ,N ,P . Tiếp theo, ta xếp các bạn còn lại vào sao cho ba bạn M ,N ,P
+2 2 2 2 2 2
+không đứng cạnh nhau.
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ M ¨l¨oo¨o¨m¨¨o¨oo¨n¨ N ¨l¨oo¨o¨m¨¨o¨oo¨n¨ P ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+2 2 2
+x x x x
+1 2 3 4
+Gọi x ;x ;x ;x lần lượt là số bạn xếp phía bên trái M , giữa M ,N , giữa N ,P và bên phải
+1 2 3 4 2 2 2 2 2
+P . Khi đó ta có x ` x ` x ` x “ 6, trong đó x ⩾ 1,x ⩾ 1,x ⩾ 0,x ⩾ 0, ta chuyển bài
+2 1 2 3 4 2 3 1 4
+toán về đếm số nghiệm nguyên của phương trình
+x `x1 `x1 `x “4,
+1 2 3 4
+trong đó x ⩾ 0,x ⩾ 0,x1 “ x ´1 ⩾ 0,x1 “ x ´1 ⩾ 0. Theo bài toán chia kẹo Euler ta có
+1 4 2 2 ˆ 3 3 ˙
+4`4´1
+“35
+4´1
+sốbộnghiệmnguyên.Khiđótínhcảhoánvịthìsốcáchsắpxếpcácbạn M ,N ,P khôngđứng
+2 2 2
+cạnh nhau là 6ˆ35ˆ6!“151200 cách.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 23
+
+----- PAGE 24 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Đếmsốcáchxếpsaochobabạn M ,N ,P khôngđứngcạnhnhauvàhaibạn M ,N đứngcạnh
+2 2 2 1 1
+nhau.Đầutiêntaxếpbabạn M ,N ,P đứngcạnhnhau,có3!“6cách.Xéttrườnghợpbabạn
+2 2 2
+này được xếp theo thứ tự M ,N ,P . Vì M ,N đứng ở vị trí liên tiếp nên ta có thể coi M ,N là
+2 2 2 1 1 1 1
+một bạn P nào đó. Ta sẽ xếp P và 4 bạn khác lớp còn lại vào sao cho M ,N ,P không đứng
+1 1 2 2 2
+cạnh nhau.
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ M ¨l¨oo¨o¨m¨¨o¨oo¨n¨ N ¨l¨oo¨o¨m¨¨o¨oo¨n¨ P ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+2 2 2
+y y y y
+1 2 3 4
+Gọi y ; y ; y ; y lần lượt là số bạn xếp phía bên trái M , giữa M ,N , giữa N ,P và bên phải
+1 2 3 4 2 2 2 2 2
+P . Khi đó ta có y ` y ` y ` y “ 5, trong đó y ⩾ 1, y ⩾ 1, y ⩾ 0, y ⩾ 0, ta chuyển bài
+2 1 2 3 4 2 3 1 4
+toán về đếm số nghiệm nguyên của phương trình
+y ` y1 ` y1 ` y “3,
+1 2 3 4
+trong đó y ⩾ 0, y ⩾ 0, y1 “ x ´1 ⩾ 0, y1 “ y ´1 ⩾ 0. Theo bài toán chia kẹo Euler ta có
+1 4 2 2 ˆ 3 3 ˙
+3`4´1
+“20
+4´1
+sốbộnghiệmnguyên.Khiđótínhcảhoánvịthìsốcáchsắpxếpcácbạn M ,N ,P khôngđứng
+2 2 2
+cạnh nhau và hai bạn M ,N đứng cạnh nhau là 6ˆ20ˆ2!ˆ5!“28800 cách.
+1 1
+Vậy, xác xuất sao cho không có học sinh nào cùng lớp đứng kề nhau là
+151200´28800 85
+P “ “ .
+9! 252
+Nhận xét. Qua ví dụ này ta đã thấy ứng dụng của bài toán chia kẹo Euler cho các bài toán
+xếp người cùng loại và không đứng nhau, ta có thể áp dụng cách làm này vào bài toán sau.
+Ví dụ 37 (VMO 2012). Cho một nhóm gồm 5 cô gái, kí hiệu là G ,G ,G ,G ,G , và 12
+1 2 3 4 5
+chàngtrai.Có17chiếcghếđượcxếpthànhmộthàngngang.Ngườitaxếpnhómngườiđãcho
+ngồi vào các chiếc ghế đó sao cho các điều kiện sau được đồng thời thỏa mãn
+1 Mỗi người ngồi đúng 1 ghế.
+2 Các cô gái xếp theo đúng thứ tự 1,2,3,4,5.
+3 Giữa G ,G có ít nhất 3 chàng trai.
+1 2
+4 Giữa G ,G có ít nhất 1 chàng trai và nhiều nhất là 4 chàng trai.
+4 5
+Hỏi có tất cả bao nhiêu cách xếp như vậy? (Hai cách xếp được coi là khác nhau nếu tồn tại
+một chiếc ghế mà người ngồi ở chiếc ghế đó trong hai cách xếp là khác nhau).
+— LỜI GIẢI
+Đánh số thứ tự các ghế từ trái sang phải là 1,2,...,17. Gọi x là số chàng trai được xếp bên trái
+1
+G ,x là số chàng trai ở giữa G và G ,x là số chàng trai ở giữa G và G ,x là số chàng trai ở giữa
+1 2 1 2 3 2 3 4
+G và G ,x là số chàng trai ở giữa G và G ,x là số chàng trai được xếp ở bên phải G .
+3 4 5 4 5 6 5
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+1 2 3 4 5
+x x x x x x
+1 2 3 4 5 6
+Khi đó bộ số px ,x ,...,x q hoàn toàn xác định vị trí các cô gái và ta có
+1 2 6
+x `x `¨¨¨`x “12, 3 ⩽ x ,1 ⩽ x ⩽ 4.
+1 2 6 2 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 24
+
+----- PAGE 25 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Đầu tiên ta cần phải biến đổi cận dưới về đúng chuẩn của bài toán chia kẹo bằng cách đổi biến
+¨ ˛
+˚ ‹
+px ,x ´3,x ,x ,x ´1,x qÑ˝ lyoo,ooyooo,oyoom, yooo,ooyooo,oyon ‚.
+1 2 3 4 5 6 1 2 3 4 5 6
+y⩾0,y ⩽3
+i 5
+Tới đây xét các trường hợp của y và áp dụng kết quả của bài toán chia kẹo Euler ta được kết quả là
+ˆ 5 ˙ ˆ ˙ ˆ ˙ ˆ ˙
+12 11 10 9
+` ` ` “1161.
+4 4 4 4
+Vì còn có 12 chàng trai có thể hoán đổi vị trí ở 12 chiếc ghế dành cho họ nên số cách xếp thỏa mãn
+yêu cầu bài toán là 1161ˆ12!.
+Bài tập tương tự 12. Có bao nhiêu cách chọn ra bộ 4 số tự nhiên pa;b;c;dq có tổng bằng
+30, biết a ⩽ 7 ⩽ b ?
+Ví dụ 38 (Quảng Trị TST 2014). Có 17 cây cau trồng xung quanh một cái ao hình tròn.
+cây cây
+cây
+cây
+cây
+cây
+cây
+cây
+Cái ao cây
+cây
+cây
+cây
+cây
+cây
+cây
+cây cây
+Người ta muốn chặt đi 4 cây. Hỏi có mấy cách chặt sao cho không có 2 cây kề nhau bị chặt.
+— LỜI GIẢI
+Ta đánh số thứ tự các cây từ 1 đến 17 và chia ra hai trường hợp như sau.
+1 Giả sử cây số 1 bị chặt. Lúc này, các cây ở vị trí số 2 và 17 sẽ không bị chặt. Như vậy, ta sẽ chặt
+đi 3 cây ở vị trí số 3 đến số 16 sao cho không có 2 cây kề nhau bị chặt. Ta xem các cây từ số 3
+đếnsố16nằmtrênmộthàngdọctheothứtựtừtráiquaphải.Gọi x làsốcâybêntráicâythứ
+1
+nhất bị chặt; x là số cây giữa cây thứ nhất và thứ hai bị chặt; x là số cây giữa cây thứ hai và
+2 3
+thứ ba bị chặt; x là số cây bên phải cây thứ ba bị chặt. Lúc đó, ta có
+4
+x `x `x `x “11, x ⩾ 1;x ⩾ 1.
+1 2 3 4 2 3
+Đổi biến y “ x ´1; y “ x ´1, ta được phương trình
+2 2 3 3
+x ` y ` y `x “9
+ˆ ˙ 1 2 3 4
+12
+Tới đây đơn giản rồi, ta có cách.
+3
+2 Giả sử cây số 1 không bị chặt. Lúc này, các cây ở vị trí số 2 và 17 có thể được chặt. Bây giờ, ta
+xem các cây từ số 2 đến số 17 như trên một hàng dọc.
+x `x `x `x `x “12, x ⩾ 1;x ⩾ 1;x ⩾ 1.
+1 2 3 4 5 2 3 4
+Đổi biến y “ x ´1; y “ x ´1; y “ x ´1, ta được phương trình
+2 2 3 3 4 4
+x ` y ` y ` y `x “9.
+1 2 3 4 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 25
+
+----- PAGE 26 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˆ ˙
+13
+Tới đây đơn giản rồi, ta có cách.
+4
+ˆ ˙ ˆ ˙
+12 13
+Vậy, số cách chặt đi 4 cây cau thỏa mãn bài toán là ` “935 cách.
+3 4
+Nhận xét. Bài toán này giống với bài toán hiệp sĩ được phát biểu như sau: Vua Arthur muốn chọn ra
+k hiệp sĩ trong số n hiệp sĩ đang ngồi trên bàn tròn để đi ra trận, tìm số cách chọn sao cho không có 2
+hiệp sĩ nào ngồi cạnh nhau. Kết quả bài toán này sẽ là
+ˆ ˙ ˆ ˙ ˆ ˙
+n´k´1 n´k n n´k´1
+` “ .
+k´1 k k k´1
+Ví dụ 39. Cho tam giác ABC có 3 cạnh là BC “ a, CA“ b, AB “ c và điểm P gọi là good nếu
+tìm được 27 tia chung gốc P cắt tam giác thành 27 tam giác con có diện tích bằng nhau. Đếm
+số điểm good.
+— LỜI GIẢI
+Giả sử P là một điểm good. Gọi l, m, n lần lượt là số phần mà các cạnh BC, CA, AB bị chia bởi các
+tia xuất phát từ P. Lưu ý rằng mỗi tia phải đi qua mỗi đỉnh của tam giác ABC, nếu không sẽ tạo
+thành một số tứ giác. Gọi h là khoảng cách từ P đến BC. Khi đó, h là độ dài đường cao của tất cả
+1 1
+các tam giác có đáy nằm trên BC. Vì các tam giác tạo ra có diện tích bằng nhau nên tất cả các đáy
+này có độ dài bằng nhau. Nếu ta ký hiệu độ dài này là x, thì ta có lx “a Tương tự, lấy y và z là độ
+dài của các đáy của các tam giác trên cạnh CAvà AB tương ứng, ta có my “ b và nz “ c. Gọi h và
+2
+h lần lượt là khoảng cách từ P đến CAvà AB. Do các tam giác có diện tích bằng nhau nên
+3
+2∆
+h x “h y “h z “ ,
+1 2 3 27
+trong đó ∆ là diện tích của tam giác ABC. Từ đó suy ra
+2∆¨l 2∆¨m 2∆¨n
+h “ , h “ , h “ .
+1 27a 2 27b 3 27c
+Ta cũng có
+2∆ 2∆ 2∆
+“h , “h , “h ,
+a a b b c c
+trong đó h , h , h lần lượt là độ dài đường cao tương ứng của tam giác ABC hạ từ các đỉnh A, B, C.
+a b c
+Suy ra
+h l h m h n
+1 “ , 2 “ , 3 “ .
+h 27 h 27 h 27
+a b c
+Mặt khác, ta có
+h rPBCs h rPCAs h rPABs
+1 “ , 2 “ , 3 “ ,
+h ∆ h ∆ h ∆
+a b c
+trong đó rPBCs, rPCAs, rPABs là diện tích của các tam giác con tương ứng. Cộng ba phương trình
+trên, ta được
+h h h
+1 ` 2 ` 3 “1.
+h h h
+a b c
+Do đó
+l m n h h h
+` ` “ 1 ` 2 ` 3 “1.
+27 27 27 h h h
+a b c
+Như vậy l`m`n“27. Do đó, mỗi điểm good P xác định một phân hoạch pl,m,nq của 27 sao cho
+có l, m, n đoạn bằng nhau lần lượt trên BC, CA, AB. Bây giờ ta đi chứng minh tính duy nhất của
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 26
+
+----- PAGE 27 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+nó. Ta xét một phân hoạch bất kỳ pl,m,nq của 27. Chia BC, CA, AB thành l, m, n phần bằng nhau
+tương ứng. Ta đặt
+2l∆ 2m∆
+h “ , h “ .
+1 27a 2 27b
+Vẽ một đường thẳng song song với BC và cách BC một khoảng h ; vẽ một đường thẳng song song
+1
+với CA và cách CA một khoảng h . Hai đường thẳng này cắt nhau tại một điểm P nằm trong tam
+2
+giác ABC. Khi đó
+1 l∆ m∆
+rPBCs“ ah “ , rPCAs“ ,
+2 1 27 27
+n∆
+suy ra rPABs“ . Điều này cho ta thấy khoảng cách từ P đến AB bằng
+27
+2n∆
+h “ .
+3 27c
+∆
+Do đó, mỗi tam giác có đáy trên CAđều có diện tích bằng . Điều này chứng minh rằng tất cả các
+27
+tamgiácphânchiatamgiácABC đềucódiệntíchbằngnhau,nên P làmộtđiểmgood.Nhưvậy,lúc
+này theo bài toán chia kẹo Euler thì số điểm good bằng số nghiệm nguyên dương của phương trình
+l`m`n“27,
+ˆ ˙
+26
+tức là bằng “325.
+2
+Ví dụ 40. Tìm số nghiệm không âm của phương trình
+x `x `¨¨¨`x “m,
+1 2 n
+với x ⩽ x ⩽¨¨¨⩽ x .
+1 2 n
+— LỜI GIẢI
+Lời giải bài toán này dựa trên ý tưởng của các bạn Nguyễn Long Nhật, Nguyễn Hùng Quang và thầy
+Nguyễn Vũ Lương ´ THPT Chuyên KHTN Hà Nội.
+Ta sẽ chia nhỏ bài toán này ra như sau.
+Bài toán phụ 1. Tìm số nghiệm không âm của phương trình x ` y “m với x ⩽ y.
+“ ‰
+Giải. Vì x ⩽ y nên từ phương trình suy ra x ⩽ n , ta xét 2 trường hợp sau.
+2
+“ ‰ “ ‰
+1 Nếu n chia hết cho 2 thì x có thể n“h‰ận n `1 “ n `1 giá trị 0,1,2,..., n và y tính được
+2 2 2
+theo x (vì y “ n´ x), suy ra ta có n `1 bộ px, yq nguyên không âm thỏa mãn x ` y “ n và
+2
+x ⩽ y.
+“ ‰ “ ‰ “ ‰
+2 Nếu n không chia hết cho 2 suy ra x ⩽ n và x có thể nhận n `1 giá trị và có n `1 bộ
+2 2 2
+px, yq nguyên không âm thỏa mãn bài toán.
+Bài toán phụ 2. Tìm số nghiệm không âm của phương trình
+x ` y `z “n
+thỏa mãn điều kiện x ⩽ y ⩽ z.
+Giải. Trước tiên ta kí hiệu như sau
+1 Kí hiệu r là nghiệm số của phương trình thỏa mãn x ă y ăz. Tương tự có
+1xyz
+r ,r ,r ,r ,r .
+1xzy 1yzx 1yxz 1zxy 1zyx
+Do vai trò của x, y,z hoàn toàn bình đẳng trong phương trình x ` y `x “n. Ta có
+r “ r “ r “ r “ r “ r “ r .
+1xyz 1xzy 1yzx 1yxz 1zxy 1zyx 1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 27
+
+----- PAGE 28 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Kí hiệu r là nghiệm số của phương trình thỏa mãn x “ y ă z. Tương tự có r ,r . Ta
+2xyz 2yzx 3zxy
+có r “ r “ r “ r .
+2xyz 2yzx 1zxy 2
+3 Kí hiệu r là nghiệm số của phương trình thỏa mãn x ă y “ z. Tương tự có r ,r . Ta
+3xyz 3yzx 3zxy
+có r “ r “ r “ r .
+3xyz 3yzx 3zxy 3
+4 Kí hiệu r là nghiệm số của phương trình thỏa mãn x “ y “z.
+4
+Theo bài toán chia kẹo thì tất cả các bộ số nguyên không âm px, y,zq thỏa mãn x ` y `z “n bằng
+ˆ ˙
+n`2 pn`2qpn`1q
+“
+2 2
+mỗi bộ số sẽ thuộc một trong nhữg trường hợp trên nên ta có
+pn`2qpn`1q
+6r `3r `3r `r “ .
+1 2 3 4 2
+Tacó r `r `r chínhlàsốnghiệmcủaphươngtrình2u`v “n(vìtừphươngtrình x`y`z “nta
+2 3 4
+có thể cho 2 số hạng x “ y hoặc y “z hoặc z “ x và tất nhiên bao gồm cả trường hợp x “ y “z).
+Giả sử x “ y sẽ bao gồm x “ y ąz,x “ y ăz,x “ y “z. Phương trình
+2u`v “nôu`pu`vq“n.
+Đặt t ““ u‰`v ⩾ u thu được u` t““‰n với u ⩽ t. Theo như bài toán 1 số nghiệm của phương trình
+này là n `1 hay r `r `r “ n `1. Xét
+2 2 3 4 2
+1 Nếu n chia hết cho 3 thì r “1;
+4
+2 Nếu n chia hết cho 3 thì r “0;
+4
+“ ‰ “ ‰
+Như vậy ta được r “ n ´ n´1 . Vì x ⩽ y ⩽ z bao gồm x ă y ăz hoặc x “ y ăz hoặc x ă y “z
+4 3 3
+hoặc x “ y “z. Vậy số nghiệm thỏa mãn yêu cầu của bài toán là
+d “ r `r `r `r .
+1 2 3 4
+Từ những lập luận ở trên, ta tìm được công thức cho d là
+„ ȷ
+1 pn`2qpn`1q
+d “ ´3r ´3r ´r `r `r `r .
+6 2 2 3 4 2 3 4
+pn`2qpn`1q 1 5
+“ ` pr ´r q` r
+12 2 2 3 6 4
+pn`2qpn`1q 1 1
+“ ` pr `r `r q` r
+12 2 2 3 4 3 4
+´” ı ¯ ´” ı ” ı¯
+pn`2qpn`1q 1 n 1 n n
+“ ` `1 ` ´ .
+12 2 2 3 3 2
+Bài toán phụ 3. Tìm số nghiệm nguyên không âm của phương trình thỏa mãn
+x `x `x `x “n
+1 2 3 4
+với x ⩽ x ⩽ x ⩽ x .
+1 2 3 4
+Giải. Trước tiên ta nhắc tới một bổ đề sau.
+Bổ đề Burnside.Nếuφ làcáctậpthuộctập X.Vớimỗiϕ thuộcφ với X ϕ biểuthịcácphầntửtrong
+tập X được xác định bởi ϕ. Bổ đề Burnside xác định số quy đạo khác nhau của bài toán, khi đó
+ÿ
+1
+|X{φ|“ vpϕq.
+|φ|
+ϕPφ
+trong đó vpϕq là số phần tử của từng tập.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 28
+
+----- PAGE 29 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+1 Nếu ϕ “id : vpϕq là số nghiệm của phương trình
+x `x `x `x “n
+ˆ ˙ 1 2 3 4
+n`3
+thìvpϕq“ và có 1pϕq.
+3
+ˆ ˙
+4
+2 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 2x ` y `z “n và “6pϕq.
+␣ “ ‰( 2
+Ta có x P 0;1;...; n và phương trình có n´2x `1 với mỗi x. Suy ra
+2
+rÿns
+2
+vpϕq“ pn´2x `1q
+´x“”0 ı ¯ ” ı´” ı ¯
+n n n
+“ `1 pn`1q´ `1
+2 ˆ„ ȷ 2 ˙ 2
+´” ı ¯
+n n`1
+“ `1 `1 .
+2 2
+ˆ ˙
+1 4
+3 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 2x `2y “n và “3pϕq.
+2 2
+w Nếu n lẻ, phương trình vô nghiệm.
+n
+w Nếu n chẵn, phương trình có `1 nghiệm.
+2
+ˆ „ ȷ˙
+´” ı ¯ ” ı
+n n n´1
+Như vậy vpϕq“ `1 ´ .
+2 2 2
+4 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 3x ` y “n và 2ˆ4“8pϕq.
+” ı
+n
+vpϕq“ `1.
+3
+4!
+5 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 4x “n và “6pϕq. Suy ra
+„ ȷ „ ȷ 4
+n n´1
+vpϕq“ ´ .
+4 4
+Tổng số các ϕ là 1`6`3`8`6“24. Theo bổ đề Burnside số nghiệm của phương trình là
+ˆˆ ˙ ´” ı ¯ˆ„ ȷ ˙ ´” ı ¯ˆ” ı „ ȷ˙ ´” ı ¯ ˆ„ ȷ „ ȷ˙˙
+1 n`3 n n`1 n n n´1 n n n´1
+`6 `1 `1 `3 `1 ´ `8 `1 `6 ´ .
+24 3 2 2 2 2 2 3 4 4
+Quay lại bài toán. Ta có thể áp dụng bổ đề Burnside hoặc dùng phương thức đệ quy như sau. Giả
+sử M là tập hợp các kết quả của phương trình và Ppm,nq số tập thỏa mãn của các yếu tố của
+m,n
+phương trình. Chúng ta dễ dàng thấy rằng Pp0,nq “ 1 với mọi k,Ppm,nq “ Ppm,mq cho tất cả các
+k ⩾ n. Do đó, ta giả định thêm rằng m cố định, chúng ta có 1 ă n ⩽ m. Ta chia nhỏ các tập M
+m,n
+vào thành các tập Tpi “0,1,...,n´1q, nên T chứa chính xác những kết quả của bài toán trong đó
+i i
+N thoả mãn điều kiện
+0
+0“ x “ x “¨¨¨“ x ă x ă x ă¨¨¨ă x .
+` 1 2 i i`˘1 i`2 n
+Tacópx ,x ,...,x qÑ x ´1,x ´1,.`..,x ´1˘,đ`ịnhnghĩa˘mộtsongánhtừT đếnM
+1 2 n i`1 i`2 n i m´n`i,n´i
+từ 0 ⩽ x ´1 ⩽ x ´1 ⩽ ¨¨¨ ⩽ x ´1, x ´1 ` x ´1 `¨¨¨`px ´1q “ m´n`i, và
+i`1 i`2 n i`1 i`2 n
+ánh xạ ` ˘ ` ˘
+y , y ,..., y Ñ 0,0,...,0, y `1, y `1,..., y `1
+ˇ 1 2 ˇ n´i 1 2 n´i
+ˇ ˇ
+Có nghĩa là |T|“ M , và do đó có thể viết
+i m´n`i,n´i
+Ppm,nq“ Ppm´1,1q`Ppm´2,2q`¨¨¨`Ppm´n,nq,1ăn ⩽ m
+và với phương trình cụ thể ta có thể tính được kết quả cụ thể.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 29
+
+----- PAGE 30 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Nhậnxét.ỞtrêntacũngvừatìmhiểumộtsốbàitoánchiakẹoEulercósửdụngphầnbù,tuynhiên
+chưa phải là các bài toán cần chia trường hợp phức tạp, tiếp theo ta sẽ tìm hiểu một số bài toán kết
+hợp giữa nguyên lý bù trừ và bài toán chia kẹo Euler. Trước tiên ta nhắc lại một chút về nguyên lý
+bù trừ tổng quát.
+Định lý 1. Cho tập Avà n tập con A ,A ,¨¨¨ ,A . Ta có
+1 2 n
+ÿ
+n
+|A YA Y¨¨¨YA |“ p´1qk´1Apn,kq
+1 2 n
+ÿ ˇ ˇ k“1
+ˇ ˇ
+Trong đó Apn,kq“ A XA X¨¨¨XA .
+i i i
+1 2 k
+1⩽i ă¨¨¨ăi ⩽n
+1 k
+Định lý hữu dụng tiếp theo ta có thể dùng nó.
+Định lý 2. Giả sử A ,A ,...,A là các tập con của một tập hữu hạn X, kí hiệu A là phần bù của A
+1 2 m i i
+trong X, (i “1,2,...,m) thì
+ˇ ˇ ˇ ˇ
+ˇ ˇ ˇ ˇ
+A XA X¨¨¨XA “ A YA Y¨¨¨YA
+1 2 m 1 2 m
+ÿ m ÿ ˇ ˇ
+ˇ ˇ
+“|X|` p´1qk A XA X¨¨¨XA
+i i i
+1 2 k
+k“1 1⩽i 1 ăi 2 ¨¨¨ăi k ⩽m
+ÿ
+m
+“|X|` p´1qiN.
+i
+i“1
+Ví dụ 41. Tìm số nghiệm nguyên không âm của phương trình
+x `x `x `x “18 (*)
+1 2 3 4
+thỏa điều kiện x ⩽ 7,@i “1,...,4.
+i
+— LỜI GIẢI
+Gọi (cid:85) là tập hợp các nghiệm nguyên không âm của phương trình (*). Ta có
+ˆ ˙
+4`18´1
+N “|(cid:85)|“ “1330
+18
+Gọi A là tập hợp các nghi`ệm nguyê˘n không âm của phương trình p˚q thỏa tính chất x ⩾ 8. Khi đó
+i i
+kết quả của bài toán là N A A A A . Bằng việc giải những bài toán tìm số nghiệm nguyên ta được
+1 2 3 4
+ˆ ˙
+13
+w |A |“
+i 10
+ˆ ˙
+5
+w |A A |“
+i j 2
+w |A A A |“0
+i j k
+w |A A A A |“0
+1 2 3 4
+Vì vai trò của các A p1 ⩽ i ⩽ 4q là như nhau nên ta có:
+i
+ˆ ˙
+ÿ
+13
+w S “ |A |“4 “1144;
+1 i 10
+i
+ˆ ˙ˆ ˙
+ÿˇ ˇ
+ˇ ˇ 4 5
+w S “ A A “ “60;
+2 i j 2 2
+i‰j
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 30
+
+----- PAGE 31 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+w S “0,S “0.
+3 4
+Theo nguyên lý bù trừ ta có
+ˇ ˇ
+ˇ ˇ
+A A A A “N ´S `S ´S `S
+1 2 3 4 1 2 3 4
+“1330´1144`60´0`0“246.
+Bài tập tương tự 13. Tìmsốnghiệmnguyênkhôngâmcủaphươngtrình x`y`z`t “20
+thỏa mãn x ⩽ 5, y ⩽ 6,z ⩽ 7,t ⩽ 8.
+Ví dụ 42. Một cửa hàng bán thức ăn sáng có bán 4 loại thức ăn gồm cợm, mì, bún và phở.
+Một đoàn khách 40 ngày vào cửa hàng, mỗi người gọi một loại thức ăn, biết mỗi loại thức ăn
+có ít nhất một người gọi và không có loại thức ăn nào có quá 15 người gọi. Hỏi có tất cả bao
+nhiêu cách gọi thức ăn.
+— LỜI GIẢI
+Gọi x ,x ,x ,x lần lượt là số người gọi cơm, mì, bún và phở khi đó, bài toán trở thành tìm số
+1 2 3 4
+nghiệm nguyên của phương trình
+x `x `x `x “40. (1)
+1 2 3 4
+với 1 ⩽ x ⩽ 15,i “ 1,2,3,4. Đầu tiên ta cần đưa về điều kiện không âm bằng cách đổi biến
+i
+y “ x ´1. Khi đó, phương trình (1) trở thành
+i i
+y ` y ` y ` y “36. (2)
+1 2 3 4
+Ở đây 0 ⩽ y ⩽ 14. Như vậy ta sẽ đếm bài này theo nguyên lý bù trừ như sau.
+i
+1 Đầu tiên ta đếm các bộ số nguyên thỏa mãn p2q;
+2 Sau đó ta đếm các bộ số nguyên thỏa mãn p2q thỏa mãn điều kiện y ⩾ 15.
+i
+ˆ ˙
+39
+Như vậy, ta thấy rằng theo bài toán chia kẹo Euler thì phương trình (2) có bộ nghiệm, tiếp
+36
+theo ta đặt A là tập hợp các nghiệm nguyên của phương trình với y ⩾ 15.
+i i
+1 Tính |A |, ta đặt a “ y ´15 ⩾ 0, ta được phương trình (2) trở thành
+i 1 1
+a ` y ` y ` y “21,
+1 2 3 4
+với a ⩾ 0, y ⩾ 0, y ⩾ 0, y ⩾ 0. Áp dụng bài toán chia kẹo Euler, ta được
+1 2 3 4 ˆ ˙
+24
+|A |“ .
+1 21
+ˆ ˙
+24
+Tương tự, ta có |A |“|A |“|A |“ .
+2 3 4 21
+2 Tính |A XA |, ta đặt a “ y ´15 ⩾ 0,a “ y ´15 ⩾ 0, ta được phương trình (2) trở thành
+j k 1 1 2 2
+a `a ` y ` y “6,
+1 2 3 4
+với a ⩾ 0,a ⩾ 0, y ⩾ 0, y ⩾ 0. Khi đó, số nghiệm của phương trình trên là
+1 2 3 4 ˆ ˙
+9
+|A XA |“ .
+1 2 6
+ˆ ˙
+9
+Tương tự, ta có |A XA |“|A XA |“|A XA |“|A XA |“|A XA |“ .
+1 3 1 4 2 3 2 4 3 4 6
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 31
+
+----- PAGE 32 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+3 Tính |A XA XA |, ta thấy không thể có trường hợp nào 3 biến cùng lớn hơn hoặc bằng 15
+i j k
+được, vì tổng của các giá trị bằng 36. Nên |A XA XA |“0 và |A XA XA XA |“0.
+i j k i j k n
+ˆ ˙ ˆ ˙
+24 9
+Do đó |A YA YA YA |“4 ´6 . Vậy số cách gọi thức ăn thỏa mãn bài toán là
+1 2 3 4 21 9
+ˆ ˙ ˆ ˆ ˙ ˆ ˙˙
+39 24 9
+|X|´|A YA YA YA |“ ´ 4 ´6 “1547.
+1 2 3 4 36 21 9
+Bài toán được giải quyết.
+Ví dụ 43. Có bao nhiêu số nguyên dương nhỏ hơn 106 mà tổng các chữ số bằng 23?
+— LỜI GIẢI
+Số cần tìm có dạng a a a a a a với
+1 2 3 4 5 6
+a `a `a `a `a `a “23, (1)
+1 2 3 4 5 6
+và 0 ⩽ a ⩽ 9,i “1,6. Tới đây ta sẽ đếm bài toán theo 2 bước như sau.
+i
+1 Đầu tiên ta đếm các bộ số nguyên dương của phương trình p1q trước.
+2 Sau đó ta sẽ đếm các bộ số nguyên dương của phương trình p1q mà có một số lớn hơn hoặc
+bằng 10.
+3 Cuối cùng ta lấy 2 kết quả vừa tính được trừ đi là ra kết quả ta cần.
+Để làm được điều này, ta sẽ sử dụng nguyên lý bù trừ, trước tiên ta đặt |A |,i “ 1,6 là tập hợp các
+i
+nghiệm không âm của (1) nhưng a ⩾ 10. Đầu tiên ta thấy số nghiệm của (1) là
+i ˆ ˙ ˆ ˙
+23`6´1 28
+“ .
+6´1 5
+Bây giờ ta sẽ xét các trường hợp sau.
+w Tính |A |, ta đổi biến a1 “a ´10 ⩾ 0, lúc này ta có
+i 1 1
+a1 `a `a `a `a `a “13.
+1 2 3 4 5 6
+Theo bài toán chia kẹo thì số bộ nghiệm nguyên không âm của phương trình này sẽ là
+ˆ ˙ ˆ ˙
+13`6´1 18
+“ .
+6´1 5
+Tương tự với các trường hợp khác |A |, khi đó ta có tổng tất cả
+i ˆ ˙
+18
+6ˆ “51408.
+5
+w Tính |A XA |. Ta đổi biến a1 “a ´10 ⩾ 0, a1 “a ´10 ⩾ 0 lúc này ta có
+i j 1 1 2 2
+a1 `a1 `a `a `a `a “3.
+1 2 3 4 5 6
+Theo bài toán chia kẹo thì số bộ nghiệm nguyên không âm của phương trình này sẽ là
+ˆ ˙ ˆ ˙
+3`6´1 8
+“ .
+6´1 5
+Tương tự với các trường hợp |A XA | mà 1 ⩽ i ă j ⩽ 6 khác. Vì ta đang lấy ra 2 tập hợp từ 6
+i j
+tập hợp để xét, nên tổng số cách trong trường hợp này là
+ˆ ˙ ˆ ˙
+6 8
+ˆ “840.
+2 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 32
+
+----- PAGE 33 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˇ ˇ
+ˇ ˇ
+w Tính A XA XA với 1 ⩽ i ă j ă k ⩽ 6. Vì tổng cáˇc chữ số là 2ˇ3 nên không thể tồn tại 3 số
+i j k
+ˇ ˇ
+cùng lớn hơn 10 trong trường hợp này được. Do đó A XA XA “0.
+i j k
+Do đó theo nguyên lý bù trừ ta có
+ˇ ˇ
+ˇď ˇ ÿ ÿ
+ˇ 6 ˇ 6
+ˇ A ˇ“ |A |´ |A XA |“50568.
+ˇ iˇ i i j
+i“1 i“1 1⩽iăj⩽6
+Vậy số lượng các số cần tìm là ˆ ˙
+28
+´50568“47712.
+5
+Bài toán được giải quyết.
+Bài tập tương tự 14. Vé xe buýt có dạng abcdef với a,b,c,d,e, f P t0,1,2,...,9u. Một vé
+như trên thỏa mãn điều kiện a`b`c “d`e` f được gọi là “vé hạnh phúc”.
+1 Chứng minh rằng số nghiệm của phương trình a`b`c “d`e` f bằng số nghiệm của
+phương trình a`b`c`d`e` f “27 với 0 ⩽ a,b,c,d,e, f ⩽ 9.
+2 Tính số vé hạnh phúc.
+Ví dụ 44. Tìmsốcáchchọnra4sốnguyênphânbiệttừ24sốnguyêndươngđầutiênsaocho
+trong lựa chọn đó, không có hai số cùng số dư khi chia cho 3 liên tiếp.
+— LỜI GIẢI
+Gọi x ,x ,...,x lần lượt là số các số nằm trước số thứ nhất được chọn, giữa số thứ nhất và số thứ
+1 2 5
+hai, ..., sau số thứ tư. Ta có #
+x `x `¨¨¨`x “20
+1 2 5
+x ⩾ 0,x ⩾ 0,x ‰2,i “2,4.
+1 5 i
+Tới đây ta sẽ dùng nguyên lý bù trừ để xử lý điều kiện. Trước tiên theo bài toán chia kẹo Euler thì
+số bộ số nguyên không âm thỏa mãn điều kiện trên (không có ràng buộc) là
+ˆ ˙
+24
+.
+4
+Gọi A, B, C lần lượt là các cách chọn mà x “2, x “2, x “2 thì ta cần tính
+ˆ 2 ˙ 3 4
+24
+´|AYBYC|
+4
+ˆ ˙ ˆ ˙
+20´2`4´1 21
+1 Tính |A|“ “ và tương tự với B, C.
+4´1 3
+ˆ ˙ ˆ ˙
+20´4`3´1 18
+2 Tính |AXB|“ “ , tương tự với BXC, C XA.
+3´1 2
+ˆ ˙ ˆ ˙
+20´6`2´1 15
+3 Tính |AXBXC|“ “ .
+2´1 1
+ˆ ˙ „ ˆ ˙ ˆ ˙ ˆ ˙ȷ
+24 21 18 15
+Do đó số cách chọn cần tìm là ´ 3 ´3 ` “7080.
+4 3 2 1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 33
+
+----- PAGE 34 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 45 (VMO 2022). Gieo 4 con súc sắc cân đối, đồng chất. Kí hiệu x p1 ⩽ x ⩽ 6q là số
+i i
+chấm trên mặt xuất hiện của con súc sắc thứ ipi “1,2,3,4q.
+a) Tính số các bộ px ,x ,x ,x q có thể có.
+1 2 3 4
+b) Tính xác suất để có một số trong x ,x ,x ,x bằng tổng của ba số còn lại.
+1 2 3 4
+c) Tính xác suất để có thể chia x ,x ,x ,x thành hai nhóm có tổng bằng nhau.
+1 2 3 4
+— LỜI GIẢI
+Đây là lời giải chính thức từ Bộ Giáo Dục.
+a) Số bộ px ,x ,x ,x q có thể có là 64.
+1 2 3 4
+b) Kí hiệu A là tập hďợp các bộ px ,x ,x ,x q sao cho x bằng tổng các số còn lại. Ta cần tính xác
+i 1 2 3 4 i
+suất biến cố A“ A . Ta thấy |A | có số phần tử bằng nhau và là số nghiệm P t1,2,...,6u của
+i i
+phương trình x “ x `x `x . Biến đổi ta được
+1 2 3 4
+7“ x1 `x `x `x , x1 “7´x .
+1 2 3 4 1 1
+Số nghiệm nguyên dương của phương trình này theo công thức chia kẹo Euler là
+ˆ ˙
+6
+“20.
+3
+ÿ
+80
+Dễ thấy A XA “∅, cho nên |A|“ |A |“80. Xác suất cần tính là .
+i j i 1296
+c) Kíhiệu B ,i “2,3,4làtậphợppx ,x ,x ,x qsaocho x `x bằngtổngcủahaisốcònlại,chúng
+i 1 2 3 4 1 i
+có số phần tử bằng nhau. Ta có |B | là số nghiệm thuộc t1,2,...,6u của phương trình nghiệm
+2
+nguyên x `x “ x `x , cũng là phương trình
+1 2 3 4
+14“ x1 `x1 `x `x , x1 “7´x ,x1 “7´x .
+1 2 3 ˆ4 ˙1 1 2 2
+13
+Số nghiệm của nó theo công thức Euler là . Dễ thấy phương trình trên có tối đa một lần
+3
+nhậngiátrịlớnhơn6.Tacầnloạitrừnghiệmnày.Chẳnghạn,khi x1 ⩾ 7tađưavềphươngtrình
+1
+8“ x2`x1 `x `x , x2 “ x1 ´6.
+1 ˆ2 ˙ 3 4 1 1
+7
+Số các nghiệm theo công thức Euler là “35. Vì có 4 trường hợp xảy ra với 4 biến, cho nên
+3
+số nghiệm có ít nhất một ẩn nhận giá trị lớn hơn 6 là 4ˆ35“140. Do đó
+|B |“286´140“146.
+2
+Dễ thấy B
+i
+XB
+j
+có 36 phần tử,ďvì khi đó x
+1
+“ x
+k
+,x
+i
+“ x
+j
+. Tương tự |B
+2
+XB
+3
+XB
+4
+|“6 (khi đó cả
+4 số phải bằng nhau). Đặt B “ B thì
+ˇď i ˇ
+ˇ ˇ
+|B|“ˇ B ˇ“3ˆ146´3ˆ36`6“336.
+i
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 34
+
+----- PAGE 35 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+3 Bài tập tự luyện
+i Bài tập 3.1
+Tìm số bộ số nguyên không âm px, y,z,tq thỏa mãn 1 ⩽ x ⩽ y ⩽ z ⩽ t ⩽ 1000.
+i Bài tập 3.2
+Tiền giấy của Ngân hàng quốc gia Việt Nam lưu hành phổ biến trên thị trường có 10
+loại: 200,500,1000,2000,5000,10.000,20.000,50.000,100.000,500.000. Hãy xác định số
+bộ khác nhau gồm 15 tờ giấy bạc của Ngân hàng quốc gia Việt Nam.
+i Bài tập 3.3
+Tìm số nghiệm nguyên của phương trình a`b`c`d “17 với a ⩾ 1,b ⩾ 2,c ⩾ 3,d ⩾ 4.
+i Bài tập 3.4
+Tìm số nghiệm nguyên của phương trình x `x `x `x “17 với 3 ⩽ x ⩽ 5pi “1,4q.
+1 2 3 4 i
+i Bài tập 3.5
+Tìm số nghiệm nguyên của phương trình x `x `x `x “30 với 5 ⩽ x ⩽ 10,i “1,4.
+1 2 3 4 i
+i Bài tập 3.6
+Tìm số nghiệm nguyên không âm của bất phương trình x `x `x `x ⩽ 11.
+1 2 3 4
+i Bài tập 3.7
+Tìm số nghiệm nguyên dương của bất phương trình x `x `x `x ⩽ 11.
+1 2 3 4
+i Bài tập 3.8
+"
+x `x `x `x ⩽ 11
+Tìm số nghiệm nguyên không âm của hệ 1 2 3 4 .
+⩽
+x 3
+1
+i Bài tập 3.9
+Cho phương trình x ` x ` x ` x “ 20,x P (cid:78), thỏa mãn điều kiện x ,x ,x ,x chẵn. Hỏi
+1 2 3 4 i 1 2 3 4
+phương trình có tất cả bao nhiêu nghiệm nguyên.
+i Bài tập 3.10
+Có n vật giống hệt nhau và m hộp phân biệt. pn ⩾ m,n,mPN˚q
+1 Hỏi có bao nhiêu các khác nhau phân phối hết n vật vào m hộp.
+2 Hỏi có bao nhiêu các khác nhau phân phối hết n vật vào m hộp sau cho mỗi hộp có ít
+nhất 1 vật.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 35
+
+----- PAGE 36 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.11
+Một câu lạc bộ thể thao có 4 môn là bơi lội, cầu lông, bóng bàn và cờ vua. Một lớp chuyên
+toán có 30 học sinh đến câu lạc bộ mỗi em đăng kí 1 môn trong 4 môn đó và tất cả các học
+sinh đều tham gia. Hỏi có tất cả bao nhiêu cách đăng kí khác nhau.
+i Bài tập 3.12
+Một lớp học gồm 35 học sinh được xếp thành một hàng ngang. Giáo viên phụ trách lớp cần
+chọn 5 đội để tham gia một trò chở. Hỏi có bao nhiêu cách chọn biết rằng mỗi đội gồm 3 học
+sinh đứng liền kề nhau trong hàng ngang ban đầu?
+i Bài tập 3.13
+Hai đội tuyển Avà B tham gia giải bóng bàn. Mỗi đội có 7 người giao đấu với nhau theo một
+thứ tự nhất định. Đầu tiên, người thứ nhất của đội A, đấu với người thứ nhất của đội B và
+người thua sẽ bị loại. Sau đó, người chiến thắng chơi nữa với người thứ hai của đội kia, các
+bước tiếp theo người chơi tương tự. Cuộc thi đấu kết thúc cho đến khi tất cả người chơi của 1
+đội đều bị loại và đội còn lại là chiến thắng. Hỏi số cách diễn ra cuộc thi đấu.
+i Bài tập 3.14
+Một số tự nhiên Ađược gọi là số Lucky nếu tổng các chữ số của nó là 7. Sắp thứ tự tất cả các
+số Lucky theo thứ tự tăng dần và ta nhận được dãy số a ;a ;... biết a “2005. Tính số hạng
+1 2 n
+a .
+5n
+i Bài tập 3.15
+ChohaitậphợpA“ta ,a ,...,a uvà B “tb ,b ,...,b u.Nếucómộtánhxạ f :AÑB sao
+1 2 100 1 2 50
+cho mỗi phần tử trong B có duy nhất một tạo ảnh, đồng thời fpa q ⩽ fpa q ⩽ ... ⩽ f pa q.
+1 2 100
+Số ánh xạ f bằng bao nhiêu?
+i Bài tập 3.16
+Có15ngườixếpthànhmộthàngdọc(vịtrícủamỗingıuờitronghànglàcốđịnh).Chọnngẫu
+nhiên 4 người trong hàng. Tính xác suất để 4 người được chọn không có hai người nào đứng
+cạnh nhau.
+i Bài tập 3.17
+Một lớp học có 21 học sinh nam và 22 học sinh nữ.
+1 Hỏi có tất cả bao nhiêu cách xếp 43 học sinh thành một hàng dọc sao cho không có hai
+học sinh nam đứng cạnh nhau.
+2 Hỏi có tất cả bao nhiêu cách xếp 43 học sinh đó thành một hàng dọc sao cho xuất hiện
+đúng một cặp nam-nữ thỏa mãn nam đứng trước nữ?
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 36
+
+----- PAGE 37 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.18
+Xét 2021 điểm A ,A ,...,A phân biệt thay đổi trên đường tròn. Đặt S là số tam giác nhọn
+1 2 2021
+có 3 đỉnh là 3 trong số các điểm đã cho.
+1 Khi 2021 điểm trên tạo thành đa giác đều, tính S.
+2 Với mọi cách cho các điểm, tìm giá trị lớn nhất của S.
+i Bài tập 3.19
+Cho số nguyên n ⩾ 2. Xét các số hữu tỉ dương x ,x ,...,x thỏa mãn
+1 2 n
+1 1 1
+x ` ,x ` ,...,x `
+1 p 2 p n p
+1 2 n
+x x ¨¨¨x
+là các số nguyên dương (trong đó p “ 1 2 n với mọi i).
+i x
+i
+1 Chứng minh rằng x x ¨¨¨x “1.
+1 2 n
+2 Có bao nhiêu bộ số px ,x ,...,x q thỏa mãn bài toán.
+1 2 n
+i Bài tập 3.20
+Bạn Hào rất thích chơi với ánh sáng, cậu có một dãy gồm 10 bóng đèn xếp theo thứ tự từ 1
+đến10.Mỗibóngđèncómộtcôngtắcmàkhichạmvàonó,bóngđènđangtắtsẽchuyểnsang
+trạng thái sáng và ngược lại. Ban đầu tất cả các bóng đèn đều đang tắt. Trò chơi của Hào bao
+gồm15lầnchạmvàocôngtắc,mồilầnchỉchạm1côngtắc.Gọi N làsốcáchthựchiện15lần
+chạmđểđượckếtquảcácbóngđèn1,2,3,4,5sángvàcácbóngđèn6,7,8,9,10tắt.Gọi M là
+sốcáchthựchiện15lầnchạmsaochotrongcáclầnchạmnàychỉđượcchạmvàocáccôngtắc
+của các bóng đèn 1,2,3,4,5 để được kết quả các bóng đèn 1,2,3,4,5 sáng và các bóng đèn
+N
+6,7,8,9,10 tắt. Hãy tính tỉ số .
+M
+i Bài tập 3.21
+Cho 2024 viên bi được sắp xếp thành một hàng ngang. Tính số các cách đặt 29 chiếc thẻ vào
+giữa các viên bi thỏa mãn ở giữa hai viên bi bất kì có nhiều nhất một chiếc thẻ và các viên bi
+được chia thành 30 phần, mà mỗi phần có ít nhất 9 viên bi.
+i Bài tập 3.22
+Cho 2024 viên bi giống nhau được đặt vào các đỉnh của hình đa giác đều có 2024 cạnh nnội
+tiếp trong đường tròn pOq mỗi đỉnh chỉ có 1 viên bi. Tính số các cách đặt 29 chiếc thẻ giống
+nhau vào trung điểm các cạnh của đa giác được cho thỏa mãn tại mỗi trung điểm có nhiều
+nhất một chiếc thẻ và các viên bi đã cho được chia thành 29 phần, mà mỗi phần có ít nhất 9
+viên bi. (biết hai cách đặt thẻ được coi là nhu nhau nếu tồn tại một phép quay quanh tâm O
+biến cách chia này thành cách chia kia).
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 37
+
+----- PAGE 38 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.23
+Có bao nhiêu cách lập một số tự nhiên có ba chữ số abc thỏa mãn a ⩽ b ⩽ c.
+i Bài tập 3.24
+Có bao nhiêu chiếc vé xe buýt mà tổng ba số đầu bằng tổng ba số cuối?
+i Bài tập 3.25
+Cho tập hợp X “t1,2,3,...,2022u.
+1 Hỏi có bao nhiêu hoán vị a “ pa ,a ,...,a q của X thỏa mãn với mỗi k “ 1,2022 thì
+1 2 2022
+.
+.
+k´a .3.
+k
+2 Hỏi có bao nhiêu cách chọn 10 số từ tập X sao cho bất kì hai trong 10 số được chọn có
+hiệu giữa số lớn và số nhỏ luôn lớn hơn hoặc bằng 3.
+i Bài tập 3.26
+Cho xâu nhị phân 001101001111011 có 4 cặp 01, 3 cặp 10, 5 cặp 11 và 2 cặp 00 đứng cạnh
+nhau. Hỏi có tất cả bao nhiêu xâu nhị phân cùng tính chất như thế?
+i Bài tập 3.27
+Số 20162017 khi viết trong hệ nhị phân có dạng 1001100111010010111100001. Đây là một
+dãy số nhị phân có các tính chất sau
+w Có 6 cặp 00.
+w Có 6 cặp 11.
+w Có 6 cặp 10.
+w Có 6 cặp 01.
+Hỏi có tất cả bao nhiêu số tự nhiên khi viết trong hệ nhị phân cũng có các tính chất như trên?
+i Bài tập 3.28
+Cho đa giác đều A A ...A . Có bao nhiêu tam giác nhọn có đỉnh là đỉnh của đa giác trên?
+1 2 2017
+i Bài tập 3.29
+Có bao nhiêu cách chọn ra một tập con có k số phân biệt từ tập có n số tự nhiên đầu tiên sao
+cho tập được chọn ra không có hai số liên tiếp nhau.
+i Bài tập 3.30
+Cho tập A“t1;2;...;20u. Có bao nhiêu cách chọn ra 5 số trong tập Asao cho hiệu hai số bất
+kỳ trong 5 số đó không nhỏ hơn 2.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 38
+
+----- PAGE 39 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.31
+Một trường học có cách phát thưởng cho học sinh khá, giỏi vào cuối năm học khá đặc biệt.
+Theo đó, trường sẽ phát cho mỗi lớp 200 quyển vở và yêu cầu lớp phải phát thưởng cho 10
+học sinh có thứ hạng cao nhất lớp theo quy tắc: Bạn học sinh đứng hạng i trong lớp phải
+nhận được ít nhất 15´i quyển vở. Lớp 9A của trường này có đúng 1 bạn đứng hạng i, với
+a ⩽ i ⩽ 10. Hỏi giáo viên chủ nhiệm lớp này có bao nhiêu cách chia 200 quyển vở nói trên
+cho 10 bạn này?
+i Bài tập 3.32
+Trên một bờ hồ, người ta muốn trồng các cây: hồng, cúc, lan, cau và tre. Biết rằng chu vi bờ
+hồ là 100 m và khoảng cách giữa các cây là các số nguyên dương. Giả sử kích thước của các
+gốc cây là không đáng kể. Hỏi có bao nhiêu cách sắp xếp các cây này trên bờ hồ?
+i Bài tập 3.33
+Trong mặt phẳng tọa độ Oxy, xét điểm Mpa,bq với a, b là các số nguyên dương. Gọi một con
+đường đi từ O đến M là tốt nếu nó chỉ đi lên hoặc sang phải. Chứng minh rằng số đường đi
+tốt từ O đến M là số nghiệm của phương trình
+x `x `¨¨¨`x “ b.
+1 2 a`1
+i Bài tập 3.34
+Trong không gian Oxyz, gọi S là tập hợp các điểm nguyên nằm phía trong hoặc ở trên đỉnh,
+cạnh và mặt của hình lập phương cạnh 999 , trong đó các cạnh song song hoặc vuông góc
+với trục tọa độ, một đỉnh là p0;0;0q và một đỉnh đối với nó là p999;999;999q. Hỏi mặt phẳng
+x ` y `z “2014 đi qua bao nhiêu điểm trong tập hợp S?
+i Bài tập 3.35
+Cho bốn điểm phân biệt Ap0,0q, Bpp,0q, Cpm,qq, Dpm,nq với m, n, p, q là bốn số nguyên
+dương thỏa mãn p ă m, q ă n. Xét các đường đi tốt f từ Ađến D và các đường đi tốt g từ B
+đến C. Gọi S là số các cặp đường đi pf,gq sao cho chúng không có điểm chung. Chứng minh
+rằng ˆ ˙ˆ ˙ ˆ ˙ˆ ˙
+m`n m`q´p m`q m`n´p
+S “ ´ .
+n q q n
+(cid:15) Vietnam TST 2003
+i Bài tập 3.36
+Cho đa giác đều 103 cạnh. Tô màu đỏ 79 đỉnh của đa giác và tô màu xanh các đỉnh còn lại.
+Gọi Alà số các cặp đỉnh đỏ kề nhau và B là số cặp đỉnh xanh kề nhau.
+1 Tìm tất cả các giá trị có thể nhận được của cặp pA,Bq.
+2 Xác định số cách tô màu các đỉnh của đa giác để B “14. Biết rằng hai cách tô màu được
+xem là như nhau nếu chúng có thể nhận được nhau qua một phép quay quanh tâm của
+đường tròn ngoại tiếp đa giác.
+(cid:15) VMO 2014
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 39
+
+----- PAGE 40 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.37
+Chon ⩾ 2làmộtsốnguyêndương.Xéttậphợpcácđườngđingắnnhấttrênmạnglướinguyên
+trong không gian vuông góc từ điểm Ap0;0;0q đến điểm Bpn;n;nq (từ điểm px, y,zq có thể
+đến một trong các điểm px `1, y,zq hoặc px, y `1,zq hoặc px, y,z `1q ). Hỏi có bao nhiêu
+cách đi sao cho có tổng cộng 2 lần đổi hướng trong 2 mặt phẳng nằm ngang nào đó?
+i Bài tập 3.38
+Cho n ⩾ 2 là một số nguyên dương. Xét tập hợp các đường đi ngắn nhất trên lưới nguyên từ
+điểm Ap0;0q đến điểm Bpn;nq. Một đường đi như thế sẽ tương ứng với một dãy gồm n lệnh
+T (lên trên) và n lệnh P (sang phải). Trong dãy đó, một cặp lệnh pT,Pq kề nhau được gọi là
+một bước chuyển (luuu ý, cặp pP,Tq không được gọi là bước chuyển). Ví dụ dãy PTTPTPPT có
+2 bước chuyển. Hãy tìm số các đường đi ngắn nhất từ Ađến B sao cho trong đó có đúng:
+1 1 buớc chuyển.
+2 2 bước chuyển.
+(cid:15) Đề kiểm tra Trường Đông 2014
+i Bài tập 3.39
+Vé xe buýt có dạng abcdef với a,b,c,d,e, f Pt0,1,2,...,9u. Một vé như trên thỏa mãn điều
+kiện a`b`c “d`e` f được gọi là “vé hạnh phúc”.
+1 Chứng minh rằng số nghiệm của phương trình a`b`c “d`e` f bằng số nghiệm của
+phương trình a`b`c`d`e` f “27 với 0 ⩽ a,b,c,d,e, f ⩽ 9.
+2 Tính số vé hạnh phúc.
+i Bài tập 3.40
+Tanóimộtsốnguyêndương nlàđặc biệtnếutồntạimộtsốnguyêndương mthỏamãnđồng
+thời các điều kiện
+1 mąn;
+2 Tổng các chữ số của m bằng tổng các chữ số của n;
+3 Tích các chữ số của m bằng tích các chữ số của n.
+Hỏi có bao nhiêu số đặc biệt có 7 chữ số.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 40
+
+----- PAGE 41 -----
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Tài liệu
+[1] Lê Phúc Lữ, Tổ hợp lặp và bài toán chia kẹo Euler, Liên kết tải tài liệu.
+[2] Chia kẹo Euler, Kỉ yếu gặp gỡ toán học 2017.
+[3] Nguyễn Thị Ngọc Ánh, Xung quanh bài toán chia kẹo Euler, tạp chí Toán học và tuổi trẻ.
+[4] Tạp chí và tư liệu toán học, Các bài toán tổ hợp ´ xác suất hay và khó, Liên kết tài liệu.
+[5] Nhóm học sinh chuyên Lê Khiết, Chuyên đề một số phương pháp đếm trong các bài toán tổ hợp,
+Liên kết tài liệu.
+[6] Tạp chí và tư liệu toán học, Tuyển tập một số bài toán tổ hợp ôn thi HSG Toán, Liên kết tài liệu.
+[7] , Lục Trí Tuyên,Bài toán chia kẹo Euler và ứng dụng.
+[8] Các nguồn tài liệu khác trên Internet.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 41

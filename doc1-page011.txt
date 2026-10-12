@@ -1,0 +1,49 @@
+– Chọn nhóm nhận 2 bóng đỏ: 3 cách;
+– Trong nhóm đó, chọn 2 trong 4 đỉnh để đặt bóng đỏ:
+(cid:0)4(cid:1)
+;
+2
+– Hai nhóm còn lại, mỗi nhóm chọn 1 trong 4 đỉnh:
+(cid:0)4(cid:1)(cid:0)4(cid:1)
+.
+1 1
+Vậy số cách thuận lợi là:
+(cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19)
+4 4 4
+3· · · = 3·6·4·4 = 288.
+2 1 1
+Tổng số cách là
+(cid:0)12(cid:1)
+= 495. Vậy:
+4
+288 32
+P = = .
+495 55
+Nên:
+3190P = 58·32 = 1856 .
+Câu 4
+Đa giác đều 20 cạnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác sẽ được tạo bởi
+các đỉnh cách nhau 5 bước.
+Vì vậy 20 đỉnh được chia thành 5 nhóm, mỗi nhóm 4 đỉnh, mỗi nhóm là một hình
+vuông:
+{i,i+5,i+10,i+15}, i = 1,2,3,4,5.
+Có 5 bóng đỏ, 5 bóng xanh, 5 bóng vàng, 5 bóng tím. Điều kiện đề bài yêu cầu mỗi
+hình vuông có đủ 4 loại bóng đèn mang 4 màu khác nhau, tức là trong mỗi nhóm 4 đỉnh
+phải có đúng 1 đỏ, 1 xanh, 1 vàng, 1 tím.
+Tổng số cách tô màu 20 vị trí với mỗi màu xuất hiện đúng 5 lần là:
+20!
+.
+5!5!5!5!
+Với một hình vuông, 4 màu khác nhau có thể được sắp vào 4 đỉnh theo 4! cách. Có 5
+hình vuông độc lập, nên số cách tô màu thuận lợi là (4!)5.
+Vậy xác suất cần tìm là:
+(4!)5 (4!)5(5!)4
+P = =
+20! 20!
+5!5!5!5!
+1536
+=
+2263261
+Suy ra:
+2263261P = 1536 .
+3

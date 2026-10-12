@@ -1,0 +1,52 @@
+Xét phép thử: “ Xếp ngẫu nhiên vợ chồng An và bốn cặp vợ chồng bạn bè khác vào một bàn
+tròn sao cho An được xếp ngồi giữa hai cô gái”.
+Cố định vị trí An ngồi.
++ Chọn hai cô gái ngồi cạnh An có C2 cách chọn.
+5
++ Sau đó xếp 2 cô gái sang hai bên có 2! cách chọn
++ Sau đó xếp 7 người còn lại có 7! cách chọn.
+Áp dụng quy tắc nhân ta có 2!.7!.C2
+5
+Vậy số phần tử của không gian mẫu n2!.7!.C2.
+5
+Gọi A là biến cố: “An được xếp ngồi giữa hai cô gái trong đó có vợ mình”.
+Để An được xếp ngồi cạnh vợ mình.
++ Xếp vợ An ngồi hai bên có 2! cách chọn
++ Sau đó chọn một cô gái ngồi cạnh An có C1 cách chọn.
+4
++ Sau đó xếp 7 người còn lại có 7! cách chọn.
+Áp dụng quy tắc nhân ta có 2!.7!.C1
+4
+Vậy số phần tử của biến cố A: nA2!.7!.C1
+4
+nA 2!.7!.C1 2
+Xác suất để An được xếp ngồi cạnh vợ mình là: PA  4 
+n 2!.7!.C2 5
+5
+Thanhluan0607@gmail.com
+Câu 68. Nhà trường cần xếp phòng thi chọn đội tuyển học sinh giỏi cho 8 môn thi: Toán, Lý, Hóa, Sinh,
+Sử, Địa, Văn, Anh vào một dãy có 6 phòng được đánh số từ 1 đến 6, trong đó mỗi phòng thi có
+1 hoặc 2 môn thi và mỗi môn thi chỉ xếp vào 1 phòng thi. Tính xác suất để sắp xếp 2 môn Toán
+và Lý không cùng phòng thi.
+20 27 6 13
+A. . B. . C. . D. .
+21 28 7 14
+Lời giải
+Tác giả: Trần Thanh Luận
+Chọn D
+1 môn/phòng có 4 phòng và 2 môn/phòng có 2 phòng.
++) Chọn 6 môn trong 8 môn rồi xếp vào 6 phòng thi có: A6 cách.
+8
++) Xếp 2 môn còn lại vào 2 trong 6 phòng thi có: A2 cách.
+6
++) Mỗi phòng chứa 2 môn thi có 2! cách xếp trùng.
+A6.A2
+Nên n     8 6 151200.
+ 2
+2!
+Gọi A là biến cố “sắp xếp 2 môn Toán và Lý không cùng phòng thi”.
+A là biến cố “sắp xếp 2 môn Toán và Lý cùng phòng thi”.
++) Chọn 1 phòng trong 6 phòng để xếp 2 môn Toán và Lý vào có 6 cách.
++)Chọn 5 môn trong 6 môn còn lại rồi xếp vào 5 phòng thi trống có: A5 cách.
+6
+Trang 24/26 - Mã đề thi 483

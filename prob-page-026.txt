@@ -1,0 +1,57 @@
++Từ xyvà xy70  xy(70x) (x1)y(69x).Như vậy số cách chọn y ứng
+với mỗi cách chọn x là: (69x)(x1)1(692x) cách.
+34
+ n(A)(692x)1156 cách.
+x1
+n(A) 1156 578
+Vậy :P(A)   .
+n() 4950 2475
+quocdai1987@gmail.com
+Câu 13. [ĐỀ THI HSG 12 TPHCM 2017_2018] Một lớp có 36 ghế đơn được xếp thành hình vuông 6x6.
+Giáo viên muốn xếp 36 học sinh, trong đó có hai chị em là Hạnh và Phúc. Tính xác suất để hai
+chị em Hạnh và Phúc luôn được ngồi gần nhau theo chiều dọc hoặc ngang?
+4 3 1 2
+A. . B. . C. . D. .
+21 21 21 21
+Lời giải
+Tác giả : Trần Quốc Đại, FB: Trần Quốc Đại
+Chọn D
+Gọi  là không gian mẫu ta có n 36! .
+
+Gọi A là biến cố hai chị em Hạnh và Phúc ngồi ở vị trí thỏa yêu cầu.
+Ta tính được n 60.2!34! .
+A
+n 2
+Vậy PA A  .
+n 21
+
+cuongthptln@gmail.com
+Câu 14. Thầy giáo có 7 quyển sách Toán, 8 quyển sách Vật lí và 9 quyển sách Hóa Học (các quyển sách
+cùng loại là giống nhau) dùng để làm phần thưởng cho 12 học sinh, sao cho mỗi học sinh được
+2 quyển sách khác loại. Trong số 12 học sinh đó có bạn An và bạn Bình. Tính xác suất để bạn
+An và bạn Bình có phần thưởng giống nhau.
+23 6 7 19
+A. B. C. D.
+66 11 11 66
+Lời giải
+Tác giả: Nguyễn Mạnh Cường; Fb: Cuong Nguyen
+Chọn D
+Gọi số x, y, z là số cặp sách Toán – Lý, Toán – Hóa và Lý – Hóa
+x y 7 x3
+ 
+Giải hệ phương trình xz 8 y 4
+ 
+yz 9 z 5
+ 
+12!
+Số cách phát ngẫu nhiên 12 bộ sách cho 12 học sinh: n() 27720
+3!4!5!
+TH 1: An và Bình nhận bộ sách Toán – Lý, số cách phát 10 bộ sách còn lại cho 10 học sinh:
+10!
+1260
+4!5!
+TH 2: An và Bình nhận bộ sách Toán – Hóa, số cách phát 10 bộ sách còn lại cho 10 học sinh:
+10!
+2520
+3!2!5!
+Trang 9/24 - Mã đề thi 483

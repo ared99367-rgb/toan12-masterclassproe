@@ -1,0 +1,45 @@
+Chọn D
+Số phần tử của S là A4 840
+7
+Gọi A là biến cố cần tìm, ta có n(A) A3 3.3.A2 300
+6 5
+300 5
+Xác suất cần tìm là: P(A) 
+840 14
+Email: ngvnho93@gmail.com
+Câu 64. Trong một lớp học có 2n3học sinh gồm An, Bình, Chi cùng 2n học sinh khác. Khi xếp tùy ý
+các học sinh này vào dãy ghế được đánh số từ 1 đến 2n3, mỗi học sinh ngồi 1 ghế thì xác suất
+12
+để số ghế của Bình bằng trung bình cộng số ghế của An và số ghế của Chi là . Tính số học
+575
+sinh của lớp.
+A. 10. B. 25. C. 20. D. 15.
+Lời giải
+Tác giả : Nguyễn Văn Nho
+Chọn B
+Số phần tử của không gian mẫu là số cách xếp 2n3 học sinh và 2n3 chỗ ngồi đã được
+đánh số,
+suy ra n2n3!
+Gọi A là biến cố “số ghế của Bình bằng trung bình cộng số ghế của An và số ghế của Chi”, ta
+có:
+- Xếp Bình ở ghế số 2 hoặc ghế thứ 2n  2 thì mỗi cách có 1.2! cách xếp An và Bình.
+- Xếp Bình ở ghế số 3 hoặc ghế thứ 2n  1 thì mỗi cách có 2.2! cách xếp An và Bình.
+- Xếp Bình ở ghế số 4 hoặc ghế thứ 2n thì mỗi cách có 3.2! cách xếp An và Bình.
+…….
+- Xếp Bình ở ghế thứ n1 hoặc ghế thứ n  3 thì mỗi cách có n.2! cách xếp An và Bình.
+- Xếp Bình ở ghế thứ n2 thì mỗi cách có n1.2! cách xếp An và Bình.
+Suy ra 2123...n.2!n1.2!n12 .2! cách xếp để số ghế của Bình bằng trung
+bình
+cộng số ghế của An và Chi.
+Với mỗi cách xếp trên có 2n! cách xếp học sinh còn lại
+Do đó, ta có nA2n12 .2n!
+Theo giả thiết ta có phương trình:
+2n12 .2n! 12 49
+  48n2 479n5390  n 11 hoặc n (loại)
+2n3! 575 48
+Vậy số học sinh là 2.11325.
+Phungthan.ddn@gmail.com
+Câu 65. Thầy Quý viết lên bảng 2 số tự nhiên A và B, mỗi số đều có các chữ số đôi một khác nhau. Số A
+có 3 chữ số và số B có 4 chữ số. Xác xuất để chữ số của A chỉ có thể trùng với chữ số của B
+nhiều nhất là 1 chữ số là
+Trang 20/26 - Mã đề thi 483

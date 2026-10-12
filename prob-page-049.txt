@@ -1,0 +1,56 @@
+Số cách chọn ba số là C3 .
+2019
+Ta sẽ đếm các bộ ba số được chọn có tích không chia hết cho 9.
+20193
+Gọi B là tập hợp các số chia hết cho 3 trong tập hợp A. B có 1673 phần tử.
+3
+20169
+Gọi C là tập hợp các số chia hết cho 9 trong tập hợp A. C có 1224 phần tử.
+9
+Suy ra tập hợp B\C có 673224449 phần tử và tập hợp A\B có 20196731346 phần
+tử.
+Nhận xét rằng nếu ba số được chọn có tích không chia hết cho 9 thì ba số này hoặc cùng thuộc
+tâp hợp A\B hoặc một số thuộc B\C và hai số còn lại thuộc A\B. Ta có C3 449.C2 bộ
+1346 1346
+ba số như vậy.
+C3 449.C2
+Vậy xác suất cần tìm là P1 1346 1346 0,407.
+C3
+2019
+Mail: hunglxyl@gmail.com
+Câu 47. Cho E là tập các số tự nhiên gồm bốn chữ số đôi một khác nhau được lập từ tập
+X 0, 1, 2, 3, 4, 5, 6, 7, 8. Chọn ngẫu nhiên một số từ tập E. Tính xác suất để số được
+chọn chia hết cho 3.
+37 75 3 83
+A. . B. . C. . D. .
+112 224 8 224
+Lời giải
+Tác giả: Lê Xuân Hưng,Tên FB: Hưng Xuân Lê
+Chọn A
+Số phần tử của không gian mẫu là  8.A3 2688.
+8
+Gọi M là biến cố “Số được chọn chia hết cho 3’’.
+Đặt A0, 3, 6, B1, 4, 7, C2, 5, 8. Gọi x là một thuộc tập E và x chia hết cho
+3.
+TH 1: x có hai chữ số thuộc tập B, hai chữ số thuộc tập C. Số các số là C2.C2.4!216.
+3 3
+TH 2: x có một chữ số thuộc tập A, ba chữ số còn lại cùng thuộc tập B hoặc cùng thuộc tập
+C. Số các số là 2(3.4!3!)132.
+TH 3: x có hai chữ số thuộc tập A, một chữ số thuộc tập B và một chữ số thuộc tập C. Số các
+số x là 3.3.C2.4!3.3.2.3!540.
+3
+Số các kết quả thuận lợi của biến cố M là  216132540888.
+M
+888 37
+Xác suất xảy ra biến cố M là PM  .
+2688 112
+Mail: hunglxyl@gmail.com
+Câu 48. Cho E là tập các số tự nhiên gồm sáu chữ số đôi một khác nhau được lập từ tập
+X 0, 1, 2, 3, 4, 5, 6. Chọn ngẫu nhiên một số từ tập E. Tính xác suất để số được chọn có
+dạng xaa a a a a , trong đó a a a a a a .
+1 2 3 4 5 6 1 2 3 4 5 6
+5 3 4 8
+A. . B. . C. . D. .
+138 20 135 225
+Lời giải
+Trang 8/26 - Mã đề thi 483

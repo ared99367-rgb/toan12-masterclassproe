@@ -1,0 +1,45 @@
+Vì vậy trong trường hợp này có 2.4.2.7 112 số thỏa mãn.
+TH2: a  2. Khi đó do c lẻ suy ra c1;3;5;7;9 suy ra ccó 5 cách chọn.
+Ta có d chia cho 4 dư 2, hay d 6.
+Sau khi chọn a,c,d thì b có 7 cách chọn.
+Vì vậy trong trường hợp này có 1.5.1.735 số thỏa mãn.
+TH3: a 4, b1;3. Khi đó do c lẻ suy ra c1;3;5;7;9\b suy ra ccó 4cách chọn.
+Ta có d chia cho 4 dư 2, hay d2;6.
+Vì vậy trong trường hợp này có 1.2.4.216 số thỏa mãn.
+TH4:a4, b2. Khi đó do c lẻ suy ra c1;3;5;7;9 suy ra ccó 5 cách chọn.
+Ta có d chia cho 4 dư 2, hay d 6.
+Vì vậy trong trường hợp này có 1.1.5.15 số thỏa mãn.
+TH5: a4, b5. Khi đó c1;3. Ta có d chia cho 4 dư 2, hay d2;6.
+Vậy trong trường hợp này có 2.24 số thỏa mãn.
+Do đó có 172 số thỏa mãn đề bài.
+danhduoc@gmail.com
+Câu 25. Có bao nhiêu số tự nhiên có 7 chữ số sao cho trong đó có một chữ số xuất hiện bốn lần, một chữ
+số khác xuất hiện hai lần và một chữ số khác với hai chữ số trên?
+A. 75600. B. 68040. C. 68400. D. 60480.
+Lời giải
+Tác giả: Vũ Danh Được
+Chọn B
+Ta xét các số có chữ số 0 đứng đầu, khi đó:
+4
+Có 10 cách chọn chữ số xuất hiện 4 lần và có C cách chọn 4 vị trí trong 7 vị trí cho chữ số
+7
+này.
+2
+Có 9 cách chọn chữ số (khác với chữ số trên) xuất hiện 2 lần và có C cách chọn 2 vị trí trong
+3
+3 vị trí còn lại cho chữ số này.
+Chữ số còn lại (khác với hai chữ số trên) có 8 cách chọn.
+4 2
+Vậy số các số là 10.C .9.C .875600 (số)
+7 3
+Vì vai trò của các chữ số 0,1,2,...,9 là như nhau nên số các số có chữ số 0 đứng đầu là
+75600:107560 (số)
+Vậy số các số thỏa mãn yêu cầu bài toán là 75600756068040 (số)
+Email: phuongnamthptqx1@gmail.com.
+Câu 26. Có bao nhiêu số tự nhiên chia hết cho 3, biết số đó gồm 2018 chữ số lấy từ tập hợp X 3;5;7;9
+.
+42018 4 42018 3 42018 2 42018 1
+A. B. C. D.
+3 . 3 . 3 . 3
+Lời giải
+Tác giả : Trần Văn Nam,Tên FB: Trần Văn Nam

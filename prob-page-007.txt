@@ -1,0 +1,48 @@
+Suy ra trường hợp này ta có 4.4! số.
+Vậy theo quy tắc cộng ta có tất cả 5!+4.4! = 216 số.
+Cohangxom1991@gmail.com
+Câu 11. Cho tập hợp A0,1,2,3,4,5,6 có bao nhiêu số tự nhiên gồm 5 chữ số khác nhau được lập
+từ A trong đó có 3 số lẻ và chúng không ở ba vị trí liền kề
+A. 160 . B. 164 . C. 170 . D. 468 .
+Lời giải
+Tác giả : Phạm Văn Huy, FB: Đời Dòng
+Chọn D
+Cách 1
+Giả sử aa a a a là số cần tìm. Ta tính tất cả các số gồm 5 chữ số sao cho luôn có mặt 3 chữ
+1 2 3 4 5
+số lẻ, sau đó trừ đi trường hợp mà 3 số lẻ đứng liền nhau
++ Tất cả 3 số lẻ, xếp 3 số lẻ vào 3 trong 5 vị trí ta có A3 60 cách
+5
+Khi đó còn lại hai vị trí có thể tùy chọn trong 4 số chẵn ta có A2 12 cách
+4
+Vậy có 60.12720 số
+Nếu a 0 thì xếp 3 số lẻ vào 3 trong 4 vị trí còn lại 1 vị trí chọn trong 3 số chẵn 2;4;6
+1
+ta có A2.A1 72 số
+4 3
+Vậy tất cả có 72072648 số gồm 5 chữ số sao cho luôn có mặt 3 chữ số lẻ
++ Tính các số có 5 chữ số sao cho có 3 số lẻ đứng liền nhau
+Nếu aa a là 3 số lẻ ta có . Khi đó hai vị trí còn lại a a có thể chọn tùy ý trong 4 số chẵn
+1 2 3 4 5
+ta có A2 12
+4
+Vậy có 6.1272 số
+Nếu chọn a a a là 3 số lẻ ta có A3 6 (cách xếp). Khi đó a có 3 cách chọn a có 3 cách
+2 3 4 3 1 5
+chọn
+Vậy có 6.3.354 số
+Tương tự nếu a a a là 3 số lẻ có 54 số
+3 4 5
+Vậy có tất cả 722.54180 số có 3 số lẻ đứng liền nhau
+Vậy tổng cộng có 648180468 số
+Cách 2: Tham khảo cách giải của cô Lưu Thêm (QTV)
+Có 7 vị trí không liền kề 1,2,4,1,2,5,1,3,4,1,3,5,1,4,5,2,3,4,2,3,5
+Trường hợp 1: a là số lẻ
+1
+Chọn vị trí cho a ,a có 5 cách
+2 3
+Xếp 3 số lẻ vào 3 vị trí vừa chọn có 3! cách
+Chọn 2 số chẵn và xếp vào 2 vị trí còn lại có A2 các
+4
+Vậy có 5.3!.A2 360 số
+4

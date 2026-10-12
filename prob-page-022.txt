@@ -1,0 +1,56 @@
+Tác giả: Đào Hữu Nguyên Fb: Đào Hữu Nguyên
+Chọn A
+Số phần tử không gian mẫu: n()210
+Gọi A là biến cố số tự nhiên gồm 10 chữ số sao cho không có hai chữ số 6 nào đứng cạnh nhau
+TH1. Số có 10 cs 8: Có 1 số
+TH2. Số có 9 cs 8 và 1 cs 6. Xếp 9 cs 8 thành hàng: Có 1 cách.Khi đó tạo nên 10 vị trí để xếp
+chữ số 6. Xếp chữ số 6:Có C1 cách
+10
+Suy ra trong trường hợp này cóC1 số
+10
+TH3. Số có 8 cs 8 và 2 cs 6. Xếp 8 cs 8 thành hàng: Có 1 cách.Khi đó tạo nên 9 vị trí để xếp
+chữ số 6. Xếp chữ số 6:Có C2 cách
+9
+Suy ra trong trường hợp này cóC2 số
+9
+TH4. Số có 7 cs 8 và 3 cs 6. Xếp 7 cs 8 thành hàng: Có 1 cách.Khi đó tạo nên 8 vị trí để xếp
+chữ số 6. Xếp chữ số 6:Có C3 cách
+8
+Suy ra trong trường hợp này cóC3 số
+8
+TH5. Số có 6 cs 8 và 4 cs 6. Xếp 6 cs 8 thành hàng: Có 1 cách.Khi đó tạo nên 7 vị trí để xếp
+chữ số 6. Xếp chữ số 6:Có C4 cách
+7
+Suy ra trong trường hợp này cóC4 số
+7
+TH6. Số có 5 cs 8 và 5 cs 6. Xếp 5 cs 8 thành hàng: Có 1 cách.Khi đó tạo nên 6 vị trí để xếp
+chữ số 6. Xếp chữ số 6:Có C5 cách
+6
+Suy ra trong trường hợp này cóC5 số
+6
+Vậy n(A)1C1 C2 C3 C4 C5 144
+10 9 8 7 6
+n(A) 144 9
+Suy ra P  
+n() 210 26
+Tổng quát : Thầy Vô Thường
+Gỉa sử số được lập từ k số 6 và 10-k số 8.
++ Xếp 10-k số 8: Có 1 cách(0k 5)
++ Xếp k số 6 vào trong 11-k khoảng trống tạo bởi 10-k số 8: Có Ck cách.
+11k
+5 n(A) 144 9
+Suy ra số các số được lập Ck 144. Vậy P   
+11k n() 210 26
+k0
+Tuandel2009@gmail.com
+Câu 8. Một chuồng có 3 con mèo trắng và 4 con mèo đen.Người ta bắt ngẫu nhiên lần lượt từng con ra
+khỏi chuồng cho đến khi nào bắt được 3 con mèo trắng mới thôi.Tính xác xuất để cần phải bắt ít
+nhất 5 con mèo là.
+4 4 29 31
+A. . B. . C. . D. .
+5 35 35 35
+Lời giải
+Tác giả : Trần Minh Tuấn _Bắc Ninh
+Chọn D
+Xét biến cố đối của biến cố cần tính là A: ‘’bắt được 3 con mèo trắng trong 3 hoặc 4 lần’’
+Trang 5/24 - Mã đề thi 483

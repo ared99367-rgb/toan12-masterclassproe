@@ -1,0 +1,49 @@
+Vì a khác 0 nên cặp số của a với chữ số trùng của B có 9 cách chọn
+Có 8 cách chọn cho chữ số d của B vì d khác 0 ,d khác a
+Có A2cách chọn cho 2 chữ số còn lại của số B
+8
+Có A2cách chọn cho 2 chữ số b,c của số A
+6
+=>Số cách chọn cho trường hợp này là:3.9.8. A2.A2=362880
+8 6
+* Nếu chữ số d của B trùng với 1 chữ số của A khác với chữ số a
+Có 2 cách chọn từ b,c cho chữ số trùng của số A
+Vì d khác 0 nên cặp số của d với chữ số trùng của A có 9 cách chọn
+Có 8 cách chọn cho chữ số a của B vì a khác 0 ,d khác a
+Có 8 cách chọn cho chữ số còn lại của số A
+Có A3cách chọn cho 3 chữ số e,f,g của số B
+7
+=>Số cách chọn cho trường hợp này là:2.9.8.8.A3=241920
+7
+*Nếu cặp chữ số trùng của cả 2 số đều khác với chữ số a và d
+-Nếu cặp chữ số trùng là chữ số 0
+Có 2 cách chọn cho chữ số 0 vào vị trí b ,c của số A
+Có 3 cách chọn cho chữ số 0 vào các vị trí ,e,f,h của số B
+Có A2cách chọn cho 2 chữ số còn lại của số A
+9
+Có A3cách chọn cho 3 chữ số còn lại của số B
+7
+=> Số cách chọn cho trường hợp này là:2.3. A2.A3=90720
+9 7
+-Nếu cặp chữ số trùng khác 0
+Có 2 cách vị trí b,c cho chữ số trùng của số A
+Có 3 cách vị trí e,f,g cho chữ số trùng của số B
+Có 9 cách chọn cho cặp số trùng đều khác 0
+Có 8 cách chọn cho a của số A (a khác 0 ,a khác cặp chữ số trùng)
+Có 7 cách chọn d của số B (b khác 0,b khác a,b khác cặp số trùng)
+Có 7 cách chọn cho chữ số còn lại của A
+Có A2cách chọn cho 2 chữ số còn lại của số B
+6
+=>Số cách chọn cho trường hợp này là:2.3.9.8.7.7.A2=635040
+6
+=>Số trường hợp xảy ra tất cả ở trường hợp 2 là:
+136080+362880+241920+90720+635040=1466640
+=>Số trường hợp xảy ra tất cả ở cả 2 trường hợp là:
+483840 +1466640=1950480
+1950480 215
+Vậy xác xuất có thể xảy ra theo yêu cầu bài toán là: 
+2939328 324
+Quachthuy.tranphu@gmail.com
+Câu 66. Cho đa giác H gồm 20 cạnh. Chọn ngẫu nhiên 4 đỉnh từ các đỉnh của đa giác H. Tính xác
+suất để 4 đỉnh được chọn tạo thành một tứ giác mà không có cạnh nào là cạnh của đa giác?….
+Trang 22/26 - Mã đề thi 483

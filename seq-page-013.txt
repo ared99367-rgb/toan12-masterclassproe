@@ -1,0 +1,60 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+Theo giả thiết : AB=AC, BC,AH,AB lập thành cấp
+A
+số cộng cho nên ta có hệ :
+1 BC 2HC
+  2cotC
+
+q AH AH
+. Cho nên từ đó ta có kết quả
+
+1 AH
+
+ sinB
+C  q AB
+B
+H sau : 2cotC=sinC , hay :2cosC sin2C 1cos2C
+cos2C2cosC10cosC=-1+ 2  0C 900
+ 
+Do C là nhọn cho nên sinC  2 21
+1 1 1  
+Cho nên công bội của cấp số nhân là : q   2 21
+sinC   2
+2 21
+Bài 30. Tam giác ABC có các cạnh a,b,c theo thứ tự đó lập thành một cấp số cộng .
+Hãy chứng minh rằng khi đó công sai của cấp số cộng được tính bởi công thức :
+3  C A
+d  r tg tg
+ 
+2  2 2 
+HƯỚNG DẪN
+Theo giả thiết : a,b,c lập thành cấp số cộng ,
+A
+ca
+cho nên công sai d= (1)
+2
+Ta có : arcot B rcot C r  cot B cot C O
+ 
+2 2  2 2 
+r
+ B A
+Tương tự : cr cot cot C
+ 
+ 2 2  B C
+Thay vào (1) ta có :
+   C A
+tan tan
+d  1 r   cot A cot C   1  1  1   1 r   2 2   2Mặt khác theo bài 25 thì
+2  2 2  2 A C 2 A C
+tan tan   tan tan 
+ 2 2   2 2 
+A C A C 1
+cot cot 3tan tan  . Thay vào (2) ta có :
+2 2 2 2 3
+C A
+tan tan
+d  1 r 2 2  3 r  tan C tan A . ( Điều phải chứng minh )
+ 
+2 1 2  2 2 
+3
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 1 3 ĐT : 0985.270.218

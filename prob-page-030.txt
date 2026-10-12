@@ -1,0 +1,61 @@
+Khi đó pA 0,9; pA 0,7.
+1 2
+2
+169  13 13
+2
+Ta có M 13p10p  10  p  . Do đó M lớn nhất khi và chỉ khi p nhỏ nhất
+40  20 20
+0.A
+Giả sử p là xác suất của biến cố A. Ta quy ước 
+1.A A
+Khi đó A xA A  yA A zA A tA A , trong đó x,y,z,t0;1.
+1 2 1 2 1 2 1 2
+ p pAx.pAA y.p  AA  z.p  A A  t.p  A A  0,63x0,07y0,27z0,03t
+1 2 1 2 1 2 1 2
+13
+ p  0,63x0,07y0,27z0,03t0,65  0,63x0,07y0,27z0,03t0,65
+20
+13
++ Nếu x = 1: p  0,07y0,27z0,03t0,02
+20
+y 0
+
+Nhẩm với y;z;t0;1 thì 0,07y0,27z0,03t0,02 nhỏ nhất khi z 0
+
+t 1
+
+13
+Khi đó p 0,01
+20
+13
++ Nếu x = 0: p  0,07y0,27z0,03t0,65
+20
+Ta có y;z;t0;10 y;z;t 100,07y0,27z0,03t 0,37
+ 0,650,07y0,27z0,03t0,650,280,65 0,07y0,27z0,03t0,65 0,28
+13
+ p 0,280,01
+20
+13 xt 1
+Từ 2 trường hợp trên ta thấy p 0,01 
+20 y  z 0
+min
+169 528
+Khi đó M  10.0,01 2 
+max
+40 125
+Sai lầm 1: Học sinh tính xác suất của 4 biến cố A A ;A A ;A A ;A A lần lượt là 0,63; 0,07;
+1 2 1 2 1 2 1 2
+0,27; 0,03.
+2
+Sau đó thử 4 giá trị vào biểu thức M 13p10p tìm được đáp án C.
+Sai lầm của học sinh này là trong phép thử này có nhiều biến cố khác nữa, không phải chỉ
+có 4 biến cố đó.
+Sai lầm 2: Học sinh vận dụng điều kiện 0 p 1 rồi chuyển về bài toán tìm GTLN của
+2
+M 13p10p trên đoạn [0;1] .
+Lập bảng biến thiên hoặc Sử dụng máy tính tìm được đáp án A.
+2
+Sai lầm 3: Học sinh ngộ nhận M 13p10p lớn nhất khi p lớn nhất. Mà p lớn nhất bằng 1
+nên thu được đáp án D.
+hoatoank15@gmail.com
+Trang 13/24 - Mã đề thi 483

@@ -1,0 +1,46 @@
+Email: chuviettan@gmail.com
+Câu 1. Cho 5 điểm đồng phẳng sao cho các đường thẳng đi qua các cặp điểm trong 5 điểm đó không có
+2 đường thẳng nào song song, vuông góc hay trùng nhau. Qua mỗi điểm ta vẽ các đường vuông
+góc với tất cả các đường thẳng nối 2 điểm trong 4 điểm còn lại. Không kể 5 điểm đã cho số giao
+điểm của các đường thẳng vuông góc đó nhiều nhất là bao nhiêu?
+A. 310. B. 330. C. 360. D. 325.
+Lời giải
+Tác giả : Chu Viết Tấn,Tên FB: Chu Viết Tấn
+Chọn A
+Gọi 5 điểm đó là A,B,C,D,E
+Có C2 6 đường thẳng không đi qua A nên từ A kẻ được 6 đường thẳng vuông góc với 6
+4
+đường thẳng đó. Tương tự từ B kẻ được 6 đường thẳng vuông góc với 6 đường thẳng không đi
+qua B. Đáng lẽ ra 2 nhóm đường thẳng này cắt nhau tại 66  36 điểm ( Không kể A,B ).
+Nhưng vì có C2 3 đường thẳng không đi qua 2 điểm A,B nên 3 đường thẳng vuông góc vẽ
+3
+từ A và 3 đường thẳng vuông góc vẽ từ B đôi một song song với nhau nên số giao điểm của 2
+nhóm đường thẳng vuông góc này chỉ còn 36-3=33 điểm. Có C2 10 cách chọn các cặp điểm
+5
+như vậy nên có 330 giao điểm của các đường thẳng vuông góc. Thế nhưng cứ mỗi 3 điểm như
+A,B,C thì 3 đường cao của tam giác này trong số các đường vuông góc đó lại đồng quy tại 1
+điểm ( thay vì cắt nhau tại 3 điểm) nên số giao điểm giảm đi 2. Vì có C3 10 tam giác như tam
+5
+giác ABC nên số giao điểm giản đi 20. Vậy số giao điểm nhiều nhất của các đường thẳng vuông
+goác là 330-20=310.
+Mở rộng: Bài này có thể tổng quát cho n điểm (n>2)
+trungthuong2009@gmail.com
+Câu 2. Từ các chữ số thuộc tập X 1;2;3;4;5;6;7 có thể lập được bao nhiêu số tự nhiên chẵn gồm 5
+chữ số khác nhau sao cho mỗi số tự nhiên đó đều chia hết cho 9.
+A. 96. B. 144. C. 72. D. 120.
+Lời giải
+Tác giả : Phạm Thành Trung,Tên FB: Phạm Thành Trung
+Chọn A
+Ta có nhận xét 1234567 28 là số khi chia cho 9 có dư là 1.
+Vậy khi đó để chọn ra số tự nhiên có 5 chữ số chia hết cho 9 ta cần loại đi trong tập X hai chữ
+số có tổng khi chia cho 9 dư là 1.
+Do đó có hai trường hợp loại đi hai số có tổng chia cho 9 dư 1 là 3;7;4;6
+Khi loại đi cặp 3;7 ta có:
++ Chọn số cho vị trí hàng đơn vị có 3 cách.
++ Chọn số cho các vị trí còn lại có 4! cách.
+Trường hợp này có 3.4!72 số.
+Khi loại đi cặp 4;6 ta có:
++ Chọn số cho vị trí hàng đơn vị có 1 cách.
++ Chọn số cho các vị trí còn lại có 4! cách.
+Trường hợp này có 4!24 số.
+Vậy có tất cả 722496 số thỏa mãn yêu cầu.

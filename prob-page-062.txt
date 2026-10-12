@@ -1,0 +1,52 @@
+485 195 40 215
+A. B. C. D. .
+972 324 243 324
+Lờigiải
+Tác giả : Phùng Văn Thân,Tên FB:Thân Phùng
+Chọn D
+Gọi số A có dạng là abc, số B có dạng là defg
+Ta tìm không gian mẫu xem học sinh viết tất cả bao nhiêu trường hợp
+Với số A: a có 9 cách chọn (a  0), Có A2cách chọn 2 cho 2 chữ số bvà cđều khác a
+9
+Với số B:d có 9 cách chọn (d  0), Có A3cách chọn cho 3 chữ số e,f,g đều khác d
+9
+=>Số cách chọn tất cả là: 9.A2.9.A3  2939328
+9 9
+Ta xét các trường hợp theo yêu cầu để bài có thể xảy ra
+TH1:các chữ số của số A đều khác với các chữ số của số B
+*Nếu 1 trong 2 số của A hoặc B có chữ số 0=>số còn lại không có chữ số 0 .Nếu A có chữ số 0
+thì:
+Có 2 cách chọn cho chữ số 0 vào các vị trí b hoặc c,
+Có A2cách chọn cho 2 chữ số còn lại của số A
+9
+Có A4cách chọn cho 4 chữ số của số B đều khác các chữ số của số A
+7
+-=>Số cách chọn cho trường hợp này là: 2. A2.A4=120960
+9 7
+*Nếu B có chữ số 0 thì:
+Có 3 cách chọn cho chữ số 0 vào các vị trí e,f,g, có A3cách chọn cho 3 chữ số còn lại của số B
+9
+Có A3cách chọn cho 3 chữ số của số A đều khác các chữ số của số B
+6
+=> Số cách chọn cho trường hợp này là:3. A3.A3=181440
+9 6
+*Nếu cả A và B đều không có chữ số 0
+Có A3cách chọn cho 3 chữ số của A
+9
+Có A4cách chọn cho 4 chữ số của số B đều khác các chữ số của số A
+6
+=> Số cách chọn cho trường hợp này là:A3.A4=181440
+9 6
+=>Số cách chọn cho trường hợp 1 là: 120960+181440+181440=483840
+TH2:Có 1 chữ số của A trùng với 1 chữ số của B
+*Nếu chữ số a của A trùng với chữ số d của B
+a,d khác 0 nên có 9 cách chọn cho cặp số giống nhau a,d
+Có A2cách chọn cho 2 chữ số b và c của A
+9
+Có A3cách chọn cho 3 chữ số e,f,g của số B đều khác các chữ số của A
+7
+=>Số cách chọn cho trường hợp này là:9. A2.A3=136080
+9 7
+* Nếu chữ số a của A trùng với 1 chữ số của B khác với chữ số d
+Có 3 cách chọn từ e,f,g cho chữ số trùng của số B
+Trang 21/26 - Mã đề thi 483

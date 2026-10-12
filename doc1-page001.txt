@@ -1,0 +1,28 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 01
+\
+ÔN TẬP TỔ HỢP – XÁC SUẤT TRỌNG TÂM
+KIẾN THỨC 11 Môn: Toán 11
+BUỔI SỐ 08 Thời gian làm bài: 90 phút (không tính thời gian giao đề)
+TỔ HỢP XÁC SUẤT TRỌNG TÂM – HAY CHO 2K9XPS
+Câu 1 [HTN]: (THPT 2026) Trong một trò chơi bạn Bình cần vượt qua một thử thách. Theo yêu cầu của thử
+thách, Bình cần điền tất cả 15 số thuộc tập hợp vào 15 ô vuông trong
+{0;1;2;3;4;5;6;7;8;10;11;12;15;16;20}
+hình dưới thỏa mãn đồng thời ba điều kiện sau:
+Mỗi ô điền đúng một số và mỗi số chỉ được sử dụng một lần;
+Hiệu hai số ở hai ô bất kì khác nhau trên cùng một hàng không chia hết cho 5;
+Hiệu hai số ở hai ô bất kì khác nhau trên cùng một cột không chia hết cho 5.
+Hai cách điền gọi là giống nhau nếu số điền ở mỗi ô tương ứng trong 15 ô là giống nhau (không tính đến
+thứ tự điền các số vào 15 ô vuông). Gọi là số cách điền khác nhau để bạn Bình vượt qua được thử thách.
+H
+H
+Giá trị của bằng bao nhiêu?
+30
+Câu 2 [HTN]: (Phát triển lại THPT 2026) Trong một trò chơi bạn Bình cần vượt qua một thử thách. Theo
+yêu cầu của thử thách, Bình cần điền tất cả 15 số thuộc tập hợp vào
+{1;2;3;4;5;6;7;8;9;10;11;12;13;14;15}
+15 ô vuông trong hình dưới thỏa mãn đồng thời ba điều kiện sau:
+Mỗi ô điền đúng một số và mỗi số chỉ được sử dụng một lần;
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

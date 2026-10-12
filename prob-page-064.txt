@@ -1,0 +1,51 @@
+365 395 443 473
+A. . B. . C. P  . D. P  .
+969 969 969 969
+Lời giải
+Tác giả:Quách Phương Thúy ; Fb: Phương Thúy
+Chọn D
+Giả sử đa giác H là AA ....A .
+1 2 20
+Chọn ngẫu nhiên 4 đỉnh từ các đỉnh của H, số tứ giác được tạo thành là C4 .
+20
+Xét các trường hợp:
++ TH1: Số tứ giác có 3 cạnh là cạnh của đa giác H: Có 20 tứ giác
++ TH2: Số tứ giác có 2 cạnh là cạnh của đa giác H.
+(cid:0) Tứ giác có 2 cạnh là 2 cạnh kề nhau của đa giác H:
+Có 20 cách chọn 2 cạnh kề nhau của H. Với mỗi cách chọn 2 cạnh kề nhau đó, có 15 cách
+chọn đỉnh thứ tư để tạo thành tứ giác có 2 cạnh là cạnh của H.
+ có 20.15300 tứ giác thỏa mãn.
+(cid:0) Tứ giác có 2 cạnh là 2 cạnh không kề nhau của đa giác H.
+Chọn 1 cạnh bất kỳ, có 20 cách chọn 1 cạnh bất kỳ, giả sử là AA , chọn một cạnh khác (trừ
+1 2
+các cạnh AA , A A , A A , A A, A A ) có 15 cách chọn. Mỗi tứ giác được chọn sẽ lặp lại
+1 2 2 3 3 4 20 1 19 20
+20.15
+2 lần nên số tứ giác thỏa mãn là 150.
+2
+Vậy có 300150450 tứ giác có 2 cạnh là cạnh của H.
++ TH3: Tứ giác có đúng 1 cạnh là cạnh của H.
+Có 20 cách chọn 1 cạnh bất kỳ của đa giác H là cạnh của tứ giác, giả sử là cạnh AA . Chọn
+1 2
+2 trong số 16 đỉnh còn lại (trừ A, A , A , A ) , có C2 cách chọn.
+1 2 3 20 16
+Trong C2 cách chọn 2 đỉnh đó, có 15 cách chọn 2 đỉnh kề nhau tạo thành cạnh của đa giác.
+16
+Vậy có 20.  C2 15  2010 tứ giác có đúng 1 cạnh là cạnh của H.
+16
+Vậy có C4 2045020102365 tứ giác mà không có cạnh nào là cạnh của đa giác.
+20
+2365 473
+Xác suất cần tìm là P   .
+C4 969
+20
+xuanmda@gmail.com
+Câu 67. Trong bữa tiệc kỉ niệm ngày sinh nhật An, vợ chồng An có mời bốn cặp vợ chồng bạn bè khác.
+Tất cả mọi người được ngồi chung vào một bàn tròn. Một cách ngẫu nhiên, vì là ngôi sao trong
+bữa tiệc nên An được xếp ngồi giữa hai cô gái. Tính xác suất để An được xếp ngồi cạnh vợ mình.
+3 1 1 2
+A. . B. . C. . D. .
+5 36 5 5
+Lời giải
+Chọn D
+Trang 23/26 - Mã đề thi 483

@@ -1,0 +1,55 @@
+Câu 62. Có 30 viên bi gồm hai loại là bi màu trắng và bi màu đen được đựng trong hai hộp. Lấy ngẫu
+51
+nhiên từ mỗi hộp đúng một viên bi và xác suất để lấy được hai viên cùng màu đen là .
+209
+Tính xác suất để lấy được hai viên cùng màu trắng là?
+16 158 45 12
+A. . B. . C. . D. .
+209 209 209 209
+Lời giải
+Tác giả : Nguyễn Ngọc Chi,Tên FB: Nguyễn Ngọc Chi
+Chọn A
++ Giả sử hộp thứ nhất có n bi và gồm x bi màu đen, hộp thứ hai có 30n bi và gồm y bi
+màu đen. Với n,x,y là các số tự nhiên thỏa mãn 1n30,1 xn,1 y30n.
++ Số cách lấy bi ở mỗi hộp độc lập với nhau.
+x
++ Xác suất lấy được bi đen ở hộp thứ nhất là , vậy xác suất lấy được bi trắng ở hộp thứ nhất
+n
+x
+là: 1
+n
+y
++ Xác suất lấy được bi đen ở hộp thứ hai là , vậy xác suất lấy được bi trắng ở hộp thứ
+30n
+y
+hai là: 1
+30n
+x y 51
++ Xác suất lấy được hai bi đen là: . 
+n 30n 209
+209xy
+Suy ra: n30n . Do đó xy phải là số tự nhiên chia hết cho 51 và khi đó
+51
+n30n209 11n19
+Thay các giá trị ta thấy chỉ có n11hoặc n 19 thỏa mãn điều kiện.
+x y 3.17
+Khi đó xy 51, mà . 
+n 30n 11.19
+x 3 y 17 x 17 y 3
+Vậy  ;  hoặc  ; 
+n 11 30n 19 n 19 30n 11
+ x y  16
+Suy ra xác xuất để chọn được hai bi màu trắng là : 1 1 
+  
+ n 30n 209
+Chọn A
+duamuoikimchi@gmail.com
+Câu 63. Gọi S là tập tất cả các số tự nhiên gồm bốn chữ số khác nhau được chọn từ các chữ số
+1,2,3,4,5,6,7. Từ S chọn ngẫu nhiên 1 số, tính xác suất để số được chọn là số lẻ và số lẻ đó có
+mặt chữ số 5.
+25 1 1 5
+A. . B. . C. . D. .
+168 6 7 14
+Lời giải
+Tác giả: Nguyễn Thị Kim Chi ; Fb: Chi Chít
+Trang 19/26 - Mã đề thi 483

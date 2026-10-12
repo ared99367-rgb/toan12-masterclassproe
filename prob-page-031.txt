@@ -1,0 +1,57 @@
+Câu 19. Kế hoạch làm thi môn Toán của bạn X trong kì thi THPTQG sắp tới:Bài thi môn Toán với hình
+thức Trắc nghiệm 50 câu (thang điểm 10), mỗi câu có 4 phương án trả lời, trong đó chỉ có một
+phương án trả lời đúng. Do học yếu môn Toán bạn X dự kiến làm bài thi bằng cách “Mỗi câu
+chọn ngẫu nhiên một phương án và trả lời tất cả các câu”. Em hãy khuyên bạn bằng cách “Tính
+gần đúng xác suất để bạn được trên 3 điểm”.
+A.0,000048. B. 0,06. C.0,00000085. D. 0,1631.
+Lời giải
+Tác giả:Nguyễn Viết Hòa
+Chọn D
+Gọi A i1,2,...,50 là biến cố bạn X trả lời đúng ở câu thứ i PA  1 ;P  A   3 .
+i i 4 i 4
+Gọi B là biến cố bạn X được tối đa 3 điểm, B là biến cố bạn X trả lời đúng j câu.
+j
+Mỗi câu trả lời đúng bạn X được 0,2 điểm, nên bạn X phải trả lời đúng tối đa 15 câu.
+Ta có BB B B ...B .
+0 1 2 15
+Số cách chọn j câu đúng trong 50 câu đúng là Cj suy ra B j0,1,2,...,50 là hợp của Cj
+50 j 50
+biến cố, mỗi biến cố đó là giao của 50 biến cố dạng A ,A , trong đó có j biến cố A và 50 j
+i i i
+biến cố A
+i
+   
+B A A ...A A A ...A ... A A ...A A ...A 
+j  1 2 j j1 j2 50  1 2 50j 50j1 50
+ jbiÕn cè 50-jbiÕn cè   jbiÕn cè jbiÕn cè 
+Cj biÕn cè
+50
+P  B  Cj
+1 j 3 50j
+PB
+15
+Cj
+1 j 3 50j
+.
+       
+j 50 4 4 50 4 4
+0
+Vậy xác suất để bạn X đạt trên 3 điểm là 1PB 0,1631.
+hoangthihonghanhc3ln@gmail.com
+Câu 20. Gọi A là tập hợp các số tự nhiên gồm 5 chữ số. Chọn ngẫu nhiên một số từ tập A. Tính xác suất
+để chọn được số chia hết cho 7 và có chữ số hàng đơn vị bằng 2.
+257 257 127 127
+A. . B. . C. . D. .
+90000 18000 90000 30000
+Lời giải
+Tác giả, FB :Hoàng Thị Hồng Hạnh
+Chọn B
+Gọi số tự nhiên gồm 5 chữ số là abcde
+Chọn a  0có 9 cách.
+Chọn b,c,d,emỗi số có 10 cách.
+Nên A 9.104.
+Gọi Blà biến cố "chọn được tự nhiên gồm 5 chữ số chia hết cho 7 và có chữ số hàng đơn vị
+bằng 2''.
+Gọi số tự nhiên gồm 5 chữ số chia hết cho 7 và có chữ số hàng đơn vị bằng 2 là abcd2
+Ta có abcd210.abcd 27abcd 3abcd 2
+Trang 14/24 - Mã đề thi 483

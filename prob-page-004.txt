@@ -1,0 +1,59 @@
+Lại có C2  45 hình chữ nhật là hình thang có hai trục đối xứng nên số hình thang thỏa mãn
+10
+yêu cầu bài toán là 36045045  765
+phamkhacthanhkt@gmail.com.
+Câu 6. Hỏi có tất cả bao nhiêu số tự nhiên chia hết cho 9 mà mỗi số 2011 chữ số và trong đó có ít nhất
+hai chữ số 9.
+A. 102010 16151.92008. B. 102010 16153.92008. C. 102010 16148.92008. D. 102010 16161.92008.
+Lời giải
+Tác giả: Phạm Khắc Thành
+Chọn D
+Đặt A 0;9; A 1; A 2;A 3;A 4;A 5;A 6;A 7;A 8
+1 2 3 4 5 6 7 8 9
+Gọi số cần tìm là naa ...a a a 0
+1 2 2010 2011 1
++ Xét các số tự nhiên chia hết cho 9, gồm 2011 chữ số:
+Mỗi vị trí từ a đến a đều có 10 cách chọn
+2 2011
+a phụ thuộc vào tổng a a ...a  nên có 1 cách chọn
+1 2 3 2011
+Vậy có 102010 số
++ Xét các số tự nhiên chia hết cho 9, gồm 2011 chữ số nhưng không có mặt chữ số 9:
+a có 8 cách chọn
+1
+Từ a đến a , mỗi vị trí đều có 9 cách chọn
+2 2010
+a có 1 cách chọn
+2011
+Vậy có 8.92009 số.
++ Xét các số tự nhiên chia hết cho 9, gồm 2011 chữ số trong đó có đúng 1 chữ số 9:
++ Trường hợp a 9 ta có:
+1
+Từ a đến a , mỗi vị trí đều có 9 cách chọn
+2 2010
+a có 1 cách chọn
+2011
+Do đó có 92009 số
++ Trường hợp a 9 ta có:
+1
+a có 8 cách chọn
+1
+Có 2010 cách xếp chữ số 9
+Ở 2008 vị trí còn lại, mỗi vị trí có 9 cách chọn
+Vị trí cuối cùng có 1 cách chọn
+Do đó có 8.2010.92008 số.
+Vậy số các số tự nhiên thỏa mãn yêu cầu bài toán là:
+102010   8.92009 92009 8.2010.92008 102010 16161.92008 số
+honganh161079@gmail.com
+Câu 7. Nhân ngày phụ nữ Việt Nam 20/10, các bạn nam lớp 10A đến cửa hàng hoa để mua hoa tặng các
+cô giáo dạy lớp mình. Cửa hàng hoa có bán ba loại hoa: hoa hồng, hoa cẩm chướng và hoa đồng
+tiền ( số hoa mỗi loại đều lớn hơn hoặc bằng 8). Nhóm 8 bạn nam vào cửa hàng và chọn 8 bông
+hoa. Hỏi các bạn nam có bao nhiêu cách chọn số lượng từng loại hoa?
+A. 40320. B. 6720. C. 336. D. 45.
+Lời giải
+Tác giả : Đỗ Thị Hồng Anh, FB: Hong Anh
+Chọn D
+Nhóm 8 bạn nam chọn ra 8 bông hoa gồm x hoa hồng, y hoa cẩm chướng và z hoa đồng tiền.
+Ta coi mỗi sự lựa chọn là một bộ ba số ( x; y; z) sao cho x, y, z là các số nguyên không âm và
+thỏa mãn x + y + z = 8 . Mỗi bộ ( x; y; z) như vậy ta đặt tương ứng với một dãy nhị phân độ dài
+10 gồm 8 kí tự 1 và 2 kí tự 0 như sau:

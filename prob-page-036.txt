@@ -1,0 +1,45 @@
+Chọn C
+n  A3  A2 180
+7 6
+Gọi A là biến cố lấy được số chia hết cho 6 từ tập S
+Gọi x  abc S và x6ta có c{0,2,4,6}
+{a,b,c}{{0,1,2},{0,1,5},{0,2,4},{1,2,3},{0,3,6},{0,4,5},{1,2,6},{2,3,4},
+{1,5,6},{2,4,6},{3,4,5},{4,5,6}}
+TH1:{a,b,c}{{0,1,5},{1,2,3},{1,5,6},{3,4,5}}
+Có 4 cách chọn {a,b,c}
+Có 1 cách chọn c
+Có 2 cách chọn a
+Có 1 cách chọn b
+Theo quy tắc nhân có 4.1.2.1=8 số
+TH2: {a,b,c}{{0,1,2},{0,3,6},{0,4,5}} có 3.3=9 số
+TH3: {a,b,c}{{1,2,6},{2,3,4},{4,5,6}}có 3.2.2=12 số
+TH4: {a,b,c}  {0,2,4}có 2.2.1=4 số
+TH5: {a,b,c}  {2,4,6}có 3.2.1=6 số
+Vậy nA  8 912 4  6  39
+13
+Vậy PA 
+60
+Email: vutoanpvd@gmail.com
+Câu 26. Chọn ngẫu nhiên 6 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong
+xấp bài này chứa một bộ ba, một bộ đôi (tức là có ba quân cùng thuộc một bộ, hai quân thuộc
+một bộ khác và quân còn lại khác bộ với 5 quân trước)
+2028 396 1584 169
+A. . B. . C. . D. .
+195755 195755 195755 978755
+Lời giải
+Tác giả: Vũ Huỳnh Đức Tên facebook: Huỳnh Đức.
+Chọn C
+Số phần tử của không gian mẫu là  C6
+52
+Gọi A là biến cố cần tính xác suất.
+*Tìm 
+A
+-Công đoạn 1: Chọn 1 bộ từ 13 bộ và từ bộ này chọn ra 3 quân. Có C1 .C3 cách.
+13 4
+-Công đoạn 2: Chọn 1 bộ từ 12 bộ còn lại và từ bộ này chọn ra 2 quân. Có C1 .C2 cách.
+12 4
+-Công đoạn 3: Chọn 1 bộ từ 11 bộ còn lại và từ bộ này chọn ra 1 quân. Có C1 .C1 cách.
+11 4
+Theo quy tắc nhân ta có  C1 .C3.C1 .C2.C1 .C1 164736
+A 13 4 12 4 11 4
+Trang 19/24 - Mã đề thi 483

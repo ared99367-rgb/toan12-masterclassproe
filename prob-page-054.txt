@@ -1,0 +1,45 @@
+- Chọn 2 số lẻ trong 4 số lẻ và xếp 2 số lẻ vừa chọn vào 2 vị trí còn lại có C2.2! cách.
+4
+Do đó trường hợp 2 có tất cả là 5.C3.6.3!.C2.2!8640 số.
+4 4
+Vậy có tất cả là 5760864014400 số n không chia hết cho 2 đồng thời có hai chữ số chẵn
+cạnh nhau.
+Trong tập S ta có 14400 số n thỏa tính chất không chia hết cho 2 và có đúng hai chữ số chẵn
+cạnh nhau nên số các số n còn lại trong tập S là: 604801440046080 số.
+Chọn ngẫu nhiên từ S ra hai số nên số phần tử của không gian mẫu là:  C2 .
+60480
+Gọi T là biến cố “ trong hai số rút ra có đúng một số có tính chất là số đó không chia hết cho 2
+và có đúng hai chữ số đứng cạnh nhau”.
+C1 .C1
+Ta có số phần tử của biến cố T là T C1 .C1 . Do đó PT 46080 14400 0,4.
+46080 14400 C2
+60480
+Email: nguyenspk54@gmail.com
+Câu 55. Chọn ngẫu nhiên một số tự nhiên có 6 chữ số khác nhau. Tính xác suất để số được chọn là số lẻ
+và có tổng các chữ số bằng 18.
+5 16 15 6
+A. . B. . C. . D. .
+378 2835 2385 837
+Lời giải
+Tác giả : Lê Thị Nguyên,Tên FB: Ngọc Giang Nguyên
+Chọn B
+n9.A5 136080.
+9
+Gọi số cần lập là abcdef .
+Theo giả thiết : abcdef là số lẻ và abcd e f 18.
+Ta có:
+18012348
+012357
+012456
+Trường hợp 1: a,b,c,d,e, f 0;1;2;3;4;8.
+f có 2 cách chọn.
+a có 4 cách chọn.
+bcde:4! cách.
+Vậy có 4.2.4!192 (số).
+Trường hợp 2: a,b,c,d,e, f 0;1;2;3;5;7.
+f có 4 cách chọn.
+a có 4 cách chọn.
+bcde:4! cách chọn .
+Vậy có 4.4.4!384 (số).
+Trường hợp 3: a,b,c,d,e, f 0;1;2;4;5;6. Giống trường hợp 1 có 192 số.
+Trang 13/26 - Mã đề thi 483

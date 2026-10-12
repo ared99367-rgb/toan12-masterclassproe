@@ -1,0 +1,55 @@
+1
+
+1...101
+
+1...101
+
+1...1
+x y z
+Chẳng hạn bộ ( 3; 1; 4) ứng với sự lựa chọn 3 hoa hồng, 1 hoa cẩm chướng và 4 hoa đồng tiền
+được đặt tương ứng với dãy nhị phân 1110101111.
+Vì với mỗi dãy nhị phân độ dài 10 gồm 8 kí tự 1 và 2 kí tự 0 như trên tương ứng với cách chọn
+2 vị trí trong 10 vị trí để ghi số 0, 8 vị trí còn lại ghi số 1 nên số dãy nhị phân như trên là
+C2 45.
+10
+Vậy có 45 cách lựa chọn hoa thỏa yêu cầu bài toán.
+mihawkdaculamihawkdacula@gmail.com
+Câu 8. Cho dãy số u được xác định như sau: Số hạng thứ n là số các số tự nhiên có n chữ số trong đó
+n
+chỉ gồm các chữ số 1, 2, 3 và mỗi số có mặt ít nhất 1 lần. Tìm tổng của 9 số hạng đầu tiên.
+A. 26844. B. 28464. C. 24684. D. 26484.
+Lời giải
+Tác giả : Trần Tín Nhiệm, FB: Trần Tín Nhiệm
+Chọn D
+Ta sẽ tìm số hạng tổng quát của u 
+n
+Xét n = 1, n = 2 thì rõ ràng u u 0.
+1 2
+Bài toán phụ: Ta sẽ xác định xem có bao nhiêu số có n chữ số, trong đó các chữ số chỉ là 1, 2, 3
+sao cho các chữ số xuất hiện trong đó là một hay hai trong ba chữ số đã cho
++ Số các số có n chữ số trong đó có mặt một trong ba chữ số 1,2,3là 3 ( 11….1, 22…2,
+33….3)
++ Trong ba số 1, 2, 3 có C2 tập gồm 2 chữ số.
+3
+Xét các số chỉ gồm hai số là 1,2
+Mỗi chữ số có 2 cách chọn nên có 2n số có n chữ số tạo thành từ1,2. Nên có 2n– 2 số có n
+chữ số được tạo thành từ 1,2và mỗi chữ số có mặt ít nhất 1 lần ( trừ 11…1, 22…2)
+Từ đó, số các số gồm n chữ số chỉ có mặt hai trong ba chữ số 1,2,3 là C2 2n 2  .
+3
+Mặt khác có tất cả 3n số các số tự nhiên có n chữ số được tạo thành từ các chữ số 1,2,3. Do
+đó có tất cả 3n C2 2n 2  33n 3.2n 3 số các số tự nhiên có n chữ số được tạo thành từ
+3
+các chữ số 1,2,3và mỗi số có mặt ít nhất 1 lần.
+ u u 0
+Suy ra dãy số u   1 2 hay u 3n 3.2n 3
+n u 3n 3.2n 3(n3) n
+
+n
+9 9 9 9 310 3 210 2
+Vậy u  3i 3.2i 3  3i 32i 27 3. 2726484 .
+i 31 21
+i1 i1 i1 i1
+Minhduc486@gmail.com
+Câu 9. Có bao nhiêu cách điền các số 1, 2, 3, 4, 5, 6 (mỗi số một lần) vào các ô tròn ở trên Hình 1 sao
+cho tổng các số ở mỗi cạnh của tam giác là bằng nhau? (ví dụ ở hình 2, tổng các số ở mỗi cạnh
+đều bằng 10).

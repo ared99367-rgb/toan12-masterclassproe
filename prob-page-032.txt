@@ -1,0 +1,55 @@
+abcd2 chia hết cho 7 nên 3abcd 2 chia hết cho 7 hay 3abcd 27t,(t)
+7t2 t2
+3abcd 27t  abcd   abcd 2t
+3 3
+Suy ra (t2)3hay t23n t 3n2
+996 9995
+Khi đó abcd 7n4 mà 1000abcd 9999 nên 10007n49999 n
+7 7
+Mặt khác nlà số nguyên n143;144;145;...;1427
+Nên B 1285.
+1285 257
+Khi đó, P(B)  .
+9.104 18000
+Email: Tinh.danlapts@gmail.com
+Câu 21. Chọn ngẫu nhiên ba số a,b,c trong tập hợp S 1;2;3;...;20. Biết xác suất để ba số tìm được
+m m
+thoả mãn a2 b2 c2 chia hết cho 3 bằng , với m,n là các số nguyên dương và phân số
+n n
+tối giản. Biếu thức S mn bằng
+A. 85. B. 239. C. 58. D. 127.
+Lời giải
+Tác giả: Nguyễn Văn Tỉnh
+Đặt A{3;6;9;12;15;18}.
+Chọn 3 số trong tập S ta có C3 cách. suy ra số phần tử của không gian mẫu  C3 .
+20 20
+Mọi số tự nhiên bình phương và chia cho 3 dư 0 hoặc dư 1.
+TH 1: Cả 3 số thuộc tập A có C3 cách chọn.
+6
+TH 2: Cả 3 số thuộc tập S \ A có C3 cách.
+14
+C3 C3 35
+Suy ra xác suất cần tìm là P 6 14  . Vậy mn127.
+C3 92
+20
+luongvanhuydhsphn@gmail.com
+Câu 22. Có 25 quả cầu gồm hai loại Đen và Đỏ đặt trong hai hộp. Hộp nào có số quả cầu nhiều hơn thì
+số quả Đỏ sẽ nhiều hơn. Lấy ngẫu nhiên mỗi hộp một quả. Biết xác suất để hai quả cùng Đỏ là
+0,48. Tinh xác suất để lấy được một quả Đen và một quả Đỏ.
+11 8 12 13
+A. . B. . C. . D.
+25 25 25 25
+Lời giải
+Tác giả : Lương Văn Huy, FB: Lương Văn Huy
+Chọn A
+Gọi a ,a là số quả cầu có trong hai hộp và b ,b lần lượt là số quả cầu Đỏ theo thứ tự trong
+1 2 1 2
+mỗi hộp đó.
+Ta giả sử a a 0 suy ra b b ,a a 25.
+1 2 1 2 1 2
+b b 12 bb a a
+Theo bài ta có 1. 2   1 2  1 2  a hoặc a phải là bội của 5.
+1 2
+a a 25 12 25
+1 2
+Trang 15/24 - Mã đề thi 483

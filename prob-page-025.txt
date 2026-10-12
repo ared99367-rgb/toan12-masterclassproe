@@ -1,0 +1,40 @@
++) Xét phép thử chọn ngẫu nhiên 4 đỉnh của tập S. Ta thấy có 123...9 45 giao điểm
+giữa các đường thẳng nên số phần tử của không gian mẫu là nC4 .
+45
++) Gọi biến cố A:” 4 đỉnh chọn được là bốn đỉnh của một hình bình hành nằm trong miền trong
+tam giác đều Hvà có cạnh chứa các cạnh của tam giác đều cạnh bằng 1 ở trên”.
++) Ta thấy có 3 loại hình bình hành dựa vào cách chọn phương của hai cạnh của hình bình hành.
+Số hình bình hành của mỗi loại là bằng nhau nên chỉ cần tính một loại rồi nhân với 3.
++) Dựng thêm một đường thẳng song song với cạnh đáy và cách cạnh đáy một khoảng bằng
+khoảng cách giữa hai đường thẳng song song kề nhau, tạo thành một tam giác đều mở rộng như
+hình vẽ. Ta chia cạnh mới thành 9 phần bằng nhau bởi 8, cộng thêm 2 đầu mút nữa thành 10
+điểm. Các điểm được đánh số từ trái sang phải từ 1 đến 10.
+Khi đó, với 1 hình bình hành có hai cạnh song song với hai cạnh bên tương ứng với bốn số
+1a bcd10 theo quy tắc sau: Nối dài các cạnh của hình bình hành, cắt các cạnh mới
+tại 4 điểm có số thứ tự là a, b, c, d. Ví dụ với hình bình hành màu đỏ trên ta có bộ  2,5,7,9 
+. Ngược lại nếu có một bộ số 1a bcd10 ta sẽ kẻ các đường thẳng từ điểm a, b song
+song với cạnh bên trái và từ c, d song song với cạnh bên phải giao nhau ra một hình bình hành.
++) Vậy số hình bình hành loại này là số cách lấy ra bốn số phân biệt  a;b;c;d  từ 10 số tự nhiên
+1,2,3,...,10 và ta được C4 210.
+10
+Vậy kết quả là 3.C4 630 hình bình hành.
+10
+3C4 2
+Vậy xác suất cần tính là PA 10  .
+C4 473
+45
+Email- hoanghungspt@gmail.com
+Câu 12. Từ 1 hộp đựng 100 thẻ đánh số thứ tự từ 1 đến 100 lấy ngẫu nhiên 2 thẻ. Xác suất của biến cố:
+A=”Tổng số ghi trên 2 thẻ nhỏ hơn 70” là:
+49 119 161 578
+A. . B. . C. . D. .
+198 495 330 2475
+Lờigiải
+Tác giả : Hoàng Mạnh Hùng, FB: Vô Thường
+Chọn D
+1) nC2 4950
+100
+2) Tính n(A) .
++Gọi x,y (x y) là số thứ tự ghi trên 2 thẻ được lấy ra có tính chất (xy)70
++Với x y2x701 x34
+Trang 8/24 - Mã đề thi 483

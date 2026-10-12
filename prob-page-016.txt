@@ -1,0 +1,54 @@
+Chọn C
+Gọi S là số các số tự nhiên chia hết cho 3, mỗi số gồm n chữ số lấy từ tập hợp X. Dễ thấy S 2
+n 1
+Gọi P là số các số tự nhiên không chia hết cho 3, mỗi số gồm n chữ số lấy từ tập hợp X.
+n
+Ta có S P 4n n1,2,3...
+n n
+Ta tính S như sau:
+n1
+Giả sử A là số tự nhiên bất kì gồm n chữ số lấy từ tập hợp X, có các trường hợp sau:
+Nếu A chia hết cho 3 thì ta viết thêm chữ số 3 hoặc chữ số 9 vào bên phải của A để được một số
+chia hết cho 3, gồm n+1 chữ số lấy tự tập hợp X.
+Nếu A chia hết cho 3 dư 1 thì ta viết thêm chữ số 5 vào bên phải của A để được một số chia hết
+cho 3, gồm n+1 chữ số lấy tự tập hợp X.
+Nếu A chia hết cho 3 dư 2 thì ta viết thêm chữ số 7 vào bên phải của A để được một số chia hết
+cho 3, gồm n+1 chữ số lấy tự tập hợp X.
+Do đó S 2S P thay S P 4n, ta được S S 4n 1,2,3.....
+n1 n n n n n1 n
+Ta có S S S S S ....S S 2
+n n n1 n1 n2 2 1
+4n 2
+4n14n2 ...42
+3
+42018 2
+Vậy số phải tính là S 
+2018 3
+Email: tuangenk@gmail.com
+Câu 27. Một số tự nhiên được gọi là số thú vị nếu số này có 8 chữ số đôi một khác nhau được lập thành
+tự tập 1;2;...;8 và số đó chia hết cho 1111. Hỏi có bao nhiêu số tự nhiên thú vị như thế?
+A. 383. B. 384. C. 386. D. 388.
+Lời giải
+Tác giả: Nguyễn Minh Tuấn Facebook: Minh Tuấn
+Chọn B
+Số cần tìm có dạng i aa a a bb bb . Ta có tổng các chữ số của số cần tìm là tổng các chữ số
+1 2 3 4 1 2 3 4
+từ 1 đến 8 bằng 36 chia hết cho 9 nên số cần tìm chia hết cho 9. Do 9 và 1111 có ước chung lớn
+nhất là 1 nên theo giả thiết thì i chia hết cho 9999.
+Đặt x aa a a ,y bb bb . Ta có i  x.104  y 9999xx y chia hết cho 9999 từ đó suy ra
+1 2 3 4 1 2 3 4
+x y chia hết cho 9999.
+Mặt khác 0 x y2.9999 x y 9999. Do đó a b a b a b a b 9
+1 1 2 2 3 3 4 4
+Từ các chữ số 1,2,3,4,5,6,7,8 có 4 cặp 1;8,2;7,3;6,4;5 nên có 8 cách chọn a ; 6 cách
+1
+chọn a ; 4 cách chọn a và 2 cách chọn a tức chọn a có luôn b .
+2 3 1 k k
+Vậy số các số thú vị là 8.6.4.2384 số
+Email: lecamhoa474@gmail.com
+Câu 28. Cho tập A1;2;3;...;2018 và các số a,b,cA. Hỏi có bao nhiêu số tự nhiên có dạng abc sao
+cho a bc và abc2016.
+A. 2027070. B. 2026086. C. 337681. D. 20270100.
+Lời giải
+Tác giả : Lê Cẩm Hoa
+Chọn C

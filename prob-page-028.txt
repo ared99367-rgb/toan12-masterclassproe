@@ -1,0 +1,60 @@
+X : “xạ thủ A bắn trúng mục tiêu nhiều hơn hai xạ thủ B, C sau 3 lượt bắn”
+X : “ xạ thủ A bắn trúng 3 lần, cả 2 xạ thủ B, C bắn trúng tối đa 2 lần”
+1
+X : “ xạ thủ A bắn trúng 2 lần, cả 2 xạ thủ B, C bắn trúng tối đa 1 lần”
+2
+X : “ xạ thủ A bắn trúng 1 lần, cả 2 xạ thủ B, C không bắn trúng lần nào”
+3
+Khi đó: X  X X X và X , X , X đôi một xung khắc.
+1 2 3
+1 2 3
+Ta có:
+P(X )0,93.[1(0,83 0,73 0,83.0,73)]
+1
+P(X )C20,92.0,1.[(C1)2.0,8.0,22.0,7.0,32 0,23.C1.0,7.0,32 0,33.C1.0,8.0,22 0,23.0,33]
+2 3 3 3 3
+P(X )C1.0,9.0,12.0,23.0,33
+3 3
+Do đó P(X)P(X )P(X )P(X )=0,234323
+1 2 3
+Email: quangtqp1981@gmail.com
+Câu 16. Một nhóm gồm 5 bạn nam, 4 bạn nữ và cầu thủ Công Phượng đứng thành2hàng, mỗi hàng 5
+người để chụp ảnh kỉ niệm. Xác suất để khi đứng, Công Phượng xen giữa hai bạn nam đồng thời
+các bạn nữ không đứng cạnh nhau trong cùng một hàng bằng
+1 1 1 2
+A. . B. . C. . D. .
+35 105 70 105
+Lời giải
+Tác giả: Phí Văn Quang Tên FB: QuangPhi
+*) Ta có:  10! .
+*) Chọn hàng cho cầu thủ Công Phượng, có 2 cách chọn.
+*) Đối với hàng có cầu thủ Công Phượng, có 2 cách xếp như sau:
++) TH1: Trong hàng cầu thủ Công Phượng có 2 nam, 2 nữ.
+Vì Công Phượng xen giữa hai bạn nam nên ta chọn 2 bạn nam từ 5 bạn nam rồi xếp 2bạn nam
+2
+đứng ở hai bên Công Phượng, có: A cách.
+5
+Vì các bạn nữ không đứng cạnh nhau trong cùng một hàng nên ta chọn 2 nữ từ 4 nữ và xếp xếp
+2
+hai bạn nữ đứng ở hai vị trí đầu hàng và cuối hàng, có A cách xếp.
+4
+Hàng còn lại gồm 3 bạn nam và 2 bạn nữ còn lại.
+Ta xếp 3 bạn nam, có 3! cách, tạo ra 4 vị trí giữa các bạn.
+2
+Xếp 2 bạn nữ vào2trong 4 vị trí đó, có: A cách xếp.
+4
+2 2 2
+Do đó, trường hợp này có: A .A .3!.A cách xếp.
+5 4 4
++) TH2: Trong hàng cầu thủ Công Phượng có 3 nam, 1 nữ.
+1 1
+Chọn 1 bạn nam , 1 bạn nữ và xếp hai bạn đó cùng Công Phượng thành một hàng, có C .C .3!
+5 4
+cách.
+2
+Xếp hai bạn nam trong 4 bạn nam còn lại đứng hai bên của Công Phượng, có A cách.
+4
+Hàng còn lại gồm 3 bạn nữ và 2 bạn nam còn lại.
+Ta xếp 3 bạn nữ, có 3! cách, tạo ra 2 vị trí xen giữa các bạn.
+Xếp 2 bạn nam vào2 vị trí đó, có: 2! cách xếp.
+Trang 11/24 - Mã đề thi 483

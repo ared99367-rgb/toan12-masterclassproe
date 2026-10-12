@@ -1,0 +1,56 @@
+C1 .C1 16
+P(B) 120 120  P(B)
+C1 .C1 49
+210 210
+25
+Ta có A, B xung khắc nên P(AB) P(A)P(B) P(AB)
+49
+24
+Suy ra xác suất cần tính là P 1P(AB) P  .
+49
+Số các số tự nhiên có 3 chữ số đôi một khác nhau thuộc tập E là 54360.
+Trong đó số các số không có mặt chữ số 5 là 43224, và số các số có mặt chữ số 5 là
+6024 36.
+Gọi A là biến cố hai số được viết lên bảng đều có mặt chữ số 5; B là biến cố hai số được viết lên bảng
+đều không có mặt chữ số 5.
+Rõ ràng A và B xung khắc. Do đó áp dụng qui tắc cộng xác suất ta có
+C1 .C1 C1 .C1 3 2 2 2 13
+P(AB) P(A) P(B) 36 36  24 24      .
+C1 .C1 C1 .C1 5 5 25
+60 60 60 60
+13 12
+Suy ra xác suất cần tính là P 1P(AB)1  .
+25 25
+email: Samnk.thptnhuthanh@gmail.com
+Câu 45. Một lớp học có 42 học sinh xếp thành một vòng tròn. Chọn ngẫu nhiên ra 3 học sinh để tham gia
+vào một trò chơi. Tính xác suất để trong 3 học sinh được chọn không có hoc sinh đứng kề nhau.
+703 701 351 341
+A. B. C. D. .
+820 820 410 420
+Lời giải
+Tác giả : Nguyễn Khắc Sâm,Tên FB: Nguyễn Khắc Sâm
+Chọn A
+Chọn ngẫu nhiên 3 học sinh trong 42 học sinh nên  C3
+42
+Gọi A là biến cố "trong 3 học sinh được chọn không có hoc sinh đứng kề nhau".
+Giả sử ta đặt tên 42 HS đã xếp thành một vòng tròn đó lần lượt là 1, 2, ..., 42. Để tính  ta xét
+A
+2 trường hợp sau:
+TH1: HS15 được chọn: Khi đó HS14 và HS16 không được chọn. Ta chọn 2 HS trong 39 HS còn
+lại sao cho không có HS nào đứng kề nhau: có C2 cách.
+38
+TH2: HS15 không được chọn: Khi đó ta chọn 3 HS trong 41 HS còn lại sao cho không có HS
+được chọn đứng kề nhau: có C3 cách.
+39
+C2 C3 703
+Từ đó ta có  =C2 +C3 . Vậy P(A) 38 39 
+A 38 39 C3 820
+42
+ngoletao@gmail.com
+Câu 46. Chọn ngẫu nhiên ba số trong tập hợp An|1n2019. Tính xác suất (chính xác đến
+hàng phần nghìn) để tích ba số được chọn chia hết cho 9.
+A. 0,507. B. 0,593. C. 0,493. D. 0,407.
+Lời giải
+Tác giả : Ngô Lê Tạo, FB: Ngô Lê Tạo
+Chọn D
+Trang 7/26 - Mã đề thi 483

@@ -1,0 +1,54 @@
+Các a là 5 số tự nhiên phân biệt lấy từ tập {1,2,...,15}. Tổng nhỏ nhất của 5 số tự
+i
+nhiên phân biệt trong tập này là:
+1+2+3+4+5 = 15.
+Do tổng đã bằng đúng 15, nên bắt buộc:
+{a ,a ,a ,a ,a } = {1,2,3,4,5}.
+1 2 3 4 5
+Vậy có 5! cách điền các số 1,2,3,4,5 vào cột 1.
+Sau đó còn lại 10 số: 6,7,8,...,15. Các hàng có độ dài lần lượt là 1,2,3,4,5. Sau khi
+đã điền cột 1, số ô còn lại cần điền thêm ở các hàng lần lượt là 0,1,2,3,4.
+Ta cần chia 10 số còn lại thành các nhóm có kích thước 0,1,2,3,4. Trong mỗi hàng,
+thứ tự đã bị ép là tăng dần, nên sau khi chọn được các số cho một hàng thì chỉ có đúng
+một cách sắp xếp chúng.
+Số cách chia là:
+10!
+.
+0!1!2!3!4!
+Vậy:
+10!
+T = 5!· .
+0!1!2!3!4!
+Tính:
+3628800
+T = 120· .
+1·1·2·6·24
+Mà 1·1·2·6·24 = 288, nên:
+10!
+= 12600.
+0!1!2!3!4!
+Do đó T = 120·12600.
+Suy ra:
+T
+= 120 .
+12600
+Câu 3
+Đa giác đều 12 cạnh có 12 đỉnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác sẽ
+được tạo bởi các đỉnh cách đều nhau 3 bước.
+Do đó 12 đỉnh được chia thành 3 nhóm, mỗi nhóm gồm 4 đỉnh tạo thành một hình
+vuông:
+{1,4,7,10}, {2,5,8,11}, {3,6,9,12}.
+Ta có 4 bóng đỏ và 8 bóng xanh. Điều kiện là mỗi hình vuông đều có ít nhất một
+bóng đỏ.
+Vì các bóng cùng màu có công suất khác nhau, nhưng khi tính xác suất, ta có thể xét
+trước vị trí của các bóng đỏ. Sau đó hoán vị các bóng đỏ và bóng xanh bên trong các vị
+trí tương ứng sẽ triệt tiêu ở tử và mẫu.
+Tổng số cách chọn vị trí cho 4 bóng đỏ trong 12 đỉnh là
+(cid:0)12(cid:1)
+.
+4
+Ta cần chọn 4 vị trí đỏ sao cho cả 3 hình vuông đều có ít nhất một đỉnh đỏ. Vì có 4
+bóng đỏ chia vào 3 nhóm, mỗi nhóm ít nhất 1 bóng đỏ, nên phân bố số bóng đỏ theo ba
+nhóm chỉ có thể là (2,1,1).
+Ta đếm số cách thuận lợi:
+2

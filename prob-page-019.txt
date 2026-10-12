@@ -1,0 +1,49 @@
+Gọi hai số được lấy ra đồng thời từ tập A thỏa mãn yêu cầu bài toán là
+x, y  x, y* ,x  y  .
+
+Không làm mất tính tổng quát giả sử x  y.
+x23yk2  k* ,kx  . Ta thấy rằng 4x3x3y. Đặt k  xtt 1
+
+Nếu t2 thì x2 2xtt2 k2 2xtt2 3y3y2xt 4x (Vô lý)
+3y1 9y3
+Nên t 2t 1. Khi đó, 2x12yx  ,3x  6y (*)
+2 2
+Tương tự: y2 3x m2  m* ,m  y  . Đặt m yz
+
+Nếu z3 thì m2  y2 2yzz2 3x 2yzz2 3x 2yz6y ( Vô lý với (*)).
+Nên z3 z 1,2
+9y3
+Với z 1 2y1 y1, x 1 (loại).
+2
+9y3
+Với z 2 4y4 y11, x 16
+2
+Suy ra:x;y16;11
+Số phần tử của biến cố bằng 1.
+1
+Vậy xác suất của biến cố là . Đáp án B.
+C2
+2019
+Email: cvtung.lg2@bacgiang.edu.vn
+Câu 3. Thầy chủ nhiệm có 16 cuốn sách đôi một khác nhau gồm 8 cuốn sách toán, 5 cuốn sách lý và 3
+cuốn sách anh. Thầy lấy 8 cuốn tặng đều cho 8 bạn học sinh. Tính xác suất để sau khi tặng mỗi
+loại sách còn ít nhất một cuốn.
+173 163 127 134
+A. . B. . C. . D. .
+195 185 175 165
+Lời giải
+Tác giả :Cao Văn Tùng,Tên FB: Cao Tung
+Chọn A
+- Số cách tặng 8 quyển bất kỳ là A8 518918400.
+16
+- Để mỗi loại sách còn ít nhất một cuốn ta xét trường hợp đối là có sách được tặng hết.
++) Tặng hết sách toán có 8!40320 cách.
++) Tặng hết cả sách lý và anh A5.A3 8!40320 cách.
+8 3
++) Chỉ tặng hết sách lý có A5.  A3 A3 6612480 cách.
+8 11 3
++) Chỉ tặng hết sách anh có A3.  A5 A5 51851520 cách.
+8 13 5
+- Số cách tặng mỗi loại sách để còn ít nhất một cuốn là
+5189184002.40320661248051851520460373760
+Trang 2/24 - Mã đề thi 483

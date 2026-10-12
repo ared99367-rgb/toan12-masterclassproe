@@ -1,0 +1,42 @@
+Email: binhlt.thpttinhgia1@thanhhoa.edu.vn
+Câu 60. Cho đa giác lồi n cạnh ( n*,n6 ) nội tiếp đường tròn O sao cho không có ba đường
+chéo nào đồng quy. Các cạnh và các đường chéo của đa giác giao nhau tạo thành các tam giác.
+Gọi X là tập hợp các tam giác như thế. Lấy ngẫu nhiên một tam giác trong tậpX . Tìm n để xác
+4
+suất lấy được tam giác không có đỉnh nào là đỉnh của đa giác bằng .
+15
+A. n 23. B. n 19. C. n15. D. n11.
+Lời giải
+Tác giả : Lê Thanh Bình
+Chọn B
+Đếm số phần tử của tập X .
+TH1: Tam giác có 3 đỉnh là 3 đỉnh của đa giác: Số tam giác loại này làC3.
+n
+A
+C
+B
+TH2: Tam giác có đúng 2 đỉnh là đỉnh của đa giác:
+Chọn hai đỉnh của đa giác và một đỉnh nằm trong đa giác là giao điểm của hai đường chéo. Để
+có một giao điểm như vậy ta cần phải có hai đường chéo, hay cần 4 đỉnh của đa giác. Mỗi cách
+chọn 4 đỉnh của đa giác cho ta 4 tam giác có đúng hai đỉnh là đỉnh của đa giác.
+Vậy số tam giác loại này là 4C4.
+n
+A
+I C
+B
+D
+TH3: Tam giác có đúng một đỉnh là đỉnh của đa giác:
+Mỗi cách chọn 5 đỉnh của đa giác sinh ra 5 tam giác loại này.
+Vậy có 5C5 tam giác trong TH này.
+n
+A
+N C
+M
+B P
+R
+Q
+D
+E
+TH4: Tam giác không có đỉnh nào là đỉnh của đa giác:
+Mỗi cách chọn 6 đỉnh của đa giác sinh ra một tam giác loại này.
+Trang 17/26 - Mã đề thi 483

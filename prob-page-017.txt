@@ -1,0 +1,30 @@
+Xét phương trình abc2016.
+Ta biết phương trình trên có C2 nghiệm nguyên dương.
+2015
+TH1: Xét các cặp nghiệm 3 số trùng nhau: a b c 672.
+TH2: Xét các cặp nghiệm có a b, c a  2ac 2016. Suy ra c là số chẵn thỏa
+0c 2016 nên có 1007giá trị c. Do đó có 1007 cặp, mà có cặp trừ cặp 672,672,672(loại).
+Do đó có 1006 cặp.
+Tương tự ta suy ra có 1006.3 cặp nghiệm có 2 trong 3 số trùng nhau.
+C2 3.10061
+Do số tập hợp gồm ba phần tử có tổng bằng 2016 là 2015 337681.
+3!
+(Chia cho 3! là do a bc nên không tính hoán vị của bộ ba a,b,c)
+Lenguyet150682@gmail.com
+Câu 29. Từ hai chữ số 0 và 1 tạo ra được bao nhiêu số có 2018 chữ số thỏa mãn hai điều kiện:
+i) Chia hết cho 5
+ii) Có tổng các chữ số là một số chẵn.
+A. 22018 . B. 22017. C. 22015 D.22016 .
+Lời giải
+Tác giả : Lê Thị Nguyệt, FB: Nguyệt Lê
+Chọn C
+Giả sử số thỏa đề bài có dạng aa ...a .
+1 2 2018
+Vì a  0 nên a 1.
+1 1
+Vì aa ...a 5 nên a  0.
+1 2 2018 2018
+Vì tổng các chữ số là một số chẵn nên trong các số a ,a ,...,a có một số lẻ số a 1.
+2 3 2017 i
+Do đó có tất cả C1 C3 C2015 22015 số thỏa đề bài.
+2016 2016 2016

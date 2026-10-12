@@ -1,0 +1,51 @@
+Chọn 5 chữ số bất kỳ phải có chữ số 0 có C4 cách, sau đó xếp 5 chữ số vào 5 vị trí
+9
+aa a a a .
+1 2 3 4 5
+- Vị trí a có 1 cách chọn, vì a lớn nhất.
+3 3
+- Có C2 cách chọn hai số để xếp vào hai vị trí aa .
+3 1 2
+- Có 1 cách chọn hai số để xếp vào hai vị trí a a .
+4 5
+Suy ra có C4C2 378 (số).
+9 3
+Do đó số phần tử của tập B là |B|7563781134 (số).
+C1 1
+Vì vậy xác suất cần tìm là 1134  .
+C1 24
+27216
+Suy ra chọn D.
+nguyentuanblog1010@gmail.com
+Câu 54. Cho tập X 1;2;3;4;5;6;7;8;9. Gọi S là tập hợp các số tự nhiên có sáu chữ khác nhau được
+tạo từ X . Chọn ngẫu nhiên từ S ra hai số. Khi đó xác suất để trong hai số được chọn có đúng
+một số không chia hết cho 2 đồng thời có đúng hai chữ số chẵn đứng cạnh nhau gần với kết quả
+nào dưới đây nhất ?
+A. 0,2. B. 0,4. C. 0,5. D. 0,7.
+Lời giải
+Tác giả: Phạm Chí Tuân, FB: Tuân Chí Phạm
+Chọn B
+Gọi số cần tìm trong tập S là nabcdef với a b;bc;c  d;d e;e f; f  a và a0.
+Số phần tử của tập S là: A6 60480 phần tử.
+9
+Ta đếm trong tập S các số có sáu chữ số khác nhau không chia hết cho 2 đồng thời có đúng hai
+chữ số chẵn đứng cạnh nhau.
+Do n2 f 2;4;6;8 f 1;3;;5;7;9.
+Mặt khác do số đang đếm chỉ có đúng hai chữ số chẵn đứng cạnh nhau nên ta có hai trường
+hợp.
+Trường hợp 1: có 2 số chẵn.
+- Chọn f có 5 cách chọn.
+- Chọn 2 số chẵn trong 4 số chẵn có C2 cách.
+4
+- Xếp 2 số chẵn vừa chọn vào hai vị trí cạnh nhau trong 5 vị trí còn lại có 4.2! cách.
+- Chọn 3 số lẻ trong 4 số lẻ và xếp 3 số lẻ vừa chọn vào 3 vị trí còn lại có C3.3! cách.
+4
+Do đó trường hợp 1 có tất cả là 5.C2.4.2!.C3.3!5760 số.
+4 4
+Trường hợp 2: có 3 số chẵn.
+- Chọn f có 5 cách chọn.
+- Chọn 3 số chẵn trong 4 số chẵn có C3 cách.
+4
+- Xếp 3 số chẵn vừa chọn vào 3 vị trí sao cho chỉ có 2 số chẵn cạnh nhau trong 5 vị trí còn lại
+có 6.3! cách.
+Trang 12/26 - Mã đề thi 483

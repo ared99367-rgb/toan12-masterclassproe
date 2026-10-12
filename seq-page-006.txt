@@ -1,0 +1,70 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+x x d,x x ,x x dd 0. Theo giả thiết ta có :
+1 0 2 0 3 0
+x33x224mx26nxx xx xx xx dxx xx d
+1 2 3 0 0 0
+ x33x x2   3x2 d2 xx3x d2 x
+0 0 0 0
+Đồng nhất hệ số ở hai vế của phương trình ta có hệ :
+3x 3 x 1
+0 0
+  x 1
+3x2 d2 24m3d2 24m  0
+
+0
+
+mn
+ x3x d2 26n  1d2 26n
+0 0
+Vậy với m=n thì ba nghiệm phân biệt của phương trình lập thành cấp số cộng .
+Bài 6.Tìm m để phương trình : x4 3m5x2 m12 0 có bốn nghiệm lập thành
+một cấp số cộng ?
+HƯỚNG DẪN
+Giả sử bốn nghiệm phân biệt của phương trình : x ,x ,x ,x .
+1 2 3 4
+Đặt x2  y0, ta được phương trình :
+ y2 3m5ym12 0 1
+Ta phải tìm m sao cho (1) có hai nghiệm dương phân biệt : 0 y  y , Khi đó thì (1)
+1 2
+có bốn nghiệm là : x  y ,x  y ,x  y ,x  y ( Rõ ràng : x  x  x  x )
+1 2 2 1 3 1 4 2 1 2 3 4
+Theo đầu bài thì bốn nghiệm lập thành cấp số cộng , nên :
+x x 2x x x 2x  y  y 2 y 3 y  y 9y  y *
+3 1 2 4 2 3 1 2 1 1 2 1 2
+Áp dụng vi ét cho phương trình (1) ta có hệ :
+3m52 4m12
+0
+m5
+
+ 
+ S  y  y 10y 3m5   25
+1 2 1 n
+ 
+ P y
+1
+y
+2
+9y
+1
+2 m12  19
+Bài 7. Độ dài các cạnh của một tam giác ABC lập thành một cấp số nhân . Chứng
+minh rằng tam giác ABC có hai góc không quá 600?
+HƯỚNG DẪN
+Giả sử ba cạnh của tam giác ABC thứ tự là a,b,c . Không giảm tính tổng quát , ta giả
+sử 0<abc, nếu chúng tạo thành cấp số nhân thì , theo tính chất của cấp số nhân ta
+có : b2 ac.
+Theo định lý hàm số cô sin , ta có :
+a2 c2 1
+b2 a2 c2 2accosBaca2 c2 2ac.cosBcosB= 
+2ac 2
+1 1
+Mặt khác : a2 c2 2accosB1-  . Vậy góc B600
+2 2
+Nhưng : ab A600, cho nên tam giác ABC có hai góc không quá 600.
+4
+Bài 8.Tìm bốn số hạng đầu của một cấp số nhân , biết tổng ba số hạng đầu bằng 16 ,
+9
+đồng thời theo thứ tự , chúng là số hạng thứ nhất , thứ tư và thứ tám của một cấp số
+cộng .
+HƯỚNG DẪN
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 6 ĐT : 0985.270.218

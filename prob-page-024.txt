@@ -1,0 +1,36 @@
+Câu 10. Gọi S là tập hợp các ước số nguyên dương của số 79413075. Lấy ngẫu nhiên hai phần tử thuộc
+S . Tính xác suất lấy được hai phần tử là hai số không chia hết cho 5.
+1 9 2 2
+A. . B. P . C. P  . D. P .
+3 83 83 9
+Lời giải
+Tác giả : Nguyễn Văn Mạnh,Tên FB: Nguyễn Văn Mạnh
+Chọn B
+Ta có 7941307576.33.52 .
+Mỗi ước nguyên dương của số 79413075 là một số có dạng 7i.3j.5k, trong đó
+i0;1;2;3;4;5;6, j0;1;2;3, k0;1;2.
+Số ước nguyên dương bằng số bộ i; j;k được chọn từ 3 tập trên. Suy ra số cách chọn bộ
+i; j;k từ 3 tập trên là 7.4.3=84 (cách) nên số phần tử của S là 84.
+Có C2 cách chọn ngẫu nhiên hai phần tử thuộcS .
+84
+Mỗi ước nguyên dương không chia hết cho 5 của số 79413075 là một số có dạng 7i.3j.50
+Suy ra số các ước của 79413075 không chia hết cho 5 trong tậpS là 7.4 28.
+Do đó có C2 cách lấy hai phần tử thuộc S mà không chia hết cho 5.
+28
+C2 9
+Suy ra xác suất lấy được hai số không chia hết cho 5 trong S là P 28 
+C2 83
+84
+Email: nghianguyennhan78@gmail.com
+Câu 11. Cho tam giác đều H có cạnh bằng 8. Chia tam giác đều này thành 64 tam giác đều có cạnh
+bằng 1 bởi các đường thẳng song song với các cạnh của tam giác đều đã cho. Gọi S là tập hợp
+các đỉnh của 64 tam giác đều có cạnh bằng 1. Chọn ngẫu nhiên 4 đỉnh của tập S. Tính xác
+suất để 4 đỉnh chọn được là bốn đỉnh của một hình bình hành nằm trong miền trong tam giác
+đều Hvà có cạnh chứa các cạnh của tam giác đều cạnh bằng 1 ở trên.
+45 64 2 2
+A. . B. C. . D.
+473 473 210 473
+Lời giải
+Tác giả : Nguyễn Thị Thanh Thảo,Tên FB: Nguyễn Thanh Thảo
+Chọn D
+Trang 7/24 - Mã đề thi 483

@@ -1,0 +1,41 @@
+Nguyenhang15401@gmail.com
+Câu 3. (THPT Chuyên Hùng Vương-Phú Thọ-lần 1-NH2017-2018) Một khối lập phương có độ dài
+cạnh là 2cm được chia thành 8 khối lập phương cạnh 1cm. Hỏi có bao nhiêu tam giác được tạo
+thành từ các đỉnh của khối lập phương cạnh 1cm.
+A. 2876. B. 2898. C. 2915. D. 2012.
+Lời giải
+Tác giả : Nguyễn Thúy Hằng, FB: Hằng-RuBy-Nguyễn
+Chọn D
+Có tất cả 27 điểm.
+Chọn 3 điểm trong 27 có C3 2925.
+27
+Có tất cả 8.26.24.24322249 bộ ba điểm thẳng hàng.
+Vậy có 2925492876 tam giác.
+tranquocan1980@gmail.com
+Câu 4. Cho tập A{0,1,2,3,4,5,6,7,8,9}.Từ các phần tử của tập A có thể lập được bao nhiêu số có 6
+chữ số đôi một khác nhau mà trong đó hai số chẵn không thể đứng cạnh nhau?
+A.26880. B.27360. C.34200. D.37800.
+Lời giải
+Tácgiả :Trần Quốc An, FB: TranQuocAn
+Chọn D
+Giả sử số có 6 chữ số thỏa đề bài có dạng M aa a a a a .
+1 2 3 4 5 6
+Nhận xét : Trong các vị trí a ,a ,a ,a ,a ,a có tối đa 3 chữ số là số chẵn được lấy từ tập A.
+1 2 3 4 5 6
+TH1 : Số M chỉ chứa 1 chữ số chẵn
++ a chẵn : a có 4 cách chọn
+1 1
+Các vị trí a ,a ,..,a là số lẻ nên có 5! cách xếp
+2 3 5
+TH này có : 4.5!480 cách chọn.
++ a lẻ : a có 5 cách chọn
+1 1
+Chọn một chữ số chẵn và 4 chữ số lẻ và xếp chúng ở 5 vị trí a ,a ,..,a như sau
+2 3 5
+C1.C4.5! cách
+5 4
+TH này có : 5.C1.C4.5!3000 cách chọn.
+5 4
+TH2: Số M có chứa 2 chữ số chẵn .
++ a chẵn : a có 4 cách chọn
+1 1

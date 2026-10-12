@@ -1,0 +1,56 @@
+Tác giả : Nguyễn Ngọc Duy Facebook: Ngọc Duy
+Chọn B
+Gọi x là số câu trả lời đúng suy ra 50x là số câu trả lời sai.
+Ta có số điểm của Hoa là 0,2.x0,1.50x4  x 30.
+Do đó bạn Hoa trả lời đúng 30 câu và sai 20 câu.
+Không gian mẫu là số phương án trả lời 50 câu hỏi mà bạn Hoa chọn ngẫu nhiên. Mỗi câu có 4
+phương án trả lời nên có 450 khả năng. Suy ra số phần tử của không gian mẫu là  450.
+Gọi X là biến cố ''Bạn Hoa trả lời đúng 30 câu và sai 20 câu''. Vì mỗi câu đúng có 1 phương
+án trả lời, mỗi câu sai có 3 phương án trả lời. Vì vậy có
+C30.320
+khả năng thuận lợi cho biến
+50
+cố X . Suy ra số phần tử của biến cố X là 
+C30.320
+.
+X 50
+C30.320 C20.320
+Vậy xác suất cần tính P 50  50 .
+450 450
+Email: phamcongdung2010@gmail.com
+Câu 58. Gọi S là tập hợp các số tự nhiên có 5 chữ số khác nhau. Chọn ngẫu nhiên một số từ tập S. Tính
+xác suất để chọn được số mà trong đó hai chữ số kề nhau không cùng là số lẻ.
+311 143 379 53
+A. . B. . C. . D. .
+9072 378 1134 378
+Lời giải
+Tác giả : Phạm Công Dũng,Tên FB:Phạm Công Dũng
+Chọn B
+Số phần tử của không gian mẫu n() A5 A4 27216.
+10 9
+Gọi A là biến cố “ chọn được số có 5chữ số khác nhau mà trong đó hai chữ số kề nhau không
+cùng là số lẻ ”.
+Để chọn được số có 5chữ số khác nhau mà trong đó hai chữ số kề nhau không cùng là số lẻ xảy
+ra các trường hợp sau :
+Trường hợp 1. Số được chọn có 5 chữ số chẵn.
+Trong trường hợp này có 5!4!96 số.
+Trường hợp 2. Số được chọn có 1 chữ số lẻ và 4chữ số chẵn.
+- Chọn 4 chữ số chẵn và sắp xếp vị trí 4số ta có C4.4!. Khi đó tạo thành 5 khe.
+5
+- Chọn 1 chữ số lẻ và sắp xếp vào 1 trong 5 khe , ta có C1.5 cách
+5
+Do đó có C4.4!.C1.5 số ( kể cả số 0đứng đầu )
+5 5
+Số5chữ số khác nhau gồm1 chữ số lẻ và 4chữ số chẵn, trong đó hai chữ số kề nhau không
+cùng là số lẻ mà số 0đứng đầu là: C3.3!.C1.4
+4 5
+Vậy có C4.4!.C1.5C3.3!.C1.42520(số ).
+5 5 4 5
+Trường hợp 3. Số được chọn có 2 chữ số lẻ và 3chữ số chẵn.
+- Chọn 3 chữ số chẵn và sắp xếp vị trí 3 số ta có C3.3!. Khi đó tạo thành 4 khe.
+5
+- Chọn 2 chữ số lẻ và sắp xếp vào 2 trong 4 khe, ta có C2.A2 cách.
+5 4
+Do đó có C3.3!.C2.A2 số ( kể cả số 0đứng đầu )
+5 5 4
+Trang 15/26 - Mã đề thi 483

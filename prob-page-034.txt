@@ -1,0 +1,54 @@
+Do vậy có 45 bộ số a,b,c không phân biệt thứ tự trong đó có 2 số bằng nhau và khác số còn
+lại.
+C2 45.3
+Suy ra: có tất cả 90 645 bộ số a,b,c không phân biệt thứ tự thỏa mãn.
+6
+Vậy số phần tử của tập S là 645.
+Gọi một bộ số a;b;c theo thứ tự lập thành cấp số nhân.
+Do abc91 suy ra abcdo đó a30.
+m m
+Gọi công bội của cấp số nhân là mn trong đó là phân số tối giản.
+n n
+m m2 a
+Khi đó abc91a a a91  n2 mnm2 91
+n n2 n2
+Do m,n1 do đó an2 suy ra n1;2;3;4;5.
++ Với n1 khi đó a  1mm2 917.131.91
+a1
+a1 a1 
+Nếu   m9 suy ra bộ 3 số là 1;9;81
+m2 m191 m2 m900 
+m10
+a7
+a7 a7 
+Nếu   m4 suy ra bộ 3 số là 7,21;63
+m2 m113 m2 m120 
+m3
+a13
+a 13 a13 
+Nếu   m3 suy ra bộ 3 số là 13;26;52
+m2 m17 m2 m60 
+m2
++ Với n2 khi đó a4;8;12;16;20;24;28
+Nếu a  4;n  2 suy ra: m2 2m491 loại
+91
+Nếu a 8;n  2 suy ra: m2 2m4 loại
+2
+91
+Nếu a 12;n 2 suy ra: m2 2m4 loại
+3
+91
+Nếu a 16;n 2 suy ra: m2 2m4 loại
+4
+91
+Nếu a  20;n 2 suy ra: m2 2m4 loại
+5
+91
+Nếu a  24;n 2 suy ra: m2 2m4 loại
+6
+m1
+Nếu a  28;n  2 suy ra: m2 2m47m2 2m30 loại
+
+m3
++ Với n3 suy ra a9,18,27
+Trang 17/24 - Mã đề thi 483

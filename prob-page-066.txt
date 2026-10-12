@@ -1,0 +1,58 @@
++) Xếp 1 môn còn lại vào 1 trong 5 phòng thi đang chứa 1 môn có: 5 cách.
++) Có 1 phòng thi chứa 2 môn thi (không phải Toán và Lý) có 2! cách xếp trùng.
+ 
+6.A5.5
+Nên n A  6 10800.
+2!
+ 
+n A
+    10800 13
+Vậy xác suất cần tìm là: P A 1P A 1 1  .
+n    151200 14
+Email: tranducphuong.rb@gmail.com
+Câu 69. Gọi A là tập hợp các số tự nhiên có chín chữ số đôi một khác nhau. Chọn ngẫu nhiên một số tự
+nhiên thuộc vào tập A. Tính xác suất để chọn được một số thuộc A và số đó chia hết cho 3.
+10 4 11 1
+A. . B. . C. . D. .
+27 9 27 3
+Lời giải
+Tác giả: Trần Đức Phương
+Chọn C
+Gọi phần tử của A có dạng: aa a a a a a a a
+1 2 3 4 5 6 7 8 9
+a 0 nên có 9 cách chọn.
+1
+Chọn 8 chữ số còn lại và xếp vào vị trí từ a a có A8 cách chọn.
+2 9 9
+Vậy n(A)= 9A8.
+9
+Giả sử gọi B 0;1;2;...;9 có tổng 10 phần tử là 453. Nên nếu muốn tạo thành một số có 9 chữ
+số vả chia hết cho 3, ta cần loại đi phần tử là bội của 3.
+Như vậy, ta sẽ có các tập: B\{0},B\{3},B\{6},B\{9}
+TH1: Chọn tập B\{0} để tạo số:
+Ta còn 9 chữ số để xếp vào 9 vị trí a a có 9! cách.
+1 9
+TH2: Chọn 1 trong ba tập: B\{3},B\{6},B\{9} có 3 cách.
+a 0: nên có 8 cách (vì đã loại đi phần tử là bội của 3).
+1
+Còn 8 chữ số xếp vào 8 vị trí còn lại có 8! cách.
+ Số cách chọn phần tử thuộc A và chia hết cho 3 là 9!3.8.8!
+9!3.8.8! 11
+Vậy xác suất cần tìm là  .
+9A8 27
+9
+vanphu.mc@gmail.
+Câu 70. Trên đường tròn C có 2018 điểm phân biệt. Hỏi có bao nhiêu cách xóa đi 18 điểm sao cho
+không có hai điểm bị xóa nào cạnh nhau?
+A. C18 . B. C18 . C. C18 C17 . D. C18 C17 .
+2000 2018 2000 2000 2000 1999
+Lời giải
+Tác giả : Nguyễn Văn Phu, FB: Hộp Thư TriÂn
+Chọn D
+Giả sử trong 2018 điểm đó có điểm A, khi đó có 2 trường hợp
+TH1: Điểm A không bị xóa
+Sau khi xóa đi 18 điểm còn lại 2000 điểm. Xen giữa 2000 điểm đó có 2000 khoảng trống, 18
+điểm bị xóa tương ứng với 18 trong số 2000 khoảng trống nên có C18
+2000
+TH2: Điểm A bị xóa
+Trang 25/26 - Mã đề thi 483

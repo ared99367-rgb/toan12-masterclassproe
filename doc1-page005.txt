@@ -1,0 +1,29 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 05
+\
+Câu 13 [HTN]: Trên một ô lưới như hình, hình chữ chữ nhật gồm 9 cột và 5 hàng ô vuông. Một bé cún
+AB
+xuất phát từ điểm và chạy đến điểm . Mỗi bước, bé cún chỉ được chạy sang phải hoặc xuống dưới đúng
+A B
+1 ô (đi theo các cạnh của ô vuông), vì vậy bé cún luôn đi theo đường ngắn nhất. Trong hình vuông có phần
+tô đậm là những bãi bùn. Bé cún không được chạy vào miền trong của các vùng tô đậm, nhưng vẫn được
+phép chạy trên đường biên của chúng. Hỏi bé cún có bao nhiêu cách chạy từ đến ?
+A B
+Câu 14 [HTN]: Một con kiến đang ở điểm O0;0 và bò đến điểm B8;8 trên mặt phẳng tọa độ Oxy .
+Mỗi bước đi, con kiến chỉ có thể bò sang phải 1 đơn vị hoặc bò lên trên 1 đơn vị. Gọi là xác suất con kiến
+P
+có đi qua điểm M3;3. Giá trị
+20449P
+bằng bao nhiêu?
+Câu 15 [HTN]: Từ tập hợp số tự nhiên , cần chọn ra 10 số phân biệt để gán vào 10 ô vuông
+{1;2;3;;25;26}
+đơn vị như hình vẽ. Gọi là số cách chọn số sao cho mọi số ở hàng trên luôn nhỏ hơn mọi số ở hàng dưới,
+T
+mọi số bên trái luôn nhỏ hơn mọi số bên phải cùng hàng, đồng thời các số thuộc các ô theo thứ tự
+A,B,C,D
+T
+lập thành cấp số cộng. Giá trị bằng bao nhiêu?
+4
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

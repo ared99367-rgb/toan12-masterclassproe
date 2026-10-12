@@ -1,0 +1,52 @@
+TH5: Số có 5 chữ số khác nhau (VD: 12568) Bộ 5 số chỉ được 1 số thỏa mãn có C5 số.
+9
+n(A)C1 4.C2 6.C3 4.C4 C5 1287
+9 9 9 9 9
+n(A) 1289 143
+Vậy P(A)   .
+n() 9.104 10000
+thinhvanlamha@gmail.com
+Câu 43. Có 99 tấm thẻ được đánh số từ 1 đến 99. Chọn ngẫu nhiên ra 10 tấm thẻ. Tính xác suất để lấy
+được 5 tấm thẻ ghi số chẵn, 5 tấm thẻ ghi số lẻ trong đó có đúng 1 tấm thẻ ghi số chia hết cho
+5. Làm tròn kết quả đến 5 chữ số thập phân là
+A. 0,22372. B. 0,50279. C. 0,07334. D. 0,08235.
+Lời giải
+Tác giả : Nguyễn Văn Thịnh, FB: Thịnh Nguyễn Văn
+Chọn C
+Chọn 10 tấm thẻ trong số 99 tấm thẻ, có C10 cách. Vậy không gian mẫu nC10.
+99 99
+Từ 1 đến 99 có 50 số lẻ và 49 số chẵn, trong đó có 9 số có tận cùng bằng 0 là
+10,20,30,40,50,60,70,80,90 và 10 số có tận cùng bằng 5 là
+5,15,25,35,45,55,65,75,85,95. Ta có hai trường hợp:
+TH1: Chọn một số chia hết cho 5 có tận cùng bằng 0, số đó là số chẵn nên ta chọn thêm 4 số
+chẵn nữa trừ các số thuộc 10,20,30,40,50,60,70,80,90 và 5 số lẻ trừ các số thuộc
+5,15,25,35,45,55,65,75,85,95. Có C1.C4 .C5 cách.
+9 40 40
+TH2: Chọn một số chia hết cho 5 có tận cùng bằng 5, số đó là số lẻ nên ta chọn thêm 4 số lẻ
+nữa trừ các số thuộc 5,15,25,35,45,55,65,75,85,95 và 5 số chẵn trừ các số thuộc
+10,20,30,40,50,60,70,80,90. Có C1 .C4 .C5 cách.
+10 40 40
+C1.C4 .C5 C1 .C4 .C5
+Khi đó xác suất cần tính là P 9 40 40 10 40 40 0,07334.
+C10
+99
+Email: anhtu82t@gmail.com
+Câu 44. Cho tập E 1,2,3,4,5,6,7. Viết ngẫu nhiên lên bảng hai số tự nhiên, mỗi số gồm 3chữ số đôi
+một khác nhau thuộc tập E. Tính xác suất để trong hai số đó có đúng một số có chữ số 5.
+3 24 25 1
+A. P . B. P  . C. P . D. P .
+4 49 49 4
+Lời giải
+Tác giả : Đồng Anh Tú,Tên FB: Anhtu
+Chọn B
+Số các các số tự nhiên có 3 chữ số đôi một khác nhau thuộc tập E là A3 210. Trong đó số
+7
+các số không có mặt chữ số 5 là A3 120, và các số có mặt chữ số 5 là 90.
+6
+Gọi Alà biến cố hai số được viết lên bảng đều có mặt chữ số 5 thì
+C1 .C1 9
+P(A) 90 90  P(A)
+C1 .C1 49
+210 210
+Gọi Blà biến cố hai số được viết lên bảng đều không có mặt chữ số 5 thì
+Trang 6/26 - Mã đề thi 483

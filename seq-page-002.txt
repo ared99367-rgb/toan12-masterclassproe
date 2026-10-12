@@ -1,0 +1,58 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+2. Trong một cấp số nhân có 9 số hạng , biết số hạng đầu u 5 và số hạng cuối
+1
+u 1280. Tìm công bội q và tổng S các số hạng ?
+9
+3. Tìm số hạng của một cấp số nhân :
+a. Có 5 số hạng mà số hạng đầu là 3 , số hạng cuối là 243 ?
+b. Có 6 số hạng mà số hạng đầu là 243 và số hạng cuối là 1 ?
+c. Trong cấp số nhân , cho q=1/4 , n=6, và S=2730 . Tìm u ,u .
+1 6
+4. Tìm bốn góc của một tứ giác , biết các góc đó lập thành một cấp số nhân và góc
+cuối bằng 9 lần góc thứ 2 ?
+5. Tổng ba số hạng của một cấp số nhân là 248 , hiệu của số hạng cuối và số hạng
+đầu là 192. Tìm ba số hạng đó ?
+6. Chứng minh rằng nếu ba cạnh của một tam giác lập thành một cấp số nhân thì
+1  1 
+công bội của cấp số đó ắt phải nằm giữa 51 và 51 .
+2 2
+7. Tính tổng các cạnh của một hình hộp chữ nhật , biết rằng thể tích của chúng bằng
+a3, diện tích toàn phần của nó bằng 2ma2 và các cạnh lập thành một cấp số nhân ?
+IV. BÀI TẬP TỔNG HỢP
+1. Giả sử x ,x ,...x R x.x ....x 1. Chứng minh x x ...x n
+1 2 n  1 2 n 1 2 n
+an bn ab n
+2. Chứng minh :  với : a0,b0,nN*
+ 
+2  2 
+3. Xét tính bị chặn và tính đơn điệu của các dãy số sau ?
+n2 1 1
+a. u  b. u 1n1 sin
+n n n n
+4. Cho một dãy số có các số hạng đầu tiên là 1,8,22,43,...... Hiệu của hai số hạng liên
+tiếp của dãy số đó lập thành một cấp số cộng : 7,14,21..., 7n. số 35351 là số hạng thứ
+mấy của cấp số đã cho ?
+5. Cho phương trình : x4 3x2 24mx26n0.
+Tìm hệ thức liên hệ giữa m và n để 3 nghiệm phân biệt x ,x ,x lập thành một cấp số
+1 2 3
+cộng ?
+6. Tìm m để phương trình : x4 3m5x2 m12 0 có bốn nghiệm lập thành một
+cấp số cộng ?
+7. Độ dài các cạnh của một tam giác ABC lập thành một cấp số nhân . Chứng minh
+rằng tam giác ABC có hai góc không quá 600?
+4
+8. Tìm bốn số hạng đầu của một cấp số nhân , biết tổng ba số hạng đầu bằng 16 ,
+9
+đồng thời theo thứ tự , chúng là số hạng thứ nhất , thứ tư và thứ tám của một cấp số
+cộng .
+9. Một cấp số nhân có 5 số hạng , công bội q =1/4 số hạng thứ nhất , tổng của hai số
+hạng đầu bằng 24 . Tìm cấp số nhân đó ?
+10. Xen vào giữa hai số : 4 và 40 bốn số để dược một cấp số cộng ? Tìm bốn số đó ?
+11. Tính tổng :
+2 2 2
+ 1  1  1 
+S= 2  4 ... 2n 
+     
+ 2  4  2n 
+12. Với giá trị nào của a , ta có thể tìm được các giá trị của x để các số :
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 2 ĐT : 0985.270.218

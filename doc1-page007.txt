@@ -1,0 +1,28 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 07
+\
+Câu 19 [HTN]: Cho hình vẽ bên gồm 4 tam giác. Người ta chọn 3 số phân biệt từ tập hợp
+S {1;2;;26}
+để xếp vào 3 tam giác ở 3 góc. Sau đó, tính tổng bình phương của 3 số đó rồi ghi kết quả vào tam giác còn
+lại ở giữa. Hỏi có bao nhiêu cách xếp sao cho số ghi ở tam giác giữa là một số chia hết cho 5?
+Câu 20 [HTN]: Cho một hình bát giác đều nội tiếp trong một đường tròn tâm như hình
+ABCDEFGH O
+bên. Gắn ngẫu nhiên tám số tự nhiên vào tám đỉnh của bát giác đều này (mỗi số
+{9;10;11;12;13;14;15;16}
+gắn đúng một đỉnh). Chọn ngẫu nhiên một tam giác có ba đỉnh lấy từ tám đỉnh của bát giác đã cho. Gọi xác
+suất để thu được một tam giác vuông với ba số trên ba đỉnh của tam giác (theo một thứ tự nào đó) lập thành
+m m
+một cấp số cộng là ( ; là phân số tối giản). Giá trị của bằng bao nhiêu?
+m,n  * m n
+n n
+Câu 21 [HTN]: Một hệ thống chiếu sáng có 5 bóng đèn được đặt ở các đỉnh của một đồ thị được kết nối như
+hình vẽ. Các bóng đèn được nối với nhau bằng dây điện dọc theo 8 cạnh của đồ thị. Mỗi dây điện có xác suất
+50% hoạt động bình thường. Để toàn bộ hệ thống sáng, tất cả các bóng đèn phải nhận được điện từ một nguồn
+duy nhất (tức là đồ thị các dây điện hoạt động phải liên thông giữa 5 đỉnh). Tính xác suất toàn bộ hệ thống
+chiếu sáng vẫn hoạt động được (làm tròn kết quả đến hàng phần trăm).
+Câu 22 [HTN]: Một con châu chấu nhảy lên cầu thang có 18 bậc. Mỗi lần nhảy con châu chấu có thể nhảy
+1 bậc hoặc 2 bậc. Tính xác suất để con châu chấu hoàn thành 18 bậc thang với số lần nhảy 2 bậc không bé
+hơn số lần nhảy 1 bậc (làm tròn kết quả đến hàng phần trăm).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

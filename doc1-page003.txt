@@ -1,0 +1,17 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 03
+\
+Câu 6 [HTN]: Có 17 cây cau trồng xung quanh một cái ao hình tròn.
+Người ta muốn chặt đi 4 cây. Hỏi có mấy cách chặt sao cho không có 2 cây kề nhau bị chặt.
+Câu 7 [HTN]: Có 17 cây cau trồng xung quanh một cái ao hình tròn như hình vẽ. Người ta muốn chặt đi 4
+cây. Gọi là số cách chặt sao cho giữa 2 cây bị chặt bất kỳ dọc theo vòng tròn luôn có ít nhất 2 cây không
+T
+bị chặt. Tính giá trị của .
+T
+Câu 8 [HTN]: Cho đa giác đều có 19 đỉnh. Từ các đỉnh của đa giác trên ta có thể tạo ra được bao
+AA A
+1 2 19
+nhiêu tam giác nhọn mà cạnh của tam giác không trùng với cạnh đa giác?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

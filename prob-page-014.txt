@@ -1,0 +1,45 @@
+Trường hợp 3: 3 chữ số 1 và 3 chữ số khác nhau từ tập X :
++) Chọn 3 chữ số từ tập X và xếp theo thứ tự thành hàng ngang: có A3 cách xếp.
+8
+Khi đó, ta có 4 vị trí có thể xếp số 1, đó là 2 khoảng trống giữa 3 chữ số trên và hai đầu.
++) Xếp số 1 vào ba trong 4 vị trí nói trên: có C3 cách xếp.
+4
+Suy ra trường hợp 2 có A3.C3 cách xếp.
+8 4
+Vậy có A5.C1 A4.C2  A3.C3 58464số.
+8 6 8 5 8 4
+langtham313vt@gmail.com
+Câu 23. Có tất cả bao nhiêu số tự nhiên gồm 5 chữ số mà trong mỗi số đó không có chữ số nào lặp lại
+đúng 4 lần?
+A. 99595. B. 89560. C. 89640. D. 89595.
+Lời giải
+Sưu tầm : Nguyễn Minh Cường, FB: yen nguyen
+Chọn D
+* Gọi nabcdelà số tự nhiên gồm 5 chữ số.
+a có 9 cách chọn; b,c,d,e mỗi chữ số đều có 10 cách chọn  có 9.104 số n.
+* Tìm các số tự nhiên có 5 chữ số trong đó có 1 chữ số lặp lại đúng 4 lần.
++ TH chữ số 0 lặp lại 4 lần: a0000; TH này có 9 số.
++ TH chữ số 1 lặp lại 4 lần:
+ 
+Dạng a1111 a1 : a có 8 cách chọn  có 8 số.
+ 
+Dạng 1x111 a1 : x có 9 cách chọn và có 4 vị trí  có 9.436 số.
+Suy ra TH này có 836 44 số.
+Các TH chữ số từ 2 đến 9 lặp lại 4 lần tương tự TH chữ số 1 lặp 4 lần, mỗi TH đều có 44
+số.
+Suy ra có tất cả 99.44405 số có 5 chữ số trong đó có đúng 1 chữ số lặp lại 4 lần.
+Vậy có 9.104 40589595 số thỏa yêu cầu bài toán.
+Email: tuancaohoc17@gmail.com
+Câu 24. Có bao nhiêu số tự nhiên có 4chữ số khác nhau, chia hết cho 4, nhỏ hơn 4567 và có chữ số
+hàng chục là chữ số lẻ.
+A. 171. B. 172. C. 173. D. 170.
+Lời giải
+Tác giả: Nguyễn Văn Tuấn,Tên FB: Nguyễn Tuấn
+Chọn B
+Gọi abcd là số tự nhiên có 4 chữ số khác nhau, chia hết cho 4, nhỏ hơn 4567 và có chữ số
+hàng chục là chữ số lẻ.
+Ta có: abcd41000a100b10cd42cd4 (1)
+Mặt khác do c lẻ nên 2c chia cho 4 dư 2, nên để thỏa mãn (1), thì d phải chia cho 4 dư 2.
+TH1: a1;3. Khi đó do c lẻ suy ra c1;3;5;7;9\a suy ra ccó 4cách chọn.
+Ta có d chia cho 4 dư 2, hay d2;6.
+Sau khi chọn a,c,d thì b có 7 cách chọn.

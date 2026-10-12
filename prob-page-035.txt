@@ -1,0 +1,50 @@
+Nếu a 9;n 3 suy ra: m2 3m991 m2 3m820 loại
+91
+Nếu a 18;n3 suy ra: m2 3m9 loại
+2
+91
+Nếu a  27;n 3 suy ra: m2 3m9 loại
+3
++ Với n4 suy ra a16
+Nếu a 16;n 4 suy ra: m2 4m1691 m2 4m750 loại
++ Với n5 suy ra a25
+m6
+Nếu a  25;n 5 suy ra: m2 5m2591 m2 5m660
+
+m11
+Suy ra bộ 3 số thỏa mãn là 25;30;36
+Vậy có tất cả 4 bộ số thỏa mãn: 1;9;81;7;21;63;13;26;52;25;30;36
+4
+Vậy: Xác suất là .
+645
+Emai: lKhueninhbinh2004@gmail.com
+Câu 24. Trong một cuộc thi có 10 câu hỏi trắc nghiệm, mỗi câu có 4 phương án trả lời, trong đó chỉ có
+một phương án đúng. Với mỗi câu, nếu chọn phương án trả lời đúng thì thí sinh được cộng 5
+điểm, nếu chọn phương án trả lời sai sẽ bị trừ 1 điểm. Tính xác suất để một thí sinh làm bài bằng
+cách lựa chọn ngẫu nhiên phương án được 32 điểm, biết thí sinh phải làm hết các câu hỏi và mỗi
+câu hỏi chỉ chọn duy nhất một phương án trả lời.
+45 15 21 405
+A. B. . C. . D.
+131072 131072 1048576 131072
+Lời giải
+Tác giả : Phạm Trung Khuê,,Tên FB: Phạm Trung Khuê
+Chọn D
+Gọi a là số câu trả lời đúng
+5a10a32a7
+ Hs trả lời đúng 7 câu (1 đáp án) và sai 3 câu (3 đáp án)
+n4.4.4...4410
+Chọn 7 câu trong 10 câu đúng đáp án (mỗi câu 1 đáp án đúng) có : C7
+10
+Ba câu còn lại chọn sai đáp án ( mỗi câu có ba đáp án sai) có 3.3.333
+C7.33 405
+PA 10  .
+410 131072
+Email: nhatks@gmail.com
+Câu 25. Gọi S là tập các số tự nhiên có 3 chữ số khác nhau được lập từ các chữ số 0,1,2,3,4,5,6. Lấy ngẫu
+nhiên một số từ tập S. Xác suất để lấy được số chia hết cho 6 là
+2 7 13 11
+A. B. C. D.
+5 30 60 45
+Lời giải
+Tác giả: Đỗ Thế Nhất Face: Đỗ Thế nhất
+Trang 18/24 - Mã đề thi 483

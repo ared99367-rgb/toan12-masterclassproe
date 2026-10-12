@@ -1,0 +1,52 @@
+Vậy số các số thỏa mãn là : 192384192768 (số).
+Gọi A là biến cố “số được chọn là số lẻ và có tổng các chữ số bằng 18”.
+nA768.
+nA
+768 16
+.  PA  
+n 136080 2835
+nguyenminhduc.hl@gmail.com
+Câu 56. Hội phụ huynh của một lớp dùng 18 cuốn sách bao gồm 7 cuốn sách Toán, 6 cuốn sách Lý và 5
+cuốn sách Hóa (các cuốn sách cùng loại thì giống nhau) để làm phần thưởng cho 9 học sinh giỏi
+(có tên khác nhau) trong đó có An và Bình, mỗi học sinh nhận được 2 cuốn sách khác thể loại.
+Tính xác suất để hai học sinh An và Bình nhận được phần thưởng giống nhau.
+2 1 13 5
+A. . B. . C. . D. .
+3 3 18 18
+Lời giải
+Tác giả : Nguyễn Minh Đức, FB: Duc Minh
+Chọn D
+Gọi x,y,z lần lượt là số học sinh nhận phần thưởng là hai cuốn sách (Toán, Lý); (Toán, Hóa);
+(Lý, Hóa).
+Ta có :
+x y 7 x4
+ 
+yz 6  y 3.
+ 
+yz 5 z 2
+ 
+Số cách trao thưởng cho 9 học sinh giỏi là C4.C3.C2 1260 (cách)
+9 5 2
+ n()1260
+Gọi A là biến cố: “An và Bình có phần thưởng giống nhau”.
+TH1: An và Bình cùng nhận sách Toán,Lý: có C2.C3.C2 210 (cách)
+7 5 2
+TH2: An và Bình cùng nhận sách Toán, Hóa: có C1.C4.C2 105 (cách)
+7 6 2
+TH3: An và Bình cùng nhận sách Hóa ,Lý: có C4.C3 35 (cách).
+7 3
+ n(A)21010535350
+Xác suất của biến cố A là
+350 5
+P(A)  .
+1260 18
+Email : nguyenngocduyakgl@gmail.com
+Câu 57. Trong kỳ thi THPT Quốc Gia có môn thi bắt buộc là môn Toán. Môn thi này thi dưới hình thức
+trắc nghiệm với 4 phương án trả lời A, B, C, D. Mỗi câu trả lời đúng được cộng 0,2điểm và
+mỗi câu trả lời sai bị trừ đi 0,1 điểm. Bạn Hoa vì học rất kém môn Toán nên chọn ngẫu nhiên cả
+50 câu trả lời. Xác xuất để bạn Hoa đạt được 4 điểm môn Toán trong kỳ thi là
+C10.340 C20.320 C20.330 C40.310
+A. 50 . B. 50 . C. 50 . D. 50
+450 450 450 450
+Lời giải
+Trang 14/26 - Mã đề thi 483

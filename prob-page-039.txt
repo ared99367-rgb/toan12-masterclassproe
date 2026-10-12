@@ -1,0 +1,59 @@
+ 
+Cho tập hợp A  x|1 x  2019 . Lấy ngẫu nhiên ba số từ tập A . Tính xác suất để lấy
+được ba số có tích chia hết cho 27 (xác suất được làm tròn đến hàng phần trăm).
+Số phần tử của không gian mẫu:   C3 .
+2019
+Ta chia tập A thành các tập sau:
+2019
+- Tập X gồm các số chia hết cho 27: X     74 .
+27
+ 
+2019
+- Tập Y gồm các số chia hết cho 9 nhưng không chia hết cho 27: Y    74 150.
+9
+ 
+- Tập K gồm các số chia hết cho 3 nhưng không chia hết cho 9 :
+2019
+K     74 150  449.
+3
+ 
+2019
+- Tập T gồm các số không chia hết cho 3: T  2019    1346.
+3
+ 
+Tính số khả năng xảy ra để tích ba số lấy được không chia hết cho 27:
+TH 1: Lấy 3 số thuộc tập T có: C3 cách.
+1346
+TH 2: Lấy 2 số thuộc tập T và 1 số thuộc tập K có: C2 .C1 cách.
+1346 449
+TH 3: Lấy 2 số thuộc tập T và 1 số thuộc tập Y có: C2 .C1 cách.
+1346 150
+TH 4: Lấy 1 số thuộc tập T và 2 số thuộc tập K có: C1 .C2 cách.
+1346 449
+C3  C2 .C1  C2 .C1  C1 .C2
+- Vậy xác suất để cô Huệ trúng giải nhất là: 1 1346 1346 449 1346 150 1346 449  0,21
+C3
+2019
+.
+thanhhuyenymb@gmail.com
+Câu 31. Cho một đa giác đều gồm 2n đỉnh n2, nN. Chọn ngẫu nhiên ba đỉnh trong số 2n đỉnh
+1
+của đa giác, xác suất ba đỉnh được chọn tạo thành một tam giác vuông là . Tổng tất cả các ước
+5
+nguyên dương của n là
+A. 14. B. 15. C. 17. D. 18.
+Lời giải
+Tác giả: Nguyễn Thị Thanh Huyền
+Chọn B
++ nC3 .
+2n
++ Để ba đỉnh được chọn tạo thành tam giác vuông khi và chỉ khi có hai đỉnh trong ba đỉnh là hai
+đầu mút của một đường kính của đường tròn ngoại tiếp đa giác và đỉnh còn lại là một trong số
+2n
+2n2 đỉnh còn lại của đa giác. Đa giác có 2n đỉnh nên có n đường kính.
+2
+Số cách chọn 1 đường kính là C1 n.
+n
+Số cách chọn 1 đỉnh còn lại trong 2n2 đỉnh là C1 2n2.
+2n2
+Trang 22/24 - Mã đề thi 483

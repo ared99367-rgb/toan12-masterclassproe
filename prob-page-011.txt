@@ -1,0 +1,42 @@
+a30bcb,c1,2,...,29
+TH2:
+Số cách chọn cặp b,c là C2 406 , với mỗi cách chọn cặp b,ccho ta 1 cách chọn
+29
+a 90bc Có 406 cách chọn tập E trong trường hợp này
+Vậy số cách chọn tập E là : 225+406= 631
+Email: ngbdai@gmail.com
+Câu 17. Cho tam giác ABC, trên cạnh AB lấy 4 điểm khácA,B, trên cạnh BC lấy 5 điểm khácB,C,
+trên cạnh CA lấy 6 điểm khácC,A. Gọi S tổng số tứ giác tạo thành khi lấy 4 điểm trong 15
+điểm nói trên. Khi đó S bằng?
+A. S 1365. B. S 1020. C. S 991. D. S 1041.
+Lời giải
+Tác giả: Nguyễn Bá Đại
+Chọn B
+Lấy 4 điểm trong 15 điểm có C4 1365.
+15
+Số cách lấy 4 điểm trong đó, ba điểm nằm trên một cạnh, điểm thứ tư trên cạch khác là:
+11.C3 10.C3 9.C3 324.
+4 5 6
+Số cách lấy 4 điểm trong đó , cả 4 điểm đều nằm trên một cạch là: C3 C4 C4 21.
+4 5 6
+Vậy S 1365324211020.
+Email: thachtv.tc3@nghean.edu.vn
+Câu 18. Cho một lưới gồm các ô vuông kích thước 106 như hình vẽ sau đây. Một người đi từ A đến
+B theo quy tắc: chỉ đi trên cạnh của các ô vuông theo chiều từ trái qua phải hoặc từ dưới lên
+trên. Hỏi có bao nhiêu đường đi khác nhau để người đó đi từ A đến Bđi qua điểm C?
+A. C4.C2. B. C6 . C. C4.C2. D. C4.C5
+5 6 16 9 7 6 10
+Lời giải
+Tác giả: Trịnh Văn Thạch
+Chọn C
+Mỗi đường đi từ A đến C gồm 54 đoạn (mỗi đoạn là một cạnh ô vuông). Tại mỗi đoạn,
+người đó chỉ được chọn đi lên (ta mã hóa là 1) hay đi sang phải (ta mã hóa là 0). Số đoạn đi lên
+là 4 và số đoạn đi sang phải là 5.
+ Mỗi đường đi từ A đến C là một chuỗi nhị phân 9 kí tự trong đó có 4 chữ số 1 và 5 chữ số
+0. Từ đó số đường đi từ A đến C là C4.
+9
+Tương tự, số đường đi từ C đến B là C2.
+7
+Vậy đường đi khác nhau để người đó đi từ A đến Bđi qua điểm C là C4.C2.
+9 7
+ngonguyenanhvu@gmail.com

@@ -1,0 +1,68 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+Bài 17. Chứng minh rằng : Nếu 0N 1 thì điều kiện ắt có và đủ để ba số dương
+a,b,c tạo thành một cấp số nhân ( theo thứ tự đó ) là :
+log N log N log N
+a  a b a,b,c1
+log N log N log N
+c b c
+HƯỚNG DẪN
+Theo giả thiết , nếu ba số a,b,c lập thành cấp số nhân thì : acb2 1
+Lấy logarit cơ số N hai vế của (1) ta có :
+log aclog b2 log alog C2log b 2
+N N N N N
+Sử dụng công thức đổi cơ số :
+1 1 2 1 1 1 1
+(2)      
+log N log N log N log N log N log N log N
+a C b a b b C
+log N log N log N log N log N log N log N log N log N log N
+ b a  c b  b a  a  a b  a
+log N.log N log N.log N log N log N log N log N log N log N
+a b c b c b c b c c
+Bài 18. Chứng minh rằng , nếu log a,log b,log c tạo thành một cấp số cộng ( theo
+x y z
+2log xlog z
+thứ tự đó ) thì : log y  a c 0 x,y,z,a,b,c1.
+b log xlog z
+a c
+HƯỚNG DẪN
+Theo giả thiết :
+1 1 2 2log x.log z
+log alog c2log b   log y  a c dpcm
+x z y log x log z log y b log xlog z
+a c b a c
+Bài 19. Cho ba số : x,3,y lập thành một cấp số nhân và x4  y 3. Tìm x,y và công bội
+q của cấp số đó ?
+HƯỚNG DẪN
+ 9
+ xy 32   y  x   y  9   x 5 35  x 3
+Theo giả thiết :    x  32 
+x4  y 3 
+
+x4  9
+x
+3.  x5 9 3 
+
+y 
+x
+y 3 3
+Bài 20.Cho ba số tạo thành một cấp số nhân mà tổng của chúng bằng 93. Ta có thể
+sắp đặt chúng ( theo thứ tự của cấp số nhân kể trên ) như là số hạng thứ nhất , thứ hai
+và thứ bẩy của một cấp số cộng . Tìm ba số đó ?
+HƯỚNG DẪN
+Gọi ba số đã cho là : u ,u ,u theo thứ tự là ba số của một cấp số cộng .
+1 2 3
+Còn cáp số nhân v . Theo giả thiết ta có hệ :
+n
+v v v 93* v  1qq2 93* u  1qq2 93*
+ 1 2 3  1  1
+   v 1 u 1 1  d u 1 q1 124   u q1 1 u  q2 1 456
+ u d vq2 6d u u u  q2 1 235  1 6 1
+1 1 7 1 1
+  u 1 2d v 1 q23     d u 1 q1
+Từ (2) và (2) cho ta phương trình (4) . Còn từ (2) và (3) cho phương trình (5) . Mặt
+khác từ (4) và (5) cho phương trình (6).
+1
+Do : u 0,q161 q1 q5
+1 6
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 9 ĐT : 0985.270.218

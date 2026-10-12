@@ -1,0 +1,51 @@
+460373760 173
+- Xác suất cần tìm là PA  .
+518918400 195
+Binhle66@gmail.com
+Câu 4. Từ tập hợp X 1;2;3;4;5;6;7;8;9 ta thành lập được các số tự nhiên có 6 chữ số, lấy ngẫu
+nhiên một số. Tính xác suất để trong số tự nhiên được lấy ra chỉ có mặt bốn chữ số khác nhau
+(kết quả làm tròn đến hàng phần chục).
+A. 0,18. B. 0,54. C. 0,37. D. 0,42.
+tác giả: Lê Thanh Bình
+Lời giải
+Chọn C
+Xét phép thử T :"Chọn ngẫu nhiên một số tự nhiên có sáu chữ số mà các chữ số đều khác 0".
+Số phần tử không gian mẫu  96 531441.
+Gọi A là biến cố cần tìm xác suất.
+Số cách chọn 4 chữ số phân biệt a;b;c;d từ 9 chữ số khác 0 là C4. Chọn 2 chữ số còn lại từ
+9
+4 chữ số đó, có ba trường hợp:
+Trường hợp 1: Một trong các chữ số a;b;c;d : xuất hiện 3lần, 3 chữ số còn lại xuất hiện
+6!
+một lần. Khi ấy, ta có 4. 480 số tự nhiên.
+3!.1!.1!.1!
+Trường hợp 2: Hai trong bốn chữ số a;b;c;d xuất hiện hai lần, hai chữ số còn lại mỗi số
+6!
+xuất hiện một lần. Khi ấy, ta có C2. 1080 số tự nhiên.
+4 2!.2!.1!.1!
+Suy ra  4801080.C4 196560.
+A 9
+ 196560
+Vậy P(A) A  0,3698623177.
+ 531441
+Email: dmathtxqt@gmail.com
+Câu 5. Gọi S là tập tất cả các số tự nhiên có 8 chữ số đôi một khác nhau. Chọn ngẫu nhiên một số thuộc
+S . Tính xác suất để chọn được số chia hết cho 45.
+53 53 53 5
+A. . B. . C. . D. .
+2268 2520 252 324
+Lời giải
+Tác giả: Lê Cảnh Dương,Tên FB: Cảnh Dương Lê
+Chọn A
+Số phần tử của không gian mẫu   A8  A7.
+10 9
+Gọi A là biến cố chọn được số chia hết cho 45.Gọi B 0,1,2,3,4,5,6,7,8,9. Số chia hết cho
+45 khi và chỉ khi số đó chia hết cho 9 và chia hết cho 5. Do 012...9459 nên ta có
+các bộ số mà tổng chia hết cho 9 là: B\0,9;B\1,8;B\2,7;B\3,6;B\4,5
+TH1: Số có 8 chữ số lấy từ tập B\0,9có dạng aa a a a a a a và chia hết cho 5 nên a 5,
+1 2 3 4 5 6 7 8 8
+suy ra có 7! số
+TH2: Số có 8 chữ số lấy từ tập B\4,5có dạng aa a a a a a a và chia hết cho 5 nên a 0,
+1 2 3 4 5 6 7 8 8
+suy ra có 7! số
+Trang 3/24 - Mã đề thi 483

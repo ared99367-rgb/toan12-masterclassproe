@@ -1,0 +1,1310 @@
+
+
+----- PAGE 1 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 01
+\
+CHUYÊN ĐỀ 10
+TỔNG ÔN KIẾN THỨC CHUYÊN ĐỀ 10 CÂU CUỐI
+CÂU CUỐI Môn: Toán 12
+Thời gian làm bài: 90 phút (không tính thời gian giao đề)
+BUỔI SỐ 15
+BÀI TOÁN VÁCH NGĂN VÀ CÔNG THỨC CHIA KẸO EULER
+A. BÀI TOÁN VÁCH NGĂN
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ KHÔNG ĐỨNG CẠNH NHAU
+ Bài toán tổng quát: Có tất cả bao nhiêu cách sắp xếp phần tử loại A (ví dụ: học sinh nam) và
+n n
+1 2
+phần tử loại B (ví dụ: học sinh nữ) thành một hàng ngang sao cho không có hai phần tử loại B nào
+đứng cạnh nhau?
+ Phương pháp tổng quát:
+ Sắp xếp n phần tử loại A thành một hàng ngang, có n ! cách. Các phần tử này sẽ đóng vai trò như
+1 1
+các phần tử tạo vách ngăn, sinh ra khoảng trống (bao gồm các khe giữa và hai đầu).
+n 1
+1
+……….
+X X X X X
+1 2 3 n1 n
+ Để các phần tử loại B không đứng cạnh nhau, ta sắp xếp n phần tử loại B vào n 1 khoảng trống
+2 1
+đó, có n cách.
+A 2
+n1
+1
+ Tổng số cách sắp xếp hoàn thiện công việc là n !A n 2 (cách).
+1 n 1
+1
+Nhận xét & Lưu ý:
+VÍ DỤ MINH HỌA: Một tổ có 5 học sinh nam và 3 học sinh nữ. Hỏi có bao nhiêu cách xếp các học sinh
+này thành một hàng ngang sao cho không có 2 học sinh nữ nào đứng cạnh nhau?
+BÀI TẬP VẬN DỤNG:
+Câu 1 [HTN]: Xếp 6 quyển sách Toán giống nhau và 4 quyển sách Văn giống nhau thành một hàng ngang
+trên giá sách. Hỏi có bao nhiêu cách xếp sao cho không có hai quyển sách Văn nào đứng cạnh nhau?
+Câu 2 [HTN]: Có cuốn sách Toán khác nhau, cuốn sách Lí khác nhau và cuốn sách Hóa khác nhau.
+5 3 4
+Gọi là số cách xếp chúng lên một kệ dài sao cho các cuốn sách Toán luôn đứng cạnh nhau và không có
+T
+T
+hai cuốn sách Lí nào đứng cạnh nhau. Tính .
+1000
+Câu 3 [HTN]: Có bao nhiêu số tự nhiên có chữ số được lập từ các số sao cho mỗi
+9 {0;1;2;3;4;5;6;7;8}
+chữ số xuất hiện đúng một lần và các chữ số chẵn không đứng cạnh nhau?
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ KHÔNG ĐỨNG CẠNH NHAU TRÊN VÒNG TRÒN
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 2 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 02
+\
+ Bài toán tổng quát: Có tất cả bao nhiêu cách sắp xếp phần tử loại A và phần tử loại B quanh
+n n
+1 2
+một bàn tròn (hoặc vòng tròn) sao cho không có hai phần tử loại B nào đứng cạnh nhau?
+ Phương pháp tổng quát:
+ Chọn nhóm tạo vách ngăn là n phần tử loại A. Xếp n phần tử này vào một vòng tròn, áp dụng hoán
+1 1
+vị vòng quanh, ta có n 1! cách xếp. Lúc này, n phần tử loại A xếp thành vòng tròn sẽ tạo ra
+1 1
+đúng khoảng trống ở giữa chúng.
+n
+1
+ Để các phần tử loại B không đứng cạnh nhau, ta chèn n phần tử loại B vào n khoảng trống đó. Số
+2 1
+cách sắp xếp là n cách.
+A 2
+n
+1
+ Tổng số cách sắp xếp hoàn thiện là n 1!A n 2 (cách).
+1 n
+1
+ Nhận xét & Lưu ý:
+VÍ DỤ MINH HỌA: Một nhóm bạn gồm 5 học sinh nam và 3 học sinh nữ ngồi quanh một chiếc bàn tròn.
+Hỏi có bao nhiêu cách xếp chỗ ngồi sao cho không có 2 học sinh nữ nào ngồi cạnh nhau?
+BÀI TẬP VẬN DỤNG:
+Câu 1 [HTN]: Có 6 quả cầu đỏ và 4 quả cầu xanh (các quả cầu cùng màu cũng khác nhau từng đôi một).
+Xâu các quả cầu này thành một vòng cổ tròn. Hỏi có bao nhiêu cách xâu sao cho không có 2 quả cầu xanh
+nào nằm liền kề nhau? (Giả sử vòng cổ không thể lật ngược).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 3 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 03
+\
+Câu 2 [HTN]: Một hội nghị bàn tròn gồm có đại biểu tham dự, trong đó có đại biểu đến từ nước Anh,
+15 4
+đại biểu đến từ nước Pháp và đại biểu đến từ nước Mỹ. Gọi là số cách xếp chỗ ngồi sao cho không
+5 6 T
+có đại biểu nước Anh nào ngồi cạnh nhau. Hãy xác định ba chữ số tận cùng của .
+2 T
+Câu 3 [HTN]: Có 5 học sinh nam và 5 học sinh nữ xếp vào một bàn tròn có 10 ghế. Tính số cách xếp sao
+cho nam nữ ngồi xen kẽ nhau và có hai học sinh đặc biệt là An (nam) và Bình (nữ) không ngồi cạnh nhau.
+Câu 4 [HTN]: Có 4 cặp vợ chồng được mời đến dự tiệc và ngồi quanh một chiếc bàn tròn có 8 ghế. Tính số
+cách xếp chỗ sao cho mỗi người đều ngồi cạnh vợ (hoặc chồng) của mình và không có hai người đàn ông
+nào ngồi cạnh nhau.
+DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ LUÔN ĐỨNG CẠNH NHAU (PHƯƠNG PHÁP BUỘC)
+ Bài toán tổng quát: Có bao nhiêu cách sắp xếp phần tử, trong đó có một nhóm gồm phần tử (
+n k
+) mang tính chất đặc thù bắt buộc phải luôn đứng cạnh nhau?
+k n
+ Phương pháp tổng quát:
+ "Buộc" (ghép) k phần tử cần đứng cạnh nhau thành một "siêu phần tử" duy nhất. Số cách hoán vị
+nội bộ các phần tử bên trong khối "siêu phần tử" này là cách.
+k!
+ Xem "siêu phần tử" vừa tạo như một phần tử bình thường. Lúc này, ta cần hoán vị "siêu phần tử"
+cùng với nk phần tử còn lại, tức là hoán vị tổng cộng nk 1 phần tử. Số cách hoán vị là
+n k 1! cách.
+ Dựa vào quy tắc nhân, tổng số cách sắp xếp hoàn thành yêu cầu bài toán là k!n k 1! (cách).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 4 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 04
+\
+ Nhận xét & Lưu ý:
+VÍ DỤ MINH HỌA: Một nhóm bạn gồm 4 nam và 3 nữ xếp thành một hàng ngang để chụp ảnh kỷ yếu. Hỏi
+có bao nhiêu cách xếp sao cho 3 bạn nữ luôn đứng cạnh nhau?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Trên một kệ sách có 3 cuốn sách Toán, 4 cuốn sách Lý và 2 cuốn sách Hóa (tất cả các cuốn
+sách đều khác nhau). Hỏi có bao nhiêu cách sắp xếp các cuốn sách thành một hàng ngang sao cho các cuốn
+sách cùng môn luôn đứng cạnh nhau?
+Câu 2 [HTN]: Có học sinh nam trong đó có Anh và Tú và học sinh nữ. Gọi là số cách xếp các học
+6 4 T
+sinh này thành một hàng ngang sao cho không có học sinh nữ nào đứng cạnh nhau và Anh và Tú phải đứng
+2
+T
+cạnh nhau. Tính .
+100
+Câu 3 [HTN]: Một nhóm gồm học sinh nam (trong đó có Nam và Việt) và học sinh nữ xếp thành một
+5 3
+hàng ngang. Tính số cách xếp sao cho học sinh nữ luôn đứng cạnh nhau và hai học sinh nam là Nam và
+3
+Việt không đứng cạnh nhau.
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ LUÔN ĐỨNG CẠNH NHAU TRÊN VÒNG TRÒN
+(PHƯƠNG PHÁP BUỘC)
+ Bài toán tổng quát: Có bao nhiêu cách sắp xếp phần tử quanh một bàn tròn (hoặc vòng tròn), trong
+n
+đó có một nhóm gồm phần tử ( ) bắt buộc phải luôn đứng cạnh nhau?
+k k n
+Nhận xét & Lưu ý (Tử huyệt dễ sai nhất):
+VÍ DỤ MINH HỌA: Một gia đình gồm bố, mẹ và 4 người con ngồi ăn quanh một chiếc bàn tròn. Hỏi có
+bao nhiêu cách xếp chỗ ngồi sao cho bố và mẹ luôn ngồi cạnh nhau?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 5 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 05
+\
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Có 4 viên bi đỏ, 3 viên bi xanh và 2 viên bi vàng (tất cả 9 viên bi đều có kích thước khác
+nhau). Cần xâu 9 viên bi này thành một vòng cổ tròn. Hỏi có bao nhiêu cách xâu sao cho các viên bi cùng
+màu luôn nằm liền kề nhau? (Giả sử vòng cổ không thể lật ngược).
+Câu 2 [HTN]: Có học sinh nam, học sinh nữ và thầy giáo được xếp ngồi quanh một bàn tròn có
+6 5 1 12
+chiếc ghế. Tính xác suất để thầy giáo ngồi giữa bạn nam và bạn nữ (làm tròn kết quả đến hàng phần
+1 1
+trăm).
+Câu 3 [HTN]: Có cuốn sách Toán giống nhau, cuốn sách Lí giống nhau, cuốn sách Hóa giống nhau
+5 4 3
+và cuốn sách Văn giống nhau. Xếp ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính
+5
+xác suất để cuốn sách Lí luôn đứng cạnh nhau và cuốn sách Hóa luôn đứng cạnh nhau.
+4 3
+ DẠNG TOÁN CON: PHẦN TỬ LUÔN ĐỨNG KẸP GIỮA HAI PHẦN TỬ KHÁC (BIẾN THỂ
+CỦA PHƯƠNG PHÁP BUỘC)
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 6 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 06
+\
+VÍ DỤ MINH HỌA: Xếp 5 học sinh A, B, C, D, E thành một hàng ngang. Có bao nhiêu cách xếp sao cho
+học sinh A luôn đứng ngay giữa học sinh B và học sinh C?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Trên giá sách có 7 quyển sách hoàn toàn khác nhau, trong đó có quyển Toán tập 1, quyển Lý
+tập 1 và quyển Hóa tập 1. Hỏi có bao nhiêu cách xếp 7 quyển sách thành một hàng ngang sao cho quyển
+Toán tập 1 luôn đứng kẹp ngay giữa quyển Lý tập 1 và quyển Hóa tập 1?
+Câu 2 [HTN]: Có học sinh nam (trong đó có Nam và Việt), học sinh nữ và thầy giáo xếp thành một
+5 4 1
+hàng ngang. Hỏi có bao nhiêu cách xếp sao cho thầy giáo luôn đứng kẹp ngay giữa Nam và Việt, đồng thời
+không có học sinh nữ nào đứng cạnh nhau?
+2
+Câu 3 [HTN]: Tại một buổi triển lãm nghệ thuật, ban tổ chức cần trưng bày bức tranh phong cảnh khác
+5
+nhau (trong đó có bức tranh "Mùa thu"), bức tranh chân dung khác nhau (trong đó có bức tranh "Thiếu
+4
+nữ") và bức tranh tĩnh vật khác nhau (trong đó có bức tranh "Bình hoa"). Người ta xếp ngẫu nhiên
+3 12
+bức tranh này thành một hàng ngang trên tường. Tính xác suất để bức tranh "Mùa thu" luôn được xếp kẹp
+ngay giữa bức tranh "Thiếu nữ" và bức tranh "Bình hoa", đồng thời bức tranh tĩnh vật luôn được xếp
+3
+cạnh nhau.
+ DẠNG TOÁN CON: PHẦN TỬ LUÔN ĐỨNG KẸP GIỮA HAI PHẦN TỬ KHÁC TRÊN VÒNG
+TRÒN
+VÍ DỤ MINH HỌA: Có 6 người gồm A, B, C, D, E, F ngồi quanh một mâm cơm tròn. Hỏi có bao nhiêu
+cách xếp chỗ sao cho người A luôn ngồi ngay giữa người B và người C?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Xâu 8 hạt cườm hoàn toàn khác nhau thành một chiếc vòng tay tròn, trong đó có một hạt Đỏ,
+một hạt Xanh và một hạt Vàng. Hỏi có bao nhiêu cách xâu sao cho hạt Đỏ luôn nằm kẹp ngay giữa hạt Xanh
+và hạt Vàng? (Giả sử vòng tay không thể lật ngược).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 7 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 07
+\
+Câu 2 [HTN]: Có cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), cuốn sách Lí giống nhau
+4 3
+và cuốn sách Hóa giống nhau. Xếp ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính
+3
+xác suất để cuốn Toán tập 1 luôn được xếp kẹp ngay giữa hai cuốn sách Lí.
+Câu 3 [HTN]: Có cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), cuốn sách Lí khác nhau
+5 4
+(trong đó có cuốn Lí tập 1) và cuốn sách Hóa khác nhau (trong đó có cuốn Hóa tập 1). Xếp ngẫu nhiên
+3
+tất cả các cuốn sách này lên một kệ sách hình tròn. Tính xác suất để cuốn Toán tập 1 luôn được xếp kẹp ngay
+giữa cuốn Lí tập 1 và cuốn Hóa tập 1, đồng thời cuốn sách Hóa luôn được xếp cạnh nhau.
+3
+DẠNG TOÁN 1: BÀI TOÁN NỀN TẢNG (PHƯƠNG PHÁP VÁCH NGĂN)
+Ví dụ minh họa: Hỏi có bao nhiêu cách chia 10 viên kẹo giống nhau cho 3 học sinh sao cho học sinh nào
+cũng có ít nhất 1 viên kẹo?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Một công ty có phần thưởng hoàn toàn giống nhau cần phân phát ngẫu nhiên cho phòng
+8 3
+ban. Tính xác suất để phòng Marketing nhận được đúng phần thưởng, biết rằng một phòng ban có thể
+2
+không nhận được phần thưởng nào.
+Câu 2 [HTN]: Một quỹ từ thiện tặng ngẫu nhiên chiếc máy tính xách tay hoàn toàn giống nhau cho
+12 4
+trường học vùng cao. Tính xác suất để trường tiểu học A nhận được đúng chiếc máy tính, biết rằng mỗi
+3
+trường đều nhận được ít nhất chiếc.
+1
+DẠNG TOÁN 1 MỞ RỘNG: XẾP CHỖ VÀ CHIA KẸO NỀN TẢNG (MỖI NGƯỜI )
+1
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Có học sinh và phần quà hoàn toàn giống nhau. Cần xếp chỗ cho học sinh này thành
+5 10 5
+một hàng ngang và chia toàn bộ quà sao cho mỗi em nhận được ít nhất phần quà. Tính số cách thực hiện.
+1
+Câu 2 [HTN]: Một nhóm gồm học sinh được xếp ngồi quanh một bàn tròn. Cô giáo có viên kẹo giống
+6 15
+hệt nhau cần chia cho các em học sinh này sao cho mỗi em có ít nhất viên kẹo. Hỏi có bao nhiêu cách xếp
+1
+chỗ và chia kẹo?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 8 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 08
+\
+Câu 3 [HTN]: Có học sinh nam, học sinh nữ và quả bóng bay hoàn toàn giống nhau. Cần xếp
+4 3 20 7
+học sinh này thành một hàng ngang sao cho học sinh nữ luôn đứng cạnh nhau, sau đó chia toàn bộ bóng
+3
+bay cho các em sao cho mỗi em nhận được ít nhất quả bóng. Tính số cách thực hiện.
+1
+Câu 4 [HTN]: Có học sinh nam (trong đó có Nam và Việt), học sinh nữ và viên kẹo hoàn toàn
+5 3 20
+giống nhau. Cần xếp học sinh này ngồi quanh một bàn tròn sao cho học sinh nữ luôn ngồi cạnh nhau,
+8 3
+đồng thời hai bạn Nam và Việt không ngồi cạnh nhau, sau đó chia toàn bộ số kẹo cho các em sao cho mỗi
+em nhận được ít nhất viên kẹo. Tính số cách thực hiện.
+1
+Câu 5 [THPT 2025]: Có bốn ngăn (trong một giá để sách) được đánh số thứ tự và bảy quyển sách
+1,2,3,4
+khác nhau. Bạn An xếp hết bảy quyển sách nói trên vào bốn ngăn đó sao cho mỗi ngăn có ít nhất một quyển
+sách và các quyển sách được xếp thẳng đứng thành một hàng ngang với gáy sách quay ra ngoài ở mỗi ngăn.
+Khi đã xếp xong bảy quyển sách, hai cách xếp của bạn An được gọi là giống nhau nếu chúng thỏa mãn đồng
+thời hai điều kiện sau đây:
+ Với từng ngăn, số lượng quyển sách ở ngăn đó là như nhau trong cả hai cách xếp;
+ Với từng ngăn, thứ tự từ trái sang phải của các quyển sách được xếp là như nhau trong cả hai cách
+xếp.
+T
+Gọi là số cách xếp đôi một khác nhau của bạn An. Giá trị của bằng bao nhiêu?
+T
+100
+DẠNG TOÁN 2: BIẾN THỂ EULER VỚI RÀNG BUỘC ĐIỀU KIỆN TÙY Ý (MỨC ĐỘ VẬN DỤNG
+CAO)
+Bài toán tổng quát:
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 9 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 09
+\
+Phương pháp tổng quát:
+Nhận xét & Lưu ý: Mẹo giúp triệt tiêu hoàn toàn mọi điều kiện "cồng kềnh" của đề bài. Đề bắt ai có bao
+nhiêu, ta phát trước cho người đó bấy nhiêu, phần thừa còn lại cứ mang đi chia Euler là xong!
+VÍ DỤ MINH HỌA: Tìm số nghiệm nguyên của phương trình với điều kiện
+x y z 20
+x 2,y 3,z 1
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Cô giáo có quyển vở hoàn toàn giống nhau cần chia cho học sinh xuất sắc là An, Bình,
+25 4
+Cường, Dung. Hỏi có bao nhiêu cách chia sao cho An nhận ít nhất quyển, Bình nhận ít nhất quyển,
+2 3
+Cường nhận ít nhất quyển và Dung nhận ít nhất quyển?
+4 5
+Câu 2 [HTN]: Một cửa hàng có chiếc áo thun hoàn toàn giống nhau cần phân phối cho đại lý bán lẻ.
+20 4
+Hỏi có bao nhiêu cách phân phối sao cho mỗi đại lý nhận được ít nhất chiếc áo và đại lý thứ nhất nhận
+1
+được không quá chiếc áo?
+5
+Câu 3 [HTN]: Xếp ngẫu nhiên viên bi giống nhau vào chiếc hộp khác nhau A, B, C. Tính xác suất để
+12 3
+số bi trong hộp A bằng tổng số bi trong hộp B và hộp C (kết quả làm tròn đến hàng phần trăm)
+DẠNG TOÁN 3 MỞ RỘNG: XẾP CHỖ VÀ CHIA KẸO EULER CÓ RÀNG BUỘC TÙY Ý
+Bài toán tổng quát: Cho học sinh. Cần xếp học sinh này vào vị trí, sau đó chia viên kẹo hoàn toàn
+k k n
+giống nhau cho họ sao cho số kẹo của mỗi học sinh phải thỏa mãn các điều kiện chặn dưới khắt khe: người
+thứ nhất nhận ít nhất viên, người thứ hai nhận ít nhất viên,... người thứ nhận ít nhất viên (
+a a k a a  0
+1 2 k i
+).
+Phương pháp tổng quát:
+VÍ DỤ MINH HỌA: Một nhóm gồm 5 học sinh A, B, C, D, E và 20 viên kẹo hoàn toàn giống nhau. Cần
+xếp chỗ cho 5 học sinh, sau đó chia kẹo sao cho bạn A nhận được ít nhất 4 viên, bạn B nhận được ít nhất 3
+viên, 3 bạn còn lại có thể nhận hoặc không nhận kẹo.
+Trường hợp 1: Xếp thành một hàng ngang
+Trường hợp 2: Xếp thành một vòng tròn
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Một nhóm gồm 6 nhân viên (trong đó có giám đốc và phó giám đốc) xếp thành một hàng
+ngang để chụp ảnh kỷ niệm. Sau đó, công ty có 15 phiếu mua hàng hoàn toàn giống nhau cần chia cho 6 nhân
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 10 -----
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 010
+\
+viên này sao cho giám đốc nhận được ít nhất 3 phiếu, phó giám đốc nhận được ít nhất 2 phiếu và các nhân
+viên còn lại có thể nhận hoặc không nhận. Hỏi có bao nhiêu cách xếp chỗ và chia phiếu?
+Câu 2 [HTN]: Có 5 cổ đông (trong đó có ông An và ông Bình) ngồi quanh một bàn họp tròn. Ban quản trị
+có 20 cổ phiếu thưởng hoàn toàn giống nhau cần phân bổ cho 5 người này. Hỏi có bao nhiêu cách xếp chỗ
+và phân bổ cổ phiếu sao cho ông An nhận được ít nhất 5 cổ phiếu, ông Bình nhận được ít nhất 4 cổ phiếu?
+Câu 3 [HTN]: Có 7 học sinh (trong đó có lớp trưởng An) ngồi quanh một đống lửa trại hình tròn. Cô giáo
+có 25 phần quà hoàn toàn giống nhau cần chia cho 7 học sinh này sao cho An nhận được ít nhất 2 phần quà,
+đồng thời 2 bạn ngồi ngay bên cạnh An mỗi người phải nhận được ít nhất 4 phần quà. Tính số cách xếp chỗ
+và chia quà.
+Câu 4 [HTN]: Một tiểu đội gồm 5 chiến sĩ (trong đó có tiểu đội trưởng tên Hùng) xếp thành một hàng
+ngang. Chỉ huy có 18 hộp đạn hoàn toàn giống nhau cần chia cho 5 chiến sĩ này sao cho Hùng nhận được ít
+nhất 3 hộp, đồng thời những chiến sĩ đứng ngay bên cạnh Hùng mỗi người phải nhận được ít nhất 4 hộp. Tính
+số cách xếp hàng và chia đạn.
+Câu 5 [HTN]: Có chiếc kẹo giống hệt nhau. Cô giáo chia ngẫu nhiên hết số kẹo này cho học sinh A,
+22 4
+B, C, D sao cho mỗi học sinh nhận được ít nhất chiếc. Tính xác suất để không có học sinh nào nhận được
+1
+quá chiếc kẹo (kết quả làm tròn đến hàng phần trăm)
+6
+Câu 6 [HTN]: Có viên bi giống nhau và chiếc hộp khác nhau. Bỏ ngẫu nhiên bi vào hộp. Tính xác
+18 5
+suất để có đúng chiếc hộp bị rỗng (kết quả làm tròn đến hàng phần trăm)
+2
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+----- PAGE 11 -----
+PHẦN A. BÀI TOÁN VÁCH NGĂN
+Dạng1.Sắpxếpcácphầntửkhôngđứngcạnhnhau(hàngngang)
+Phương pháp giải. Xếp nhóm không bị ràng buộc trước để chúng đóng vai trò vách ngăn,
+sinh ra các khe trống; sau đó mới gài nhóm bị ràng buộc vào những khe đó, mỗi khe nhiều
+nhấtmộtphầntử.Xếpn phầntửloạiAcón !cáchvàtạoran +1khe;gàin phầntửloại
+1 1 1 2
+BphânbiệtvàocáckhecóAn2 cách.
+n1+1
+Vídụminhhọa
+Mộttổcó5họcsinhnamvà3họcsinhnữ.Hỏicóbaonhiêucáchxếpcáchọcsinhnàythành
+mộthàngngangsaochokhôngcó2họcsinhnữnàođứngcạnhnhau?
+Lờigiải.Ýtưởngthenchốtcủaphươngphápváchngănlàxếpnhómkhôngbịràngbuộctrướcđể
+chúngtạothànhcáckhe,rồimớigàinhómbịràngbuộcvàonhữngkheđó.
+Taxếp5họcsinhnamthànhmộthàngngangtrước;vìnămbạnnamphânbiệtnêncó5! = 120
+cách.Saukhixếpxong,nămbạnnamtạora6khetrống—bốnkhoảngnằmgiữahaibạnliêntiếp
+vàhaikhoảngởhaiđầuhàng.
+Bây giờ ta đặt các bạn nữ vào những khe đó. Muốn không có hai bạn nữ nào đứng cạnh nhau
+thì mỗi khe chỉ được nhận nhiều nhất một bạn nữ. Như vậy ta cần chọn 3 khe trong 6 khe rồi xếp
+babạnnữphânbiệtvàobakheấy,tứclàmộtchỉnhhợpchập3của6:
+A3 = 6·5·4 = 120.
+6
+Theoquytắcnhân,sốcáchxếpthỏamãnlà
+5!·A3 = 120·120 = 14400.
+6
+14400
+■
+Câu1[HTN]
+Xếp 6 quyển sách Toán giống nhau và 4 quyển sách Văn giống nhau thành một hàng ngang
+trên giá sách. Hỏi có bao nhiêu cách xếp sao cho không có hai quyển sách Văn nào đứng
+cạnhnhau?
+Lờigiải.VìsáuquyểnToángiốnghệtnhaunêndùcóđổichỗchúngchonhautacũngchỉthuđược
+đúngmộtcáchxếp;dođócoinhưhàngsáuquyểnToánđãđượccốđịnh.Hàngsáuquyểnnàytạo
+ra7khetrống—nămkhoảngởgiữavàhaikhoảngởhaiđầugiá.
+ĐểkhôngcóhaiquyểnVănnàokềnhauthìmỗikhechỉchứanhiềunhấtmộtquyểnVăn.Bốn
+quyển Văn cũng giống hệt nhau, nên việc đặt chúng thực chất chỉ là chọn ra 4 khe trong 7 khe để
+mỗikheđượcchọnnhậnmộtquyểnVăn,khôngphânbiệtthứtự.Sốcáchlàtổhợpchập4của7:
+( )
+7
+= 35.
+4
+35
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang1/19
+
+----- PAGE 12 -----
+Câu2[HTN]
+Có 5 cuốn sách Toán khác nhau, 3 cuốn sách Lí khác nhau và 4 cuốn sách Hóa khác nhau.
+GọiT làsốcáchxếpchúnglênmộtkệdàisaochocáccuốnsáchToánluônđứngcạnhnhau
+T
+vàkhôngcóhaicuốnsáchLínàođứngcạnhnhau.Tính .
+1000
+Lờigiải.Bàitoáncóhairàngbuộc,talầnlượtxửlítừngcái.
+Trướchết,nămcuốnToánphảiđứngliềnnhaunêntabuộcchúngthànhmộtkhốiduynhất.Vì
+nămcuốnToánkhácnhaunêntrongnộibộkhối,chúngcóthểhoánvịchonhautheo5! cách.
+Sau khi đã buộc, khối Toán đóng vai trò như một cuốn sách đơn lẻ. Cùng với bốn cuốn Hóa,
+tacótấtcả1+4 = 5đốitượng“khôngphảiLí”.Xếpnămđốitượngnàythànhmộthàngđược5!
+cách,vàchúngtạora6khetrống.BacuốnLíkhácnhauvớiđiềukiệnkhôngđượckềnhau,nênta
+gàichúngvàobakhekhácnhautrongsáukhe;vìbacuốnLíphânbiệtnênđâylàchỉnhhợpA3.
+6
+Theoquytắcnhân,
+T = 5!·5!·A3 = 120·120·120 = 1728000,
+6
+dođó
+T 1728000
+= = 1728.
+1000 1000
+1728
+■
+Câu3[HTN]
+Có bao nhiêu số tự nhiên có 9 chữ số được lập từ các chữ số {0;1;2;3;4;5;6;7;8} sao cho
+mỗichữsốxuấthiệnđúngmộtlầnvàcácchữsốchẵnkhôngđứngcạnhnhau?
+Lờigiải.Trongtậpđãchocónămchữsốchẵnlà0,2,4,6,8vàbốnchữsốlẻlà1,3,5,7.
+Sốcầnlậpcó9chữsố,mỗichữsốdùngđúngmộtlần.Vìcótớinămchữsốchẵnnhưngchỉcó
+bốn chữ số lẻ để “ngăn cách”, nên muốn năm chữ số chẵn đôi một không kề nhau thì chúng buộc
+phảinằmxenkẽhoàntoànvớicácchữsốlẻtheođúngmộtkhuôn:
+CLCLCLCLC,
+tứcnămchữsốchẵnchiếmcácvịtrí1,3,5,7,9vàbốnchữsốlẻchiếmcácvịtrí2,4,6,8.Đâylà
+cáchbốtríduynhất.
+Bốn chữ số lẻ xếp vào bốn vị trí dành cho chúng có 4! cách. Năm chữ số chẵn nếu xếp tự do
+vàonămvịtrícủamìnhcó5!cách;tuynhiênsốtựnhiêncó9chữsốkhôngđượcbắtđầubằng0,
+nên ta phải loại những cách mà chữ số 0 rơi đúng vào vị trí đầu tiên. Khi cố định 0 ở vị trí đầu,
+bốn chữ số chẵn còn lại xếp vào bốn vị trí chẵn còn lại có 4! cách. Vậy số cách xếp chữ số chẵn
+hợplệlà5!−4!.
+Theoquytắcnhân,sốcácsốthỏamãnlà
+4!·(5!−4!) = 24·(120−24) = 24·96 = 2304.
+2304
+■
+Dạng2.Sắpxếpcácphầntửluônđứngcạnhnhautrênvòngtròn(phươngphápbuộc)
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang2/19
+
+----- PAGE 13 -----
+Phương pháp giải. Buộc nhóm phần tử cần đứng liền nhau thành một khối, hoán vị nội bộ
+trong khối, rồi xem khối như một phần tử và hoán vị vòng quanh: k đối tượng quanh vòng
+tròncho(k −1)! cách.
+Vídụminhhọa
+Mộtgiađìnhgồmbố,mẹvà4ngườiconngồiănquanhmộtchiếcbàntròn.Hỏicóbaonhiêu
+cáchxếpchỗngồisaochobốvàmẹluônngồicạnhnhau?
+Lời giải. Cả nhà có 6 người. Vì bố và mẹ phải ngồi cạnh nhau, ta buộc hai người này thành một
+khối.
+Khi đó các đối tượng cần xếp quanh bàn tròn gồm khối bố–mẹ và bốn người con, tất cả là 5
+đốitượng.Sốcáchxếp5đốitượngquanhmộtbàntròn(hoánvịvòngquanh)là
+(5−1)! = 4! = 24.
+Trongnộibộkhối,bốvàmẹcóthểđổichỗchonhau,cho2! = 2cách.Theoquytắcnhân,sốcách
+xếplà
+4!·2! = 24·2 = 48.
+48
+■
+Câu1[HTN]
+Có 4 viên bi đỏ, 3 viên bi xanh và 2 viên bi vàng (tất cả 9 viên bi đều có kích thước khác
+nhau).Cầnxâu9viênbinàythànhmộtvòngcổtròn.Hỏicóbaonhiêucáchxâusaochocác
+viênbicùngmàuluônnằmliềnkềnhau?(Giảsửvòngcổkhôngthểlậtngược.)
+Lời giải. Vì các viên bi cùng màu phải nằm liền kề nhau, ta buộc mỗi màu thành một khối, được
+bakhối:khốiđỏ,khốixanhvàkhốivàng.
+Xếpbakhốinàyquanhvòngcổtrònlàhoánvịvòngquanhcủabađốitượng,cho
+(3−1)! = 2! = 2
+cách. Nhưng các viên bi tuy cùng màu vẫn phân biệt nhau, nên trong mỗi khối còn phải hoán vị
+nộibộ:khốiđỏcóbốnviênkhácnhaucho4!cách,khốixanhcóbaviêncho3!cách,khốivàngcó
+haiviêncho2! cách.
+Một điểm cần lưu ý: đề nói vòng cổ không thể lật ngược, nghĩa là một cách xâu và ảnh đối
+xứng qua gương của nó được coi là hai cách khác nhau; vì thế ta chỉ khử phép quay (đã thể hiện
+quacôngthức(3−1)!)chứkhôngchiathêmcho2.
+Theoquytắcnhân,sốcáchxâulà
+(3−1)!·4!·3!·2! = 2·24·6·2 = 576.
+576
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang3/19
+
+----- PAGE 14 -----
+Câu2[HTN]
+Có 6 học sinh nam, 5 học sinh nữ và 1 thầy giáo được xếp ngồi quanh một bàn tròn có 12
+chiếcghế.Tínhxácsuấtđểthầygiáongồigiữa1bạnnamvà1bạnnữ(làmtrònkếtquảđến
+hàngphầntrăm).
+Lời giải. Cả nhóm có 6 + 5 + 1 = 12 người ngồi quanh bàn tròn 12 ghế. Để khử tính quay của
+bàntròn,tacốđịnhchỗngồicủathầygiáo;khiđó11họcsinhcònlạiđượcxếpvào11ghếquanh
+thầy,chokhônggianmẫu
+n(Ω) = 11!.
+Gọi A là biến cố “thầy ngồi giữa một bạn nam và một bạn nữ”, tức hai ghế ngay sát hai bên
+thầy gồm đúng một nam và một nữ. Ta đếm số cách thuận lợi theo từng bước: chọn một bạn nam
+trong 6 bạn có 6 cách; chọn một bạn nữ trong 5 bạn có 5 cách; xếp hai bạn vừa chọn vào hai ghế
+cạnhthầycó2!cách(đổichỗtrái–phải);cuốicùng9họcsinhcònlạixếptựdovào9ghếcònlại
+có9! cách.Vậy
+n(A) = 6·5·2!·9!.
+Dođó
+n(A) 6·5·2!·9!
+P(A) = = .
+n(Ω) 11!
+Khaitriển11! = 11·10·9! rồirútgọn9! ởtửvàmẫu,tađược
+6·5·2 60 6
+P(A) = = = ≈ 0,5455.
+11·10 110 11
+Làmtrònđếnhàngphầntrăm,P(A) ≈ 0,55,tứckhoảng55%.
+6
+P(A) = ≈ 0,55(55%)
+11
+■
+Câu3[HTN]
+Có5cuốnsáchToángiốngnhau,4cuốnsáchLígiốngnhau,3cuốnsáchHóagiốngnhauvà
+5cuốnsáchVăngiống nhau.Xếpngẫu nhiêntấtcả cáccuốnsách nàylênmộtkệ sáchhình
+tròn. Tính xác suất để 4 cuốn sách Lí luôn đứng cạnh nhau và 3 cuốn sách Hóa luôn đứng
+cạnhnhau.
+Lời giải. Tổng số sách là 5+4+3+5 = 17 cuốn, trong đó các cuốn cùng môn giống hệt nhau.
+Sốcáchxếptùyý17 cuốnquanhkệtròn(hoánvịvòngquanhcóphầntửlặp)là
+(17−1)! 16!
+n(Ω) = = .
+5!4!3!5! 5!4!3!5!
+Bây giờ đếm số cách thuận lợi. Buộc bốn cuốn Lí thành một khối và ba cuốn Hóa thành một
+khối; vì các cuốn cùng môn giống nhau nên mỗi khối chỉ có đúng một cách sắp nội bộ. Sau khi
+buộc, các đối tượng cần xếp gồm 5 cuốn Toán, 5 cuốn Văn, một khối Lí và một khối Hóa — tất
+cả 5+5+1+1 = 12 đối tượng, trong đó Toán giống nhau theo nhóm và Văn giống nhau theo
+nhóm.Sốcáchxếp12 đốitượngnàyquanhvòngtrònlà
+(12−1)! 11!
+n(A) = = .
+5!5! 5!5!
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang4/19
+
+----- PAGE 15 -----
+Dođó
+n(A) 11! 5!4!3!5! 11!·4!·3!
+P(A) = = · = .
+n(Ω) 5!5! 16! 16!
+Khaitriển16! = 16·15·14·13·12·11! rồirútgọn11!,tađược
+4!·3! 24·6 144 1
+P(A) = = = = .
+16·15·14·13·12 524160 524160 3640
+Dướidạngthậpphân,P(A) ≈ 0,000275,tứckhoảng0,0275%.
+1
+P(A) =
+3640
+■
+Dạng3.Phầntửluônđứngkẹpgiữahaiphầntửkhác(hàngngang)
+Phương pháp giải. Khi A phải đứng kẹp ngay giữa B và C, ba phần tử B,A,C tạo thành
+mộtkhốiliềnnhauvớiđúnghaithứtựnộibộlàB–A–C vàC–A–B;vìvậykhibuộcthành
+khốitachỉnhânthêm2chứkhôngphải3!.
+Vídụminhhọa
+Xếp 5 học sinh A,B,C,D,E thành một hàng ngang. Có bao nhiêu cách xếp sao cho học
+sinhAluônđứngngaygiữahọcsinhB vàhọcsinhC?
+Lời giải. Điều kiện “A đứng ngay giữa B và C” nghĩa là A phải có đúng hai người đứng sát hai
+bên làB và C; nói cách khác, ba bạnA,B,C đứng liền nhau thành một khối vớiA ở chính giữa.
+Khốinhưvậychỉcóhaithứtựnộibộ:
+B–A–C hoặc C–A–B,
+tức2cách(chứkhôngphải3! cáchnhưkhibaphầntửđứngcạnhnhautùyý).
+Buộc ba bạn này thành một khối rồi xem khối như một đối tượng, ta cần xếp 3 đối tượng là
+khốicùnghaibạnD,E thànhmộthàng,được3! = 6 cách.Theoquytắcnhân,sốcáchxếplà
+2·3! = 2·6 = 12.
+12
+■
+Câu1[HTN]
+Trêngiásáchcó7quyểnsáchhoàntoànkhácnhau,trongđócóquyểnToántập1,quyểnLý
+tập 1 và quyển Hóa tập 1. Hỏi có bao nhiêu cách xếp 7 quyển sách thành một hàng ngang
+saochoquyểnToántập1luônđứngkẹpngaygiữaquyểnLýtập1vàquyểnHóatập1?
+Lời giải. Điều kiện: quyển Toán tập 1 phải đứng kẹp ngay giữa quyển Lý tập 1 và quyển Hóa tập
+1. Khi đó ba quyển này đứng liền nhau thành một khối với Toán tập 1 ở giữa, nên khối chỉ có hai
+thứtựnộibộ:
+Lý–Toán–Hóa hoặc Hóa–Toán–Lý,
+tức2cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang5/19
+
+----- PAGE 16 -----
+Buộc ba quyển đó thành một khối, ta xem khối như một quyển sách. Cùng với bốn quyển còn
+lạitrongsốbảyquyển,tacótấtcả1+4 = 5đốitượngcầnxếpthànhmộthàngngang,cho5! = 120
+cách.Theoquytắcnhân,sốcáchxếplà
+2·5! = 2·120 = 240.
+240
+■
+Câu2[HTN]
+Có 5 học sinh nam (trong đó có Nam và Việt), 4 học sinh nữ và 1 thầy giáo xếp thành một
+hàngngang.HỏicóbaonhiêucáchxếpsaochothầygiáoluônđứngkẹpngaygiữaNamvà
+Việt,đồngthờikhôngcó2họcsinhnữnàođứngcạnhnhau?
+Lờigiải.Bàicóhairàngbuộc,taxửlílầnlượt.
+Ràngbuộcthứnhất:thầygiáođứngkẹpngaygiữaNamvàViệt,nênbangườiNam,Thầy,Việt
+đứngliềnnhauthànhmộtkhốivớiThầyởgiữa.KhốinàychỉcóhaithứtựnộibộlàNam–Thầy–
+ViệthoặcViệt–Thầy–Nam,tức2cách.
+Ràng buộc thứ hai: không có hai học sinh nữ nào đứng cạnh nhau, ta dùng phương pháp vách
+ngăn. Xem khối Nam–Thầy–Việt như một đối tượng, nhóm “không phải nữ” gồm khối ấy và ba
+bạnnamcònlại,tấtcả1+3 = 4đốitượng.Xếpbốnđốitượngnàythànhmộthàngđược4!cách,
+vàchúngtạora5khetrống.Bốnbạnnữphânbiệtđượcgàivàobốntrongnămkhe(mỗikhenhiều
+nhấtmộtbạnnữ)theochỉnhhợpA4 cách.
+5
+Theoquytắcnhân,sốcáchxếplà
+2·4!·A4 = 2·24·(5·4·3·2) = 2·24·120 = 5760.
+5
+5760
+■
+Câu3[HTN]
+Tại một buổi triển lãm nghệ thuật, ban tổ chức cần trưng bày 5 bức tranh phong cảnh khác
+nhau(trongđócóbức“Mùathu”),4bứctranhchândungkhácnhau(trongđócóbức“Thiếu
+nữ”) và 3 bức tranh tĩnh vật khác nhau (trong đó có bức “Bình hoa”). Người ta xếp ngẫu
+nhiên 12 bức tranh này thành một hàng ngang trên tường. Tính xác suất để bức “Mùa thu”
+luônđượcxếpkẹpngaygiữabức“Thiếunữ”vàbức“Bìnhhoa”,đồngthời3bứctranhtĩnh
+vậtluônđượcxếpcạnhnhau.
+Lời giải. Mười hai bức tranh đều khác nhau nên số cách xếp tùy ý thành một hàng ngang là
+n(Ω) = 12!. Gọi M là bức Mùa thu, T là bức Thiếu nữ, B là bức Bình hoa, và S ,S là hai bức
+1 2
+tĩnhvậtcònlại(ngoàiBìnhhoa).
+Bài cần thỏa đồng thời hai điều kiện: M kẹp giữa T và B, và ba bức tĩnh vật B,S ,S đứng
+1 2
+cạnh nhau. Điều đáng lưu ý là bức B vừa phải đứng sát M (theo điều kiện kẹp), lại vừa thuộc
+nhómtĩnhvậtphảiliềnnhau,nêntakhôngthểtáchrờihaiđiềukiệnmàphảixétchúngcùnglúc.
+ĐiềukiệnkẹpchohaikhảnăngT–M–B vàB–M–T.XétkhảnăngT–M–B:lúcnàyB đãở
+mép phải của cụm, nên để ba bức tĩnh vật liền nhau thì S ,S phải nối tiếp ngay sau B, cho hai
+1 2
+trườnghợp
+T–M–B–S –S và T–M–B–S –S .
+1 2 2 1
+Tươngtự,khảnăngB–M–T buộcS ,S đứngliềnphíatrướcB,cũngchohaitrườnghợp.Tổng
+1 2
+cộng,nămbứcT,M,B,S ,S luôntạothànhmộtkhốiliềnnhauvớiđúng4thứtựnộibộhợplệ.
+1 2
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang6/19
+
+----- PAGE 17 -----
+Buộcnămbứcấythànhmộtkhối,taxemkhốinhưmộtđốitượng;cùngvớibảybứctranhcòn
+lại,tacó1+7 = 8 đốitượngxếpthànhhàng,cho8! cách.Vậy
+n(A) = 4·8!.
+Suyra
+4·8!
+P(A) = .
+12!
+Khaitriển12! = 12·11·10·9·8! rồirútgọn8!,tađược
+4 4 1
+P(A) = = = .
+12·11·10·9 11880 2970
+Dướidạngthậpphân,P(A) ≈ 0,000337,tứckhoảng0,0337%.
+1
+P(A) =
+2970
+■
+Dạng4.Phầntửluônđứngkẹpgiữahaiphầntửkháctrênvòngtròn
+Phương pháp giải. Trên vòng tròn, khi A nằm kẹp giữa B và C thì hai chỗ sát hai bên A
+buộcphảilàB vàC,nênkhốivẫnchỉcóhaithứtựnộibộB–A–C vàC–A–B.Saukhibuộc
+thànhkhối,tahoánvịvòngquanhcácđốitượngcònlạitheocôngthức(k −1)!.
+Vídụminhhọa
+Có 6 người gồm A,B,C,D,E,F ngồi quanh một mâm cơm tròn. Hỏi có bao nhiêu cách
+xếpchỗsaochongườiAluônngồingaygiữangườiB vàngườiC?
+Lời giải. Yêu cầu người A ngồi ngay giữa B và C buộc ba người B,A,C ngồi liền nhau thành
+một khối với A ở giữa. Trên vòng tròn cũng như trên hàng ngang, khối này chỉ có hai thứ tự nội
+bộlàB–A–C hoặcC–A–B,tức2cách.
+Buộcbangườithànhmộtkhối,taxemkhốinhưmộtngười;cùngvớiD,E,F,tacó4đốitượng
+ngồiquanhmâmtròn,chohoánvịvòngquanh(4−1)! = 3! = 6cách.Theoquytắcnhân,sốcách
+xếplà
+2·3! = 2·6 = 12.
+12
+■
+Câu1[HTN]
+Xâu 8 hạt cườm hoàn toàn khác nhau thành một chiếc vòng tay tròn, trong đó có một hạt
+Đỏ,mộthạtXanhvàmộthạtVàng.HỏicóbaonhiêucáchxâusaochohạtĐỏluônnằmkẹp
+ngaygiữahạtXanhvàhạtVàng?(Giảsửvòngtaykhôngthểlậtngược.)
+Lờigiải.HạtĐỏphảinằmkẹpngaygiữahạtXanhvàhạtVàng,nênbahạtnàynằmliềnnhauthành
+mộtkhốivớihạtĐỏởgiữa.KhốichỉcóhaithứtựnộibộlàXanh–Đỏ–VànghoặcVàng–Đỏ–Xanh,
+tức2cách.
+Buộcbahạtthànhmộtkhối,taxemkhốinhưmộthạt;cùngvớinămhạtcònlại,tacó1+5 = 6
+đốitượngxâuthànhvòng.Sốcáchxâu6đốitượngquanhvòng(hoánvịvòngquanh)là(6−1)! =
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang7/19
+
+----- PAGE 18 -----
+5! = 120. Vì vòng tay không thể lật ngược nên ta chỉ khử phép quay chứ không khử ảnh gương,
+tứckhôngchiathêmcho2.
+Theoquytắcnhân,sốcáchxâulà
+2·5! = 2·120 = 240.
+240
+■
+Câu2[HTN]
+Có4cuốnsáchToánkhácnhau(trongđócócuốnToántập1),3cuốnsáchLígiốngnhauvà
+3cuốnsáchHóagiống nhau.Xếpngẫu nhiêntấtcả cáccuốnsách nàylênmộtkệ sáchhình
+tròn.TínhxácsuấtđểcuốnToántập1luônđượcxếpkẹpngaygiữahaicuốnsáchLí.
+Lờigiải.Cótấtcả4+3+3 = 10cuốnsách.Vìxếptrênvòngtròn,tacốđịnhcuốnToántập1(kí
+hiệuT )đểkhửphépquay.Khiđócòn9chỗquanhvòngdànhchobacuốnToánkhácnhau(khác
+1
+T ),bacuốnLígiốngnhauvàbacuốnHóagiốngnhau.Sốcáchxếpchíncuốnnày,cókểđếnviệc
+1
+LígiốngnhauvàHóagiốngnhau,là
+9! 362880
+n(Ω) = = = 10080.
+3!3! 36
+Để T được kẹp ngay giữa hai cuốn Lí thì hai chỗ sát hai bên T bắt buộc là hai cuốn Lí. Đặt
+1 1
+xonghaicuốnLíởhaibênT (vìcáccuốnLígiốngnhaunênchỉcómộtcách),cònlại7chỗdành
+1
+cho ba cuốn Toán khác nhau, một cuốn Lí còn lại và ba cuốn Hóa giống nhau. Số cách xếp bảy
+cuốnnàylà
+7! 5040
+n(A) = = = 840.
+3! 6
+Dođó
+n(A) 840 1
+P = = = .
+n(Ω) 10080 12
+1
+P =
+12
+■
+Câu3[HTN]
+Có 5 cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), 4 cuốn sách Lí khác nhau
+(trongđócócuốnLítập1)và3cuốnsáchHóakhácnhau(trongđócócuốnHóatập1).Xếp
+ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính xác suất để cuốn Toán
+tập 1 luôn được xếp kẹp ngay giữa cuốn Lí tập 1 và cuốn Hóa tập 1, đồng thời 3 cuốn sách
+Hóaluônđượcxếpcạnhnhau.
+Lời giải. Cả thảy 5+4+3 = 12 cuốn đều khác nhau, nên số cách xếp quanh kệ tròn là n(Ω) =
+(12 − 1)! = 11!. Kí hiệu T ,L ,H lần lượt là Toán tập 1, Lí tập 1, Hóa tập 1, và H ,H là hai
+1 1 1 2 3
+cuốnHóacònlại.
+Ta cần đồng thời hai điều: T kẹp giữa L và H ; ba cuốn Hóa H ,H ,H đứng liền nhau.
+1 1 1 1 2 3
+Điều kiện kẹp cho hai khả năngL –T –H và H –T –L . Tuynhiên H còn phải nằm trong khối
+1 1 1 1 1 1 1
+bacuốnHóa,nênđểvừakẹpcạnhT vừathuộckhốiHóa,cuốnH buộcphảiởđầukhốiHóa,rồi
+1 1
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang8/19
+
+----- PAGE 19 -----
+H ,H nốitiếpvề phíaH .Liệtkê đầyđủ,năm cuốnL ,T ,H ,H ,H luôntạothành mộtkhối
+2 3 1 1 1 1 2 3
+liềnnhauvớiđúngbốnthứtựnộibộhợplệ:
+L –T –H –H –H , L –T –H –H –H ,
+1 1 1 2 3 1 1 1 3 2
+H –H –H –T –L , H –H –H –T –L .
+2 3 1 1 1 3 2 1 1 1
+Buộc năm cuốn này thành một khối, ta xem khối như một đối tượng; cùng với bảy cuốn còn lại
+(bốn cuốn Toán khác T và ba cuốn Lí khác L ), ta có 1+7 = 8 đối tượng xếp quanh vòng tròn,
+1 1
+cho(8−1)! = 7! cách.Vậy
+n(A) = 4·7!.
+Suyra
+4·7!
+P = .
+11!
+Khaitriển11! = 11·10·9·8·7! rồirútgọn7!,tađược
+4 4 1
+P = = = .
+11·10·9·8 7920 1980
+1
+P =
+1980
+■
+PHẦN B. CÔNG THỨC CHIA KẸO EULER
+Dạng1.Bàitoánnềntảng(phươngphápváchngăn/chiakẹoEuler)
+Phương pháp giải. Chia n vật giống nhau cho k người khác nhau quy về đếm số nghiệm
+n(guyên)của x + x + ··· + x = n. Nếu mỗi người nhận ít nhất một vật (x( ≥ 1) thì c)ó
+1 2 k i
+n−1 n+k −1
+cách; nếu cho phép có người không nhận vật nào (x ≥ 0) thì có
+k −1 i k −1
+cách.
+Vídụminhhọa
+Hỏicóbaonhiêucáchchia10viênkẹogiốngnhaucho3họcsinhsaochohọcsinhnàocũng
+cóítnhất1viênkẹo?
+Lời giải. Gọi số kẹo mà ba học sinh nhận được lần lượt là x ,x ,x . Vì chia hết 10 viên và mỗi
+1 2 3
+emcóítnhấtmộtviên,tacầnđếmsốnghiệmnguyêncủaphươngtrình
+x +x +x = 10, x ,x ,x ≥ 1.
+1 2 3 1 2 3
+Theocôngthứcchiakẹo(mỗingườiítnhấtmộtvật),sốnghiệmnguyêndươnglà
+( ) ( )
+10−1 9
+= = 36.
+3−1 2
+Vậycó36 cáchchia.
+36
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang9/19
+
+----- PAGE 20 -----
+Câu1[HTN]
+Mộtcôngtycó8phầnthưởnghoàntoàngiốngnhaucầnphânphátngẫunhiêncho3phòng
+ban.TínhxácsuấtđểphòngMarketingnhậnđượcđúng2phầnthưởng,biếtrằngmộtphòng
+bancóthểkhôngnhậnđượcphầnthưởngnào.
+Lờigiải.GọisốphầnthưởngcủaphòngMarketingvàhaiphòngcònlạilầnlượtlàx ,x ,x .Vì
+M 1 2
+mộtphòngcóthểkhôngnhậnphầnnàonêncácbiếnkhôngâm,và
+x +x +x = 8, x ,x ,x ≥ 0.
+M 1 2 M 1 2
+Tổngsốcáchphát(khônggianmẫu)làsốnghiệmnguyênkhôngâm:
+( ) ( )
+8+3−1 10
+n(Ω) = = = 45.
+3−1 2
+Xét biến cố phòng Marketing nhận đúng 2 phần, tức x = 2. Khi đó hai phòng còn lại chia
+M
+phầncònlại:
+x +x = 8−2 = 6, x ,x ≥ 0,
+1 2 1 2
+có ( ) ( )
+6+2−1 7
+n(A) = = = 7
+2−1 1
+cách.Vậy
+n(A) 7
+P = = .
+n(Ω) 45
+7
+P =
+45
+■
+Câu2[HTN]
+Một quỹ từ thiện tặng ngẫu nhiên 12 chiếc máy tính xách tay hoàn toàn giống nhau cho 4
+trường học vùng cao. Tính xác suất để trường tiểu học A nhận được đúng3 chiếc máy tính,
+biếtrằngmỗitrườngđềunhậnđượcítnhất1chiếc.
+Lờigiải.GọisốmáymàtrườngAvàbatrườngcònlạinhậnđượclầnlượtlàx ,x ,x ,x .Vìmỗi
+A 1 2 3
+trườngnhậnítnhấtmộtchiếcnên
+x +x +x +x = 12, x ,x ,x ,x ≥ 1.
+A 1 2 3 A 1 2 3
+Tổngsốcáchchia(khônggianmẫu)làsốnghiệmnguyêndương:
+( ) ( )
+12−1 11
+n(Ω) = = = 165.
+4−1 3
+XétbiếncốtrườngAnhậnđúng3chiếc,tứcx = 3.Khiđóbatrườngcònlạichia
+A
+x +x +x = 12−3 = 9, x ,x ,x ≥ 1,
+1 2 3 1 2 3
+cho ( ) ( )
+9−1 8
+n(A) = = = 28
+3−1 2
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang10/19
+
+----- PAGE 21 -----
+cách.Vậy
+n(A) 28
+P = = .
+n(Ω) 165
+28
+P =
+165
+■
+Dạng1mởrộng.Xếpchỗvàchiakẹonềntảng(mỗingười≥ 1)
+Phươngphápgiải.Bàigồmhaicôngđoạnđộclập:xếpchỗrồichiavật,kếtquảlàtíchcủa
+hai số đếm. Xếp k người thành hàng ngang có k! cách, quanh v(òng trò)n có (k − 1)! cách;
+n−1
+chianvậtgiốngnhauchok ngườimỗingườiítnhấtmộtvậtcó cách.
+k −1
+Câu1[HTN]
+Có 5 học sinh và 10 phần quà hoàn toàn giống nhau. Cần xếp chỗ cho 5 học sinh này thành
+một hàng ngang và chia toàn bộ quà sao cho mỗi em nhận được ít nhất 1 phần quà. Tính số
+cáchthựchiện.
+Lờigiải.Bàigồmhaicôngđoạnđộclập:xếpchỗvàchiaquà.
+Xếpchỗ.Nămhọcsinhkhácnhauxếpthànhmộthàngngangcó5! = 120 cách.
+Chia quà. Gọi số quà mỗi em nhận là x ,x ,x ,x ,x , ta cần đếm số nghiệm nguyên dương
+1 2 3 4 5
+của
+x +x +x +x +x = 10, x ≥ 1,
+1 2 3 4 5 i
+được ( ) ( )
+10−1 9
+= = 126
+5−1 4
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+9
+5!· = 120·126 = 15120.
+4
+15120
+■
+Câu2[HTN]
+Mộtnhómgồm6họcsinhđượcxếpngồiquanhmộtbàntròn.Côgiáocó15viênkẹogiống
+hệt nhau cần chia cho các em sao cho mỗi em có ít nhất 1 viên kẹo. Hỏi có bao nhiêu cách
+xếpchỗvàchiakẹo?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàchiakẹo.
+Xếpchỗ.Sáuhọcsinhkhácnhaungồiquanhbàntròncó(6−1)! = 5! = 120 cách.
+Chiakẹo.Gọisốkẹomỗiemlàx ,x ,...,x ,tađếmsốnghiệmnguyêndươngcủa
+1 2 6
+x +x +···+x = 15, x ≥ 1,
+1 2 6 i
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang11/19
+
+----- PAGE 22 -----
+được ( ) ( )
+15−1 14
+= = 2002
+6−1 5
+cách.
+Theoquytắcnhân,sốcáchlà
+( )
+14
+5!· = 120·2002 = 240240.
+5
+240240
+■
+Câu3[HTN]
+Có 4 học sinh nam, 3 học sinh nữ và 20 quả bóng bay hoàn toàn giống nhau. Cần xếp7 học
+sinhnàythànhmộthàngngangsaocho3họcsinhnữluônđứngcạnhnhau,sauđóchiatoàn
+bộ bóng bay cho các em sao cho mỗi em nhận được ít nhất 1 quả bóng. Tính số cách thực
+hiện.
+Lờigiải.Haicôngđoạn:xếphọcsinhrồichiabóng.
+Xếp học sinh. Vì ba bạn nữ phải đứng cạnh nhau, ta buộc ba nữ thành một khối. Khi đó cần
+xếpkhốinữcùngbốnbạnnam,tức5đốitượngthànhhàng,được5!cách;babạnnữtrongkhốilại
+hoánvịnộibộđược3! cách.Vậysốcáchxếphọcsinhlà
+5!·3! = 120·6 = 720.
+Chiabóng.Gọisốbóngmỗiemnhậnlàx ,x ,...,x ,tađếmsốnghiệmnguyêndươngcủa
+1 2 7
+x +x +···+x = 20, x ≥ 1,
+1 2 7 i
+được ( ) ( )
+20−1 19
+= = 27132
+7−1 6
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+19
+5!·3!· = 720·27132 = 19535040.
+6
+19535040
+■
+Câu4[HTN]
+Có5họcsinhnam(trongđócóNamvàViệt),3họcsinhnữvà20viênkẹohoàntoàngiống
+nhau.Cầnxếp8họcsinhnàyngồiquanhmộtbàntrònsaocho3họcsinhnữluônngồicạnh
+nhau,đồngthờihaibạnNamvàViệtkhôngngồicạnhnhau,sauđóchiatoànbộsốkẹocho
+cácemsaochomỗiemnhậnđượcítnhất1viênkẹo.Tínhsốcáchthựchiện.
+Lờigiải.Haicôngđoạn:xếpchỗrồichiakẹo.
+Xếpchỗ.Tađếmbằngcáchlấyphầnthỏa“banữngồicạnhnhau”trừđiphần“banữngồicạnh
+nhaunhưngNamvàViệtcũngngồicạnhnhau”.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang12/19
+
+----- PAGE 23 -----
+Trước hết, buộc ba bạn nữ thành một khối. Khi đó có khối nữ cùng năm bạn nam, tức 6 đối
+tượngquanhbàntròn;kểcảhoánvịnộibộkhốinữ,sốcáchlà
+(6−1)!·3! = 120·6 = 720.
+Trong số này, ta loại các cách mà Nam và Việt ngồi cạnh nhau. Lúc đó buộc thêm Nam và Việt
+thành một khối nữa, ta có khối nữ, khối Nam–Việt và ba bạn nam còn lại, tức 5 đối tượng quanh
+bàntròn;kểcảhoánvịnộibộhaikhối,sốcáchlà
+(5−1)!·2!·3! = 24·2·6 = 288.
+Vậysốcáchxếpchỗhợplệlà720−288 = 432.
+Chia kẹo. Điều kiện chia kẹo (mỗi em ít nhất một viên) không phụ thuộc cách ngồi, nên chia
+20 viêncho8emtheo ( ) ( )
+20−1 19
+= = 50388
+8−1 7
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+19
+432· = 432·50388 = 21767616.
+7
+21767616
+■
+Câu5[THPT2025]
+Có bốn ngăn trong một giá để sách được đánh số thứ tự 1,2,3,4 và bảy quyển sách khác
+nhau. Bạn An xếp hết bảy quyển sách vào bốn ngăn đó sao cho mỗi ngăn có ít nhất một
+quyển và các quyển được xếp thẳng đứng thành một hàng ngang ở mỗi ngăn. Hai cách xếp
+được gọi là giống nhau nếu mỗi ngăn có cùng số sách và cùng thứ tự từ trái sang phải. Gọi
+T
+T làsốcáchxếpđôimộtkhácnhau.Tính .
+100
+Lời giải. Ta hình dung một cách xếp gồm hai thao tác: trước hết sắp bảy quyển sách khác nhau
+thành một hàng ngang theo thứ tự từ trái sang phải, sau đó cắt hàng đó thành bốn đoạn liên tiếp,
+gánlầnlượtchongăn1,ngăn2,ngăn3,ngăn4.Vìcácquyểntrongmỗingănđượcxếpthànhhàng
+(cóthứtự)vàbốnngănđượcđánhsố,haithaotáctrênmôtảđúngmộtcáchxếpvàkhôngbịđếm
+trùng.
+Sắp bảy quyển sách khác nhau thành một hàng có 7! cách. Hàng bảy quyển có 6 khe giữa các
+quyển liên tiếp; ta chọn 3 khe trong số đó để đặt ba vách ngăn, qua đó chia hàng thành bốn đoạn
+đều khác rỗng. Vì điều kiện mỗi ngăn có(í)t nhất một quyển tương đương với việc ba vách ngăn
+nằmởbakhekhácnhau,sốcáchchọnlà 6 .Cácngănđãđượcđánhsốnênthứtựbốnđoạnđược
+3
+xácđịnhluôn,khôngphảinhânthêm4!.
+Dođó ( )
+6 T 100800
+T = 7!· = 5040·20 = 100800, = = 1008.
+3 100 100
+1008
+■
+Dạng2.BiếnthểEulervớiràngbuộcđiềukiệntùyý
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang13/19
+
+----- PAGE 24 -----
+Phương pháp giải. Gặp ràng buộc chặn dưới x ≥ a , ta “phát trước” cho mỗi người đúng
+i i
+phần tối thiểu a , rồi đặt y = x − a ≥ 0. Bài toán quy về d(ạng cơ bản y)+ ··· + y =
+i i i i 1 k
+N +k −1
+n−(a +···+a ) với nghiệm nguyên không âm, đếm bằng . Nếu có thêm
+1 k k −1
+ràngbuộcchặntrên,thườngphảixéttrườnghợphoặcdùngphầnbù.
+Vídụminhhọa
+Tìmsốnghiệmnguyêncủaphươngtrìnhx+y+z = 20vớiđiềukiệnx ≥ 2, y ≥ 3, z ≥ 1.
+Lờigiải.Takhửcácđiềukiệnchặndướibằngcách“pháttrước”phầntốithiểuchomỗibiến:đặt
+x ′ = x−2, y ′ = y −3, z ′ = z −1,
+khiđóx′,y′,z′ ≥ 0.Thayvàophươngtrìnhbanđầu:
+(x ′ +2)+(y ′ +3)+(z ′ +1) = 20 =⇒ x ′ +y ′ +z ′ = 20−6 = 14.
+Sốnghiệmnguyênkhôngâmcủaphươngtrìnhnàylà
+( ) ( )
+14+3−1 16
+= = 120.
+3−1 2
+Vậyphươngtrìnhbanđầucó120 nghiệmnguyênthỏađiềukiện.
+120
+■
+Câu1[HTN]
+Côgiáocó25quyểnvởhoàntoàngiốngnhaucầnchiacho4họcsinhxuấtsắclàAn,Bình,
+Cường,Dung.HỏicóbaonhiêucáchchiasaochoAnnhậnítnhất2quyển,Bìnhnhậnítnhất
+3quyển,Cườngnhậnítnhất4quyểnvàDungnhậnítnhất5quyển?
+Lờigiải.GọisốvởcủaAn,Bình,Cường,Dunglầnlượtlàa,b,c,d,tacó
+a+b+c+d = 25, a ≥ 2, b ≥ 3, c ≥ 4, d ≥ 5.
+Pháttrướcchobốnbạnđúngphầntốithiểu,hết2+3+4+5 = 14quyển;phầncònlại25−14 = 11
+quyểnđượcchiatựdo.Cụthể,đặt
+a ′ = a−2, b ′ = b−3, c ′ = c−4, d ′ = d−5 ≥ 0,
+phươngtrìnhtrởthànha′ +b′ +c′ +d′ = 11.Sốnghiệmnguyênkhôngâmlà
+( ) ( )
+11+4−1 14
+= = 364.
+4−1 3
+Vậycó364 cáchchia.
+364
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang14/19
+
+----- PAGE 25 -----
+Câu2[HTN]
+Một cửa hàng có 20 chiếc áo thun hoàn toàn giống nhau cần phân phối cho 4 đại lý bán lẻ.
+Hỏi có bao nhiêu cách phân phối sao cho mỗi đại lý nhận được ít nhất 1 chiếc áo và đại lý
+thứnhấtnhậnđượckhôngquá5chiếcáo?
+Lờigiải.Gọisốáocủabốnđạilýlàx ,x ,x ,x ,tacó
+1 2 3 4
+x +x +x +x = 20, x ≥ 1, x ≤ 5.
+1 2 3 4 i 1
+Ràng buộc chặn trên x ≤ 5 không xử lí gọn bằng mẹo “phát trước”, nên ta xét riêng từng giá trị
+1
+x ∈ {1,2,3,4,5}. Với mỗi giá trị x , ba đại lý còn lại chia 20−x chiếc áo, mỗi đại lý ít nhất
+1 1 1
+mộtchiếc,cho ( ) ( )
+(20−x )−1 19−x
+1 1
+=
+3−1 2
+cách.Cộngtheox từ1đến5:
+1
+( ) ( ) ( ) ( ) ( ) ( )
+∑5
+19−x 18 17 16 15 14
+1
+= + + + + = 153+136+120+105+91 = 605.
+2 2 2 2 2 2
+x1=1
+Vậycó605 cáchphânphối.
+605
+■
+Câu3[HTN]
+Xếpngẫunhiên12viênbigiốngnhauvào3chiếchộpkhácnhauA,B,C.Tínhxácsuấtđể
+sốbitronghộpAbằngtổngsốbitronghộpB vàhộpC (làmtrònđếnhàngphầntrăm).
+Lờigiải.GọisốbitrongbahộpA,B,C lầnlượtlàa,b,c,tacó
+a+b+c = 12, a,b,c ≥ 0.
+Sốcáchbỏbitùyý(khônggianmẫu)làsốnghiệmnguyênkhôngâm:
+( ) ( )
+12+3−1 14
+n(Ω) = = = 91.
+3−1 2
+Xét biến cố “số bi hộp A bằng tổng số bi hai hộp còn lại”, tức a = b+c. Thay b+c = a vào
+tổnga+(b+c) = 12,tađược2a = 12,suyraa = 6 vàb+c = 6.Sốnghiệmnguyênkhôngâm
+củaphươngtrìnhb+c = 6 là6+1 = 7,nênn(A) = 7.
+Dođó
+n(A) 7 1
+P = = = ≈ 0,0769.
+n(Ω) 91 13
+Làmtrònđếnhàngphầntrăm,P ≈ 0,08,tứckhoảng7,69% ≈ 8%.
+1
+P = ≈ 0,08(8%)
+13
+■
+Dạng3mởrộng.XếpchỗvàchiakẹoEulercóràngbuộctùyý
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang15/19
+
+----- PAGE 26 -----
+Phươngphápgiải.Vẫnlàhaitầngxếpchỗvàchiavật,nhưngphầnchiacóthêmràngbuộc
+chặndướinêndùngmẹo“pháttrước”.Cầnđặcbiệtchúý:nếuđiềukiệnchiaphụthuộcvào
+vịtrí(chẳnghạn“ngườingồicạnhAnhậnnhiềuhơn”)thìphảigắnviệcchiavàotừngcách
+xếp chỗ, và với hàng ngang nhiều khi phải tách trường hợp vì số người đứng cạnh thay đổi
+theovịtrí.
+Vídụminhhọa
+Mộtnhómgồm5họcsinhA,B,C,D,E và20viênkẹohoàntoàngiốngnhau.Cầnxếpchỗ
+cho5họcsinh,sauđóchiakẹosaochobạnAnhậnítnhất4viên,bạnB nhậnítnhất3viên,
+3bạncònlạicóthểnhậnhoặckhông.
+Lời giải. Vì điều kiện chia kẹo ở đây gắn với từng bạn cụ thể chứ không phụ thuộc vị trí ngồi, ta
+tínhsốcáchchiamộtlầnrồinhânvớisốcáchxếpchỗ.
+Phần chia kẹo. Phát trước cho A bốn viên và B ba viên, còn 20−4−3 = 13 viên chia tự do
+chonămbạn(mỗibạncóthểnhậnthêm0viên).Sốcáchlà
+( ) ( )
+13+5−1 17
+= = 2380.
+5−1 4
+Trườnghợp1—xếpthànhhàngngang.Nămbạnkhácnhauxếpthànhhàngcó5! = 120cách,
+nênsốcáchthựchiệnlà ( )
+17
+5!· = 120·2380 = 285600.
+4
+Trường hợp 2 — xếp quanh vòng tròn. Năm bạn ngồi quanh vòng tròn có (5−1)! = 4! = 24
+cách,nênsốcáchthựchiệnlà
+( )
+17
+4!· = 24·2380 = 57120.
+4
+285600 (hàngngang); 57120 (vòngtròn)
+■
+Câu1[HTN]
+Một nhóm gồm 6 nhân viên (trong đó có giám đốc và phó giám đốc) xếp thành một hàng
+ngang để chụp ảnh kỷ niệm. Sau đó công ty có 15 phiếu mua hàng hoàn toàn giống nhau
+cần chia cho 6 nhân viên sao cho giám đốc nhận ít nhất 3 phiếu, phó giám đốc nhận ít nhất
+2phiếuvàcácnhânviêncònlạicóthểnhậnhoặckhông.Hỏicóbaonhiêucáchxếpchỗvà
+chiaphiếu?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàchiaphiếu.
+Xếpchỗ.Sáunhânviênkhácnhauxếpthànhmộthàngngangcó6! = 720 cách.
+Chiaphiếu.Pháttrướcchogiámđốc3phiếuvàphógiámđốc2phiếu,còn15−5 = 10phiếu
+chiatựdochosáungười(mỗingườicóthểnhậnthêm0),cho
+( ) ( )
+10+6−1 15
+= = 3003
+6−1 5
+cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang16/19
+
+----- PAGE 27 -----
+Theoquytắcnhân,sốcáchlà
+( )
+15
+6!· = 720·3003 = 2162160.
+5
+2162160
+■
+Câu2[HTN]
+Có 5 cổ đông (trong đó có ông An và ông Bình) ngồi quanh một bàn họp tròn. Ban quản trị
+có20cổphiếuthưởnghoàntoàngiốngnhaucầnphânbổcho5ngườinày.Hỏicóbaonhiêu
+cáchxếpchỗvàphânbổcổphiếusao choôngAnnhậnítnhất5cổphiếu,ôngBìnhnhậnít
+nhất4cổphiếu?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàphânbổcổphiếu.
+Xếpchỗ.Nămcổđôngkhácnhaungồiquanhbàntròncó(5−1)! = 4! = 24 cách.
+Phânbổcổphiếu.PháttrướcchoôngAn5cổphiếuvàôngBình4cổphiếu,còn20−9 = 11
+cổphiếuchiatựdochonămngười,cho
+( ) ( )
+11+5−1 15
+= = 1365
+5−1 4
+cách.
+Theoquytắcnhân,sốcáchlà
+( )
+15
+4!· = 24·1365 = 32760.
+4
+32760
+■
+Câu3[HTN]
+Có 7 học sinh (trong đó có lớp trưởng An) ngồi quanh một đống lửa trại hình tròn. Cô giáo
+có25phầnquàhoàntoàngiốngnhaucầnchiacho7họcsinhsaochoAnnhậnítnhất2phần,
+đồng thời 2 bạn ngồi ngay bên cạnh An mỗi người phải nhận ít nhất 4 phần. Tính số cách
+xếpchỗvàchiaquà.
+Lời giải. Ở bài này điều kiện chia quà phụ thuộc vị trí vì cần biết ai ngồi cạnh An. Tuy nhiên, do
+ngồitrênvòngtrònnêndùxếpthếnàoAncũngluôncóđúnghaingườibêncạnh;bởivậyhaicông
+đoạnvẫntáchrờiđược.
+Xếp chỗ. Bảy học sinh khác nhau ngồi quanh vòng tròn có (7−1)! = 6! = 720 cách, và mỗi
+cáchđềuxácđịnhrõhaibạnngồicạnhAn.
+Chia quà. Phát trước cho An 2 phần và cho hai bạn ngồi cạnh An mỗi người 4 phần, hết
+2+4+4 = 10 phần;còn25−10 = 15 phầnchiatựdochobảyem,cho
+( ) ( )
+15+7−1 21
+= = 54264
+7−1 6
+cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang17/19
+
+----- PAGE 28 -----
+Theoquytắcnhân,sốcáchlà
+( )
+21
+6!· = 720·54264 = 39070080.
+6
+39070080
+■
+Câu4[HTN]
+Mộttiểuđộigồm5chiếnsĩ(trongđócótiểuđộitrưởngtênHùng)xếpthànhmộthàngngang.
+Chỉ huy có 18 hộp đạn hoàn toàn giống nhau cần chia cho 5 chiến sĩ sao cho Hùng nhận ít
+nhất3hộp,đồngthờinhữngchiếnsĩđứngngaybêncạnhHùngmỗingườiphảinhậnítnhất
+4hộp.Tínhsốcáchxếphàngvàchiađạn.
+Lời giải. Khác với vòng tròn, ở hàng ngang số người đứng cạnh Hùng thay đổi theo vị trí của
+Hùng,nêntaphảitáchtrườnghợp.
+Trường hợp 1 — Hùng đứng ở một trong hai đầu hàng. Khi đó Hùng chỉ có một người đứng
+cạnh. Số cách xếp: chọn một trong hai đầu hàng cho Hùng (2 cách), bốn người còn lại xếp vào
+bốnvịtrícònlại(4!cách),tấtcả2·4! = 48cách.Vềchiađạn,pháttrướcchoHùng3hộpvàcho
+ngườicạnhHùng4hộp,còn18−7 = 11 hộpchiatựdochonămngười,cho
+( ) ( )
+11+5−1 15
+= = 1365
+5−1 4
+cách.Sốcáchcủatrườnghợpnàylà48·1365 = 65520.
+Trườnghợp2— Hùngđứngở mộttrongbavị trígiữa. KhiđóHùngcó haingườiđứng cạnh.
+Số cách xếp là 3·4! = 72. Phát trước cho Hùng 3 hộp và cho hai người cạnh Hùng mỗi người 4
+hộp,hết3+4+4 = 11 hộp,còn18−11 = 7 hộpchiatựdo,cho
+( ) ( )
+7+5−1 11
+= = 330
+5−1 4
+cách.Sốcáchcủatrườnghợpnàylà72·330 = 23760.
+Cộnghaitrườnghợp,tổngsốcáchlà
+65520+23760 = 89280.
+89280
+■
+Câu5[HTN]
+Có 22 chiếc kẹo giống hệt nhau. Cô giáo chia ngẫu nhiên hết số kẹo này cho 4 học sinh
+A,B,C,D sao cho mỗi học sinh nhận ít nhất 1 chiếc. Tính xác suất để không có học sinh
+nàonhậnđượcquá6chiếckẹo(làmtrònđếnhàngphầntrăm).
+Lờigiải.Gọisốkẹobốnbạnlàa,b,c,d,tacó
+a+b+c+d = 22, a,b,c,d ≥ 1.
+Sốcáchchiatùyý(khônggianmẫu)làsốnghiệmnguyêndương:
+( ) ( )
+22−1 21
+n(Ω) = = = 1330.
+4−1 3
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang18/19
+
+----- PAGE 29 -----
+Xétbiếncố“khôngbạnnàonhậnquá6chiếc”,tức1 ≤ a,b,c,d ≤ 6.Đểxửlícậntrên,tađếm
+“phầnthiếu”sovớimứctốiđa:đặt
+u = 6−a, v = 6−b, w = 6−c, t = 6−d.
+Khiđó u,v,w,t ≥ 0,vàtừa+b+c+d = 22 tacó
+(6−u)+(6−v)+(6−w)+(6−t) = 22 =⇒ 24−(u+v +w+t) = 22,
+suyrau+v +w+t = 2.Vìmỗibiếnu,v,w,t khôngvượtquá2nênđềunhỏhơn5,dođóđiều
+kiệna,b,c,d ≥ 1tựđộngđượcthỏa.Sốnghiệmnguyênkhôngâmlà
+( ) ( )
+2+4−1 5
+n(A) = = = 10.
+4−1 3
+Dođó
+n(A) 10 1
+P = = = ≈ 0,0075.
+n(Ω) 1330 133
+Làmtrònđếnhàngphầntrăm,P ≈ 0,01 (khoảng0,75%).
+1
+P = ≈ 0,01
+133
+■
+Câu6[HTN]
+Có18viênbigiốngnhauvà5chiếchộpkhácnhau.Bỏngẫunhiênbivàohộp.Tínhxácsuất
+đểcóđúng2chiếchộpbịrỗng(làmtrònđếnhàngphầntrăm).
+Lờigiải.Bỏ18viênbigiốngnhautùyývàonămhộpkhácnhau(mỗihộpcóthểrỗng).Gọisốbi
+trongcáchộplàx ,x ,...,x ≥ 0vớix +x +···+x = 18;sốcách(khônggianmẫu)là
+1 2 5 1 2 5
+( ) ( )
+18+5−1 22
+n(Ω) = = = 7315.
+5−1 4
+( )Xét biến cố “có đúng hai hộp rỗng”. Trước hết chọn hai hộp sẽ rỗng trong năm hộp, được
+5 = 10 cách. Ba hộp còn lại phải đều có bi, nên ta chia 18 viên cho ba hộp này, mỗi hộp ít nhất
+2
+mộtviên;sốcáchlàsốnghiệmnguyêndươngcủay +y +y = 18,tức
+1 2 3
+( ) ( )
+18−1 17
+= = 136.
+3−1 2
+Vậysốcáchthuậnlợilà
+( )( )
+5 17
+n(A) = = 10·136 = 1360.
+2 2
+Dođó
+n(A) 1360 272
+P = = = ≈ 0,1859.
+n(Ω) 7315 1463
+Làmtrònđếnhàngphầntrăm,P ≈ 0,19 (khoảng18,59% ≈ 19%).
+272
+P = ≈ 0,19
+1463
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang19/19

@@ -1,0 +1,60 @@
+a 20 a 15
+1 1
+Từ đó suy ra  hoặc 
+a 5 a 10
+ 2  2
+a 20 b 16 b 12
+1 1 1
+Xét  b 1 b 2 48 có hai cặp thỏa mãn là  và  vậy ta có hai trường hợp
+a 5 b 3 b 4
+ 2  2  2
+Trường hợp 1:
+- Hộp 1 có 20 quả gồm 16 Đỏ và 4 đen.
+- Hộp 2 có 5 quả gồm 3 Đỏ và 2 đen.
+16 2 4 3 11
+P  . . . 
+20 5 20 5 25
+Trường hợp 2:
+- Hộp 1 có 20 quả gồm 12 Đỏ và 8 đen.
+- Hộp 2 có 5 quả gồm 4 Đỏ và 1 đen.
+12 1 8 4 11
+P  . . . 
+20 5 20 5 25
+a 15 b 12 b 9
+1 1 1
+Xét  b 1 b 2 72chỉ có hai cặp thỏa mãn là  hoặc  ta cũng có hai
+a 10 b 6 b 8
+ 2  2  2
+trường hợp
+Trường hợp 1:
+- Hộp 1 có 15 quả gồm 12 Đỏ và 3 đen.
+- Hộp 2 có 10 quả gồm 6 Đỏ và 4 đen.
+Trường hợp 2:
+- Hộp 1 có 20 quả gồm 12 Đỏ và 8 đen.
+- Hộp 2 có 10 quả gồm 6 Đỏ và 4 đen.
+11
+Hai trường hợp này cũng có P 
+25
+trungnghiacva@gmail.com
+Câu 23. Cho tập A1;2;3;....,100 gọi S là tập hợp tất cả các tập con của A, mỗi tập này gồm 3 phần
+tử có tổng bằng 91. Chọn ngẫu nhiên một phần tử của S. Xác suất để chọn được phần tử có 3
+số lập thành cấp số nhân?
+3 2 4 1
+A. B. C. D.
+645 645 645 645
+Lời giải
+Tác giả: Nguyễn Trung Nghĩa FB: nguyễn Trung Nghĩa
+Chọn C
+Gọi 3 số trong một phần tử của tập S là a,b,c khi đó
+a,b,c1;2;3;...100
+
+abc 91
+Do đó số các bộ số a,b,c có phân biệt thứ tự là: C2
+90
+Do abc91 nên không xẩy ra trường hợp abc.
+Nếu trong 3 số a,b,c có hai số bằng nhau, không mất tính tổng quát giả sử abc. Khi đó
+91c
+abc91 2ac91 a 
+2
+Do a,c1;2;3;...100 suy ra clà số lẻ trong các số 1;2;3;...90 (có 45 số lẻ)
+Trang 16/24 - Mã đề thi 483

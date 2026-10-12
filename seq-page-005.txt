@@ -1,0 +1,65 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+Nhưng với a>0,b>0 thì :  ak bkab0 ak1bk1 akbabk
+ak1akbabk bk1 ak1bk1
+Cho nên :  3
+4 2
+So sánh (2) và (3) ta được điều phải chứng minh .
+Bài 3.Xét tính bị chặn và tính đơn điệu của các dãy số sau ?
+n2 1 1
+a. u  b. u 1n1 sin
+n n n n
+HƯỚNG DẪN
+n2 1 1 n2 1 2 n2.1
+a. u  n . Ta thấy : u   2. Cho nên đây là một dãy số tăng ,
+n n n n n n
+bị chặn dưới bởi m=2 . ( Nhưng không bị chặn ).
+1
+b. u 1n1 sin
+n n
+ 1 1
+- Xét hiệu : u u 1n sin sin . Vì biểu thức trong dấu móc luôn dương
+n1 n   n1 n  
+với mọi thuộc N*.cho nên u u 0, khi n chẵn , còn u u 0 khi n là lẻ . Vì vậy
+n1 n n1 n
+dãy số đã cho không tăng và cũng không giảm ( Không đơn điệu ).
+1
+Mặt khác : 1sin 111n1 u 11n1 1n u 1n
+n n n
+M 1
+Có nghĩa là : u 1;1 . Dãy số bị chặn .
+
+n m1
+Bài 4. Cho một dãy số có các số hạng đầu tiên là 1,8,22,43,...... Hiệu của hai số hạng
+liên tiếp của dãy số đó lập thành một cấp số cộng : 7,14,21..., 7n. số 35351 là số hạng
+thứ mấy của cấp số đã cho ?
+HƯỚNG DẪN
+Theo đầu bài ta có :
+u u 7
+2 1
+
+u u 14
+ 3 2
+
+u u 21
+4 3
+
+....................
+
+u u 7n1
+ n n1
+Cộng các vế của các phương trình của hệ ta dược :
+nn1
+u u 71421...7n17 1
+n 1 2
+nn1
+Đặt : u 3535113535117 n2 n101000n101.
+n 2
+Do đó : 35351 là số hạng thứ 101 của dãy sô .
+Bài 5. Cho phương trình : x4 3x2 24mx26n0.
+Tìm hệ thức liên hệ giữa m và n để 3 nghiệm phân biệt x ,x ,x lập thành một cấp số
+1 2 3
+cộng ?
+HƯỚNG DẪN
+Vì 3 nghiệm phân biệt : x ,x ,x lập thành cấp số cộng , nên ta có thể đặt :
+1 2 3
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 5 ĐT : 0985.270.218

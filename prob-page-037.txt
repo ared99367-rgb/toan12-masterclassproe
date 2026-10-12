@@ -1,0 +1,55 @@
+ 164736 1584
+A
+Vậy xác suất của biến cố A là P(A)   .
+ C6 195755
+52
+Email: vutoanpvd@gmail.com
+Câu 27. Chọn ngẫu nhiên 6 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong
+xấp bài này chứa hai bộ ba (tức là có ba quân cùng thuộc một bộ và ba quân còn lại cùng thuộc
+một bộ khác)
+24 26 18 12
+A. . B. . C. . D. .
+195755 195755 195755 195755
+Lời giải
+Tác giả: Vũ Huỳnh Đức Tên facebook: Huỳnh Đức.
+Chọn D
+Số phần tử của không gian mẫu là  C6
+52
+Gọi B là biến cố cần tính xác suất.
+*Tìm 
+B
+- Công đoạn 1: Chọn 2 bộ từ 13 bộ. Có C2 cách.
+13
+- Công đoạn 2: Từ mỗi bộ đã chọn, chọn ra 2 quân. Có C3.C3 cách.
+4 4
+Theo quy tắc nhân ta có  C2 .C3.C3 1248
+B 13 4 4
+ 1248 12
+B
+Vậy xác suất của biến cố A là P(B)   .
+ C6 195755
+52
+Email: vutoanpvd@gmail.com
+Câu 28. Chọn ngẫu nhiên 5 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong
+xấp bài này chứa hai đôi (tức là có hai quân cùng thuộc bộ bộ, hai quân thuộc một bộ khác và
+quân còn lại khác bộ với 4 quân trước )
+396 198 33 234
+A. . B. . C. . D. .
+4165 4165 83300 4165
+Lời giải
+Tác giả: Vũ Huỳnh Đức Tên facebook: Huỳnh Đức.
+Chọn B
+Số phần tử của không gian mẫu là  C5
+52
+Gọi C là biến cố cần tính xác suất.
+*Tìm 
+C
+- Công đoạn 1: Chọn 2 bộ từ 13 bộ. Có C2 cách.
+13
+- Công đoạn 2: Từ mỗi bộ đã chọn, chọn ra 2 quân. Có C2.C2 cách.
+4 4
+- Công đoạn 3: Chọn 1 bộ từ 11 bộ còn lại và từ bộ này chọn ra 1 quân. Có C1 .C1 cách.
+11 4
+Theo quy tắc nhân ta có  C2 .C2.C2.C1 .C1 123552
+C 13 4 4 11 4
+Trang 20/24 - Mã đề thi 483

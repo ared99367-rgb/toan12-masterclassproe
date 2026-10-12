@@ -1,0 +1,63 @@
+Bài tập bổ sung và hướng dẫn giải phần : BÀI TẬP TỔNG HỢP
+28. Tam giác ABC có : cot A,cotB,cotC theo thứ tự đó lập thành một cấp cộng . Hãy
+chứng minh rằng : a2,b2,c2 theo thứ tự đó cũng lập thành một cấp số cộng ?
+29. Cho tam giác ABC cân ( AB=AC ), có cạnh đáy BC , đường cao AH , cạnh bên
+AB theo thứ tự đó lập thành một cấp số nhân . Hãy tính công bội q của cấp số nhân
+đó ?
+30. Tam giác ABC có các cạnh a,b,c theo thứ tự đó lập thành một cấp số cộng . Hãy
+chứng minh rằng khi đó công sai của cấp số cộng được tính bởi công thức :
+3  C A
+d  r tg tg
+ 
+2  2 2 
+V. HƯỚNG DẪN GIẢI PHẦN BÀI TẬP TỔNG HỢP
+Bài 1 : Giả sử x ,x ,...x R x.x ....x 1. Chứng minh x x ...x n
+1 2 n  1 2 n 1 2 n
+Giải .
+Chứng minh bằng quy nạp .
+- Với n=1 : x 1. Mệnh đề đúng .
+1
+- Giả sử mệnh đề đúng với n=k ( k>1 ).
+x x x ....x k xx x ..x 1 *
+1 2 3 k 1 2 3 k
+Nếu với mọi x 1 thì hiển nhiên : x x ..x x k1.
+k 1 2 k k1
+Nếu trong k+1 số có ít nhất một số lớn hơn 1 , thì ắt phải có số nhỏ hơn 1.
+Không giảm tính tổng quát , giả sử x 1và x 1, khi đó ta có :
+k k1
+1x x 10x x 1x x 1
+k1 k k k1 k k1
+Do đó :
+x x ...x x  x x ...x x x 1 2
+1 2 k k1 1 2 k1 k k1
+Theo giả thiết quy nạp , ta suy ra từ k số ở vế phải :
+x x ...x x x k 3
+1 2 k1 k k1
+Từ (2) và (3) suy ra : x x ...x x k1.
+1 2 k k1
+an bn ab n
+Bài 2. Chứng minh :  với : a0,b0,nN*
+ 
+2  2 
+HƯỚNG DẪN
+- Với n=1 . Mệnh đề đúng
+ak bk ab k
+- Giả sử mệnh đề đúng với n=k ( Với k>1 ) :   1
+ 
+2  2 
+ak1bk1 ab k1
+- Ta phải chứng minh : 
+ 
+2  2 
+ab
+Thật vậy , ta nhân hai vế của (1) với , ta có :
+2
+ak bk ab ab k ab ab k1
+ .  . 
+   
+2 2  2  2  2 
+ak1akbabk bk1 ab k1
+  2
+ 
+4  2 
+Sưu tầm : Nguyễn Đình Sỹ T r a n g 4 ĐT : 0985.270.218

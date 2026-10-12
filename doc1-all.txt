@@ -1,0 +1,1149 @@
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 01
+\
+ÔN TẬP TỔ HỢP – XÁC SUẤT TRỌNG TÂM
+KIẾN THỨC 11 Môn: Toán 11
+BUỔI SỐ 08 Thời gian làm bài: 90 phút (không tính thời gian giao đề)
+TỔ HỢP XÁC SUẤT TRỌNG TÂM – HAY CHO 2K9XPS
+Câu 1 [HTN]: (THPT 2026) Trong một trò chơi bạn Bình cần vượt qua một thử thách. Theo yêu cầu của thử
+thách, Bình cần điền tất cả 15 số thuộc tập hợp vào 15 ô vuông trong
+{0;1;2;3;4;5;6;7;8;10;11;12;15;16;20}
+hình dưới thỏa mãn đồng thời ba điều kiện sau:
+Mỗi ô điền đúng một số và mỗi số chỉ được sử dụng một lần;
+Hiệu hai số ở hai ô bất kì khác nhau trên cùng một hàng không chia hết cho 5;
+Hiệu hai số ở hai ô bất kì khác nhau trên cùng một cột không chia hết cho 5.
+Hai cách điền gọi là giống nhau nếu số điền ở mỗi ô tương ứng trong 15 ô là giống nhau (không tính đến
+thứ tự điền các số vào 15 ô vuông). Gọi là số cách điền khác nhau để bạn Bình vượt qua được thử thách.
+H
+H
+Giá trị của bằng bao nhiêu?
+30
+Câu 2 [HTN]: (Phát triển lại THPT 2026) Trong một trò chơi bạn Bình cần vượt qua một thử thách. Theo
+yêu cầu của thử thách, Bình cần điền tất cả 15 số thuộc tập hợp vào
+{1;2;3;4;5;6;7;8;9;10;11;12;13;14;15}
+15 ô vuông trong hình dưới thỏa mãn đồng thời ba điều kiện sau:
+Mỗi ô điền đúng một số và mỗi số chỉ được sử dụng một lần;
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 02
+\
+Tổng 5 số được điền trên Cột 1 bằng 15;
+Trên mỗi hàng, các số được sắp xếp theo thứ tự tăng dần từ trái sang phải.
+Hai cách điền gọi là giống nhau nếu số điền ở mỗi ô tương ứng trong 15 ô là giống nhau. Gọi là số cách
+T
+T
+điền khác nhau để bạn Bình vượt qua được thử thách. Giá trị của bằng bao nhiêu?
+12600
+Câu 3 [HTN]: (THPT 2026) Một khung hình trang trí có dạng một đa giác đều 12 cạnh (xem
+AA...A
+1 2 12
+hình dưới) được gắn cố định trên một trần nhà. Bạn Dũng có 12 bóng đèn gồm bốn bóng màu đỏ và tám
+bóng màu xanh, có công suất đôi một khác nhau. Bạn Dũng lắp ngẫu nhiên 12 bóng đèn trên vào 12 đỉnh
+sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là xác suất để mỗi hình vuông (có bốn đỉnh
+A,A,...,A P
+1 2 12
+là các đỉnh của đa giác đã cho) đều có ít nhất một bóng đèn màu đỏ. Giá trị của bằng bao nhiêu?
+3190P
+Câu 4 [HTN]: (Phát triển lại THPT 2026) Một khung hình trang trí có dạng đa giác đều 20 cạnh được gắn
+cố định trên một trần nhà. Bạn Dũng có 20 bóng đèn gồm 5 bóng màu đỏ, 5 bóng màu xanh, 5 bóng màu
+vàng và 5 bóng màu tím, có công suất đôi một khác nhau. Bạn Dũng lắp ngẫu nhiên 20 bóng đèn trên vào 20
+đỉnh của đa giác sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là xác suất để mỗi hình vuông (có bốn đỉnh
+P
+là các đỉnh của đa giác đã cho) đều có đủ 4 loại bóng đèn mang 4 màu khác nhau. Giá trị của
+2263261P
+bằng bao nhiêu?
+Câu 5 [HTN]: (Phát triển lại THPT 2026) Một khung hình trang trí có dạng một đa giác đều 16 cạnh. Bạn
+Dũng có 16 bóng đèn gồm 4 bóng màu đỏ, 4 bóng màu xanh và 8 bóng màu vàng, có công suất đôi một khác
+nhau. Bạn Dũng lắp ngẫu nhiên 16 bóng đèn vào 16 đỉnh sao cho mỗi đỉnh có đúng một bóng đèn. Gọi là
+P
+xác suất để mỗi hình vuông (có bốn đỉnh là các đỉnh của đa giác đã cho) đều có đúng một bóng đèn màu
+đỏ và đúng một bóng đèn màu xanh. Giá trị của bằng bao nhiêu?
+25025P
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 03
+\
+Câu 6 [HTN]: Có 17 cây cau trồng xung quanh một cái ao hình tròn.
+Người ta muốn chặt đi 4 cây. Hỏi có mấy cách chặt sao cho không có 2 cây kề nhau bị chặt.
+Câu 7 [HTN]: Có 17 cây cau trồng xung quanh một cái ao hình tròn như hình vẽ. Người ta muốn chặt đi 4
+cây. Gọi là số cách chặt sao cho giữa 2 cây bị chặt bất kỳ dọc theo vòng tròn luôn có ít nhất 2 cây không
+T
+bị chặt. Tính giá trị của .
+T
+Câu 8 [HTN]: Cho đa giác đều có 19 đỉnh. Từ các đỉnh của đa giác trên ta có thể tạo ra được bao
+AA A
+1 2 19
+nhiêu tam giác nhọn mà cạnh của tam giác không trùng với cạnh đa giác?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 04
+\
+Câu 9 [HTN]: Trong một trò chơi thám hiểm, anh Nghĩa phải vượt qua một mê cung gồm các phòng thông
+nhau như sơ đồ dưới đây. Tại mỗi phòng, anh Nghĩa sẽ chọn ngẫu nhiên một trong các cửa thông với phòng
+hiện tại, với xác suất như nhau, để đi tiếp. Quá trình di chuyển diễn ra liên tục và trò chơi sẽ kết thúc ngay
+khi anh bước vào phòng chứa Kho báu hoặc phòng có Bẫy. Biết anh Nghĩa bắt đầu từ Phòng 1, tính xác suất
+để anh tìm được kho báu. Kết quả làm tròn đến hàng phần trăm.
+Câu 10 [HTN]: Có bao nhiêu cách chọn sáu số từ chín số nguyên 1, 2,..., 9 và điền vào các ô của hình dưới
+đây (mỗi ô chỉ điền đúng một số) sao cho tổng các số ở mỗi cột (kể cả cột có một ô) bằng nhau?
+Câu 11 [HTN]: Trong một trò chơi, có 20 chiếc đèn được bố trí cách đều nhau trên một vòng tròn lớn. Khi
+người chơi bấm nút, hệ thống máy tính sẽ chọn ngẫu nhiên 3 chiếc đèn để thắp sáng đồng thời. Nếu xuất hiện
+tam giác tạo bởi 3 bóng đèn được thắp sáng là vuông hoặc cân thì người chơi được nhận một phần quà. Mỗi
+người chơi thực hiện 5 lần bấm nút. Gọi là xác suất để một người chơi may mắn giành được đúng 1 phần
+P
+quà. Tính 104P .
+Câu 12 [HTN]: Cho tập hợp gồm 18 số tự nhiên. Chọn
+S {1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18}
+ngẫu nhiên 9 số tự nhiên từ tập và điền vào 9 ô vuông của một bảng như hình vẽ bên dưới. Gọi
+S 33 T
+là số cách điền thỏa mãn các số trên mỗi đường chéo (theo thứ tự từ góc này sang góc đối diện) lập thành
+T
+một cấp số nhân. Tính giá trị của biểu thức: .
+100
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 05
+\
+Câu 13 [HTN]: Trên một ô lưới như hình, hình chữ chữ nhật gồm 9 cột và 5 hàng ô vuông. Một bé cún
+AB
+xuất phát từ điểm và chạy đến điểm . Mỗi bước, bé cún chỉ được chạy sang phải hoặc xuống dưới đúng
+A B
+1 ô (đi theo các cạnh của ô vuông), vì vậy bé cún luôn đi theo đường ngắn nhất. Trong hình vuông có phần
+tô đậm là những bãi bùn. Bé cún không được chạy vào miền trong của các vùng tô đậm, nhưng vẫn được
+phép chạy trên đường biên của chúng. Hỏi bé cún có bao nhiêu cách chạy từ đến ?
+A B
+Câu 14 [HTN]: Một con kiến đang ở điểm O0;0 và bò đến điểm B8;8 trên mặt phẳng tọa độ Oxy .
+Mỗi bước đi, con kiến chỉ có thể bò sang phải 1 đơn vị hoặc bò lên trên 1 đơn vị. Gọi là xác suất con kiến
+P
+có đi qua điểm M3;3. Giá trị
+20449P
+bằng bao nhiêu?
+Câu 15 [HTN]: Từ tập hợp số tự nhiên , cần chọn ra 10 số phân biệt để gán vào 10 ô vuông
+{1;2;3;;25;26}
+đơn vị như hình vẽ. Gọi là số cách chọn số sao cho mọi số ở hàng trên luôn nhỏ hơn mọi số ở hàng dưới,
+T
+mọi số bên trái luôn nhỏ hơn mọi số bên phải cùng hàng, đồng thời các số thuộc các ô theo thứ tự
+A,B,C,D
+T
+lập thành cấp số cộng. Giá trị bằng bao nhiêu?
+4
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 06
+\
+Câu 16 [HTN]: Hai bạn An và Bình cùng chơi trò chơi đánh cờ carô trên một bảng ô vuông kích thước
+33
+(gồm 9 ô trống). Luật chơi quy định An đi trước, mỗi lượt điền một dấu "X" vào một ô trống và Bình đi sau
+mỗi lượt điền một dấu "O" vào một ô trống. Trò chơi kết thúc và xác định được người chiến thắng nếu người
+đó tạo được 3 dấu của mình nằm liên tiếp nhau trên cùng một hàng ngang, hàng dọc hoặc đường chéo. Hỏi
+có tất cả bao nhiêu trình tự các nước đi để ván cờ kết thúc chính xác ở nước đi thứ 5 với An là người giành
+chiến thắng?
+Câu 17 [HTN]: Cho tập . Chọn ngẫu nhiên 4 số phân biệt từ tập rồi đặt 1 số vào vòng
+X {1;2;3;;12} X
+tròn lớn ở chính giữa, đặt 3 số còn lại vào ba vòng tròn nhỏ xung quanh (ba vòng tròn nhỏ không phân biệt
+vị trí). Gọi là xác suất để tổng các số tự nhiên trên hai vòng tròn nhỏ bất kì luôn nhỏ hơn số ở vòng tròn
+P
+lớn chính giữa đồng thời tổng cả ba số trên ba vòng tròn nhỏ luôn lớn hơn số ở vòng tròn lớn. Tính giá trị
+của .
+1980P
+Câu 18 [HTN]: Có tám người ngồi quanh một bàn tròn. Mỗi người được đưa cho một đồng xu cân đối và
+đồng chất. Cả tám người cùng tung đồng xu của mình, ai tung được mặt ngửa thì đứng dậy, còn ai tung được
+a a
+mặt sấp thì vẫn ngồi yên. Biết rằng xác suất để không có hai người đứng cạnh nhau là ( là phân số tối
+b b
+giản, a,b  * ). Tính a2 b .
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 07
+\
+Câu 19 [HTN]: Cho hình vẽ bên gồm 4 tam giác. Người ta chọn 3 số phân biệt từ tập hợp
+S {1;2;;26}
+để xếp vào 3 tam giác ở 3 góc. Sau đó, tính tổng bình phương của 3 số đó rồi ghi kết quả vào tam giác còn
+lại ở giữa. Hỏi có bao nhiêu cách xếp sao cho số ghi ở tam giác giữa là một số chia hết cho 5?
+Câu 20 [HTN]: Cho một hình bát giác đều nội tiếp trong một đường tròn tâm như hình
+ABCDEFGH O
+bên. Gắn ngẫu nhiên tám số tự nhiên vào tám đỉnh của bát giác đều này (mỗi số
+{9;10;11;12;13;14;15;16}
+gắn đúng một đỉnh). Chọn ngẫu nhiên một tam giác có ba đỉnh lấy từ tám đỉnh của bát giác đã cho. Gọi xác
+suất để thu được một tam giác vuông với ba số trên ba đỉnh của tam giác (theo một thứ tự nào đó) lập thành
+m m
+một cấp số cộng là ( ; là phân số tối giản). Giá trị của bằng bao nhiêu?
+m,n  * m n
+n n
+Câu 21 [HTN]: Một hệ thống chiếu sáng có 5 bóng đèn được đặt ở các đỉnh của một đồ thị được kết nối như
+hình vẽ. Các bóng đèn được nối với nhau bằng dây điện dọc theo 8 cạnh của đồ thị. Mỗi dây điện có xác suất
+50% hoạt động bình thường. Để toàn bộ hệ thống sáng, tất cả các bóng đèn phải nhận được điện từ một nguồn
+duy nhất (tức là đồ thị các dây điện hoạt động phải liên thông giữa 5 đỉnh). Tính xác suất toàn bộ hệ thống
+chiếu sáng vẫn hoạt động được (làm tròn kết quả đến hàng phần trăm).
+Câu 22 [HTN]: Một con châu chấu nhảy lên cầu thang có 18 bậc. Mỗi lần nhảy con châu chấu có thể nhảy
+1 bậc hoặc 2 bậc. Tính xác suất để con châu chấu hoàn thành 18 bậc thang với số lần nhảy 2 bậc không bé
+hơn số lần nhảy 1 bậc (làm tròn kết quả đến hàng phần trăm).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+CHINH PHỤC VẬN DỤNG CAO
+MÔN TOÁN Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 08
+\
+Câu 23 [HTN]: Bạn Quỳnh và bạn Hà tham gia chơi trò chơi sau:
+Quỳnh chọn trước một trong ba vòng quay được cho trong hình.
+Sau đó, Hà chọn một trong hai vòng còn lại.
+Cả hai quay vòng của mình. Người có số lớn hơn là người thắng.
+Biết rằng mỗi vùng trên vòng quay đều có xác suất như nhau. Tính xác suất mà Quỳnh chiến thắng. Làm tròn
+kết quả đến hàng phần trăm.
+Câu 24 [HTN]: Điền ngẫu nhiên các số 0; 1; 2; 3; 4; 5; 6; 7; 8 vào các ô của một bảng ô vuông kích thước
+sao cho mỗi số được điền vào đúng một ô. Tính xác suất để số 1 được điền vào ô chính giữa, biết rằng
+33
+tổng của các số hàng dưới cùng là một số lẻ và số 0 được điền vào ô góc trên cùng bên trái của bảng ô vuông.
+(Kết quả làm tròn đến hàng phần trăm)
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA
+
+Câu 1
+Ta có tập số:
+{0,1,2,3,4,5,6,7,8,10,11,12,15,16,20}.
+Điều kiện đề bài nói rằng hiệu hai số trên cùng hàng hoặc cùng cột không chia hết cho
+5. Điều này tương đương với việc: trên cùng một hàng hoặc cùng một cột, không được có
+hai số cùng phần dư khi chia cho 5.
+Ta chia các số theo phần dư modulo 5:
+0 : 0,5,10,15,20 ⇒ 5 số,
+1 : 1,6,11,16 ⇒ 4 số,
+2 : 2,7,12 ⇒ 3 số,
+3 : 3,8 ⇒ 2 số,
+4 : 4 ⇒ 1 số.
+Hình gồm 15 ô, xếp thành dạng bậc thang có số ô theo từng hàng là 1,2,3,4,5.
+Ta xét vị trí của các số có phần dư 0. Có 5 số thuộc lớp dư 0, mà trên cùng một hàng
+hoặc cùng một cột không được lặp lại phần dư. Vì có đúng 5 hàng và 5 cột, nên các số
+dư 0 phải nằm trên 5 hàng khác nhau và 5 cột khác nhau.
+Do hàng trên cùng chỉ có một ô, ô đó bắt buộc phải nhận phần dư 0. Khi đó cột chứa
+ô này đã có phần dư 0, nên ở hàng kế tiếp, ô nằm cùng cột đó không thể nhận phần dư
+0. Vì hàng kế tiếp chỉ có hai ô, phần dư 0 bị ép sang ô còn lại.
+Tiếp tục lập luận như vậy, toàn bộ vị trí của lớp dư 0 bị xác định. Sau đó, với phần
+dư 1, phần dư 2, phần dư 3, phần dư 4, ta cũng lần lượt bị ép tương tự. Vì thế cách bố
+trí các phần dư là duy nhất.
+Sau khi vị trí của từng phần dư đã cố định, ta chỉ cần hoán vị các số trong từng lớp
+dư. Do đó:
+H = 5!·4!·3!·2!·1!.
+Tính:
+H = 120·24·6·2 = 34560.
+H
+Đề hỏi . Suy ra:
+30
+H 34560
+= = 1152 .
+30 30
+Câu 2
+Ta cần điền các số 1,2,3,...,15 vào hình bậc thang gồm 15 ô. Điều kiện quan trọng là:
+– Tổng 5 số ở cột 1 bằng 15;
+– Trên mỗi hàng, các số tăng dần từ trái sang phải.
+Vì mỗi hàng tăng dần từ trái sang phải nên số ở cột 1 chính là số nhỏ nhất của hàng
+đó.
+Gọi 5 số ở cột 1 là a ,a ,a ,a ,a . Theo đề:
+1 2 3 4 5
+a +a +a +a +a = 15.
+1 2 3 4 5
+1
+
+Các a là 5 số tự nhiên phân biệt lấy từ tập {1,2,...,15}. Tổng nhỏ nhất của 5 số tự
+i
+nhiên phân biệt trong tập này là:
+1+2+3+4+5 = 15.
+Do tổng đã bằng đúng 15, nên bắt buộc:
+{a ,a ,a ,a ,a } = {1,2,3,4,5}.
+1 2 3 4 5
+Vậy có 5! cách điền các số 1,2,3,4,5 vào cột 1.
+Sau đó còn lại 10 số: 6,7,8,...,15. Các hàng có độ dài lần lượt là 1,2,3,4,5. Sau khi
+đã điền cột 1, số ô còn lại cần điền thêm ở các hàng lần lượt là 0,1,2,3,4.
+Ta cần chia 10 số còn lại thành các nhóm có kích thước 0,1,2,3,4. Trong mỗi hàng,
+thứ tự đã bị ép là tăng dần, nên sau khi chọn được các số cho một hàng thì chỉ có đúng
+một cách sắp xếp chúng.
+Số cách chia là:
+10!
+.
+0!1!2!3!4!
+Vậy:
+10!
+T = 5!· .
+0!1!2!3!4!
+Tính:
+3628800
+T = 120· .
+1·1·2·6·24
+Mà 1·1·2·6·24 = 288, nên:
+10!
+= 12600.
+0!1!2!3!4!
+Do đó T = 120·12600.
+Suy ra:
+T
+= 120 .
+12600
+Câu 3
+Đa giác đều 12 cạnh có 12 đỉnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác sẽ
+được tạo bởi các đỉnh cách đều nhau 3 bước.
+Do đó 12 đỉnh được chia thành 3 nhóm, mỗi nhóm gồm 4 đỉnh tạo thành một hình
+vuông:
+{1,4,7,10}, {2,5,8,11}, {3,6,9,12}.
+Ta có 4 bóng đỏ và 8 bóng xanh. Điều kiện là mỗi hình vuông đều có ít nhất một
+bóng đỏ.
+Vì các bóng cùng màu có công suất khác nhau, nhưng khi tính xác suất, ta có thể xét
+trước vị trí của các bóng đỏ. Sau đó hoán vị các bóng đỏ và bóng xanh bên trong các vị
+trí tương ứng sẽ triệt tiêu ở tử và mẫu.
+Tổng số cách chọn vị trí cho 4 bóng đỏ trong 12 đỉnh là
+(cid:0)12(cid:1)
+.
+4
+Ta cần chọn 4 vị trí đỏ sao cho cả 3 hình vuông đều có ít nhất một đỉnh đỏ. Vì có 4
+bóng đỏ chia vào 3 nhóm, mỗi nhóm ít nhất 1 bóng đỏ, nên phân bố số bóng đỏ theo ba
+nhóm chỉ có thể là (2,1,1).
+Ta đếm số cách thuận lợi:
+2
+
+– Chọn nhóm nhận 2 bóng đỏ: 3 cách;
+– Trong nhóm đó, chọn 2 trong 4 đỉnh để đặt bóng đỏ:
+(cid:0)4(cid:1)
+;
+2
+– Hai nhóm còn lại, mỗi nhóm chọn 1 trong 4 đỉnh:
+(cid:0)4(cid:1)(cid:0)4(cid:1)
+.
+1 1
+Vậy số cách thuận lợi là:
+(cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19)
+4 4 4
+3· · · = 3·6·4·4 = 288.
+2 1 1
+Tổng số cách là
+(cid:0)12(cid:1)
+= 495. Vậy:
+4
+288 32
+P = = .
+495 55
+Nên:
+3190P = 58·32 = 1856 .
+Câu 4
+Đa giác đều 20 cạnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác sẽ được tạo bởi
+các đỉnh cách nhau 5 bước.
+Vì vậy 20 đỉnh được chia thành 5 nhóm, mỗi nhóm 4 đỉnh, mỗi nhóm là một hình
+vuông:
+{i,i+5,i+10,i+15}, i = 1,2,3,4,5.
+Có 5 bóng đỏ, 5 bóng xanh, 5 bóng vàng, 5 bóng tím. Điều kiện đề bài yêu cầu mỗi
+hình vuông có đủ 4 loại bóng đèn mang 4 màu khác nhau, tức là trong mỗi nhóm 4 đỉnh
+phải có đúng 1 đỏ, 1 xanh, 1 vàng, 1 tím.
+Tổng số cách tô màu 20 vị trí với mỗi màu xuất hiện đúng 5 lần là:
+20!
+.
+5!5!5!5!
+Với một hình vuông, 4 màu khác nhau có thể được sắp vào 4 đỉnh theo 4! cách. Có 5
+hình vuông độc lập, nên số cách tô màu thuận lợi là (4!)5.
+Vậy xác suất cần tìm là:
+(4!)5 (4!)5(5!)4
+P = =
+20! 20!
+5!5!5!5!
+1536
+=
+2263261
+Suy ra:
+2263261P = 1536 .
+3
+
+Câu 5
+Đa giác đều 16 cạnh. Một hình vuông có 4 đỉnh là các đỉnh của đa giác được tạo bởi các
+đỉnh cách nhau 4 bước.
+Do đó 16 đỉnh được chia thành 4 nhóm, mỗi nhóm 4 đỉnh:
+{i,i+4,i+8,i+12}, i = 1,2,3,4.
+Mỗi nhóm chính là một hình vuông.
+Có 4 bóng đỏ, 4 bóng xanh, 8 bóng vàng. Điều kiện là mỗi hình vuông đều có đúng
+một bóng đỏ và đúng một bóng xanh. Vì mỗi hình vuông có 4 đỉnh, nên trong mỗi hình
+vuông phải có dạng 1R, 1X, 2V.
+Xét một hình vuông:
+– Chọn vị trí đặt bóng đỏ: 4 cách;
+– Chọn vị trí đặt bóng xanh trong 3 vị trí còn lại: 3 cách;
+– Hai vị trí còn lại tự động là bóng vàng.
+Vậy một hình vuông có 4·3 = 12 cách tô màu. Có 4 hình vuông độc lập, nên số mẫu
+màu thuận lợi là 124.
+Tổng số mẫu màu khi có 4 đỏ, 4 xanh, 8 vàng là:
+16!
+.
+4!4!8!
+Vậy:
+124 ·4!4!8!
+P =
+16!
+576
+=
+25025
+Suy ra:
+25025P = 576 .
+Câu 6
+Có 17 cây cau trồng quanh một vòng tròn. Cần chặt 4 cây sao cho không có hai cây kề
+nhau bị chặt.
+Ta xem 4 cây bị chặt là 4 mốc trên vòng tròn. Gọi x ,x ,x ,x là số cây không bị chặt
+1 2 3 4
+nằm giữa hai cây bị chặt liên tiếp. Vì không có hai cây bị chặt nào kề nhau, nên x ≥ 1.
+i
+Tổng số cây không bị chặt là 17−4 = 13. Vậy:
+x +x +x +x = 13, x ≥ 1.
+1 2 3 4 i
+Số nghiệm nguyên dương của phương trình này là:
+(cid:18) (cid:19) (cid:18) (cid:19)
+13−1 12
+= = 220.
+4−1 3
+4
+
+Nếu chọn một cây bị chặt làm mốc bắt đầu, thì với mỗi cách phân bố khoảng cách
+như trên, ta xác định được một cách chọn cây. Có 17 cách chọn cây bắt đầu. Như vậy số
+cách có đánh dấu là 17·220.
+Nhưng mỗi cách chọn 4 cây bị chặt đã bị đếm 4 lần, vì trong 4 cây bị chặt, cây nào
+cũng có thể được chọn làm mốc bắt đầu. Vậy số cách thực sự là:
+17·220
+= 935 .
+4
+Câu 7
+Điều kiện lần này mạnh hơn: giữa hai cây bị chặt bất kỳ dọc theo vòng tròn luôn có ít
+nhất 2 cây không bị chặt.
+Tương tự câu trước, gọi x ,x ,x ,x là số cây không bị chặt nằm giữa hai cây bị chặt
+1 2 3 4
+liên tiếp. Khi đó x ≥ 2 và tổng số cây không bị chặt vẫn là 13. Do đó:
+i
+x +x +x +x = 13, x ≥ 2.
+1 2 3 4 i
+Đặt y = x −2. Khi đó y ≥ 0 và:
+i i i
+y +y +y +y = 13−8 = 5.
+1 2 3 4
+Số nghiệm nguyên không âm là:
+(cid:18) (cid:19) (cid:18) (cid:19)
+5+4−1 8
+= = 56.
+4−1 3
+Tương tự câu 6, có 17 cách chọn cây bị chặt làm mốc bắt đầu, nhưng mỗi cách chọn
+4 cây bị chặt bị đếm 4 lần. Vậy:
+17·56
+T = = 238 .
+4
+Câu 8
+Cho đa giác đều 19 đỉnh. Ta cần chọn 3 đỉnh tạo thành tam giác nhọn, đồng thời không
+cạnh nào của tam giác trùng với cạnh của đa giác.
+Giả sử ba đỉnh được chọn chia đường tròn thành ba cung, với số cạnh trên ba cung
+lần lượt là a,b,c. Khi đó:
+a+b+c = 19.
+Vì không cạnh nào của tam giác được trùng với cạnh của đa giác, nên không có hai
+đỉnh nào được chọn kề nhau. Do đó a,b,c ≥ 2.
+Trong đa giác đều 19 đỉnh, góc ở một đỉnh của tam giác là góc nội tiếp chắn một
+cung. Nếu cung đối diện có a cạnh, thì góc tương ứng bằng:
+a·180◦
+.
+19
+Tam giác nhọn khi và chỉ khi cả ba góc đều nhỏ hơn 90◦. Do đó:
+a·180◦ 19
+< 90◦ =⇒ a < .
+19 2
+5
+
+Vì a nguyên nên a ≤ 9. Tương tự b ≤ 9, c ≤ 9.
+Vậy ta cần đếm số bộ nguyên dương có thứ tự (a,b,c) thỏa mãn:
+a+b+c = 19, 2 ≤ a,b,c ≤ 9.
+Đặt x = a−2, y = b−2, z = c−2. Khi đó x+y +z = 13 và 0 ≤ x,y,z ≤ 7.
+Trước hết, số nghiệm không âm của x+y +z = 13 là:
+(cid:18) (cid:19)
+15
+= 105.
+2
+Ta loại các nghiệm có một biến lớn hơn hoặc bằng 8. Nếu x ≥ 8, đặt x′ = x−8 ≥ 0,
+khi đó x′+y+z = 5, có
+(cid:0)7(cid:1)
+= 21 nghiệm. Có 3 biến có thể vượt quá 7, nên số nghiệm bị
+2
+loại là 3·21 = 63.
+Không có trường hợp hai biến cùng lớn hơn hoặc bằng 8, vì khi đó tổng ít nhất là
+8+8 = 16 > 13.
+Vậy số bộ (a,b,c) hợp lệ là 105−63 = 42.
+Có 19 cách chọn đỉnh bắt đầu. Với mỗi bộ (a,b,c), ta xác định được một tam giác.
+Nhưng mỗi tam giác bị đếm 3 lần, vì có thể chọn một trong ba đỉnh của tam giác làm
+đỉnh bắt đầu. Do đó số tam giác là:
+19·42
+= 266 .
+3
+Câu 9
+Ta mô hình hóa mê cung thành một đồ thị. Gọi K là kho báu, B là bẫy, và p là xác suất
+i
+tìm được kho báu nếu đang ở phòng i.
+Theo sơ đồ, các kết nối là:
+K ↔ 1, 1 ↔ 2, 1 ↔ 3, 2 ↔ 4, 3 ↔ 4, 4 ↔ B.
+Khi vào kho báu thì xác suất tìm được kho báu là 1. Khi vào bẫy thì xác suất là 0.
+Từ phòng 1, có 3 cửa dẫn đến K, 2, 3. Vì chọn ngẫu nhiên đều nhau nên:
+1+p +p
+2 3
+p = .
+1
+3
+Từ phòng 2, có 2 cửa dẫn đến phòng 1 và phòng 4:
+p +p
+1 4
+p = .
+2
+2
+Từ phòng 3, có 2 cửa dẫn đến phòng 1 và phòng 4:
+p +p
+1 4
+p = .
+3
+2
+Từ phòng 4, có 3 cửa dẫn đến phòng 2, phòng 3, và bẫy:
+p +p +0
+2 3
+p = .
+4
+3
+6
+
+Do phòng 2 và phòng 3 đối xứng nhau, ta đặt p = p = x. Khi đó:
+2 3
+2x
+p = .
+4
+3
+Mặt khác:
+p +p
+1 4
+x = .
+2
+2x
+Thay p = , ta được:
+4
+3
+2x
+p +
+1 2x 4x 3p
+3 1
+x = =⇒ 2x = p + =⇒ = p =⇒ x = .
+1 1
+2 3 3 4
+Lại có:
+1+p +p 1+2x
+2 3
+p = = .
+1
+3 3
+3p
+1
+Thay x = :
+4
+3p 3p
+1 1
+1+2· 1+
+4 2
+p = = .
+1
+3 3
+Nhân hai vế với 3:
+3p 3p 2
+1 1
+3p = 1+ =⇒ = 1 =⇒ p = .
+1 1
+2 2 3
+2
+Vì anh Nghĩa bắt đầu từ phòng 1, xác suất tìm được kho báu là ≈ 0,6667. Làm
+3
+tròn đến hàng phần trăm:
+67%
+Câu 10
+Hình có 6 ô, được chia thành 3 cột với số ô lần lượt là 1, 2, 3. Ta cần chọn 6 số từ
+1,2,...,9 và điền vào các ô sao cho tổng mỗi cột bằng nhau.
+Gọi tổng chung của mỗi cột là S. Cột thứ nhất chỉ có 1 ô, nên số nằm ở cột thứ nhất
+chính là S. Gọi số đó là a, khi đó S = a.
+Hai số ở cột thứ hai phải có tổng bằng a, và ba số ở cột thứ ba cũng phải có tổng
+bằng a. Ta cần tìm:
+a = tổng của một cặp = tổng của một bộ ba,
+trong đó tất cả các số đều phân biệt và lấy từ {1,2,...,9}.
+Trường hợp a = 8:
+Ta có 8 = 2+6 = 1+3+4. Vậy có một cấu hình: a = 8, {2,6}, {1,3,4}.
+Trường hợp a = 9:
+Ta có:
+9 = 1+8 = 2+3+4, 9 = 2+7 = 1+3+5, 9 = 4+5 = 1+2+6.
+7
+
+Vậy có 3 cấu hình.
+Tổng cộng có 1+3 = 4 cấu hình theo bộ số.
+Với mỗi cấu hình:
+– Cột 1 chỉ có một ô nên số a được đặt cố định;
+– Cột 2 có 2 ô, hai số có thể hoán vị: 2! cách;
+– Cột 3 có 3 ô, ba số có thể hoán vị: 3! cách.
+Vậy số cách điền là:
+4·2!·3! = 4·2·6 = 48 .
+Câu 11
+Có 20 đèn đặt đều trên một vòng tròn. Mỗi lần bấm nút, hệ thống chọn ngẫu nhiên 3
+đèn. Ba đèn này tạo thành một tam giác.
+Tổng số tam giác có thể tạo ra là
+(cid:0)20(cid:1)
+= 1140.
+3
+Người chơi được quà nếu tam giác tạo thành là vuông hoặc cân.
+Đếm tam giác vuông.
+Một tam giác nội tiếp đường tròn là tam giác vuông khi và chỉ khi một cạnh của nó là
+20
+đường kính. Trong đa giác đều 20 đỉnh, số đường kính là = 10. Với mỗi đường kính,
+2
+ta chọn đỉnh thứ ba trong 18 đỉnh còn lại. Vậy số tam giác vuông là 10·18 = 180.
+Đếm tam giác cân.
+Chọn một đỉnh làm đỉnh cân. Với một đỉnh cố định, hai đỉnh còn lại phải đối xứng
+nhau qua đường kính đi qua đỉnh đó. Trong đa giác đều 20 đỉnh, có 9 cặp đỉnh như vậy.
+Vì có 20 cách chọn đỉnh cân, nên số tam giác cân là 20·9 = 180.
+Ở đây không có tam giác đều vì 20 không chia hết cho 3.
+Trừ phần giao.
+Tam giác vừa vuông vừa cân là tam giác vuông cân. Với mỗi đường kính, có đúng 2
+đỉnh tạo thành tam giác vuông cân với đường kính đó. Vì có 10 đường kính, số tam giác
+vuông cân là 10·2 = 20.
+Do đó số tam giác vuông hoặc cân là:
+180+180−20 = 340.
+Xác suất nhận được quà trong một lần bấm là:
+340 17
+q = = .
+1140 57
+Mỗi người chơi bấm 5 lần. Cần đúng 1 lần nhận quà. Đây là mô hình nhị thức với xác
+suất thành công mỗi lần là q:
+(cid:18)
+5
+(cid:19)
+17
+(cid:18)
+40
+(cid:19)4
+P = q(1−q)4 = 5· · .
+1 57 57
+Đề hỏi 104P. Tính gần đúng:
+104P ≈ 3616,47 .
+8
+
+Câu 12
+Ta có bảng 3×3. Hai đường chéo chính đều đi qua ô trung tâm. Gọi số ở ô trung tâm là
+m.
+Một đường chéo gồm ba số lập thành cấp số nhân. Nếu hai số ở hai đầu đường chéo
+là a và c, thì điều kiện để a, m, c lập thành cấp số nhân là m2 = ac.
+Vì 9 số được điền vào bảng là các số tự nhiên phân biệt lấy từ S = {1,2,3,...,18},
+nên các số ở hai đầu đường chéo phải khác m, và hai đường chéo phải dùng các cặp số
+khác nhau.
+Ta cần tìm các giá trị m sao cho m2 có ít nhất hai cách phân tích thành tích của hai
+số phân biệt trong tập {1,2,...,18}, không dùng m.
+ới m = 4:
+42 = 16. Các cặp (a,c) thỏa mãn ac = 16 là (1,16), (2,8). Có đúng 2 cặp, đủ cho hai
+đường chéo.
+ới m = 6:
+62 = 36. Các cặp thỏa mãn là (2,18), (3,12), (4,9). Có 3 cặp.
+ới m = 12:
+122 = 144. Các cặp thỏa mãn là (8,18), (9,16). Có đúng 2 cặp.
+Các giá trị m khác không tạo được đủ hai cặp đầu mút khác nhau cho hai đường chéo.
+Bây giờ ta đếm số cách điền 5 ô nằm trên hai đường chéo.
+ường hợp m = 4:
+Có đúng 2 cặp: (1,16), (2,8). Hai cặp này được gán cho hai đường chéo theo 2! cách.
+Mỗi cặp có thể đảo vị trí hai đầu mút, nên mỗi cặp có 2 cách đặt. Vậy số cách là:
+2!·22 = 8.
+ường hợp m = 6:
+Có 3 cặp: (2,18), (3,12), (4,9). Chọn 2 cặp trong 3 cặp:
+(cid:0)3(cid:1)
+cách. Gán hai cặp đó cho
+2
+hai đường chéo: 2! cách. Mỗi cặp có 2 cách đảo hai đầu mút: 22 cách. Vậy số cách là:
+(cid:18) (cid:19)
+3
+·2!·22 = 3·2·4 = 24.
+2
+ường hợp m = 12:
+Tương tự m = 4, có đúng 2 cặp (8,18), (9,16), nên số cách là:
+2!·22 = 8.
+Vậy tổng số cách điền 5 ô thuộc hai đường chéo là 8+24+8 = 40.
+Sau khi điền xong 5 ô trên hai đường chéo, còn lại 4 ô không thuộc hai đường chéo.
+Ta đã dùng 5 số, nên còn 18−5 = 13 số chưa dùng. Chọn và sắp 4 số vào 4 ô còn lại:
+A4 = 13·12·11·10 = 17160.
+13
+Do đó:
+T = 40·17160 = 686400.
+Suy ra:
+T
+= 6864 .
+100
+9
+
+Câu 13
+Hình chữ nhật có 9 cột và 5 hàng ô vuông. Từ A đến B, bé cún chỉ được đi sang phải
+hoặc đi xuống, nên nếu không có bãi bùn thì mọi đường đi đều gồm 9 bước sang phải và
+5 bước xuống.
+Điểm cần chú ý là đề không cấm bé cún đi trên đường biên của bãi bùn, mà chỉ cấm
+đi vào miền trong của vùng tô đậm. Vì vậy ta không được xóa toàn bộ các cạnh biên của
+vùng tô đậm. Chỉ những cạnh nằm bên trong miền tô đậm mới bị cấm.
+Ta đánh số các giao điểm lưới theo tọa độ (i,j) với 0 ≤ i ≤ 9, 0 ≤ j ≤ 5, trong đó i
+là số cột tính từ trái sang phải, j là số hàng tính từ trên xuống dưới. Điểm xuất phát là
+A = (0,0) và điểm đích là B = (9,5).
+Gọi f(i,j) là số cách đi từ A đến giao điểm (i,j). Nếu không gặp cạnh cấm thì ta có
+công thức quen thuộc:
+f(i,j) = f(i−1,j)+f(i,j −1),
+vì muốn đến (i,j) thì bước cuối cùng hoặc đi từ trái sang, hoặc đi từ trên xuống.
+Ở hình này, các đoạn nằm trong miền trong của bãi bùn bị cấm. Tính lần lượt theo
+quy hoạch động, ta được bảng số cách sau:
+j\i 0 1 2 3 4 5 6 7 8 9
+0 1 1 1 1 1 1 1 1 1 1
+1 1 2 3 4 5 6 7 8 9 10
+2 1 3 6 10 15 21 21 29 38 48
+3 1 4 10 20 0 21 42 71 109 157
+4 1 5 15 35 35 56 98 169 278 435
+5 1 6 21 56 91 147 245 414 692 1127
+Ở đây giá trị 0 xuất hiện tại giao điểm nằm bên trong vùng tô đậm, nên bé cún không
+thể đi qua điểm đó.
+Vậy số cách chạy từ A đến B là f(9,5) = 1127 .
+Câu 14
+Con kiến đi từ O(0,0) đến B(8,8). Mỗi bước chỉ được đi sang phải 1 đơn vị hoặc đi lên
+trên 1 đơn vị.
+Từ O đến B, con kiến cần đúng 8 bước sang phải và 8 bước lên. Vậy tổng số đường
+đi là
+(cid:0)16(cid:1)
+.
+8
+Ta cần tính xác suất con kiến đi qua M(3,3). Một đường đi từ O đến B đi qua M khi
+và chỉ khi nó gồm hai đoạn O → M và M → B.
+Từ O(0,0) đến M(3,3), con kiến cần 3 bước sang phải và 3 bước lên, số cách đi là
+(cid:0)6(cid:1)
+= 20.
+3
+Từ M(3,3) đến B(8,8), con kiến cần 5 bước sang phải và 5 bước lên, số cách đi là
+(cid:0)10(cid:1)
+= 252.
+5
+Do đó số đường đi qua M là 20·252 = 5040.
+Xác suất cần tìm là:
+5040 5040 56
+P = = = .
+(cid:0)16(cid:1)
+12870 143
+8
+10
+
+Suy ra:
+56
+20449P = 1432 · = 143·56 = 8008 .
+143
+Câu 15
+Hình gồm 10 ô vuông xếp thành dạng bậc thang: hàng trên cùng có 1 ô, hàng thứ hai có
+2 ô, hàng thứ ba có 3 ô, hàng dưới cùng có 4 ô.
+Ta chọn 10 số phân biệt từ tập {1,2,3,...,26}. Điều kiện đề bài gồm hai phần:
+– Mọi số ở hàng trên nhỏ hơn mọi số ở hàng dưới.
+– Trong cùng một hàng, số bên trái nhỏ hơn số bên phải.
+Vì vậy, nếu 10 số đã chọn được sắp tăng dần là x < x < ··· < x , thì cách điền vào
+1 2 10
+hình là duy nhất. Cụ thể:
+– hàng 1 nhận số x ;
+1
+– hàng 2 nhận hai số x ,x từ trái sang phải;
+2 3
+– hàng 3 nhận ba số x ,x ,x từ trái sang phải;
+4 5 6
+– hàng 4 nhận bốn số x ,x ,x ,x từ trái sang phải.
+7 8 9 10
+Theo hình vẽ, ta có A = x , B = x , C = x , D = x . Điều kiện A,B,C,D lập thành
+1 3 6 10
+cấp số cộng trở thành x ,x ,x ,x lập thành cấp số cộng.
+1 3 6 10
+Đặt:
+x = a, x = a+d, x = a+2d, x = a+3d.
+1 3 6 10
+Vì x không vượt quá 26, ta có a+3d ≤ 26.
+10
+Với mỗi cặp (a,d), ta đếm các số còn lại nằm giữa các mốc cố định:
+– Giữa x = a và x = a+d có đúng một số x : có d−1 cách chọn.
+1 3 2
+– Giữa x = a+d và x = a+2d có hai số x ,x : có
+(cid:0)d−1(cid:1)
+cách chọn.
+3 6 4 5 2
+– Giữa x = a+2d và x = a+3d có ba số x ,x ,x : có
+(cid:0)d−1(cid:1)
+cách chọn.
+6 10 7 8 9 3
+Để chọn được ba số ở khoảng cuối, cần d−1 ≥ 3, tức là d ≥ 4. Mặt khác, do a ≥ 1
+và a+3d ≤ 26, nên d ≤ 8.
+Với một giá trị d, số giá trị nguyên dương của a thỏa mãn a+3d ≤ 26 là 26−3d.
+Do đó:
+8 (cid:18) (cid:19)(cid:18) (cid:19)
+(cid:88) d−1 d−1
+T = (26−3d)(d−1) .
+2 3
+d=4
+Tính từng phần:
+(cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19)(cid:18) (cid:19)
+3 3 4 4
+T = 14·3 +11·4
+2 3 2 3
+(cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19)(cid:18) (cid:19)
+5 5 6 6
++8·5 +5·6
+2 3 2 3
+(cid:18) (cid:19)(cid:18) (cid:19)
+7 7
++2·7 .
+2 3
+11
+
+Suy ra T = 126+1056+4000+9000+10290 = 24472.
+Vậy:
+T 24472
+= = 6118 .
+4 4
+Câu 16
+An đi trước, Bình đi sau. Ván cờ kết thúc chính xác ở nước đi thứ 5 với An thắng.
+Thứ tự các nước đi là X,O,X,O,X. Ở nước thứ 5, An vừa đặt dấu X thứ ba. Muốn
+An thắng đúng lúc đó thì ba dấu X của An phải nằm trên một trong các đường thắng
+của bàn cờ 3×3.
+Bàn cờ 3 × 3 có 3 hàng ngang, 3 hàng dọc, 2 đường chéo, tổng cộng 3 + 3 + 2 = 8
+đường thắng.
+Chọn đường thắng cho An: 8 cách. Sau khi chọn đường thắng, ba ô trên đường đó sẽ
+được An đi ở các lượt 1, 3, 5. Thứ tự đi vào ba ô này có 3! = 6 cách.
+Sau khi An chiếm ba ô của đường thắng, còn lại 9−3 = 6 ô trống. Bình đi hai nước
+ở lượt 2 và lượt 4, mỗi lượt chọn một ô trống khác nhau. Vì có thứ tự theo thời gian, số
+cách Bình đi là A2 = 6·5 = 30.
+6
+Vậy số trình tự là:
+8·3!·A2 = 8·6·30 = 1440 .
+6
+Ta cũng cần kiểm tra điều kiện “kết thúc chính xác ở nước thứ 5”. Trước nước thứ 5,
+An mới có hai dấu X, Bình cũng mới có hai dấu O, nên chưa ai có thể có đủ ba dấu liên
+tiếp. Vì vậy mọi trình tự vừa đếm đều hợp lệ.
+Câu 17
+Tập đã cho là X = {1,2,3,...,12}. Ta chọn ngẫu nhiên 4 số phân biệt. Một số được đặt
+vào vòng tròn lớn ở giữa, ba số còn lại đặt vào ba vòng tròn nhỏ. Ba vòng tròn nhỏ không
+phân biệt vị trí, nên chỉ cần xét bộ ba số nhỏ theo thứ tự tăng dần.
+Không gian mẫu có 12
+(cid:0)11(cid:1)
+= 1980 cách, vì ta chọn số ở vòng tròn lớn trước, rồi chọn
+3
+3 số trong 11 số còn lại cho ba vòng tròn nhỏ.
+Giả sử số ở vòng tròn lớn là n, còn ba số ở vòng tròn nhỏ là x < y < z. Điều kiện
+“tổng hai số trên hai vòng tròn nhỏ bất kỳ đều nhỏ hơn số ở vòng tròn lớn” tương đương
+với tổng đôi lớn nhất nhỏ hơn n. Tổng đôi lớn nhất là y +z, nên điều kiện thứ nhất là
+y +z < n.
+Điều kiện thứ hai là x+y +z > n.
+Do đó ta cần đếm các bộ x < y < z thỏa mãn y +z < n < x+y +z.
+Ta xét theo giá trị của n.
+ới n = 8: bộ thỏa mãn là (2,3,4). Có 1 bộ.
+ới n = 9: bộ thỏa mãn là (2,3,5). Có 1 bộ.
+ới n = 10: các bộ thỏa mãn là (2,3,6), (2,4,5), (3,4,5). Có 3 bộ.
+ới n = 11: các bộ thỏa mãn là (2,3,7), (2,4,6), (3,4,5), (3,4,6). Có 4 bộ.
+ới n = 12: các bộ thỏa mãn là (2,3,8), (2,4,7), (2,5,6), (3,4,6), (3,4,7), (3,5,6),
+(4,5,6). Có 7 bộ.
+Tổng số trường hợp thuận lợi là 1+1+3+4+7 = 16.
+12
+
+Vì đề hỏi 1980P mà không gian mẫu có đúng 1980 trường hợp, nên:
+1980P = 16 .
+Câu 18
+Mỗi người tung một đồng xu cân đối. Nếu tung được mặt ngửa thì đứng dậy, nếu tung
+được mặt sấp thì vẫn ngồi.
+Mỗi kết quả tung xu tương ứng với một tập con của 8 người đứng dậy. Tổng số kết
+quả là 28 = 256.
+Ta cần đếm số tập con của 8 vị trí trên vòng tròn sao cho không có hai vị trí được
+chọn kề nhau.
+Gọi k là số người đứng dậy. Vì ngồi trên vòng tròn 8 người, số người đứng tối đa là 4.
+Số cách chọn k vị trí không kề nhau trên vòng tròn n vị trí là:
+(cid:18) (cid:19)
+n n−k
+.
+n−k k
+8
+Ở đây n = 8, nên số cách chọn k người đứng không kề nhau là
+(cid:0)8−k(cid:1)
+.
+8−k k
+Tính từng trường hợp:
+Với k = 0: 1.
+8
+Với k = 1:
+(cid:0)7(cid:1)
+= 8.
+7 1
+8
+Với k = 2:
+(cid:0)6(cid:1)
+= 20.
+6 2
+8
+Với k = 3:
+(cid:0)5(cid:1)
+= 16.
+5 3
+8
+Với k = 4:
+(cid:0)4(cid:1)
+= 2.
+4 4
+Vậy số kết quả thuận lợi là 1+8+20+16+2 = 47.
+47
+Xác suất cần tìm là . Phân số này đã tối giản, nên a = 47, b = 256.
+256
+Đề hỏi a2 +b. Do đó:
+a2 +b = 472 +256 = 2209+256 = 2465 .
+Câu 19
+Ta chọn 3 số phân biệt từ tập S = {1,2,3,...,26} để xếp vào ba tam giác ở ba góc. Sau
+đó lấy tổng bình phương của ba số đó ghi vào tam giác giữa.
+Cần đếm số cách xếp sao cho x2 +y2 +z2 ≡ 0 (mod 5).
+Ta xét bình phương theo modulo 5:
+– Nếu n ≡ 0 (mod 5) thì n2 ≡ 0 (mod 5).
+– Nếu n ≡ 1,4 (mod 5) thì n2 ≡ 1 (mod 5).
+– Nếu n ≡ 2,3 (mod 5) thì n2 ≡ 4 (mod 5).
+13
+
+Trong các số từ 1 đến 26: có 5 số chia hết cho 5 (bình phương dư 0); có 11 số thuộc
+các lớp dư 1 hoặc 4 (bình phương dư 1); có 10 số thuộc các lớp dư 2 hoặc 3 (bình phương
+dư 4).
+Ta cần tổng ba bình phương chia hết cho 5. Các kiểu dư có thể xảy ra là:
+0+0+0 ≡ 0 (mod 5) hoặc 0+1+4 ≡ 0 (mod 5).
+Trường hợp 1: cả ba số đều thuộc loại bình phương dư 0.
+Có 5 số loại này. Vì xếp vào ba tam giác ở ba góc nên thứ tự vị trí được tính. Số cách
+là:
+A3 = 5·4·3 = 60.
+5
+Trường hợp 2: một số loại 0, một số loại 1, một số loại 4.
+Chọn số có 5·11·10 cách. Sau đó xếp ba số vào ba tam giác ở góc có 3! cách. Số cách
+là:
+5·11·10·3! = 3300.
+Vậy tổng số cách xếp là 60+3300 = 3360 .
+Câu 20
+Bát giác đều có 8 đỉnh. Ta gắn ngẫu nhiên tám số 9,10,11,12,13,14,15,16 vào tám đỉnh.
+Sau đó chọn ngẫu nhiên một tam giác từ ba đỉnh của bát giác.
+Cần tính xác suất để tam giác được chọn vừa là tam giác vuông, vừa có ba số trên ba
+đỉnh lập thành cấp số cộng theo một thứ tự nào đó.
+1. Xác suất tam giác được chọn là tam giác vuông.
+Trong đường tròn, một tam giác nội tiếp là tam giác vuông khi và chỉ khi nó có một
+cạnh là đường kính. Bát giác đều có 4 đường kính nối các cặp đỉnh đối diện. Với mỗi
+đường kính, chọn đỉnh thứ ba trong 6 đỉnh còn lại, ta được một tam giác vuông.
+Vậy số tam giác vuông là 4·6 = 24. Tổng số tam giác tạo bởi ba đỉnh của bát giác là
+(cid:0)8(cid:1)
+= 56. Do đó:
+3
+24 3
+P = = .
+1
+56 7
+2. Xác suất ba số trên ba đỉnh lập thành cấp số cộng.
+Vì các số được gắn ngẫu nhiên vào các đỉnh, với một tam giác cố định, ba số trên ba
+đỉnh của nó là một bộ ba bất kỳ trong 8 số đã cho.
+Ta đếm số bộ ba lập thành cấp số cộng trong {9,10,11,12,13,14,15,16}.
+Vì đây là 8 số liên tiếp, ta có các cấp số cộng dạng (a,a+d,a+2d): với công sai d = 1
+có 6 bộ; với d = 2 có 4 bộ; với d = 3 có 2 bộ. Với công sai lớn hơn thì không đủ ba số
+trong đoạn từ 9 đến 16.
+Vậy số bộ ba lập thành cấp số cộng là 6+4+2 = 12. Tổng số bộ ba số là
+(cid:0)8(cid:1)
+= 56,
+3
+do đó:
+12 3
+P = = .
+2
+56 14
+Hai phần này độc lập, nên:
+3 3 9
+P = P P = · = .
+1 2
+7 14 98
+Phân số đã tối giản, nên m = 9, n = 98. Do đó:
+m+n = 107 .
+14
+
+Câu 21
+Đồ thị trong hình có 5 đỉnh A,B,C,D,O và 8 cạnh AB,BC,CD,DA,AO,BO,CO,DO.
+Mỗi cạnh hoạt động với xác suất 1, nên mọi tập cạnh hoạt động đều có xác suất bằng
+2
+nhau. Tổng số trạng thái của 8 cạnh là 28 = 256.
+Ta cần đếm số trạng thái mà đồ thị các cạnh hoạt động liên thông trên 5 đỉnh.
+Trường hợp có đúng 4 cạnh hoạt động.
+Một đồ thị liên thông trên 5 đỉnh cần ít nhất 4 cạnh. Nếu có đúng 4 cạnh mà liên
+thông thì đó là một cây khung. Ta đếm số cây khung theo số cạnh nối với tâm O.
+Có 1 cạnh nối với O. Chọn cạnh nối với O: 4 cách. Để bốn đỉnh ngoài A,B,C,D liên
+thông với nhau, ta cần chọn 3 trong 4 cạnh của chu trình ngoài: 4 cách. Số cây loại này
+là 4·4 = 16.
+Có 2 cạnh nối với O. Nếu hai cạnh nối với O đi đến hai đỉnh kề nhau, có 4 cách chọn
+cặp đỉnh kề. Khi đó cần chọn 2 cạnh ngoài sao cho phần còn lại liên thông, có 3 cách. Số
+cách là 4·3 = 12.
+Nếu hai cạnh nối với O đi đến hai đỉnh đối nhau, có 2 cách chọn cặp đỉnh đối. Khi đó
+có 4 cách chọn thêm hai cạnh ngoài. Số cách là 2·4 = 8.
+Vậy trường hợp có 2 cạnh nối với O có 12+8 = 20 cách.
+Có 3 cạnh nối với O. Khi đó chỉ có một đỉnh ngoài chưa nối trực tiếp với O. Đỉnh này
+phải được nối vào bằng một cạnh ngoài kề với nó. Có 4 cách chọn đỉnh chưa nối với O,
+và với mỗi đỉnh có 2 cạnh ngoài kề nó. Số cách là 4·2 = 8.
+Có 4 cạnh nối với O. Chọn cả bốn cạnh AO,BO,CO,DO: 1 cách.
+Vậy số đồ thị liên thông có đúng 4 cạnh là 16+20+8+1 = 45.
+Trường hợp có đúng 5 cạnh hoạt động.
+Tổng số cách chọn 5 cạnh là
+(cid:0)8(cid:1)
+= 56. Ta trừ đi các trường hợp không liên thông.
+5
+Với 5 cạnh, đồ thị không liên thông chỉ có thể xảy ra khi một trong bốn đỉnh ngoài bị
+cô lập. Mỗi đỉnh ngoài có bậc 3 trong đồ thị ban đầu, nên để nó bị cô lập thì cả 3 cạnh
+kề với nó đều không hoạt động, khi đó đúng 5 cạnh còn lại hoạt động. Có 4 cách chọn
+đỉnh ngoài bị cô lập.
+Vậy số đồ thị liên thông có đúng 5 cạnh là 56−4 = 52.
+Trường hợp có từ 6 cạnh trở lên.
+Nếu có 6, 7 hoặc 8 cạnh hoạt động thì đồ thị chắc chắn liên thông. Số trạng thái là:
+(cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19)
+8 8 8
++ + = 28+8+1 = 37.
+6 7 8
+Vậy số trạng thái liên thông là 45+52+37 = 134.
+Xác suất hệ thống hoạt động là:
+134 67
+P = = ≈ 0,5234.
+256 128
+Làm tròn đến hàng phần trăm: P ≈ 0,52 .
+15
+
+Câu 22
+Con châu chấu nhảy lên cầu thang có 18 bậc. Mỗi lần nhảy, nó có thể nhảy 1 bậc hoặc 2
+bậc.
+Gọi a là số lần nhảy 1 bậc và b là số lần nhảy 2 bậc. Khi hoàn thành đúng 18 bậc, ta
+có a+2b = 18.
+Với một giá trị b, ta có a = 18−2b, và tổng số lần nhảy là a+b = 18−b. Trong 18−b
+lần nhảy đó, chọn b vị trí để là bước nhảy 2 bậc:
+(cid:0)18−b(cid:1)
+cách.
+b
+Vì b có thể nhận các giá trị 0,1,2,...,9, nên tổng số cách nhảy là:
+9 (cid:18) (cid:19)
+(cid:88) 18−b
+= 4181.
+b
+b=0
+Ta cần số lần nhảy 2 bậc không bé hơn số lần nhảy 1 bậc, tức là b ≥ a = 18−2b, suy
+ra 3b ≥ 18, hay b ≥ 6.
+Do đó các trường hợp thuận lợi là b = 6,7,8,9. Số cách thuận lợi là:
+(cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19) (cid:18) (cid:19)
+12 11 10 9
++ + + = 924+330+45+1 = 1300.
+6 7 8 9
+Vậy xác suất cần tìm là:
+1300
+P = ≈ 0,3109.
+4181
+Làm tròn đến hàng phần trăm: P ≈ 0,31 .
+Câu 23
+Ba vòng quay có các số:
+a : {9,5,1}, b : {3,8,4}, c : {7,6,2}.
+Mỗi vùng trên mỗi vòng quay có xác suất như nhau.
+So sánh vòng a với vòng b.
+9 thắng cả 3,8,4 (3 trường hợp); 5 thắng 3,4 (2 trường hợp); 1 không thắng số nào.
+Vậy:
+5
+P(a > b) = .
+9
+So sánh vòng b với vòng c.
+8 thắng 7,6,2 (3 trường hợp); 4 thắng 2 (1 trường hợp); 3 thắng 2 (1 trường hợp).
+Vậy:
+5
+P(b > c) = .
+9
+So sánh vòng c với vòng a.
+7 thắng 5,1 (2 trường hợp); 6 thắng 5,1 (2 trường hợp); 2 thắng 1 (1 trường hợp).
+Vậy:
+5
+P(c > a) = .
+9
+16
+
+Ta có chu trình khắc chế: a > b, b > c, c > a. Theo tinh thần trò chơi đối kháng,
+Quỳnh chọn trước, Hà chọn sau nên Hà sẽ chọn vòng quay có lợi hơn để đối đầu với
+5
+Quỳnh. Khi đó Hà luôn chọn được vòng có xác suất thắng Quỳnh bằng .
+9
+Vì thế xác suất Quỳnh thắng là:
+5 4
+1− = ≈ 0,4444.
+9 9
+Làm tròn đến hàng phần trăm: P ≈ 0,44 .
+Ghi chú: nếu hiểu Hà cũng chọn ngẫu nhiên một trong hai vòng còn lại, không dùng
+chiến lược, thì xác suất Quỳnh thắng sẽ là 0,50. Tuy nhiên với cách phát biểu “Quỳnh
+chọn trước, sau đó Hà chọn một trong hai vòng còn lại”, cách hiểu tự nhiên hơn là Hà
+được quyền chọn vòng có lợi.
+Câu 24
+Ta điền ngẫu nhiên các số 0,1,2,3,4,5,6,7,8 vào bảng 3×3. Biết rằng: số 0 được điền
+vào ô góc trên cùng bên trái; tổng ba số ở hàng dưới cùng là một số lẻ. Cần tính xác suất
+để số 1 nằm ở ô chính giữa.
+Sau khi cố định số 0 ở góc trên trái, còn lại 8 số: 1,2,3,4,5,6,7,8, trong đó có 4 số lẻ
+(1,3,5,7) và 4 số chẵn (2,4,6,8).
+Tổng của ba số ở hàng dưới cùng là số lẻ khi trong ba số đó có số lượng số lẻ là 1 hoặc
+3.
+Đếm mẫu số.
+Trường hợp có 1 số lẻ và 2 số chẵn:
+(cid:0)4(cid:1)(cid:0)4(cid:1)
+= 4·6 = 24.
+1 2
+Trường hợp có 3 số lẻ:
+(cid:0)4(cid:1)
+= 4.
+3
+Vậy số cách chọn bộ ba số cho hàng dưới cùng là 24+4 = 28.
+Sau đó xếp ba số này vào ba ô hàng dưới có 3! cách, và xếp năm số còn lại vào năm
+ô còn lại có 5! cách.
+Vậy số trường hợp thỏa mãn điều kiện đã biết là 28·3!·5!.
+Đếm tử số.
+Thêm điều kiện số 1 nằm ở ô chính giữa. Khi đó hàng dưới cùng chỉ được chọn từ bảy
+số 2,3,4,5,6,7,8, trong đó có 3 số lẻ (3,5,7) và 4 số chẵn (2,4,6,8).
+Hàng dưới có tổng lẻ khi có 1 hoặc 3 số lẻ. Số cách chọn bộ ba số cho hàng dưới là:
+(cid:18) (cid:19)(cid:18) (cid:19) (cid:18) (cid:19)
+3 4 3
++ = 3·6+1 = 19.
+1 2 3
+Sau đó xếp ba số ở hàng dưới có 3! cách và bốn số còn lại vào bốn ô còn trống có 4!
+cách.
+Vậy số trường hợp thuận lợi là 19·3!·4!.
+Xác suất cần tìm là:
+19·3!·4! 19 19
+P = = = ≈ 0,1357.
+28·3!·5! 28·5 140
+Làm tròn đến hàng phần trăm: P ≈ 0,14 .
+17
+
+Bảng đáp số
+Câu Đáp án
+1 1152
+2 120
+3 1856
+4 1536
+5 576
+6 935
+7 238
+8 266
+9 67%
+10 48
+11 3616,47
+12 6864
+13 1127
+14 8008
+15 6118
+16 1440
+17 16
+18 2465
+19 3360
+20 107
+21 0,52
+22 0,31
+23 0,44
+24 0,14
+18

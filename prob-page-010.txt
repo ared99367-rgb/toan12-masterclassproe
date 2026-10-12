@@ -1,0 +1,47 @@
++) Bố trí nhóm 1,2 vào 2 vị trí liên tiếp trong 5 vị trí có 4 cách.
++) Chọn chữ số cho 3 vị trí còn lại có A3 cách.
+6
+Do đó có tất cả 2!4A3 960 số.
+6
+Khi a 0 thì bằng cách làm như trên ta tính được có 2!3A2 120 số.
+1 5
+Vậy có tất cả 960120840 số tự nhiên thỏa mãn bài toán.
+Cách 2.
+Số tự nhiên có 5 chữ số có dạng aa a a a .
+1 2 3 4 5
+Trường hợp hai chữ số 1,2 đứng ở hai vị trí đầu tiên (aa )
+1 2
++) Sắp hai chữ số 1,2 đứng cạnh nhau có 2! cách.
++) Chọn chữ số cho 3 vị trí còn lại có A3 120 cách.
+6
+Do đó, có 2120240 số.
+Trường hợp hai chữ số 1,2 không đứng ở vị trí đầu tiên (a )
+1
++) Chọn chữ số cho vị trí a có 5 cách.
+1
++) Sắp hai chữ số 1,2 đứng cạnh nhau có 2! cách.
++) Bố trí nhóm 1,2 vào 2 vị trí liên tiếp trong 4 vị trí có 3 cách.
++) Chọn chữ số cho 2 vị trí còn lại có A2 20 cách.
+5
+Do đó, có 52320600 số.
+Vậy có tất cả 240600840 số.
+Email: Sunflower.hnue@gmail.com
+Câu 16. Cho tập hợp A1,2,3....,100. Hỏi có bao nhiêu tập con gồm 3 phần tử của A mà tổng của 3
+phần tử đó bằng 90
+A.638 . B.624. C.631 . D.609 .
+Tác giả:Nguyễn Thị Thúy. Facebook: Thuy Nguyen
+Lời giải
+Chọn C
+G/s tập hợp cần tìm có dạng E a,b,c
+ab30c
+Không mất tính tổng quát g/s a b c, vì abc90 
+a30bc
+ab30c30b442bab90b30,31,...,44
+TH1 :
+Nếu b44a 45 a có 1 cách chọn
+Nếu b43a44,45,46acó 3 cách chọn
+……………………………………………………..
+Nếu b30a31,32,33,...,59acó 29 cách chọn
+ Số cách chọn cặp a,b là 135....29225 số
+Với mỗi cách chọn cặp a,b cho ta 1 cách chọn c90ab
+Có 225 cách chọn tập E trong trường hợp này

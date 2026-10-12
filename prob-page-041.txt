@@ -1,0 +1,41 @@
+Vậy TH1 có: 83240 số thỏa mãn.
+TH2: a +a =a +a =a +a =6 ta có 0615246
+1 2 3 4 5 6
+Tương tự như TH1 có 40 số thỏa mãn.
+TH3: a a a a a a 7, ta có 1625347
+1 2 3 4 5 6
+Có 3 cách chọn a ;a , hai số này có thể đổi chỗ cho nhau nên có 6 cách chọn.
+1 2
+Tương tự có 4 cách chọn a ;a và 2 cách chọn a ;a .
+3 4 5 6
+Vậy TH3 có 6.4.248 số thỏa mãn.
+nA 404048128 số có 6 chữ số khác nhau thỏa mãn a a a a a a
+1 2 3 4 5 6
+128 4
+Vậy PA  .
+4320 135
+buinguyenphuong1991@gmail.com
+Câu 34. Một nhóm bạn 6 người có cùng năm sinh 2004 (năm nhuận). Tính xác suất P để có ít nhất hai
+người có cùng ngày tháng năm sinh.
+3666  A6 3666 C6 C6 A6
+A. P  366 . B. P  366 . C. P  366 . D. P  366 .
+3666 3666 3666 3666
+Lời giải
+Tác giả: Bùi Nguyên Phương, FB: Bùi Nguyên Phương
+Chọn A
+Năm 2004 là năm nhuận nên có 366 ngày. Giả sử các ngày được đánh số từ 1 đến 366.
+Số phần tử của không gian mẫu là: n3666.
+Mỗi phần tử của không gian mẫu là một bộ số a ;a ;a ;a ;a ;a .
+1 2 3 4 5 6
+Gọi A là biến cố: “Có ít nhất hai người có cùng ngày tháng năm sinh”.
+Suy ra A là biến cố: “Không có hai người nào cùng ngày tháng năm sinh”.
+Mỗi phần tử của A là một bộ số a ;a ;a ;a ;a ;a  trong đó a  a với i j và i, j 1,6.
+1 2 3 4 5 6 i j
+Số kết quả thuận lợi của A là: n  A   A6 .
+366
+Suy ra số kết quả thuận lợi của A là: nA3666  A6 .
+366
+nA 3666  A6
+Vậy xác suất của biến cố A là: PA  366 .
+n 3666
+Trang 24/24 - Mã đề thi 483

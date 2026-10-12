@@ -1,0 +1,57 @@
+Email- hoanghungspt@gmail.com
+Câu 1. Từ 1 hộp đựng 100 thẻ đánh số thứ tự từ 1 đến 100 lấy ngẫu nhiên 3 thẻ. Xác suất của biến cố:
+A=”Số ghi trên 3 thẻ là số đo 3 cạnh của một tam giác” là:
+95 65 35 55
+A. . B. . C. D. .
+132 132 236 236
+Lờigiải
+Tác giả : Hoàng Mạnh Hùng, FB: Vô Thường
+Chọn B
+n()C3 161700 .
+100
+Gọi x,y, z là số ghi trên 3 thẻ được lấy ra thỏa mãn yêu cầu bài toán.
+Đặt: A   (x;y;z)/x,y,z1,2,...,100,1xy z=k, (x+y)>z  .
+k
+n(A) A  A  A ... A
+1 2 3 100
+Tính A với (4k 100) .Dễ thấy rằng: A  A  A 0
+k 1 2 3
+TH1 :k chẵn,k  2m (m  2) .
+Xét 1xm,k2m2x(kx)x; (xy)z y>(k-x)x(k-x+1)y(z1)
+Ta có số cách chọn y là: (k1)(kx1)1(x1)
+Xét xm,(xy)2x 2m z(thỏa mãn đk) (x1)y(z-1)=(2m-1)
+Ta có số cách chọn y là: (2m1)(x1)1(2mx1)
+m 2m1
+Vậy,với k 2m ta có: A (x1)  (2mx1)(m1)2
+k
+x1 xm1
+TH2 :k lẻ,k  (2m1) (m  2) .
+Xét 1xm,k(2m1)2x(kx)x
+(xy)z y>(k-x)>x(k-x+1)y (z1)
+Ta có số cách chọn y là: (k1)(kx1)1(x1)
+Xét xm,ta thấy rằng :y sao cho (x1)y (z1) ta có:
+(xy)x(x1)(2x1)(2m1) z (thỏa mãn đk)
+Ta có số cách chọn y là: (2m11)(x1)1(2mx)
+m 2m
+Vậy,với k (2m +1)ta có: A (x1)  (2mx)m(m1)
+k
+x1 xm1
+n(A) A  A  A ... A (A  A ... A )(A  A ... A )
+1 2 3 100 1 3 99 2 4 100
+49 50
+n(A) m(m1)(m1)2 392004042579625
+m0 m1
+n(A) 79625 65
+ P(A)  
+n() 161700 132
+Vqdethi@gmail.com
+Câu 2. Cho tập hợp số A 1;2;3;...;2019. Lấy ngẫu nhiên ra hai số, tính xác suất để lấy được hai số
+mà bình phương số này cộng ba lần số kia đều là các số chính phương.
+1 2 5
+A. 0. B. . C. . D. .
+C2 C2 C2
+2019 2019 2019
+Lời giải
+Tác giả : Nguyễn Văn Quý,Tên FB: Quybacninh
+Chọn B
+Trang 1/24 - Mã đề thi 483

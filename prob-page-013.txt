@@ -1,0 +1,55 @@
+Câu 21. Từ các chữ số thuộc tập X 0;1;2;3;4;5;6;7;8;9, ta lập được bao nhiêu số tự nhiên có 6 chữ
+số sao cho trong đó có một chữ số lặp lại 3 lần, một chữ số khác lặp lại 2 lần, và một chữ số khác
+với hai chữ số trên?
+A. 43200. B. 480. C. 3888. D. 38880.
+Lời giải
+Tác giả : Nguyễn Việt Thảo , FB: Việt Thảo
+Chọn D
+- Có 10 cách chọn chữ số xuất hiện 3 lần và có C3 cách chọn vị trí cho chữ số này.
+6
+- Có 9 cách chọn chữ số xuất hiện 2 lần và có C2 cách chọn vị trí cho chữ số này.
+3
+- Có 8 cách chọn 1 chữ số từ 8 chữ số còn lại.
+Khi đó có 10.C3.9.C2.843200 dãy số gồm 6 chữ số, trong đó chữ số đứng đầu có thể bằng 0
+6 3
+hoặc khác 0.
+- Xét trường hợp chữ số đứng đầu bằng 0. Khi đó ta có các trường hợp:
++ Chữ số 0 xuất hiện 3 lần, có C2.9.C2.8 số.
+5 3
++ Chữ số 0 xuất hiện 2 lần, có C1.9.C3.8 số.
+5 4
++ Chữ số 0 xuất hiện 1 lần, có 9.C3.8 số.
+5
+Vậy các số cần tìm theo yêu cầu bài toán là:
+10.C3.9.C2.8C2.9.C2.8C1.9.C3.89.C3.838880 (số).
+6 3 5 3 5 4 5
+* Nhận xét: Ta có thể lập luận theo cách khác như sau: Vì vai trò của 10 chữ số thuộc tập X
+10.C3.9.C2.8.9
+như nhau nên số các số cần tìm theo yêu cầu bài toán là: 6 3 38880 số.
+10
+Congnhangiang2009@gmail.com
+Câu 22. Từ các chữ số 1,2,3,4,5,6,7,8,9 lập được bao nhiêu số tự nhiên có 6 chữ số sao cho số tạo
+thành nhất định phải có mặt chữ số 1, các chữ số khác chỉ xuất hiện nhiều nhất một lần và không
+có số nào có hai chữ số 1 đứng cạnh nhau?
+A. 984. B. 23. C. 50 D. 58464.
+Lời giải
+Tác giả : Hoàng Thị Thanh Nhàn, FB: Hoàng Nhàn
+Chọn D
+Gọi X 2,3,4,5,6,7,8,9
+Chỉ xảy ra các trường hợp sau:
+Trường hợp 1: 1 chữ số 1 và 5 chữ số khác nhau từ tập X :
++) Chọn 5 chữ số từ tập X và xếp theo thứ tự thành hàng ngang: có A5 cách xếp.
+8
+Khi đó, ta có 6 vị trí có thể xếp số 1, đó là 4 khoảng trống giữa 5 chữ số trên và hai đầu.
++) Xếp số 1 vào một trong 6 vị trí nói trên: có C1 cách xếp.
+6
+Suy ra trường hợp 1 có A5.C1 cách xếp.
+8 6
+Trường hợp 2: 2 chữ số 1 và 4 chữ số khác nhau từ tập X :
++) Chọn 4 chữ số từ tập X và xếp theo thứ tự thành hàng ngang: có A4 cách xếp.
+8
+Khi đó, ta có 5 vị trí có thể xếp số 1, đó là 3 khoảng trống giữa 4 chữ số trên và hai đầu.
++) Xếp số 1 vào hai trong 5 vị trí nói trên: có C2 cách xếp.
+5
+Suy ra trường hợp 2 có A4.C2 cách xếp.
+8 5

@@ -1,0 +1,54 @@
+TH1: A:”Bắt được 3 con mèo trắng trong 3 lần đầu”
+1
+6 1
+n 7.6.5,n 3!6  p(A) 
+ A1 A 1 1 7.6.5 35
+TH2: A :” Bắt được 3 con mèo trắng trong 4 lần đầu”
+2
+n 7.6.5.4
+
+A2
+Để không trùng trường hợp 1 thì chắc chắn lần 4 phải bắt được một con trắng 3 lần đầu sẽ bắt
+được 2 con trắng và một con đen,số cách chọn 1 con đen là C1 ,con đem chỉ có thể bắt được 1
+4
+trong 3 lần đầu nên nó có 3 cách để bắt,còn lại 3 con trắng có số cách bắt là A3
+3
+C1.3.A3 3
+như vậy số cách thuận lợi cho biến cố A là n C1.3.A3  p(A ) 4 3 
+2 A2 4 3 2 7.6.5.4 35
+1 3 4
+Vậy p(A)  
+35 35 35
+4 31
+Suy ra xác xuất cần tính là p(A)1 
+35 35
+Chidunghtsv@gmail.com
+Câu 9. Có 8 bạn cùng ngồi xung quanh một cái bàn tròn, mỗi bạn cầm một đồng xu như nhau. Tất cả 8
+bạn cùng tung đồng xu của mình, bạn có đồng xu ngửa thì đứng, bạn có đồng xu sấp thì ngồi.
+Tính xác suất để không có hai bạn liền kề cùng đứng là
+46 45 48 47
+A. . B. . C. . D. .
+256 256 256 256
+Lời giải
+Tác giả: Phan Chí Dũng ; Fb: Phan Chí Dũng
+Chọn D
+Số phần tử của không gian mẫu là n()28 256
+Gọi A là biến cố không có hai người liền kề cùng đứng.
+Ta có các trường hợp xẩy ra:
+Trường hợp 1: Có nhiều nhất 1 đồng xu ngửa. Kết quả của trường hợp này là 189
+Trường hợp 2: Có 2 đồng xu ngửa.
+Hai đồng xu ngửa kề nhau suy ra có 8 khả năng. Vậy trường hợp này có C2 820
+8
+Trường hợp 3: Có 3 đồng xu ngửa.
+Có 3 đồng xu ngửa kề nhau: có 8 kết quả
+Trong 3 đồng xu ngửa, có đúng một cặp kề nhau: có 8.432
+Suy ra số kết quả của trường hợp này là C3 83216
+8
+Trường hợp 4: Có 4 đồng xu ngửa.
+Trường hợp này có 2 kết quả thỏa mãn biến cố A xẩy ra.
+Vậy số kết quả thỏa mãn biến cố A là n(A)92016247
+47
+Suy ra xác suất để không có hai người liền kề cùng đứng là : P(A)
+256
+Email: manhluonghl4@gmail.com
+Trang 6/24 - Mã đề thi 483

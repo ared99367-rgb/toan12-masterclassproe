@@ -1,0 +1,57 @@
+Vị trí a là số lẻ nên a có 5 cách chọn .
+2 2
+Chọn một chữ số chẵn và 3 số lẻ và xếp chúng vào 4 vị trí còn lại có
+C1.C3.4! cách
+4 4
+TH này có : 4.5.C1.C3.4!7680 cách chọn.
+4 4
++ a lẻ : a có 5 cách chọn
+1 1
+Ở các vị trí a ,a ,..,a có 3 chữ số lẻ , ta tạo được 4 vách ngăn , chọn hai chữ số chẵn và đặt
+2 3 5
+vào 2 trong 4 vách ngăn đó,chọn 3 chữ số lẻ trong 4 số lẻ đặt ở 3 vị trí còn lại có C2.C2.2!.C3.3!
+5 4 4
+cách.
+TH này có 5.C2.C2.2!.C3.3!14400 cách chọn.
+5 4 4
+TH3: Số M có chứa 3 chữ số chẵn .
++ a chẵn : a có 4 cách chọn
+1 1
+Vị trí a lẻ nên a có 5 cách chọn
+2 2
+Ở các vị trí a ,a ,a ,a có 2 chữ số lẻ , ta tạo được 3 vách ngăn , chọn hai chữ số chẵn và đặt
+3 4 5 6
+vào 2 trong 3 vách ngăn đó,chọn 2 chữ số lẻ trong 4 số lẻ đặt ở 2 vị trí còn lại có
+C2.C2.2!.C2.2! cách.
+4 3 4
+TH này có 4.5.C2.C2.2!.C2.2!8640 cách chọn.
+4 3 4
++ a lẻ : a có 5 cách chọn
+1 1
+Ở các vị trí a ,a ,..,a có 2 chữ số lẻ , ta tạo được 3 vách ngăn , chọn ba chữ số chẵn và đặt vào
+2 3 5
+3 vách ngăn đó,chọn 2 chữ số lẻ trong 4 số lẻ đặt ở 2 vị trí còn lại có C3.3!.C2.2! cách.
+5 4
+TH này có 5.C3.3!.C2.2!3600 cách chọn
+5 4
+Vậy có : 48030007680144008640360037800 cách chọn thỏa yêu cầu bài toán.
+Email: ngvanmen@gmail.com
+Câu 5. Cho đa giác đều 20 cạnh nội tiếp đường tròn (O). Xác định số hình thang có 4 đỉnh là các đỉnh
+của đa giác đều.
+A. 765 B. 720 C. 810 D. 315
+Lời giải
+Tác giả: Nguyễn Văn Mến – face: Nguyễn Văn Mến
+Hình thang luôn có trục đối xứng đi qua tâm nên ta chỉ xét trục đối xứng vuông góc với hai đáy
+của hình thang trong hai trường hợp
+Th1: Trục đối xứng của hình thang đi qua hai đỉnh của đa giác đều
+Chọn một trục đối xứng có 10 cách
+Mỗi trục đối xứng như vậy ta có C2 cách chọn các đỉnh của hình thang nhân trục đối xứng đó
+9
+Suy ra 10.C2 360 hình thang có trục đối xứng đi qua các đỉnh đa diện
+9
+Th2: Trục đối xứng không đi qua đỉnh của đa giác đều
+Chọn một trục đối xứng như vậy ta có 10 cách
+Mỗi trục đối xứng như vậy ta có C2 cách chọn các đỉnh của hình thang nhận trục đối xứng đó
+10
+Suy ra 10.C2  450 hình thang có trục đối xứng không qua các đỉnh của đa giác đều
+10

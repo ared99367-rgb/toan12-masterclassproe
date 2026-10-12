@@ -1,0 +1,53 @@
+Số5chữ số khác nhau gồm2 chữ số lẻ và 3chữ số chẵn, trong đó hai chữ số kề nhau không
+cùng là số lẻ mà số 0đứng đầu là: C2.2!.C2.A2
+4 5 3
+Vậy có C3.3!.C2.A2 C2.2!.C2.A2 6480 (số ).
+5 5 4 4 5 3
+Trường hợp 4. Số được chọn có 3 chữ số lẻ và 2 chữ số chẵn.
+Chọn 2 chữ số chẵn và sắp xếp vị trí 2 số ta có C2.2! cách.
+5
+Chọn 3 chữ số lẻ và sắp xếp vào 3 vị trí có C3.3! cách.
+5
+Vậy có C2.2!.C3.3!1200 (số ).
+5 5
+Vậy ta có n(A)9625206480120010296 (số ).
+n(A) 10296 143
+Vậy xác suất cần tìm là : P(A)   .
+n() 27216 378
+Tuonganh0209@gmail.com
+Câu 59. Gọi A là tập hợp tất cả các số tự nhiên có 5 chữ số. Chọn ngẫu nhiên một số từ tập A, tính xác
+suất để chọn được một số chia hết cho 7 và chữ số hàng đơn vị bằng 1.
+643 107 16 643
+A. . B. . C. . D. .
+45000 7500 1125 13608
+Lời giải
+Tác giả: Nguyễn Ngọc Thảo, FB: Nguyễn Ngọc Thảo
+Cách 1.
+Chọn A
++ Gọi X là một số tự nhiên có năm chữ số chia hết cho 7 và chữ số tận cùng là 1.
++ Vì X chia hết cho 7 và chữ số tận cùng là 1 nên X 7.Y3 với Y3 là số tự nhiên có chữ số
+tận cùng là 3.
++ Ta có: 10000 X 9999991429Y314285 142910Y 314285
+142610Y 14282 142.6Y 1428.2 143Y 1428.
+Suy ra nA142814311286.
+nA
+1286 643
++ Vậy xác suất của biến cố A là PA   .
+n 90000 45000
+Cách 2.
+Số các số tự nhiên có 5 chữ số là 9.104 90000
+Giả sử số tự nhiên có 5 chữ số chia hết cho 7 và chữ số hàng đơn vị bằng 1 là: abcd1
+Ta có abcd110.abcd 13.abcd 7.abcd 1 chia hết cho 7 khi và chỉ khi 3.abcd 1 chia
+hết cho 7.
+h1
+Đặt 3.abcd 17h abcd 2h là số nguyên khi và chỉ khi h3t1
+3
+Khi đó ta được: abcd 7t210007t29999
+998 9997
+ t  t143,144,...,1428 suy ra số cách chọn ra t sao cho số abcd1 chia hết
+7 7
+cho 7 và chữ số hàng đơn vị bằng 1 là 1286.
+1286 643
+Vậy xác suất cần tìm là: = .
+90000 45000
+Trang 16/26 - Mã đề thi 483
