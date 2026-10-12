@@ -1,0 +1,53 @@
+Câu2[HTN]
+Một cửa hàng có 20 chiếc áo thun hoàn toàn giống nhau cần phân phối cho 4 đại lý bán lẻ.
+Hỏi có bao nhiêu cách phân phối sao cho mỗi đại lý nhận được ít nhất 1 chiếc áo và đại lý
+thứnhấtnhậnđượckhôngquá5chiếcáo?
+Lờigiải.Gọisốáocủabốnđạilýlàx ,x ,x ,x ,tacó
+1 2 3 4
+x +x +x +x = 20, x ≥ 1, x ≤ 5.
+1 2 3 4 i 1
+Ràng buộc chặn trên x ≤ 5 không xử lí gọn bằng mẹo “phát trước”, nên ta xét riêng từng giá trị
+1
+x ∈ {1,2,3,4,5}. Với mỗi giá trị x , ba đại lý còn lại chia 20−x chiếc áo, mỗi đại lý ít nhất
+1 1 1
+mộtchiếc,cho ( ) ( )
+(20−x )−1 19−x
+1 1
+=
+3−1 2
+cách.Cộngtheox từ1đến5:
+1
+( ) ( ) ( ) ( ) ( ) ( )
+∑5
+19−x 18 17 16 15 14
+1
+= + + + + = 153+136+120+105+91 = 605.
+2 2 2 2 2 2
+x1=1
+Vậycó605 cáchphânphối.
+605
+■
+Câu3[HTN]
+Xếpngẫunhiên12viênbigiốngnhauvào3chiếchộpkhácnhauA,B,C.Tínhxácsuấtđể
+sốbitronghộpAbằngtổngsốbitronghộpB vàhộpC (làmtrònđếnhàngphầntrăm).
+Lờigiải.GọisốbitrongbahộpA,B,C lầnlượtlàa,b,c,tacó
+a+b+c = 12, a,b,c ≥ 0.
+Sốcáchbỏbitùyý(khônggianmẫu)làsốnghiệmnguyênkhôngâm:
+( ) ( )
+12+3−1 14
+n(Ω) = = = 91.
+3−1 2
+Xét biến cố “số bi hộp A bằng tổng số bi hai hộp còn lại”, tức a = b+c. Thay b+c = a vào
+tổnga+(b+c) = 12,tađược2a = 12,suyraa = 6 vàb+c = 6.Sốnghiệmnguyênkhôngâm
+củaphươngtrìnhb+c = 6 là6+1 = 7,nênn(A) = 7.
+Dođó
+n(A) 7 1
+P = = = ≈ 0,0769.
+n(Ω) 91 13
+Làmtrònđếnhàngphầntrăm,P ≈ 0,08,tứckhoảng7,69% ≈ 8%.
+1
+P = ≈ 0,08(8%)
+13
+■
+Dạng3mởrộng.XếpchỗvàchiakẹoEulercóràngbuộctùyý
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang15/19

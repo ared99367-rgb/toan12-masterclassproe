@@ -1,0 +1,65 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+nó. Ta xét một phân hoạch bất kỳ pl,m,nq của 27. Chia BC, CA, AB thành l, m, n phần bằng nhau
+tương ứng. Ta đặt
+2l∆ 2m∆
+h “ , h “ .
+1 27a 2 27b
+Vẽ một đường thẳng song song với BC và cách BC một khoảng h ; vẽ một đường thẳng song song
+1
+với CA và cách CA một khoảng h . Hai đường thẳng này cắt nhau tại một điểm P nằm trong tam
+2
+giác ABC. Khi đó
+1 l∆ m∆
+rPBCs“ ah “ , rPCAs“ ,
+2 1 27 27
+n∆
+suy ra rPABs“ . Điều này cho ta thấy khoảng cách từ P đến AB bằng
+27
+2n∆
+h “ .
+3 27c
+∆
+Do đó, mỗi tam giác có đáy trên CAđều có diện tích bằng . Điều này chứng minh rằng tất cả các
+27
+tamgiácphânchiatamgiácABC đềucódiệntíchbằngnhau,nên P làmộtđiểmgood.Nhưvậy,lúc
+này theo bài toán chia kẹo Euler thì số điểm good bằng số nghiệm nguyên dương của phương trình
+l`m`n“27,
+ˆ ˙
+26
+tức là bằng “325.
+2
+Ví dụ 40. Tìm số nghiệm không âm của phương trình
+x `x `¨¨¨`x “m,
+1 2 n
+với x ⩽ x ⩽¨¨¨⩽ x .
+1 2 n
+— LỜI GIẢI
+Lời giải bài toán này dựa trên ý tưởng của các bạn Nguyễn Long Nhật, Nguyễn Hùng Quang và thầy
+Nguyễn Vũ Lương ´ THPT Chuyên KHTN Hà Nội.
+Ta sẽ chia nhỏ bài toán này ra như sau.
+Bài toán phụ 1. Tìm số nghiệm không âm của phương trình x ` y “m với x ⩽ y.
+“ ‰
+Giải. Vì x ⩽ y nên từ phương trình suy ra x ⩽ n , ta xét 2 trường hợp sau.
+2
+“ ‰ “ ‰
+1 Nếu n chia hết cho 2 thì x có thể n“h‰ận n `1 “ n `1 giá trị 0,1,2,..., n và y tính được
+2 2 2
+theo x (vì y “ n´ x), suy ra ta có n `1 bộ px, yq nguyên không âm thỏa mãn x ` y “ n và
+2
+x ⩽ y.
+“ ‰ “ ‰ “ ‰
+2 Nếu n không chia hết cho 2 suy ra x ⩽ n và x có thể nhận n `1 giá trị và có n `1 bộ
+2 2 2
+px, yq nguyên không âm thỏa mãn bài toán.
+Bài toán phụ 2. Tìm số nghiệm không âm của phương trình
+x ` y `z “n
+thỏa mãn điều kiện x ⩽ y ⩽ z.
+Giải. Trước tiên ta kí hiệu như sau
+1 Kí hiệu r là nghiệm số của phương trình thỏa mãn x ă y ăz. Tương tự có
+1xyz
+r ,r ,r ,r ,r .
+1xzy 1yzx 1yxz 1zxy 1zyx
+Do vai trò của x, y,z hoàn toàn bình đẳng trong phương trình x ` y `x “n. Ta có
+r “ r “ r “ r “ r “ r “ r .
+1xyz 1xzy 1yzx 1yxz 1zxy 1zyx 1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 27

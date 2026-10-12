@@ -1,0 +1,68 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+— LỜI GIẢI
+Ta giả sử a ăa ă¨¨¨ăa , lúc này giả thiết tương đương
+1 2 10
+a ´a ⩾ 2,i “1,9.
+i`1 i
+Các số a này không liên tiếp nhau. Gọi x là số các số trước a , x là các số sau a , còn lại x là
+i 1 1 11 10 k
+số các số nằm giữa a và a .
+k´1 k
+1 ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ a ¨l¨oo¨o¨m¨¨o¨oo¨n¨ 2016
+1 2 3 10
+x x x ... x
+1 2 3 11
+Khi đó ta có
+x `x `¨¨¨`x “2006,x ⩾ 0,x ⩾ 0,x ⩾ 1,i “2,10.
+1 2 11 1 11 i
+Tới đây đổi biến y “ x ´1 ⩾ 0,i “2,10 ta được
+i i
+x ` y `¨¨¨` y `x “1997.
+1 2 10 11
+Lúc này áp dụng kết quả của bài toánˆchia kẹo Euler˙thì sˆố các c˙ách chọn thỏa mãn cũng chính là
+1997`11´1 2007
+số bộ nghiệm của phương trình và là “ .
+11´1 10
+Ví dụ 36. Trongvòngloạimột cuộcthichạy1000mcó9bạnthamgiatrong đócó2bạnlớp
+A , 3 bạn lớp A và 4 bạn đến từ các lớp khác nhau. Thầy giáo xếp ngẫu nhiên các bạn kể trên
+1 2
+thành một hàng ngang để xuất phát. Có bao nhiêu cách xếp sao cho không có học sinh nào
+cùng lớp đứng kề nhau.
+— LỜI GIẢI
+Gọi 3 bạn lớp A là M ,N ,P , hai bạn lớp A là M ,N . Số cách xếp ngẫu nhiên 9 bạn vào cùng một
+2 2 2 2 1 1 1
+hàng ngang là 9! cách. Ta có nhận xét sau.
+Số cách xếp sao cho không có bạn nào cùng lớp bằng số cách xếp sao cho ba bạn M ,N ,P
+2 2 2
+không đứng cạnh nhau trừ đi số cách xếp sao cho ba bạn M ,N ,P không đứng cạnh nhau
+2 2 2
+và hai bạn M ,N đứng cạnh nhau.
+1 1
+Khi đó ta sẽ chia bài toán đếm làm 2 bước như sau.
+1 Đếm số cách xếp sao cho ba bạn M ,N ,P không đứng cạnh nhau.
+2 2 2
+Đầu tiên ta xếp ba bạn M ,N ,P đứng cạnh nhau, có 3!“6 cách. Xét trường hợp ba bạn này
+2 2 2
+được xếp theo thứ tự M ,N ,P . Tiếp theo, ta xếp các bạn còn lại vào sao cho ba bạn M ,N ,P
+2 2 2 2 2 2
+không đứng cạnh nhau.
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ M ¨l¨oo¨o¨m¨¨o¨oo¨n¨ N ¨l¨oo¨o¨m¨¨o¨oo¨n¨ P ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+2 2 2
+x x x x
+1 2 3 4
+Gọi x ;x ;x ;x lần lượt là số bạn xếp phía bên trái M , giữa M ,N , giữa N ,P và bên phải
+1 2 3 4 2 2 2 2 2
+P . Khi đó ta có x ` x ` x ` x “ 6, trong đó x ⩾ 1,x ⩾ 1,x ⩾ 0,x ⩾ 0, ta chuyển bài
+2 1 2 3 4 2 3 1 4
+toán về đếm số nghiệm nguyên của phương trình
+x `x1 `x1 `x “4,
+1 2 3 4
+trong đó x ⩾ 0,x ⩾ 0,x1 “ x ´1 ⩾ 0,x1 “ x ´1 ⩾ 0. Theo bài toán chia kẹo Euler ta có
+1 4 2 2 ˆ 3 3 ˙
+4`4´1
+“35
+4´1
+sốbộnghiệmnguyên.Khiđótínhcảhoánvịthìsốcáchsắpxếpcácbạn M ,N ,P khôngđứng
+2 2 2
+cạnh nhau là 6ˆ35ˆ6!“151200 cách.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 23

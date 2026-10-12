@@ -1,0 +1,55 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 25. Robinson Crusoe lạc trên đảo hoang hơn 28 năm. Trong chừng ấy quãng thời gian,
+mỗi năm, ông ta tìm một cái cây nào đó rồi khắc lên thân nó một hình đa giác lồi thật lớn để
+kỷ niệm. Biết rằng tổng tất cả các góc của các đa giác lồi ấy vừa đúng 1687π, năm mà ông ấy
+được cứu thoát, đưa trở về thế giới loài người. Bạn hãy cho biết có bao nhiêu cách ông khắc
+các đa giác lên cây thỏa mãn yêu cầu trên, biết rằng trong 10 năm đầu tiên, mỗi năm, ông ấy
+khắc lên cây một đa giác có ít nhất 100 cạnh.
+— LỜI GIẢI
+Đa giác có n cạnh thì có tổng các góc trong là pn´2qπ. Do đó, ta cần đếm số nghiệm của
+$
+ÿ
+’ 28
+&
+px ´2qπ“1687π,x P(cid:78)
+i i
+’ %i“1
+x ⩾ 100,i “1,10,x ⩾ 3,i “11,28.
+i i
+Biến đổi phương trình trên để đưa về dạng chuẩn ta được
+ÿ ÿ
+28 28
+px ´2qπ“1687πô x “1743.
+i i
+i“1 i“1
+Đặt x “ y `100,i “1,10 và x “ y `3,i “11,28, ta có phương trình
+i i i i
+ÿ ÿ ÿ
+10 28 28
+y `10¨100` `18¨3“1743ô y “689.
+i 1
+i“1 i“11 ˆ i“1 ˙ ˆ ˙
+689`28´1 716
+Vậy số nghiệm nguyên không âm của phương trình là “ .
+28´1 27
+Ví dụ 26. Cho đa giác đều 20 đỉnh. Lấy ngẫu nhiên 3 đỉnh. Tính xác suất để 3 đỉnh đó tạo
+thành một tam giác vuông không cân.
+— LỜI GIẢI
+Gọi pOq là đường tròn ngoại tiếp đa giác đều 20 đỉnh và gọi số đo mỗi cung chắn bởi 1 cạnh của đa
+giác là 1 đơn vị, ta có 20 cung như vậy. Xét 1 tam giác vuông tại một đỉnh của đa giác, gọi m,n là
+số đo hai cung căng bởi hai cạnh bên của tam giác, ta có
+m`n“10,n,m ⩾ 1;m,nP(cid:90).
+Do đó số tam giác vuông tạo thành từ 1 đỉnh là
+ˆ ˙
+9
+“9
+1
+trong đó có 1 tam giác vuông cân khi m“ n“5 nên có 8 tam giác vuông không cân từ 1 đỉnh. Vậy
+có tất cả 20ˆ8“160 tam giác vuông không cân thỏa mãn.
+160 8
+Vậy xác suất cần tính là P “ “ .
+p20q 57
+3
+Ví dụ 27. Cho n ⩾ 4 giác đều nội tiếp đường tròn pOq. Có bao nhiêu hình thang (không là
+hình chữ nhật) mà 4 đỉnh là các đỉnh của đa giác đều đã cho?
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 16

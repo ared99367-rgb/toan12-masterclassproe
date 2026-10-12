@@ -1,0 +1,45 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 09
+\
+Phương pháp tổng quát:
+Nhận xét & Lưu ý: Mẹo giúp triệt tiêu hoàn toàn mọi điều kiện "cồng kềnh" của đề bài. Đề bắt ai có bao
+nhiêu, ta phát trước cho người đó bấy nhiêu, phần thừa còn lại cứ mang đi chia Euler là xong!
+VÍ DỤ MINH HỌA: Tìm số nghiệm nguyên của phương trình với điều kiện
+x y z 20
+x 2,y 3,z 1
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Cô giáo có quyển vở hoàn toàn giống nhau cần chia cho học sinh xuất sắc là An, Bình,
+25 4
+Cường, Dung. Hỏi có bao nhiêu cách chia sao cho An nhận ít nhất quyển, Bình nhận ít nhất quyển,
+2 3
+Cường nhận ít nhất quyển và Dung nhận ít nhất quyển?
+4 5
+Câu 2 [HTN]: Một cửa hàng có chiếc áo thun hoàn toàn giống nhau cần phân phối cho đại lý bán lẻ.
+20 4
+Hỏi có bao nhiêu cách phân phối sao cho mỗi đại lý nhận được ít nhất chiếc áo và đại lý thứ nhất nhận
+1
+được không quá chiếc áo?
+5
+Câu 3 [HTN]: Xếp ngẫu nhiên viên bi giống nhau vào chiếc hộp khác nhau A, B, C. Tính xác suất để
+12 3
+số bi trong hộp A bằng tổng số bi trong hộp B và hộp C (kết quả làm tròn đến hàng phần trăm)
+DẠNG TOÁN 3 MỞ RỘNG: XẾP CHỖ VÀ CHIA KẸO EULER CÓ RÀNG BUỘC TÙY Ý
+Bài toán tổng quát: Cho học sinh. Cần xếp học sinh này vào vị trí, sau đó chia viên kẹo hoàn toàn
+k k n
+giống nhau cho họ sao cho số kẹo của mỗi học sinh phải thỏa mãn các điều kiện chặn dưới khắt khe: người
+thứ nhất nhận ít nhất viên, người thứ hai nhận ít nhất viên,... người thứ nhận ít nhất viên (
+a a k a a  0
+1 2 k i
+).
+Phương pháp tổng quát:
+VÍ DỤ MINH HỌA: Một nhóm gồm 5 học sinh A, B, C, D, E và 20 viên kẹo hoàn toàn giống nhau. Cần
+xếp chỗ cho 5 học sinh, sau đó chia kẹo sao cho bạn A nhận được ít nhất 4 viên, bạn B nhận được ít nhất 3
+viên, 3 bạn còn lại có thể nhận hoặc không nhận kẹo.
+Trường hợp 1: Xếp thành một hàng ngang
+Trường hợp 2: Xếp thành một vòng tròn
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Một nhóm gồm 6 nhân viên (trong đó có giám đốc và phó giám đốc) xếp thành một hàng
+ngang để chụp ảnh kỷ niệm. Sau đó, công ty có 15 phiếu mua hàng hoàn toàn giống nhau cần chia cho 6 nhân
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

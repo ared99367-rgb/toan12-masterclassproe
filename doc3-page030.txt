@@ -1,0 +1,79 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Nhậnxét.ỞtrêntacũngvừatìmhiểumộtsốbàitoánchiakẹoEulercósửdụngphầnbù,tuynhiên
+chưa phải là các bài toán cần chia trường hợp phức tạp, tiếp theo ta sẽ tìm hiểu một số bài toán kết
+hợp giữa nguyên lý bù trừ và bài toán chia kẹo Euler. Trước tiên ta nhắc lại một chút về nguyên lý
+bù trừ tổng quát.
+Định lý 1. Cho tập Avà n tập con A ,A ,¨¨¨ ,A . Ta có
+1 2 n
+ÿ
+n
+|A YA Y¨¨¨YA |“ p´1qk´1Apn,kq
+1 2 n
+ÿ ˇ ˇ k“1
+ˇ ˇ
+Trong đó Apn,kq“ A XA X¨¨¨XA .
+i i i
+1 2 k
+1⩽i ă¨¨¨ăi ⩽n
+1 k
+Định lý hữu dụng tiếp theo ta có thể dùng nó.
+Định lý 2. Giả sử A ,A ,...,A là các tập con của một tập hữu hạn X, kí hiệu A là phần bù của A
+1 2 m i i
+trong X, (i “1,2,...,m) thì
+ˇ ˇ ˇ ˇ
+ˇ ˇ ˇ ˇ
+A XA X¨¨¨XA “ A YA Y¨¨¨YA
+1 2 m 1 2 m
+ÿ m ÿ ˇ ˇ
+ˇ ˇ
+“|X|` p´1qk A XA X¨¨¨XA
+i i i
+1 2 k
+k“1 1⩽i 1 ăi 2 ¨¨¨ăi k ⩽m
+ÿ
+m
+“|X|` p´1qiN.
+i
+i“1
+Ví dụ 41. Tìm số nghiệm nguyên không âm của phương trình
+x `x `x `x “18 (*)
+1 2 3 4
+thỏa điều kiện x ⩽ 7,@i “1,...,4.
+i
+— LỜI GIẢI
+Gọi (cid:85) là tập hợp các nghiệm nguyên không âm của phương trình (*). Ta có
+ˆ ˙
+4`18´1
+N “|(cid:85)|“ “1330
+18
+Gọi A là tập hợp các nghi`ệm nguyê˘n không âm của phương trình p˚q thỏa tính chất x ⩾ 8. Khi đó
+i i
+kết quả của bài toán là N A A A A . Bằng việc giải những bài toán tìm số nghiệm nguyên ta được
+1 2 3 4
+ˆ ˙
+13
+w |A |“
+i 10
+ˆ ˙
+5
+w |A A |“
+i j 2
+w |A A A |“0
+i j k
+w |A A A A |“0
+1 2 3 4
+Vì vai trò của các A p1 ⩽ i ⩽ 4q là như nhau nên ta có:
+i
+ˆ ˙
+ÿ
+13
+w S “ |A |“4 “1144;
+1 i 10
+i
+ˆ ˙ˆ ˙
+ÿˇ ˇ
+ˇ ˇ 4 5
+w S “ A A “ “60;
+2 i j 2 2
+i‰j
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 30

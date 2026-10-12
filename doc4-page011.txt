@@ -1,0 +1,43 @@
+PHẦN A. BÀI TOÁN VÁCH NGĂN
+Dạng1.Sắpxếpcácphầntửkhôngđứngcạnhnhau(hàngngang)
+Phương pháp giải. Xếp nhóm không bị ràng buộc trước để chúng đóng vai trò vách ngăn,
+sinh ra các khe trống; sau đó mới gài nhóm bị ràng buộc vào những khe đó, mỗi khe nhiều
+nhấtmộtphầntử.Xếpn phầntửloạiAcón !cáchvàtạoran +1khe;gàin phầntửloại
+1 1 1 2
+BphânbiệtvàocáckhecóAn2 cách.
+n1+1
+Vídụminhhọa
+Mộttổcó5họcsinhnamvà3họcsinhnữ.Hỏicóbaonhiêucáchxếpcáchọcsinhnàythành
+mộthàngngangsaochokhôngcó2họcsinhnữnàođứngcạnhnhau?
+Lờigiải.Ýtưởngthenchốtcủaphươngphápváchngănlàxếpnhómkhôngbịràngbuộctrướcđể
+chúngtạothànhcáckhe,rồimớigàinhómbịràngbuộcvàonhữngkheđó.
+Taxếp5họcsinhnamthànhmộthàngngangtrước;vìnămbạnnamphânbiệtnêncó5! = 120
+cách.Saukhixếpxong,nămbạnnamtạora6khetrống—bốnkhoảngnằmgiữahaibạnliêntiếp
+vàhaikhoảngởhaiđầuhàng.
+Bây giờ ta đặt các bạn nữ vào những khe đó. Muốn không có hai bạn nữ nào đứng cạnh nhau
+thì mỗi khe chỉ được nhận nhiều nhất một bạn nữ. Như vậy ta cần chọn 3 khe trong 6 khe rồi xếp
+babạnnữphânbiệtvàobakheấy,tứclàmộtchỉnhhợpchập3của6:
+A3 = 6·5·4 = 120.
+6
+Theoquytắcnhân,sốcáchxếpthỏamãnlà
+5!·A3 = 120·120 = 14400.
+6
+14400
+■
+Câu1[HTN]
+Xếp 6 quyển sách Toán giống nhau và 4 quyển sách Văn giống nhau thành một hàng ngang
+trên giá sách. Hỏi có bao nhiêu cách xếp sao cho không có hai quyển sách Văn nào đứng
+cạnhnhau?
+Lờigiải.VìsáuquyểnToángiốnghệtnhaunêndùcóđổichỗchúngchonhautacũngchỉthuđược
+đúngmộtcáchxếp;dođócoinhưhàngsáuquyểnToánđãđượccốđịnh.Hàngsáuquyểnnàytạo
+ra7khetrống—nămkhoảngởgiữavàhaikhoảngởhaiđầugiá.
+ĐểkhôngcóhaiquyểnVănnàokềnhauthìmỗikhechỉchứanhiềunhấtmộtquyểnVăn.Bốn
+quyển Văn cũng giống hệt nhau, nên việc đặt chúng thực chất chỉ là chọn ra 4 khe trong 7 khe để
+mỗikheđượcchọnnhậnmộtquyểnVăn,khôngphânbiệtthứtự.Sốcáchlàtổhợpchập4của7:
+( )
+7
+= 35.
+4
+35
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang1/19

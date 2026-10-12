@@ -1,0 +1,54 @@
+Xétbiếncố“khôngbạnnàonhậnquá6chiếc”,tức1 ≤ a,b,c,d ≤ 6.Đểxửlícậntrên,tađếm
+“phầnthiếu”sovớimứctốiđa:đặt
+u = 6−a, v = 6−b, w = 6−c, t = 6−d.
+Khiđó u,v,w,t ≥ 0,vàtừa+b+c+d = 22 tacó
+(6−u)+(6−v)+(6−w)+(6−t) = 22 =⇒ 24−(u+v +w+t) = 22,
+suyrau+v +w+t = 2.Vìmỗibiếnu,v,w,t khôngvượtquá2nênđềunhỏhơn5,dođóđiều
+kiệna,b,c,d ≥ 1tựđộngđượcthỏa.Sốnghiệmnguyênkhôngâmlà
+( ) ( )
+2+4−1 5
+n(A) = = = 10.
+4−1 3
+Dođó
+n(A) 10 1
+P = = = ≈ 0,0075.
+n(Ω) 1330 133
+Làmtrònđếnhàngphầntrăm,P ≈ 0,01 (khoảng0,75%).
+1
+P = ≈ 0,01
+133
+■
+Câu6[HTN]
+Có18viênbigiốngnhauvà5chiếchộpkhácnhau.Bỏngẫunhiênbivàohộp.Tínhxácsuất
+đểcóđúng2chiếchộpbịrỗng(làmtrònđếnhàngphầntrăm).
+Lờigiải.Bỏ18viênbigiốngnhautùyývàonămhộpkhácnhau(mỗihộpcóthểrỗng).Gọisốbi
+trongcáchộplàx ,x ,...,x ≥ 0vớix +x +···+x = 18;sốcách(khônggianmẫu)là
+1 2 5 1 2 5
+( ) ( )
+18+5−1 22
+n(Ω) = = = 7315.
+5−1 4
+( )Xét biến cố “có đúng hai hộp rỗng”. Trước hết chọn hai hộp sẽ rỗng trong năm hộp, được
+5 = 10 cách. Ba hộp còn lại phải đều có bi, nên ta chia 18 viên cho ba hộp này, mỗi hộp ít nhất
+2
+mộtviên;sốcáchlàsốnghiệmnguyêndươngcủay +y +y = 18,tức
+1 2 3
+( ) ( )
+18−1 17
+= = 136.
+3−1 2
+Vậysốcáchthuậnlợilà
+( )( )
+5 17
+n(A) = = 10·136 = 1360.
+2 2
+Dođó
+n(A) 1360 272
+P = = = ≈ 0,1859.
+n(Ω) 7315 1463
+Làmtrònđếnhàngphầntrăm,P ≈ 0,19 (khoảng18,59% ≈ 19%).
+272
+P = ≈ 0,19
+1463
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang19/19

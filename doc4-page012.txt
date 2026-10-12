@@ -1,0 +1,44 @@
+Câu2[HTN]
+Có 5 cuốn sách Toán khác nhau, 3 cuốn sách Lí khác nhau và 4 cuốn sách Hóa khác nhau.
+GọiT làsốcáchxếpchúnglênmộtkệdàisaochocáccuốnsáchToánluônđứngcạnhnhau
+T
+vàkhôngcóhaicuốnsáchLínàođứngcạnhnhau.Tính .
+1000
+Lờigiải.Bàitoáncóhairàngbuộc,talầnlượtxửlítừngcái.
+Trướchết,nămcuốnToánphảiđứngliềnnhaunêntabuộcchúngthànhmộtkhốiduynhất.Vì
+nămcuốnToánkhácnhaunêntrongnộibộkhối,chúngcóthểhoánvịchonhautheo5! cách.
+Sau khi đã buộc, khối Toán đóng vai trò như một cuốn sách đơn lẻ. Cùng với bốn cuốn Hóa,
+tacótấtcả1+4 = 5đốitượng“khôngphảiLí”.Xếpnămđốitượngnàythànhmộthàngđược5!
+cách,vàchúngtạora6khetrống.BacuốnLíkhácnhauvớiđiềukiệnkhôngđượckềnhau,nênta
+gàichúngvàobakhekhácnhautrongsáukhe;vìbacuốnLíphânbiệtnênđâylàchỉnhhợpA3.
+6
+Theoquytắcnhân,
+T = 5!·5!·A3 = 120·120·120 = 1728000,
+6
+dođó
+T 1728000
+= = 1728.
+1000 1000
+1728
+■
+Câu3[HTN]
+Có bao nhiêu số tự nhiên có 9 chữ số được lập từ các chữ số {0;1;2;3;4;5;6;7;8} sao cho
+mỗichữsốxuấthiệnđúngmộtlầnvàcácchữsốchẵnkhôngđứngcạnhnhau?
+Lờigiải.Trongtậpđãchocónămchữsốchẵnlà0,2,4,6,8vàbốnchữsốlẻlà1,3,5,7.
+Sốcầnlậpcó9chữsố,mỗichữsốdùngđúngmộtlần.Vìcótớinămchữsốchẵnnhưngchỉcó
+bốn chữ số lẻ để “ngăn cách”, nên muốn năm chữ số chẵn đôi một không kề nhau thì chúng buộc
+phảinằmxenkẽhoàntoànvớicácchữsốlẻtheođúngmộtkhuôn:
+CLCLCLCLC,
+tứcnămchữsốchẵnchiếmcácvịtrí1,3,5,7,9vàbốnchữsốlẻchiếmcácvịtrí2,4,6,8.Đâylà
+cáchbốtríduynhất.
+Bốn chữ số lẻ xếp vào bốn vị trí dành cho chúng có 4! cách. Năm chữ số chẵn nếu xếp tự do
+vàonămvịtrícủamìnhcó5!cách;tuynhiênsốtựnhiêncó9chữsốkhôngđượcbắtđầubằng0,
+nên ta phải loại những cách mà chữ số 0 rơi đúng vào vị trí đầu tiên. Khi cố định 0 ở vị trí đầu,
+bốn chữ số chẵn còn lại xếp vào bốn vị trí chẵn còn lại có 4! cách. Vậy số cách xếp chữ số chẵn
+hợplệlà5!−4!.
+Theoquytắcnhân,sốcácsốthỏamãnlà
+4!·(5!−4!) = 24·(120−24) = 24·96 = 2304.
+2304
+■
+Dạng2.Sắpxếpcácphầntửluônđứngcạnhnhautrênvòngtròn(phươngphápbuộc)
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang2/19

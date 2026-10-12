@@ -1,0 +1,78 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+1 Nếu ϕ “id : vpϕq là số nghiệm của phương trình
+x `x `x `x “n
+ˆ ˙ 1 2 3 4
+n`3
+thìvpϕq“ và có 1pϕq.
+3
+ˆ ˙
+4
+2 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 2x ` y `z “n và “6pϕq.
+␣ “ ‰( 2
+Ta có x P 0;1;...; n và phương trình có n´2x `1 với mỗi x. Suy ra
+2
+rÿns
+2
+vpϕq“ pn´2x `1q
+´x“”0 ı ¯ ” ı´” ı ¯
+n n n
+“ `1 pn`1q´ `1
+2 ˆ„ ȷ 2 ˙ 2
+´” ı ¯
+n n`1
+“ `1 `1 .
+2 2
+ˆ ˙
+1 4
+3 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 2x `2y “n và “3pϕq.
+2 2
+w Nếu n lẻ, phương trình vô nghiệm.
+n
+w Nếu n chẵn, phương trình có `1 nghiệm.
+2
+ˆ „ ȷ˙
+´” ı ¯ ” ı
+n n n´1
+Như vậy vpϕq“ `1 ´ .
+2 2 2
+4 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 3x ` y “n và 2ˆ4“8pϕq.
+” ı
+n
+vpϕq“ `1.
+3
+4!
+5 Nếu ϕ Pφ : vpϕq là số nghiệm của phương trình 4x “n và “6pϕq. Suy ra
+„ ȷ „ ȷ 4
+n n´1
+vpϕq“ ´ .
+4 4
+Tổng số các ϕ là 1`6`3`8`6“24. Theo bổ đề Burnside số nghiệm của phương trình là
+ˆˆ ˙ ´” ı ¯ˆ„ ȷ ˙ ´” ı ¯ˆ” ı „ ȷ˙ ´” ı ¯ ˆ„ ȷ „ ȷ˙˙
+1 n`3 n n`1 n n n´1 n n n´1
+`6 `1 `1 `3 `1 ´ `8 `1 `6 ´ .
+24 3 2 2 2 2 2 3 4 4
+Quay lại bài toán. Ta có thể áp dụng bổ đề Burnside hoặc dùng phương thức đệ quy như sau. Giả
+sử M là tập hợp các kết quả của phương trình và Ppm,nq số tập thỏa mãn của các yếu tố của
+m,n
+phương trình. Chúng ta dễ dàng thấy rằng Pp0,nq “ 1 với mọi k,Ppm,nq “ Ppm,mq cho tất cả các
+k ⩾ n. Do đó, ta giả định thêm rằng m cố định, chúng ta có 1 ă n ⩽ m. Ta chia nhỏ các tập M
+m,n
+vào thành các tập Tpi “0,1,...,n´1q, nên T chứa chính xác những kết quả của bài toán trong đó
+i i
+N thoả mãn điều kiện
+0
+0“ x “ x “¨¨¨“ x ă x ă x ă¨¨¨ă x .
+` 1 2 i i`˘1 i`2 n
+Tacópx ,x ,...,x qÑ x ´1,x ´1,.`..,x ´1˘,đ`ịnhnghĩa˘mộtsongánhtừT đếnM
+1 2 n i`1 i`2 n i m´n`i,n´i
+từ 0 ⩽ x ´1 ⩽ x ´1 ⩽ ¨¨¨ ⩽ x ´1, x ´1 ` x ´1 `¨¨¨`px ´1q “ m´n`i, và
+i`1 i`2 n i`1 i`2 n
+ánh xạ ` ˘ ` ˘
+y , y ,..., y Ñ 0,0,...,0, y `1, y `1,..., y `1
+ˇ 1 2 ˇ n´i 1 2 n´i
+ˇ ˇ
+Có nghĩa là |T|“ M , và do đó có thể viết
+i m´n`i,n´i
+Ppm,nq“ Ppm´1,1q`Ppm´2,2q`¨¨¨`Ppm´n,nq,1ăn ⩽ m
+và với phương trình cụ thể ta có thể tính được kết quả cụ thể.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 29

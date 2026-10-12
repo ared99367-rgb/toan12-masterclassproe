@@ -1,0 +1,64 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Đếmsốcáchxếpsaochobabạn M ,N ,P khôngđứngcạnhnhauvàhaibạn M ,N đứngcạnh
+2 2 2 1 1
+nhau.Đầutiêntaxếpbabạn M ,N ,P đứngcạnhnhau,có3!“6cách.Xéttrườnghợpbabạn
+2 2 2
+này được xếp theo thứ tự M ,N ,P . Vì M ,N đứng ở vị trí liên tiếp nên ta có thể coi M ,N là
+2 2 2 1 1 1 1
+một bạn P nào đó. Ta sẽ xếp P và 4 bạn khác lớp còn lại vào sao cho M ,N ,P không đứng
+1 1 2 2 2
+cạnh nhau.
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ M ¨l¨oo¨o¨m¨¨o¨oo¨n¨ N ¨l¨oo¨o¨m¨¨o¨oo¨n¨ P ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+2 2 2
+y y y y
+1 2 3 4
+Gọi y ; y ; y ; y lần lượt là số bạn xếp phía bên trái M , giữa M ,N , giữa N ,P và bên phải
+1 2 3 4 2 2 2 2 2
+P . Khi đó ta có y ` y ` y ` y “ 5, trong đó y ⩾ 1, y ⩾ 1, y ⩾ 0, y ⩾ 0, ta chuyển bài
+2 1 2 3 4 2 3 1 4
+toán về đếm số nghiệm nguyên của phương trình
+y ` y1 ` y1 ` y “3,
+1 2 3 4
+trong đó y ⩾ 0, y ⩾ 0, y1 “ x ´1 ⩾ 0, y1 “ y ´1 ⩾ 0. Theo bài toán chia kẹo Euler ta có
+1 4 2 2 ˆ 3 3 ˙
+3`4´1
+“20
+4´1
+sốbộnghiệmnguyên.Khiđótínhcảhoánvịthìsốcáchsắpxếpcácbạn M ,N ,P khôngđứng
+2 2 2
+cạnh nhau và hai bạn M ,N đứng cạnh nhau là 6ˆ20ˆ2!ˆ5!“28800 cách.
+1 1
+Vậy, xác xuất sao cho không có học sinh nào cùng lớp đứng kề nhau là
+151200´28800 85
+P “ “ .
+9! 252
+Nhận xét. Qua ví dụ này ta đã thấy ứng dụng của bài toán chia kẹo Euler cho các bài toán
+xếp người cùng loại và không đứng nhau, ta có thể áp dụng cách làm này vào bài toán sau.
+Ví dụ 37 (VMO 2012). Cho một nhóm gồm 5 cô gái, kí hiệu là G ,G ,G ,G ,G , và 12
+1 2 3 4 5
+chàngtrai.Có17chiếcghếđượcxếpthànhmộthàngngang.Ngườitaxếpnhómngườiđãcho
+ngồi vào các chiếc ghế đó sao cho các điều kiện sau được đồng thời thỏa mãn
+1 Mỗi người ngồi đúng 1 ghế.
+2 Các cô gái xếp theo đúng thứ tự 1,2,3,4,5.
+3 Giữa G ,G có ít nhất 3 chàng trai.
+1 2
+4 Giữa G ,G có ít nhất 1 chàng trai và nhiều nhất là 4 chàng trai.
+4 5
+Hỏi có tất cả bao nhiêu cách xếp như vậy? (Hai cách xếp được coi là khác nhau nếu tồn tại
+một chiếc ghế mà người ngồi ở chiếc ghế đó trong hai cách xếp là khác nhau).
+— LỜI GIẢI
+Đánh số thứ tự các ghế từ trái sang phải là 1,2,...,17. Gọi x là số chàng trai được xếp bên trái
+1
+G ,x là số chàng trai ở giữa G và G ,x là số chàng trai ở giữa G và G ,x là số chàng trai ở giữa
+1 2 1 2 3 2 3 4
+G và G ,x là số chàng trai ở giữa G và G ,x là số chàng trai được xếp ở bên phải G .
+3 4 5 4 5 6 5
+¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨ G ¨l¨oo¨o¨m¨¨o¨oo¨n¨
+1 2 3 4 5
+x x x x x x
+1 2 3 4 5 6
+Khi đó bộ số px ,x ,...,x q hoàn toàn xác định vị trí các cô gái và ta có
+1 2 6
+x `x `¨¨¨`x “12, 3 ⩽ x ,1 ⩽ x ⩽ 4.
+1 2 6 2 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 24

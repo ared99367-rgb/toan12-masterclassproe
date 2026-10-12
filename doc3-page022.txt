@@ -1,0 +1,64 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+w Nếu a ⩾ 7 thì x ` x ` x ` x ⩽ 6, suy ra x ă 7, do đó trường hợp này sẽ
+1 2 3 4 5 i
+không lặp lại các kết quả khi x ⩾ 8. Lúc này bất phương trình có tất cả
+i ˆ ˙
+6
+“15
+4
+bộ nghiệm nguyên dương.
+w Nếu giá trị x nào đó lớn hơn hoặc bằng 8, giả sử x ⩾ 8 thì
+i 2
+a `x `x `x ⩽ 5,
+1 3 4 5
+suy ra a ,x ,x ,x ă6 nên trường hợp này cũng không lặp lại các kết quả với
+1 3 4 5
+trường hợp trên. Lúc này theo bài toán chia kẹo Euler, bất phương trình sẽ có
+ˆ ˙
+5
+“5
+4
+bộ nghiệm nguyên dương, mà ta lại có 4 giá trị x có nên sẽ có tất cả
+ˆ ˙ i
+5
+4ˆ “20
+4
+bộ nghiệm nguyên dương.
+Trường hợp 2. Các trường hợp còn lại ta xử lý tương tự trường hợp này.
+Như vậy tổng kết lại ta có tất cả
+ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙ ˆ ˙
+12 16 7 6 10 5 9
+` ` ´ ´ ´4 ´4 “1601
+4 4 4 4 4 4 4
+cách chọn.
+Ví dụ 34. Xâu nhị phân là một chuỗi kí tự chỉ bao gồm chữ số 0 và 1. Hỏi có bao nhiêu xâu
+nhị phân có độ dài 20 sao cho sau mỗi số 0, có ít nhất 3 chữ số 1?
+— LỜI GIẢI
+Đầu tiên để ý thấy rằng nếu có k số 0 trong xâu thì phải có thêm ít nhất 3k số 1. Mặt khác độ dài
+của xâu này là 20 nên k`3k ⩽ 20, hay k ⩽ 5. Giả sử có k số 0 thì đặt a ,a ,...,a lần lượt là số
+0 1 k
+các số 1 nằm trước số 0 thứ nhất, giữa số 0 thứ nhất và thứ hai,..., sau số 0 cuối cùng.
+.l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n. 0 .l.oo.o.m..o.oo.n.¨¨¨ 0 .l.oo.o.m..o.oo.n.
+a ⩾0 a ⩾3 a ⩾3 a ⩾3 a ⩾3
+0 1 2 3 k
+Ta phải có a `a `¨¨¨`a “20´k và a ,a ,...,a ⩾ 3. Đặt b “a ´3,i “1,k khi đó
+0 1 k 1 2 k i i
+a `b `¨¨¨`b “20´4k.
+0 1 k
+Theo bài toán chia kẹo Euler thì số nghiệm nguyên của phương trình này là
+ˆ ˙ ˆ ˙
+20´4k`k 20´3k
+“ .
+k k
+ˆ ˙
+ÿ
+5
+20´3k
+Do đó, số xâu nhị phân cần tìm là “344.
+k
+k“1
+Ví dụ 35. Có bao nhiêu cách chọn từ 2016 số nguyên dương đầu tiên ra 10 số a ,a ,...,a
+1 2 10
+sao cho |a ´a |ą1 với mọi i ‰ j?
+i j
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 22

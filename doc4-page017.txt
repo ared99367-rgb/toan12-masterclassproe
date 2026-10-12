@@ -1,0 +1,42 @@
+Buộcnămbứcấythànhmộtkhối,taxemkhốinhưmộtđốitượng;cùngvớibảybứctranhcòn
+lại,tacó1+7 = 8 đốitượngxếpthànhhàng,cho8! cách.Vậy
+n(A) = 4·8!.
+Suyra
+4·8!
+P(A) = .
+12!
+Khaitriển12! = 12·11·10·9·8! rồirútgọn8!,tađược
+4 4 1
+P(A) = = = .
+12·11·10·9 11880 2970
+Dướidạngthậpphân,P(A) ≈ 0,000337,tứckhoảng0,0337%.
+1
+P(A) =
+2970
+■
+Dạng4.Phầntửluônđứngkẹpgiữahaiphầntửkháctrênvòngtròn
+Phương pháp giải. Trên vòng tròn, khi A nằm kẹp giữa B và C thì hai chỗ sát hai bên A
+buộcphảilàB vàC,nênkhốivẫnchỉcóhaithứtựnộibộB–A–C vàC–A–B.Saukhibuộc
+thànhkhối,tahoánvịvòngquanhcácđốitượngcònlạitheocôngthức(k −1)!.
+Vídụminhhọa
+Có 6 người gồm A,B,C,D,E,F ngồi quanh một mâm cơm tròn. Hỏi có bao nhiêu cách
+xếpchỗsaochongườiAluônngồingaygiữangườiB vàngườiC?
+Lời giải. Yêu cầu người A ngồi ngay giữa B và C buộc ba người B,A,C ngồi liền nhau thành
+một khối với A ở giữa. Trên vòng tròn cũng như trên hàng ngang, khối này chỉ có hai thứ tự nội
+bộlàB–A–C hoặcC–A–B,tức2cách.
+Buộcbangườithànhmộtkhối,taxemkhốinhưmộtngười;cùngvớiD,E,F,tacó4đốitượng
+ngồiquanhmâmtròn,chohoánvịvòngquanh(4−1)! = 3! = 6cách.Theoquytắcnhân,sốcách
+xếplà
+2·3! = 2·6 = 12.
+12
+■
+Câu1[HTN]
+Xâu 8 hạt cườm hoàn toàn khác nhau thành một chiếc vòng tay tròn, trong đó có một hạt
+Đỏ,mộthạtXanhvàmộthạtVàng.HỏicóbaonhiêucáchxâusaochohạtĐỏluônnằmkẹp
+ngaygiữahạtXanhvàhạtVàng?(Giảsửvòngtaykhôngthểlậtngược.)
+Lờigiải.HạtĐỏphảinằmkẹpngaygiữahạtXanhvàhạtVàng,nênbahạtnàynằmliềnnhauthành
+mộtkhốivớihạtĐỏởgiữa.KhốichỉcóhaithứtựnộibộlàXanh–Đỏ–VànghoặcVàng–Đỏ–Xanh,
+tức2cách.
+Buộcbahạtthànhmộtkhối,taxemkhốinhưmộthạt;cùngvớinămhạtcònlại,tacó1+5 = 6
+đốitượngxâuthànhvòng.Sốcáchxâu6đốitượngquanhvòng(hoánvịvòngquanh)là(6−1)! =
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang7/19

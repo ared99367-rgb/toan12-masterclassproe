@@ -1,0 +1,40 @@
+Phương pháp giải. Gặp ràng buộc chặn dưới x ≥ a , ta “phát trước” cho mỗi người đúng
+i i
+phần tối thiểu a , rồi đặt y = x − a ≥ 0. Bài toán quy về d(ạng cơ bản y)+ ··· + y =
+i i i i 1 k
+N +k −1
+n−(a +···+a ) với nghiệm nguyên không âm, đếm bằng . Nếu có thêm
+1 k k −1
+ràngbuộcchặntrên,thườngphảixéttrườnghợphoặcdùngphầnbù.
+Vídụminhhọa
+Tìmsốnghiệmnguyêncủaphươngtrìnhx+y+z = 20vớiđiềukiệnx ≥ 2, y ≥ 3, z ≥ 1.
+Lờigiải.Takhửcácđiềukiệnchặndướibằngcách“pháttrước”phầntốithiểuchomỗibiến:đặt
+x ′ = x−2, y ′ = y −3, z ′ = z −1,
+khiđóx′,y′,z′ ≥ 0.Thayvàophươngtrìnhbanđầu:
+(x ′ +2)+(y ′ +3)+(z ′ +1) = 20 =⇒ x ′ +y ′ +z ′ = 20−6 = 14.
+Sốnghiệmnguyênkhôngâmcủaphươngtrìnhnàylà
+( ) ( )
+14+3−1 16
+= = 120.
+3−1 2
+Vậyphươngtrìnhbanđầucó120 nghiệmnguyênthỏađiềukiện.
+120
+■
+Câu1[HTN]
+Côgiáocó25quyểnvởhoàntoàngiốngnhaucầnchiacho4họcsinhxuấtsắclàAn,Bình,
+Cường,Dung.HỏicóbaonhiêucáchchiasaochoAnnhậnítnhất2quyển,Bìnhnhậnítnhất
+3quyển,Cườngnhậnítnhất4quyểnvàDungnhậnítnhất5quyển?
+Lờigiải.GọisốvởcủaAn,Bình,Cường,Dunglầnlượtlàa,b,c,d,tacó
+a+b+c+d = 25, a ≥ 2, b ≥ 3, c ≥ 4, d ≥ 5.
+Pháttrướcchobốnbạnđúngphầntốithiểu,hết2+3+4+5 = 14quyển;phầncònlại25−14 = 11
+quyểnđượcchiatựdo.Cụthể,đặt
+a ′ = a−2, b ′ = b−3, c ′ = c−4, d ′ = d−5 ≥ 0,
+phươngtrìnhtrởthànha′ +b′ +c′ +d′ = 11.Sốnghiệmnguyênkhôngâmlà
+( ) ( )
+11+4−1 14
+= = 364.
+4−1 3
+Vậycó364 cáchchia.
+364
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang14/19

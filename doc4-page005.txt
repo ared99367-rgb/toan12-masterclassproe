@@ -1,0 +1,23 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 05
+\
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Có 4 viên bi đỏ, 3 viên bi xanh và 2 viên bi vàng (tất cả 9 viên bi đều có kích thước khác
+nhau). Cần xâu 9 viên bi này thành một vòng cổ tròn. Hỏi có bao nhiêu cách xâu sao cho các viên bi cùng
+màu luôn nằm liền kề nhau? (Giả sử vòng cổ không thể lật ngược).
+Câu 2 [HTN]: Có học sinh nam, học sinh nữ và thầy giáo được xếp ngồi quanh một bàn tròn có
+6 5 1 12
+chiếc ghế. Tính xác suất để thầy giáo ngồi giữa bạn nam và bạn nữ (làm tròn kết quả đến hàng phần
+1 1
+trăm).
+Câu 3 [HTN]: Có cuốn sách Toán giống nhau, cuốn sách Lí giống nhau, cuốn sách Hóa giống nhau
+5 4 3
+và cuốn sách Văn giống nhau. Xếp ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính
+5
+xác suất để cuốn sách Lí luôn đứng cạnh nhau và cuốn sách Hóa luôn đứng cạnh nhau.
+4 3
+ DẠNG TOÁN CON: PHẦN TỬ LUÔN ĐỨNG KẸP GIỮA HAI PHẦN TỬ KHÁC (BIẾN THỂ
+CỦA PHƯƠNG PHÁP BUỘC)
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

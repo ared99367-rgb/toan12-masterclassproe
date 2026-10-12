@@ -1,0 +1,54 @@
+Câu1[HTN]
+Mộtcôngtycó8phầnthưởnghoàntoàngiốngnhaucầnphânphátngẫunhiêncho3phòng
+ban.TínhxácsuấtđểphòngMarketingnhậnđượcđúng2phầnthưởng,biếtrằngmộtphòng
+bancóthểkhôngnhậnđượcphầnthưởngnào.
+Lờigiải.GọisốphầnthưởngcủaphòngMarketingvàhaiphòngcònlạilầnlượtlàx ,x ,x .Vì
+M 1 2
+mộtphòngcóthểkhôngnhậnphầnnàonêncácbiếnkhôngâm,và
+x +x +x = 8, x ,x ,x ≥ 0.
+M 1 2 M 1 2
+Tổngsốcáchphát(khônggianmẫu)làsốnghiệmnguyênkhôngâm:
+( ) ( )
+8+3−1 10
+n(Ω) = = = 45.
+3−1 2
+Xét biến cố phòng Marketing nhận đúng 2 phần, tức x = 2. Khi đó hai phòng còn lại chia
+M
+phầncònlại:
+x +x = 8−2 = 6, x ,x ≥ 0,
+1 2 1 2
+có ( ) ( )
+6+2−1 7
+n(A) = = = 7
+2−1 1
+cách.Vậy
+n(A) 7
+P = = .
+n(Ω) 45
+7
+P =
+45
+■
+Câu2[HTN]
+Một quỹ từ thiện tặng ngẫu nhiên 12 chiếc máy tính xách tay hoàn toàn giống nhau cho 4
+trường học vùng cao. Tính xác suất để trường tiểu học A nhận được đúng3 chiếc máy tính,
+biếtrằngmỗitrườngđềunhậnđượcítnhất1chiếc.
+Lờigiải.GọisốmáymàtrườngAvàbatrườngcònlạinhậnđượclầnlượtlàx ,x ,x ,x .Vìmỗi
+A 1 2 3
+trườngnhậnítnhấtmộtchiếcnên
+x +x +x +x = 12, x ,x ,x ,x ≥ 1.
+A 1 2 3 A 1 2 3
+Tổngsốcáchchia(khônggianmẫu)làsốnghiệmnguyêndương:
+( ) ( )
+12−1 11
+n(Ω) = = = 165.
+4−1 3
+XétbiếncốtrườngAnhậnđúng3chiếc,tứcx = 3.Khiđóbatrườngcònlạichia
+A
+x +x +x = 12−3 = 9, x ,x ,x ≥ 1,
+1 2 3 1 2 3
+cho ( ) ( )
+9−1 8
+n(A) = = = 28
+3−1 2
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang10/19

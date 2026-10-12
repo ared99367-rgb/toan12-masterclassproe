@@ -1,0 +1,56 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˆ ˙
+29
+Phương trình này có nghiệm. Do đó, số cách chèn các dấu cộng là
+k
+ˆ ˙ ˆ ˙ ˆ ˙
+29 29 29
+` ` .
+9 19 29
+Ví dụ 29 (AIME, 2011). Một học sinh có 5 quả cầu màu xanh giống nhau và một số quả
+cầu màu đỏ giống nhau. Bạn ấy muốn xếp các quả cầu thành một dãy và nếu đặt a là số quả
+cầu mà quả bên phải nó cùng màu với nó, b là số quả cầu mà quả cầu bên phải nó khác màu
+với nó thì a “ b. Gọi m là số lớn nhất các quả cầu màu đỏ có thể dùng sao cho tồn tại cách
+xếp m`5 quả cầu thành một dãy thỏa mãn điều kiện nêu trên.
+1 Xác định m.
+2 Ứng với m ở trên, tìm số cách xếp các quả cầu để có a“ b.
+— LỜI GIẢI
+1 Do có 5 quả cầu màu xanh và mỗi quả sẽ đặt cạnh không quá hai quả cầu đỏ (khác màu với
+nó) nên số cặp quả cầu khác màu nhau là b ⩽ 10. Suy ra a ⩽ 10. Kí hiệu quả cầu màu xanh,
+đỏ lần lượt là X, D thì có thể xây dựng dãy thỏa mãn đề bài từ dãy gốc như sau
+DXDXDXDXDXD.
+Sauđóthêmvàokhôngquá10quảcầumàuđỏnữa(vìmỗiquảsẽlàmtănggiátrị a lên1đơn
+vị). Từ đó suy ra m“10`6“16.
+2 Để đếm số cách xếp thỏa mãn, xét dãy 16 quả cầu đỏ. Ta cần xếp vào đây 5 quả cầu xanh sao
+không có hai quả nào cạnh nhau. Gọi x ,x ,...,x là số lượng quả cầu đỏ bị chia ra bởi các
+1 2 6
+quả cầu xanh thì
+#
+x `x `¨¨¨`x “16
+1 2 6
+x ,x ,...,x P(cid:90)`.
+ˆ 1˙2 ˆ ˙6
+16´1 15
+Khi đó, số cách xếp cần tìm là “ .
+6´1 5
+Ví dụ 30. Có bao nhiêu bộ số nguyên dương x thỏa mãn
+i
+x `x `x `x `x “2016
+1 2 3 4 5
+với x không chia hết cho 3,i “1,5.
+i
+— LỜI GIẢI
+Đây là một bài toán có chút yêu tố số học, theo giả thiết thì ta sẽ đặt
+x “3y `r
+i i i
+với i “1,5 và 1 ⩽ r ⩽ 2,i “1,5. Ta có
+i
+2016“ x `x `x `x `x “3py ` y ` y ` y ` y q`r `r `r `r `r .
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+Chú ý rằng 2016 là số chia hết cho 3 nên tổng r `r `r `r `r cũng chia hết cho 3, tuy nhiên
+1 2 3 4 5
+chú ý tới điều kiện của r thì ta sẽ có
+i
+5 ⩽ r `r `r `r `r ⩽ 10.
+1 2 3 4 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 18

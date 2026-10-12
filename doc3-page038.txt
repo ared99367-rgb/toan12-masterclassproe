@@ -1,0 +1,36 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.23
+Có bao nhiêu cách lập một số tự nhiên có ba chữ số abc thỏa mãn a ⩽ b ⩽ c.
+i Bài tập 3.24
+Có bao nhiêu chiếc vé xe buýt mà tổng ba số đầu bằng tổng ba số cuối?
+i Bài tập 3.25
+Cho tập hợp X “t1,2,3,...,2022u.
+1 Hỏi có bao nhiêu hoán vị a “ pa ,a ,...,a q của X thỏa mãn với mỗi k “ 1,2022 thì
+1 2 2022
+.
+.
+k´a .3.
+k
+2 Hỏi có bao nhiêu cách chọn 10 số từ tập X sao cho bất kì hai trong 10 số được chọn có
+hiệu giữa số lớn và số nhỏ luôn lớn hơn hoặc bằng 3.
+i Bài tập 3.26
+Cho xâu nhị phân 001101001111011 có 4 cặp 01, 3 cặp 10, 5 cặp 11 và 2 cặp 00 đứng cạnh
+nhau. Hỏi có tất cả bao nhiêu xâu nhị phân cùng tính chất như thế?
+i Bài tập 3.27
+Số 20162017 khi viết trong hệ nhị phân có dạng 1001100111010010111100001. Đây là một
+dãy số nhị phân có các tính chất sau
+w Có 6 cặp 00.
+w Có 6 cặp 11.
+w Có 6 cặp 10.
+w Có 6 cặp 01.
+Hỏi có tất cả bao nhiêu số tự nhiên khi viết trong hệ nhị phân cũng có các tính chất như trên?
+i Bài tập 3.28
+Cho đa giác đều A A ...A . Có bao nhiêu tam giác nhọn có đỉnh là đỉnh của đa giác trên?
+1 2 2017
+i Bài tập 3.29
+Có bao nhiêu cách chọn ra một tập con có k số phân biệt từ tập có n số tự nhiên đầu tiên sao
+cho tập được chọn ra không có hai số liên tiếp nhau.
+i Bài tập 3.30
+Cho tập A“t1;2;...;20u. Có bao nhiêu cách chọn ra 5 số trong tập Asao cho hiệu hai số bất
+kỳ trong 5 số đó không nhỏ hơn 2.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 38

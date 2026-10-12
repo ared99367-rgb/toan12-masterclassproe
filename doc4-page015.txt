@@ -1,0 +1,40 @@
+Dođó
+n(A) 11! 5!4!3!5! 11!·4!·3!
+P(A) = = · = .
+n(Ω) 5!5! 16! 16!
+Khaitriển16! = 16·15·14·13·12·11! rồirútgọn11!,tađược
+4!·3! 24·6 144 1
+P(A) = = = = .
+16·15·14·13·12 524160 524160 3640
+Dướidạngthậpphân,P(A) ≈ 0,000275,tứckhoảng0,0275%.
+1
+P(A) =
+3640
+■
+Dạng3.Phầntửluônđứngkẹpgiữahaiphầntửkhác(hàngngang)
+Phương pháp giải. Khi A phải đứng kẹp ngay giữa B và C, ba phần tử B,A,C tạo thành
+mộtkhốiliềnnhauvớiđúnghaithứtựnộibộlàB–A–C vàC–A–B;vìvậykhibuộcthành
+khốitachỉnhânthêm2chứkhôngphải3!.
+Vídụminhhọa
+Xếp 5 học sinh A,B,C,D,E thành một hàng ngang. Có bao nhiêu cách xếp sao cho học
+sinhAluônđứngngaygiữahọcsinhB vàhọcsinhC?
+Lời giải. Điều kiện “A đứng ngay giữa B và C” nghĩa là A phải có đúng hai người đứng sát hai
+bên làB và C; nói cách khác, ba bạnA,B,C đứng liền nhau thành một khối vớiA ở chính giữa.
+Khốinhưvậychỉcóhaithứtựnộibộ:
+B–A–C hoặc C–A–B,
+tức2cách(chứkhôngphải3! cáchnhưkhibaphầntửđứngcạnhnhautùyý).
+Buộc ba bạn này thành một khối rồi xem khối như một đối tượng, ta cần xếp 3 đối tượng là
+khốicùnghaibạnD,E thànhmộthàng,được3! = 6 cách.Theoquytắcnhân,sốcáchxếplà
+2·3! = 2·6 = 12.
+12
+■
+Câu1[HTN]
+Trêngiásáchcó7quyểnsáchhoàntoànkhácnhau,trongđócóquyểnToántập1,quyểnLý
+tập 1 và quyển Hóa tập 1. Hỏi có bao nhiêu cách xếp 7 quyển sách thành một hàng ngang
+saochoquyểnToántập1luônđứngkẹpngaygiữaquyểnLýtập1vàquyểnHóatập1?
+Lời giải. Điều kiện: quyển Toán tập 1 phải đứng kẹp ngay giữa quyển Lý tập 1 và quyển Hóa tập
+1. Khi đó ba quyển này đứng liền nhau thành một khối với Toán tập 1 ở giữa, nên khối chỉ có hai
+thứtựnộibộ:
+Lý–Toán–Hóa hoặc Hóa–Toán–Lý,
+tức2cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang5/19

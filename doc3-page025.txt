@@ -1,0 +1,62 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Đầu tiên ta cần phải biến đổi cận dưới về đúng chuẩn của bài toán chia kẹo bằng cách đổi biến
+¨ ˛
+˚ ‹
+px ,x ´3,x ,x ,x ´1,x qÑ˝ lyoo,ooyooo,oyoom, yooo,ooyooo,oyon ‚.
+1 2 3 4 5 6 1 2 3 4 5 6
+y⩾0,y ⩽3
+i 5
+Tới đây xét các trường hợp của y và áp dụng kết quả của bài toán chia kẹo Euler ta được kết quả là
+ˆ 5 ˙ ˆ ˙ ˆ ˙ ˆ ˙
+12 11 10 9
+` ` ` “1161.
+4 4 4 4
+Vì còn có 12 chàng trai có thể hoán đổi vị trí ở 12 chiếc ghế dành cho họ nên số cách xếp thỏa mãn
+yêu cầu bài toán là 1161ˆ12!.
+Bài tập tương tự 12. Có bao nhiêu cách chọn ra bộ 4 số tự nhiên pa;b;c;dq có tổng bằng
+30, biết a ⩽ 7 ⩽ b ?
+Ví dụ 38 (Quảng Trị TST 2014). Có 17 cây cau trồng xung quanh một cái ao hình tròn.
+cây cây
+cây
+cây
+cây
+cây
+cây
+cây
+Cái ao cây
+cây
+cây
+cây
+cây
+cây
+cây
+cây cây
+Người ta muốn chặt đi 4 cây. Hỏi có mấy cách chặt sao cho không có 2 cây kề nhau bị chặt.
+— LỜI GIẢI
+Ta đánh số thứ tự các cây từ 1 đến 17 và chia ra hai trường hợp như sau.
+1 Giả sử cây số 1 bị chặt. Lúc này, các cây ở vị trí số 2 và 17 sẽ không bị chặt. Như vậy, ta sẽ chặt
+đi 3 cây ở vị trí số 3 đến số 16 sao cho không có 2 cây kề nhau bị chặt. Ta xem các cây từ số 3
+đếnsố16nằmtrênmộthàngdọctheothứtựtừtráiquaphải.Gọi x làsốcâybêntráicâythứ
+1
+nhất bị chặt; x là số cây giữa cây thứ nhất và thứ hai bị chặt; x là số cây giữa cây thứ hai và
+2 3
+thứ ba bị chặt; x là số cây bên phải cây thứ ba bị chặt. Lúc đó, ta có
+4
+x `x `x `x “11, x ⩾ 1;x ⩾ 1.
+1 2 3 4 2 3
+Đổi biến y “ x ´1; y “ x ´1, ta được phương trình
+2 2 3 3
+x ` y ` y `x “9
+ˆ ˙ 1 2 3 4
+12
+Tới đây đơn giản rồi, ta có cách.
+3
+2 Giả sử cây số 1 không bị chặt. Lúc này, các cây ở vị trí số 2 và 17 có thể được chặt. Bây giờ, ta
+xem các cây từ số 2 đến số 17 như trên một hàng dọc.
+x `x `x `x `x “12, x ⩾ 1;x ⩾ 1;x ⩾ 1.
+1 2 3 4 5 2 3 4
+Đổi biến y “ x ´1; y “ x ´1; y “ x ´1, ta được phương trình
+2 2 3 3 4 4
+x ` y ` y ` y `x “9.
+1 2 3 4 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 25

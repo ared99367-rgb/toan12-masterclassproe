@@ -1,0 +1,53 @@
+5! = 120. Vì vòng tay không thể lật ngược nên ta chỉ khử phép quay chứ không khử ảnh gương,
+tứckhôngchiathêmcho2.
+Theoquytắcnhân,sốcáchxâulà
+2·5! = 2·120 = 240.
+240
+■
+Câu2[HTN]
+Có4cuốnsáchToánkhácnhau(trongđócócuốnToántập1),3cuốnsáchLígiốngnhauvà
+3cuốnsáchHóagiống nhau.Xếpngẫu nhiêntấtcả cáccuốnsách nàylênmộtkệ sáchhình
+tròn.TínhxácsuấtđểcuốnToántập1luônđượcxếpkẹpngaygiữahaicuốnsáchLí.
+Lờigiải.Cótấtcả4+3+3 = 10cuốnsách.Vìxếptrênvòngtròn,tacốđịnhcuốnToántập1(kí
+hiệuT )đểkhửphépquay.Khiđócòn9chỗquanhvòngdànhchobacuốnToánkhácnhau(khác
+1
+T ),bacuốnLígiốngnhauvàbacuốnHóagiốngnhau.Sốcáchxếpchíncuốnnày,cókểđếnviệc
+1
+LígiốngnhauvàHóagiốngnhau,là
+9! 362880
+n(Ω) = = = 10080.
+3!3! 36
+Để T được kẹp ngay giữa hai cuốn Lí thì hai chỗ sát hai bên T bắt buộc là hai cuốn Lí. Đặt
+1 1
+xonghaicuốnLíởhaibênT (vìcáccuốnLígiốngnhaunênchỉcómộtcách),cònlại7chỗdành
+1
+cho ba cuốn Toán khác nhau, một cuốn Lí còn lại và ba cuốn Hóa giống nhau. Số cách xếp bảy
+cuốnnàylà
+7! 5040
+n(A) = = = 840.
+3! 6
+Dođó
+n(A) 840 1
+P = = = .
+n(Ω) 10080 12
+1
+P =
+12
+■
+Câu3[HTN]
+Có 5 cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), 4 cuốn sách Lí khác nhau
+(trongđócócuốnLítập1)và3cuốnsáchHóakhácnhau(trongđócócuốnHóatập1).Xếp
+ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính xác suất để cuốn Toán
+tập 1 luôn được xếp kẹp ngay giữa cuốn Lí tập 1 và cuốn Hóa tập 1, đồng thời 3 cuốn sách
+Hóaluônđượcxếpcạnhnhau.
+Lời giải. Cả thảy 5+4+3 = 12 cuốn đều khác nhau, nên số cách xếp quanh kệ tròn là n(Ω) =
+(12 − 1)! = 11!. Kí hiệu T ,L ,H lần lượt là Toán tập 1, Lí tập 1, Hóa tập 1, và H ,H là hai
+1 1 1 2 3
+cuốnHóacònlại.
+Ta cần đồng thời hai điều: T kẹp giữa L và H ; ba cuốn Hóa H ,H ,H đứng liền nhau.
+1 1 1 1 2 3
+Điều kiện kẹp cho hai khả năngL –T –H và H –T –L . Tuynhiên H còn phải nằm trong khối
+1 1 1 1 1 1 1
+bacuốnHóa,nênđểvừakẹpcạnhT vừathuộckhốiHóa,cuốnH buộcphảiởđầukhốiHóa,rồi
+1 1
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang8/19

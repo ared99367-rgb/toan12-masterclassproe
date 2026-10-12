@@ -1,0 +1,45 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.18
+Xét 2021 điểm A ,A ,...,A phân biệt thay đổi trên đường tròn. Đặt S là số tam giác nhọn
+1 2 2021
+có 3 đỉnh là 3 trong số các điểm đã cho.
+1 Khi 2021 điểm trên tạo thành đa giác đều, tính S.
+2 Với mọi cách cho các điểm, tìm giá trị lớn nhất của S.
+i Bài tập 3.19
+Cho số nguyên n ⩾ 2. Xét các số hữu tỉ dương x ,x ,...,x thỏa mãn
+1 2 n
+1 1 1
+x ` ,x ` ,...,x `
+1 p 2 p n p
+1 2 n
+x x ¨¨¨x
+là các số nguyên dương (trong đó p “ 1 2 n với mọi i).
+i x
+i
+1 Chứng minh rằng x x ¨¨¨x “1.
+1 2 n
+2 Có bao nhiêu bộ số px ,x ,...,x q thỏa mãn bài toán.
+1 2 n
+i Bài tập 3.20
+Bạn Hào rất thích chơi với ánh sáng, cậu có một dãy gồm 10 bóng đèn xếp theo thứ tự từ 1
+đến10.Mỗibóngđèncómộtcôngtắcmàkhichạmvàonó,bóngđènđangtắtsẽchuyểnsang
+trạng thái sáng và ngược lại. Ban đầu tất cả các bóng đèn đều đang tắt. Trò chơi của Hào bao
+gồm15lầnchạmvàocôngtắc,mồilầnchỉchạm1côngtắc.Gọi N làsốcáchthựchiện15lần
+chạmđểđượckếtquảcácbóngđèn1,2,3,4,5sángvàcácbóngđèn6,7,8,9,10tắt.Gọi M là
+sốcáchthựchiện15lầnchạmsaochotrongcáclầnchạmnàychỉđượcchạmvàocáccôngtắc
+của các bóng đèn 1,2,3,4,5 để được kết quả các bóng đèn 1,2,3,4,5 sáng và các bóng đèn
+N
+6,7,8,9,10 tắt. Hãy tính tỉ số .
+M
+i Bài tập 3.21
+Cho 2024 viên bi được sắp xếp thành một hàng ngang. Tính số các cách đặt 29 chiếc thẻ vào
+giữa các viên bi thỏa mãn ở giữa hai viên bi bất kì có nhiều nhất một chiếc thẻ và các viên bi
+được chia thành 30 phần, mà mỗi phần có ít nhất 9 viên bi.
+i Bài tập 3.22
+Cho 2024 viên bi giống nhau được đặt vào các đỉnh của hình đa giác đều có 2024 cạnh nnội
+tiếp trong đường tròn pOq mỗi đỉnh chỉ có 1 viên bi. Tính số các cách đặt 29 chiếc thẻ giống
+nhau vào trung điểm các cạnh của đa giác được cho thỏa mãn tại mỗi trung điểm có nhiều
+nhất một chiếc thẻ và các viên bi đã cho được chia thành 29 phần, mà mỗi phần có ít nhất 9
+viên bi. (biết hai cách đặt thẻ được coi là nhu nhau nếu tồn tại một phép quay quanh tâm O
+biến cách chia này thành cách chia kia).
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 37

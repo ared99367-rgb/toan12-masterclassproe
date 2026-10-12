@@ -1,0 +1,77 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Ví dụ 45 (VMO 2022). Gieo 4 con súc sắc cân đối, đồng chất. Kí hiệu x p1 ⩽ x ⩽ 6q là số
+i i
+chấm trên mặt xuất hiện của con súc sắc thứ ipi “1,2,3,4q.
+a) Tính số các bộ px ,x ,x ,x q có thể có.
+1 2 3 4
+b) Tính xác suất để có một số trong x ,x ,x ,x bằng tổng của ba số còn lại.
+1 2 3 4
+c) Tính xác suất để có thể chia x ,x ,x ,x thành hai nhóm có tổng bằng nhau.
+1 2 3 4
+— LỜI GIẢI
+Đây là lời giải chính thức từ Bộ Giáo Dục.
+a) Số bộ px ,x ,x ,x q có thể có là 64.
+1 2 3 4
+b) Kí hiệu A là tập hďợp các bộ px ,x ,x ,x q sao cho x bằng tổng các số còn lại. Ta cần tính xác
+i 1 2 3 4 i
+suất biến cố A“ A . Ta thấy |A | có số phần tử bằng nhau và là số nghiệm P t1,2,...,6u của
+i i
+phương trình x “ x `x `x . Biến đổi ta được
+1 2 3 4
+7“ x1 `x `x `x , x1 “7´x .
+1 2 3 4 1 1
+Số nghiệm nguyên dương của phương trình này theo công thức chia kẹo Euler là
+ˆ ˙
+6
+“20.
+3
+ÿ
+80
+Dễ thấy A XA “∅, cho nên |A|“ |A |“80. Xác suất cần tính là .
+i j i 1296
+c) Kíhiệu B ,i “2,3,4làtậphợppx ,x ,x ,x qsaocho x `x bằngtổngcủahaisốcònlại,chúng
+i 1 2 3 4 1 i
+có số phần tử bằng nhau. Ta có |B | là số nghiệm thuộc t1,2,...,6u của phương trình nghiệm
+2
+nguyên x `x “ x `x , cũng là phương trình
+1 2 3 4
+14“ x1 `x1 `x `x , x1 “7´x ,x1 “7´x .
+1 2 3 ˆ4 ˙1 1 2 2
+13
+Số nghiệm của nó theo công thức Euler là . Dễ thấy phương trình trên có tối đa một lần
+3
+nhậngiátrịlớnhơn6.Tacầnloạitrừnghiệmnày.Chẳnghạn,khi x1 ⩾ 7tađưavềphươngtrình
+1
+8“ x2`x1 `x `x , x2 “ x1 ´6.
+1 ˆ2 ˙ 3 4 1 1
+7
+Số các nghiệm theo công thức Euler là “35. Vì có 4 trường hợp xảy ra với 4 biến, cho nên
+3
+số nghiệm có ít nhất một ẩn nhận giá trị lớn hơn 6 là 4ˆ35“140. Do đó
+|B |“286´140“146.
+2
+Dễ thấy B
+i
+XB
+j
+có 36 phần tử,ďvì khi đó x
+1
+“ x
+k
+,x
+i
+“ x
+j
+. Tương tự |B
+2
+XB
+3
+XB
+4
+|“6 (khi đó cả
+4 số phải bằng nhau). Đặt B “ B thì
+ˇď i ˇ
+ˇ ˇ
+|B|“ˇ B ˇ“3ˆ146´3ˆ36`6“336.
+i
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 34

@@ -1,0 +1,68 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+2 Kí hiệu r là nghiệm số của phương trình thỏa mãn x “ y ă z. Tương tự có r ,r . Ta
+2xyz 2yzx 3zxy
+có r “ r “ r “ r .
+2xyz 2yzx 1zxy 2
+3 Kí hiệu r là nghiệm số của phương trình thỏa mãn x ă y “ z. Tương tự có r ,r . Ta
+3xyz 3yzx 3zxy
+có r “ r “ r “ r .
+3xyz 3yzx 3zxy 3
+4 Kí hiệu r là nghiệm số của phương trình thỏa mãn x “ y “z.
+4
+Theo bài toán chia kẹo thì tất cả các bộ số nguyên không âm px, y,zq thỏa mãn x ` y `z “n bằng
+ˆ ˙
+n`2 pn`2qpn`1q
+“
+2 2
+mỗi bộ số sẽ thuộc một trong nhữg trường hợp trên nên ta có
+pn`2qpn`1q
+6r `3r `3r `r “ .
+1 2 3 4 2
+Tacó r `r `r chínhlàsốnghiệmcủaphươngtrình2u`v “n(vìtừphươngtrình x`y`z “nta
+2 3 4
+có thể cho 2 số hạng x “ y hoặc y “z hoặc z “ x và tất nhiên bao gồm cả trường hợp x “ y “z).
+Giả sử x “ y sẽ bao gồm x “ y ąz,x “ y ăz,x “ y “z. Phương trình
+2u`v “nôu`pu`vq“n.
+Đặt t ““ u‰`v ⩾ u thu được u` t““‰n với u ⩽ t. Theo như bài toán 1 số nghiệm của phương trình
+này là n `1 hay r `r `r “ n `1. Xét
+2 2 3 4 2
+1 Nếu n chia hết cho 3 thì r “1;
+4
+2 Nếu n chia hết cho 3 thì r “0;
+4
+“ ‰ “ ‰
+Như vậy ta được r “ n ´ n´1 . Vì x ⩽ y ⩽ z bao gồm x ă y ăz hoặc x “ y ăz hoặc x ă y “z
+4 3 3
+hoặc x “ y “z. Vậy số nghiệm thỏa mãn yêu cầu của bài toán là
+d “ r `r `r `r .
+1 2 3 4
+Từ những lập luận ở trên, ta tìm được công thức cho d là
+„ ȷ
+1 pn`2qpn`1q
+d “ ´3r ´3r ´r `r `r `r .
+6 2 2 3 4 2 3 4
+pn`2qpn`1q 1 5
+“ ` pr ´r q` r
+12 2 2 3 6 4
+pn`2qpn`1q 1 1
+“ ` pr `r `r q` r
+12 2 2 3 4 3 4
+´” ı ¯ ´” ı ” ı¯
+pn`2qpn`1q 1 n 1 n n
+“ ` `1 ` ´ .
+12 2 2 3 3 2
+Bài toán phụ 3. Tìm số nghiệm nguyên không âm của phương trình thỏa mãn
+x `x `x `x “n
+1 2 3 4
+với x ⩽ x ⩽ x ⩽ x .
+1 2 3 4
+Giải. Trước tiên ta nhắc tới một bổ đề sau.
+Bổ đề Burnside.Nếuφ làcáctậpthuộctập X.Vớimỗiϕ thuộcφ với X ϕ biểuthịcácphầntửtrong
+tập X được xác định bởi ϕ. Bổ đề Burnside xác định số quy đạo khác nhau của bài toán, khi đó
+ÿ
+1
+|X{φ|“ vpϕq.
+|φ|
+ϕPφ
+trong đó vpϕq là số phần tử của từng tập.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 28

@@ -1,0 +1,45 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 07
+\
+Câu 2 [HTN]: Có cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), cuốn sách Lí giống nhau
+4 3
+và cuốn sách Hóa giống nhau. Xếp ngẫu nhiên tất cả các cuốn sách này lên một kệ sách hình tròn. Tính
+3
+xác suất để cuốn Toán tập 1 luôn được xếp kẹp ngay giữa hai cuốn sách Lí.
+Câu 3 [HTN]: Có cuốn sách Toán khác nhau (trong đó có cuốn Toán tập 1), cuốn sách Lí khác nhau
+5 4
+(trong đó có cuốn Lí tập 1) và cuốn sách Hóa khác nhau (trong đó có cuốn Hóa tập 1). Xếp ngẫu nhiên
+3
+tất cả các cuốn sách này lên một kệ sách hình tròn. Tính xác suất để cuốn Toán tập 1 luôn được xếp kẹp ngay
+giữa cuốn Lí tập 1 và cuốn Hóa tập 1, đồng thời cuốn sách Hóa luôn được xếp cạnh nhau.
+3
+DẠNG TOÁN 1: BÀI TOÁN NỀN TẢNG (PHƯƠNG PHÁP VÁCH NGĂN)
+Ví dụ minh họa: Hỏi có bao nhiêu cách chia 10 viên kẹo giống nhau cho 3 học sinh sao cho học sinh nào
+cũng có ít nhất 1 viên kẹo?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Một công ty có phần thưởng hoàn toàn giống nhau cần phân phát ngẫu nhiên cho phòng
+8 3
+ban. Tính xác suất để phòng Marketing nhận được đúng phần thưởng, biết rằng một phòng ban có thể
+2
+không nhận được phần thưởng nào.
+Câu 2 [HTN]: Một quỹ từ thiện tặng ngẫu nhiên chiếc máy tính xách tay hoàn toàn giống nhau cho
+12 4
+trường học vùng cao. Tính xác suất để trường tiểu học A nhận được đúng chiếc máy tính, biết rằng mỗi
+3
+trường đều nhận được ít nhất chiếc.
+1
+DẠNG TOÁN 1 MỞ RỘNG: XẾP CHỖ VÀ CHIA KẸO NỀN TẢNG (MỖI NGƯỜI )
+1
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Có học sinh và phần quà hoàn toàn giống nhau. Cần xếp chỗ cho học sinh này thành
+5 10 5
+một hàng ngang và chia toàn bộ quà sao cho mỗi em nhận được ít nhất phần quà. Tính số cách thực hiện.
+1
+Câu 2 [HTN]: Một nhóm gồm học sinh được xếp ngồi quanh một bàn tròn. Cô giáo có viên kẹo giống
+6 15
+hệt nhau cần chia cho các em học sinh này sao cho mỗi em có ít nhất viên kẹo. Hỏi có bao nhiêu cách xếp
+1
+chỗ và chia kẹo?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

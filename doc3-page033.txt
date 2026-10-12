@@ -1,0 +1,63 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˇ ˇ
+ˇ ˇ
+w Tính A XA XA với 1 ⩽ i ă j ă k ⩽ 6. Vì tổng cáˇc chữ số là 2ˇ3 nên không thể tồn tại 3 số
+i j k
+ˇ ˇ
+cùng lớn hơn 10 trong trường hợp này được. Do đó A XA XA “0.
+i j k
+Do đó theo nguyên lý bù trừ ta có
+ˇ ˇ
+ˇď ˇ ÿ ÿ
+ˇ 6 ˇ 6
+ˇ A ˇ“ |A |´ |A XA |“50568.
+ˇ iˇ i i j
+i“1 i“1 1⩽iăj⩽6
+Vậy số lượng các số cần tìm là ˆ ˙
+28
+´50568“47712.
+5
+Bài toán được giải quyết.
+Bài tập tương tự 14. Vé xe buýt có dạng abcdef với a,b,c,d,e, f P t0,1,2,...,9u. Một vé
+như trên thỏa mãn điều kiện a`b`c “d`e` f được gọi là “vé hạnh phúc”.
+1 Chứng minh rằng số nghiệm của phương trình a`b`c “d`e` f bằng số nghiệm của
+phương trình a`b`c`d`e` f “27 với 0 ⩽ a,b,c,d,e, f ⩽ 9.
+2 Tính số vé hạnh phúc.
+Ví dụ 44. Tìmsốcáchchọnra4sốnguyênphânbiệttừ24sốnguyêndươngđầutiênsaocho
+trong lựa chọn đó, không có hai số cùng số dư khi chia cho 3 liên tiếp.
+— LỜI GIẢI
+Gọi x ,x ,...,x lần lượt là số các số nằm trước số thứ nhất được chọn, giữa số thứ nhất và số thứ
+1 2 5
+hai, ..., sau số thứ tư. Ta có #
+x `x `¨¨¨`x “20
+1 2 5
+x ⩾ 0,x ⩾ 0,x ‰2,i “2,4.
+1 5 i
+Tới đây ta sẽ dùng nguyên lý bù trừ để xử lý điều kiện. Trước tiên theo bài toán chia kẹo Euler thì
+số bộ số nguyên không âm thỏa mãn điều kiện trên (không có ràng buộc) là
+ˆ ˙
+24
+.
+4
+Gọi A, B, C lần lượt là các cách chọn mà x “2, x “2, x “2 thì ta cần tính
+ˆ 2 ˙ 3 4
+24
+´|AYBYC|
+4
+ˆ ˙ ˆ ˙
+20´2`4´1 21
+1 Tính |A|“ “ và tương tự với B, C.
+4´1 3
+ˆ ˙ ˆ ˙
+20´4`3´1 18
+2 Tính |AXB|“ “ , tương tự với BXC, C XA.
+3´1 2
+ˆ ˙ ˆ ˙
+20´6`2´1 15
+3 Tính |AXBXC|“ “ .
+2´1 1
+ˆ ˙ „ ˆ ˙ ˆ ˙ ˆ ˙ȷ
+24 21 18 15
+Do đó số cách chọn cần tìm là ´ 3 ´3 ` “7080.
+4 3 2 1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 33

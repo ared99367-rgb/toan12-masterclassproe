@@ -1,0 +1,35 @@
+Phương pháp giải. Buộc nhóm phần tử cần đứng liền nhau thành một khối, hoán vị nội bộ
+trong khối, rồi xem khối như một phần tử và hoán vị vòng quanh: k đối tượng quanh vòng
+tròncho(k −1)! cách.
+Vídụminhhọa
+Mộtgiađìnhgồmbố,mẹvà4ngườiconngồiănquanhmộtchiếcbàntròn.Hỏicóbaonhiêu
+cáchxếpchỗngồisaochobốvàmẹluônngồicạnhnhau?
+Lời giải. Cả nhà có 6 người. Vì bố và mẹ phải ngồi cạnh nhau, ta buộc hai người này thành một
+khối.
+Khi đó các đối tượng cần xếp quanh bàn tròn gồm khối bố–mẹ và bốn người con, tất cả là 5
+đốitượng.Sốcáchxếp5đốitượngquanhmộtbàntròn(hoánvịvòngquanh)là
+(5−1)! = 4! = 24.
+Trongnộibộkhối,bốvàmẹcóthểđổichỗchonhau,cho2! = 2cách.Theoquytắcnhân,sốcách
+xếplà
+4!·2! = 24·2 = 48.
+48
+■
+Câu1[HTN]
+Có 4 viên bi đỏ, 3 viên bi xanh và 2 viên bi vàng (tất cả 9 viên bi đều có kích thước khác
+nhau).Cầnxâu9viênbinàythànhmộtvòngcổtròn.Hỏicóbaonhiêucáchxâusaochocác
+viênbicùngmàuluônnằmliềnkềnhau?(Giảsửvòngcổkhôngthểlậtngược.)
+Lời giải. Vì các viên bi cùng màu phải nằm liền kề nhau, ta buộc mỗi màu thành một khối, được
+bakhối:khốiđỏ,khốixanhvàkhốivàng.
+Xếpbakhốinàyquanhvòngcổtrònlàhoánvịvòngquanhcủabađốitượng,cho
+(3−1)! = 2! = 2
+cách. Nhưng các viên bi tuy cùng màu vẫn phân biệt nhau, nên trong mỗi khối còn phải hoán vị
+nộibộ:khốiđỏcóbốnviênkhácnhaucho4!cách,khốixanhcóbaviêncho3!cách,khốivàngcó
+haiviêncho2! cách.
+Một điểm cần lưu ý: đề nói vòng cổ không thể lật ngược, nghĩa là một cách xâu và ảnh đối
+xứng qua gương của nó được coi là hai cách khác nhau; vì thế ta chỉ khử phép quay (đã thể hiện
+quacôngthức(3−1)!)chứkhôngchiathêmcho2.
+Theoquytắcnhân,sốcáchxâulà
+(3−1)!·4!·3!·2! = 2·24·6·2 = 576.
+576
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang3/19

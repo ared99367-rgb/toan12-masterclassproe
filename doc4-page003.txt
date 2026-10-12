@@ -1,0 +1,30 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 03
+\
+Câu 2 [HTN]: Một hội nghị bàn tròn gồm có đại biểu tham dự, trong đó có đại biểu đến từ nước Anh,
+15 4
+đại biểu đến từ nước Pháp và đại biểu đến từ nước Mỹ. Gọi là số cách xếp chỗ ngồi sao cho không
+5 6 T
+có đại biểu nước Anh nào ngồi cạnh nhau. Hãy xác định ba chữ số tận cùng của .
+2 T
+Câu 3 [HTN]: Có 5 học sinh nam và 5 học sinh nữ xếp vào một bàn tròn có 10 ghế. Tính số cách xếp sao
+cho nam nữ ngồi xen kẽ nhau và có hai học sinh đặc biệt là An (nam) và Bình (nữ) không ngồi cạnh nhau.
+Câu 4 [HTN]: Có 4 cặp vợ chồng được mời đến dự tiệc và ngồi quanh một chiếc bàn tròn có 8 ghế. Tính số
+cách xếp chỗ sao cho mỗi người đều ngồi cạnh vợ (hoặc chồng) của mình và không có hai người đàn ông
+nào ngồi cạnh nhau.
+DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ LUÔN ĐỨNG CẠNH NHAU (PHƯƠNG PHÁP BUỘC)
+ Bài toán tổng quát: Có bao nhiêu cách sắp xếp phần tử, trong đó có một nhóm gồm phần tử (
+n k
+) mang tính chất đặc thù bắt buộc phải luôn đứng cạnh nhau?
+k n
+ Phương pháp tổng quát:
+ "Buộc" (ghép) k phần tử cần đứng cạnh nhau thành một "siêu phần tử" duy nhất. Số cách hoán vị
+nội bộ các phần tử bên trong khối "siêu phần tử" này là cách.
+k!
+ Xem "siêu phần tử" vừa tạo như một phần tử bình thường. Lúc này, ta cần hoán vị "siêu phần tử"
+cùng với nk phần tử còn lại, tức là hoán vị tổng cộng nk 1 phần tử. Số cách hoán vị là
+n k 1! cách.
+ Dựa vào quy tắc nhân, tổng số cách sắp xếp hoàn thành yêu cầu bài toán là k!n k 1! (cách).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

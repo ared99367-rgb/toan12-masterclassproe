@@ -1,0 +1,50 @@
+H ,H nốitiếpvề phíaH .Liệtkê đầyđủ,năm cuốnL ,T ,H ,H ,H luôntạothành mộtkhối
+2 3 1 1 1 1 2 3
+liềnnhauvớiđúngbốnthứtựnộibộhợplệ:
+L –T –H –H –H , L –T –H –H –H ,
+1 1 1 2 3 1 1 1 3 2
+H –H –H –T –L , H –H –H –T –L .
+2 3 1 1 1 3 2 1 1 1
+Buộc năm cuốn này thành một khối, ta xem khối như một đối tượng; cùng với bảy cuốn còn lại
+(bốn cuốn Toán khác T và ba cuốn Lí khác L ), ta có 1+7 = 8 đối tượng xếp quanh vòng tròn,
+1 1
+cho(8−1)! = 7! cách.Vậy
+n(A) = 4·7!.
+Suyra
+4·7!
+P = .
+11!
+Khaitriển11! = 11·10·9·8·7! rồirútgọn7!,tađược
+4 4 1
+P = = = .
+11·10·9·8 7920 1980
+1
+P =
+1980
+■
+PHẦN B. CÔNG THỨC CHIA KẸO EULER
+Dạng1.Bàitoánnềntảng(phươngphápváchngăn/chiakẹoEuler)
+Phương pháp giải. Chia n vật giống nhau cho k người khác nhau quy về đếm số nghiệm
+n(guyên)của x + x + ··· + x = n. Nếu mỗi người nhận ít nhất một vật (x( ≥ 1) thì c)ó
+1 2 k i
+n−1 n+k −1
+cách; nếu cho phép có người không nhận vật nào (x ≥ 0) thì có
+k −1 i k −1
+cách.
+Vídụminhhọa
+Hỏicóbaonhiêucáchchia10viênkẹogiốngnhaucho3họcsinhsaochohọcsinhnàocũng
+cóítnhất1viênkẹo?
+Lời giải. Gọi số kẹo mà ba học sinh nhận được lần lượt là x ,x ,x . Vì chia hết 10 viên và mỗi
+1 2 3
+emcóítnhấtmộtviên,tacầnđếmsốnghiệmnguyêncủaphươngtrình
+x +x +x = 10, x ,x ,x ≥ 1.
+1 2 3 1 2 3
+Theocôngthứcchiakẹo(mỗingườiítnhấtmộtvật),sốnghiệmnguyêndươnglà
+( ) ( )
+10−1 9
+= = 36.
+3−1 2
+Vậycó36 cáchchia.
+36
+■
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang9/19

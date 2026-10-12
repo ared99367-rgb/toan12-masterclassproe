@@ -1,0 +1,67 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+ˆ ˙
+13
+Tới đây đơn giản rồi, ta có cách.
+4
+ˆ ˙ ˆ ˙
+12 13
+Vậy, số cách chặt đi 4 cây cau thỏa mãn bài toán là ` “935 cách.
+3 4
+Nhận xét. Bài toán này giống với bài toán hiệp sĩ được phát biểu như sau: Vua Arthur muốn chọn ra
+k hiệp sĩ trong số n hiệp sĩ đang ngồi trên bàn tròn để đi ra trận, tìm số cách chọn sao cho không có 2
+hiệp sĩ nào ngồi cạnh nhau. Kết quả bài toán này sẽ là
+ˆ ˙ ˆ ˙ ˆ ˙
+n´k´1 n´k n n´k´1
+` “ .
+k´1 k k k´1
+Ví dụ 39. Cho tam giác ABC có 3 cạnh là BC “ a, CA“ b, AB “ c và điểm P gọi là good nếu
+tìm được 27 tia chung gốc P cắt tam giác thành 27 tam giác con có diện tích bằng nhau. Đếm
+số điểm good.
+— LỜI GIẢI
+Giả sử P là một điểm good. Gọi l, m, n lần lượt là số phần mà các cạnh BC, CA, AB bị chia bởi các
+tia xuất phát từ P. Lưu ý rằng mỗi tia phải đi qua mỗi đỉnh của tam giác ABC, nếu không sẽ tạo
+thành một số tứ giác. Gọi h là khoảng cách từ P đến BC. Khi đó, h là độ dài đường cao của tất cả
+1 1
+các tam giác có đáy nằm trên BC. Vì các tam giác tạo ra có diện tích bằng nhau nên tất cả các đáy
+này có độ dài bằng nhau. Nếu ta ký hiệu độ dài này là x, thì ta có lx “a Tương tự, lấy y và z là độ
+dài của các đáy của các tam giác trên cạnh CAvà AB tương ứng, ta có my “ b và nz “ c. Gọi h và
+2
+h lần lượt là khoảng cách từ P đến CAvà AB. Do các tam giác có diện tích bằng nhau nên
+3
+2∆
+h x “h y “h z “ ,
+1 2 3 27
+trong đó ∆ là diện tích của tam giác ABC. Từ đó suy ra
+2∆¨l 2∆¨m 2∆¨n
+h “ , h “ , h “ .
+1 27a 2 27b 3 27c
+Ta cũng có
+2∆ 2∆ 2∆
+“h , “h , “h ,
+a a b b c c
+trong đó h , h , h lần lượt là độ dài đường cao tương ứng của tam giác ABC hạ từ các đỉnh A, B, C.
+a b c
+Suy ra
+h l h m h n
+1 “ , 2 “ , 3 “ .
+h 27 h 27 h 27
+a b c
+Mặt khác, ta có
+h rPBCs h rPCAs h rPABs
+1 “ , 2 “ , 3 “ ,
+h ∆ h ∆ h ∆
+a b c
+trong đó rPBCs, rPCAs, rPABs là diện tích của các tam giác con tương ứng. Cộng ba phương trình
+trên, ta được
+h h h
+1 ` 2 ` 3 “1.
+h h h
+a b c
+Do đó
+l m n h h h
+` ` “ 1 ` 2 ` 3 “1.
+27 27 27 h h h
+a b c
+Như vậy l`m`n“27. Do đó, mỗi điểm good P xác định một phân hoạch pl,m,nq của 27 sao cho
+có l, m, n đoạn bằng nhau lần lượt trên BC, CA, AB. Bây giờ ta đi chứng minh tính duy nhất của
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 26

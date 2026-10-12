@@ -1,0 +1,29 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.37
+Chon ⩾ 2làmộtsốnguyêndương.Xéttậphợpcácđườngđingắnnhấttrênmạnglướinguyên
+trong không gian vuông góc từ điểm Ap0;0;0q đến điểm Bpn;n;nq (từ điểm px, y,zq có thể
+đến một trong các điểm px `1, y,zq hoặc px, y `1,zq hoặc px, y,z `1q ). Hỏi có bao nhiêu
+cách đi sao cho có tổng cộng 2 lần đổi hướng trong 2 mặt phẳng nằm ngang nào đó?
+i Bài tập 3.38
+Cho n ⩾ 2 là một số nguyên dương. Xét tập hợp các đường đi ngắn nhất trên lưới nguyên từ
+điểm Ap0;0q đến điểm Bpn;nq. Một đường đi như thế sẽ tương ứng với một dãy gồm n lệnh
+T (lên trên) và n lệnh P (sang phải). Trong dãy đó, một cặp lệnh pT,Pq kề nhau được gọi là
+một bước chuyển (luuu ý, cặp pP,Tq không được gọi là bước chuyển). Ví dụ dãy PTTPTPPT có
+2 bước chuyển. Hãy tìm số các đường đi ngắn nhất từ Ađến B sao cho trong đó có đúng:
+1 1 buớc chuyển.
+2 2 bước chuyển.
+(cid:15) Đề kiểm tra Trường Đông 2014
+i Bài tập 3.39
+Vé xe buýt có dạng abcdef với a,b,c,d,e, f Pt0,1,2,...,9u. Một vé như trên thỏa mãn điều
+kiện a`b`c “d`e` f được gọi là “vé hạnh phúc”.
+1 Chứng minh rằng số nghiệm của phương trình a`b`c “d`e` f bằng số nghiệm của
+phương trình a`b`c`d`e` f “27 với 0 ⩽ a,b,c,d,e, f ⩽ 9.
+2 Tính số vé hạnh phúc.
+i Bài tập 3.40
+Tanóimộtsốnguyêndương nlàđặc biệtnếutồntạimộtsốnguyêndương mthỏamãnđồng
+thời các điều kiện
+1 mąn;
+2 Tổng các chữ số của m bằng tổng các chữ số của n;
+3 Tích các chữ số của m bằng tích các chữ số của n.
+Hỏi có bao nhiêu số đặc biệt có 7 chữ số.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 40

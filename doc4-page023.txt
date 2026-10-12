@@ -1,0 +1,48 @@
+Trước hết, buộc ba bạn nữ thành một khối. Khi đó có khối nữ cùng năm bạn nam, tức 6 đối
+tượngquanhbàntròn;kểcảhoánvịnộibộkhốinữ,sốcáchlà
+(6−1)!·3! = 120·6 = 720.
+Trong số này, ta loại các cách mà Nam và Việt ngồi cạnh nhau. Lúc đó buộc thêm Nam và Việt
+thành một khối nữa, ta có khối nữ, khối Nam–Việt và ba bạn nam còn lại, tức 5 đối tượng quanh
+bàntròn;kểcảhoánvịnộibộhaikhối,sốcáchlà
+(5−1)!·2!·3! = 24·2·6 = 288.
+Vậysốcáchxếpchỗhợplệlà720−288 = 432.
+Chia kẹo. Điều kiện chia kẹo (mỗi em ít nhất một viên) không phụ thuộc cách ngồi, nên chia
+20 viêncho8emtheo ( ) ( )
+20−1 19
+= = 50388
+8−1 7
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+19
+432· = 432·50388 = 21767616.
+7
+21767616
+■
+Câu5[THPT2025]
+Có bốn ngăn trong một giá để sách được đánh số thứ tự 1,2,3,4 và bảy quyển sách khác
+nhau. Bạn An xếp hết bảy quyển sách vào bốn ngăn đó sao cho mỗi ngăn có ít nhất một
+quyển và các quyển được xếp thẳng đứng thành một hàng ngang ở mỗi ngăn. Hai cách xếp
+được gọi là giống nhau nếu mỗi ngăn có cùng số sách và cùng thứ tự từ trái sang phải. Gọi
+T
+T làsốcáchxếpđôimộtkhácnhau.Tính .
+100
+Lời giải. Ta hình dung một cách xếp gồm hai thao tác: trước hết sắp bảy quyển sách khác nhau
+thành một hàng ngang theo thứ tự từ trái sang phải, sau đó cắt hàng đó thành bốn đoạn liên tiếp,
+gánlầnlượtchongăn1,ngăn2,ngăn3,ngăn4.Vìcácquyểntrongmỗingănđượcxếpthànhhàng
+(cóthứtự)vàbốnngănđượcđánhsố,haithaotáctrênmôtảđúngmộtcáchxếpvàkhôngbịđếm
+trùng.
+Sắp bảy quyển sách khác nhau thành một hàng có 7! cách. Hàng bảy quyển có 6 khe giữa các
+quyển liên tiếp; ta chọn 3 khe trong số đó để đặt ba vách ngăn, qua đó chia hàng thành bốn đoạn
+đều khác rỗng. Vì điều kiện mỗi ngăn có(í)t nhất một quyển tương đương với việc ba vách ngăn
+nằmởbakhekhácnhau,sốcáchchọnlà 6 .Cácngănđãđượcđánhsốnênthứtựbốnđoạnđược
+3
+xácđịnhluôn,khôngphảinhânthêm4!.
+Dođó ( )
+6 T 100800
+T = 7!· = 5040·20 = 100800, = = 1008.
+3 100 100
+1008
+■
+Dạng2.BiếnthểEulervớiràngbuộcđiềukiệntùyý
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang13/19

@@ -1,0 +1,34 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 04
+\
+ Nhận xét & Lưu ý:
+VÍ DỤ MINH HỌA: Một nhóm bạn gồm 4 nam và 3 nữ xếp thành một hàng ngang để chụp ảnh kỷ yếu. Hỏi
+có bao nhiêu cách xếp sao cho 3 bạn nữ luôn đứng cạnh nhau?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Trên một kệ sách có 3 cuốn sách Toán, 4 cuốn sách Lý và 2 cuốn sách Hóa (tất cả các cuốn
+sách đều khác nhau). Hỏi có bao nhiêu cách sắp xếp các cuốn sách thành một hàng ngang sao cho các cuốn
+sách cùng môn luôn đứng cạnh nhau?
+Câu 2 [HTN]: Có học sinh nam trong đó có Anh và Tú và học sinh nữ. Gọi là số cách xếp các học
+6 4 T
+sinh này thành một hàng ngang sao cho không có học sinh nữ nào đứng cạnh nhau và Anh và Tú phải đứng
+2
+T
+cạnh nhau. Tính .
+100
+Câu 3 [HTN]: Một nhóm gồm học sinh nam (trong đó có Nam và Việt) và học sinh nữ xếp thành một
+5 3
+hàng ngang. Tính số cách xếp sao cho học sinh nữ luôn đứng cạnh nhau và hai học sinh nam là Nam và
+3
+Việt không đứng cạnh nhau.
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ LUÔN ĐỨNG CẠNH NHAU TRÊN VÒNG TRÒN
+(PHƯƠNG PHÁP BUỘC)
+ Bài toán tổng quát: Có bao nhiêu cách sắp xếp phần tử quanh một bàn tròn (hoặc vòng tròn), trong
+n
+đó có một nhóm gồm phần tử ( ) bắt buộc phải luôn đứng cạnh nhau?
+k k n
+Nhận xét & Lưu ý (Tử huyệt dễ sai nhất):
+VÍ DỤ MINH HỌA: Một gia đình gồm bố, mẹ và 4 người con ngồi ăn quanh một chiếc bàn tròn. Hỏi có
+bao nhiêu cách xếp chỗ ngồi sao cho bố và mẹ luôn ngồi cạnh nhau?
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

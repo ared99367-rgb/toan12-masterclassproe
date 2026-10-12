@@ -1,0 +1,54 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 01
+\
+CHUYÊN ĐỀ 10
+TỔNG ÔN KIẾN THỨC CHUYÊN ĐỀ 10 CÂU CUỐI
+CÂU CUỐI Môn: Toán 12
+Thời gian làm bài: 90 phút (không tính thời gian giao đề)
+BUỔI SỐ 15
+BÀI TOÁN VÁCH NGĂN VÀ CÔNG THỨC CHIA KẸO EULER
+A. BÀI TOÁN VÁCH NGĂN
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ KHÔNG ĐỨNG CẠNH NHAU
+ Bài toán tổng quát: Có tất cả bao nhiêu cách sắp xếp phần tử loại A (ví dụ: học sinh nam) và
+n n
+1 2
+phần tử loại B (ví dụ: học sinh nữ) thành một hàng ngang sao cho không có hai phần tử loại B nào
+đứng cạnh nhau?
+ Phương pháp tổng quát:
+ Sắp xếp n phần tử loại A thành một hàng ngang, có n ! cách. Các phần tử này sẽ đóng vai trò như
+1 1
+các phần tử tạo vách ngăn, sinh ra khoảng trống (bao gồm các khe giữa và hai đầu).
+n 1
+1
+……….
+X X X X X
+1 2 3 n1 n
+ Để các phần tử loại B không đứng cạnh nhau, ta sắp xếp n phần tử loại B vào n 1 khoảng trống
+2 1
+đó, có n cách.
+A 2
+n1
+1
+ Tổng số cách sắp xếp hoàn thiện công việc là n !A n 2 (cách).
+1 n 1
+1
+Nhận xét & Lưu ý:
+VÍ DỤ MINH HỌA: Một tổ có 5 học sinh nam và 3 học sinh nữ. Hỏi có bao nhiêu cách xếp các học sinh
+này thành một hàng ngang sao cho không có 2 học sinh nữ nào đứng cạnh nhau?
+BÀI TẬP VẬN DỤNG:
+Câu 1 [HTN]: Xếp 6 quyển sách Toán giống nhau và 4 quyển sách Văn giống nhau thành một hàng ngang
+trên giá sách. Hỏi có bao nhiêu cách xếp sao cho không có hai quyển sách Văn nào đứng cạnh nhau?
+Câu 2 [HTN]: Có cuốn sách Toán khác nhau, cuốn sách Lí khác nhau và cuốn sách Hóa khác nhau.
+5 3 4
+Gọi là số cách xếp chúng lên một kệ dài sao cho các cuốn sách Toán luôn đứng cạnh nhau và không có
+T
+T
+hai cuốn sách Lí nào đứng cạnh nhau. Tính .
+1000
+Câu 3 [HTN]: Có bao nhiêu số tự nhiên có chữ số được lập từ các số sao cho mỗi
+9 {0;1;2;3;4;5;6;7;8}
+chữ số xuất hiện đúng một lần và các chữ số chẵn không đứng cạnh nhau?
+ DẠNG TOÁN: SẮP XẾP CÁC PHẦN TỬ KHÔNG ĐỨNG CẠNH NHAU TRÊN VÒNG TRÒN
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

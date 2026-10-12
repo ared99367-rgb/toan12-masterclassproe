@@ -1,0 +1,48 @@
+cách.Vậy
+n(A) 28
+P = = .
+n(Ω) 165
+28
+P =
+165
+■
+Dạng1mởrộng.Xếpchỗvàchiakẹonềntảng(mỗingười≥ 1)
+Phươngphápgiải.Bàigồmhaicôngđoạnđộclập:xếpchỗrồichiavật,kếtquảlàtíchcủa
+hai số đếm. Xếp k người thành hàng ngang có k! cách, quanh v(òng trò)n có (k − 1)! cách;
+n−1
+chianvậtgiốngnhauchok ngườimỗingườiítnhấtmộtvậtcó cách.
+k −1
+Câu1[HTN]
+Có 5 học sinh và 10 phần quà hoàn toàn giống nhau. Cần xếp chỗ cho 5 học sinh này thành
+một hàng ngang và chia toàn bộ quà sao cho mỗi em nhận được ít nhất 1 phần quà. Tính số
+cáchthựchiện.
+Lờigiải.Bàigồmhaicôngđoạnđộclập:xếpchỗvàchiaquà.
+Xếpchỗ.Nămhọcsinhkhácnhauxếpthànhmộthàngngangcó5! = 120 cách.
+Chia quà. Gọi số quà mỗi em nhận là x ,x ,x ,x ,x , ta cần đếm số nghiệm nguyên dương
+1 2 3 4 5
+của
+x +x +x +x +x = 10, x ≥ 1,
+1 2 3 4 5 i
+được ( ) ( )
+10−1 9
+= = 126
+5−1 4
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+9
+5!· = 120·126 = 15120.
+4
+15120
+■
+Câu2[HTN]
+Mộtnhómgồm6họcsinhđượcxếpngồiquanhmộtbàntròn.Côgiáocó15viênkẹogiống
+hệt nhau cần chia cho các em sao cho mỗi em có ít nhất 1 viên kẹo. Hỏi có bao nhiêu cách
+xếpchỗvàchiakẹo?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàchiakẹo.
+Xếpchỗ.Sáuhọcsinhkhácnhaungồiquanhbàntròncó(6−1)! = 5! = 120 cách.
+Chiakẹo.Gọisốkẹomỗiemlàx ,x ,...,x ,tađếmsốnghiệmnguyêndươngcủa
+1 2 6
+x +x +···+x = 15, x ≥ 1,
+1 2 6 i
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang11/19

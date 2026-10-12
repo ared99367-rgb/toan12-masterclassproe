@@ -1,0 +1,29 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 010
+\
+viên này sao cho giám đốc nhận được ít nhất 3 phiếu, phó giám đốc nhận được ít nhất 2 phiếu và các nhân
+viên còn lại có thể nhận hoặc không nhận. Hỏi có bao nhiêu cách xếp chỗ và chia phiếu?
+Câu 2 [HTN]: Có 5 cổ đông (trong đó có ông An và ông Bình) ngồi quanh một bàn họp tròn. Ban quản trị
+có 20 cổ phiếu thưởng hoàn toàn giống nhau cần phân bổ cho 5 người này. Hỏi có bao nhiêu cách xếp chỗ
+và phân bổ cổ phiếu sao cho ông An nhận được ít nhất 5 cổ phiếu, ông Bình nhận được ít nhất 4 cổ phiếu?
+Câu 3 [HTN]: Có 7 học sinh (trong đó có lớp trưởng An) ngồi quanh một đống lửa trại hình tròn. Cô giáo
+có 25 phần quà hoàn toàn giống nhau cần chia cho 7 học sinh này sao cho An nhận được ít nhất 2 phần quà,
+đồng thời 2 bạn ngồi ngay bên cạnh An mỗi người phải nhận được ít nhất 4 phần quà. Tính số cách xếp chỗ
+và chia quà.
+Câu 4 [HTN]: Một tiểu đội gồm 5 chiến sĩ (trong đó có tiểu đội trưởng tên Hùng) xếp thành một hàng
+ngang. Chỉ huy có 18 hộp đạn hoàn toàn giống nhau cần chia cho 5 chiến sĩ này sao cho Hùng nhận được ít
+nhất 3 hộp, đồng thời những chiến sĩ đứng ngay bên cạnh Hùng mỗi người phải nhận được ít nhất 4 hộp. Tính
+số cách xếp hàng và chia đạn.
+Câu 5 [HTN]: Có chiếc kẹo giống hệt nhau. Cô giáo chia ngẫu nhiên hết số kẹo này cho học sinh A,
+22 4
+B, C, D sao cho mỗi học sinh nhận được ít nhất chiếc. Tính xác suất để không có học sinh nào nhận được
+1
+quá chiếc kẹo (kết quả làm tròn đến hàng phần trăm)
+6
+Câu 6 [HTN]: Có viên bi giống nhau và chiếc hộp khác nhau. Bỏ ngẫu nhiên bi vào hộp. Tính xác
+18 5
+suất để có đúng chiếc hộp bị rỗng (kết quả làm tròn đến hàng phần trăm)
+2
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

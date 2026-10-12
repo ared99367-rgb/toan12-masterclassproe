@@ -1,0 +1,65 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+3 Tính |A XA XA |, ta thấy không thể có trường hợp nào 3 biến cùng lớn hơn hoặc bằng 15
+i j k
+được, vì tổng của các giá trị bằng 36. Nên |A XA XA |“0 và |A XA XA XA |“0.
+i j k i j k n
+ˆ ˙ ˆ ˙
+24 9
+Do đó |A YA YA YA |“4 ´6 . Vậy số cách gọi thức ăn thỏa mãn bài toán là
+1 2 3 4 21 9
+ˆ ˙ ˆ ˆ ˙ ˆ ˙˙
+39 24 9
+|X|´|A YA YA YA |“ ´ 4 ´6 “1547.
+1 2 3 4 36 21 9
+Bài toán được giải quyết.
+Ví dụ 43. Có bao nhiêu số nguyên dương nhỏ hơn 106 mà tổng các chữ số bằng 23?
+— LỜI GIẢI
+Số cần tìm có dạng a a a a a a với
+1 2 3 4 5 6
+a `a `a `a `a `a “23, (1)
+1 2 3 4 5 6
+và 0 ⩽ a ⩽ 9,i “1,6. Tới đây ta sẽ đếm bài toán theo 2 bước như sau.
+i
+1 Đầu tiên ta đếm các bộ số nguyên dương của phương trình p1q trước.
+2 Sau đó ta sẽ đếm các bộ số nguyên dương của phương trình p1q mà có một số lớn hơn hoặc
+bằng 10.
+3 Cuối cùng ta lấy 2 kết quả vừa tính được trừ đi là ra kết quả ta cần.
+Để làm được điều này, ta sẽ sử dụng nguyên lý bù trừ, trước tiên ta đặt |A |,i “ 1,6 là tập hợp các
+i
+nghiệm không âm của (1) nhưng a ⩾ 10. Đầu tiên ta thấy số nghiệm của (1) là
+i ˆ ˙ ˆ ˙
+23`6´1 28
+“ .
+6´1 5
+Bây giờ ta sẽ xét các trường hợp sau.
+w Tính |A |, ta đổi biến a1 “a ´10 ⩾ 0, lúc này ta có
+i 1 1
+a1 `a `a `a `a `a “13.
+1 2 3 4 5 6
+Theo bài toán chia kẹo thì số bộ nghiệm nguyên không âm của phương trình này sẽ là
+ˆ ˙ ˆ ˙
+13`6´1 18
+“ .
+6´1 5
+Tương tự với các trường hợp khác |A |, khi đó ta có tổng tất cả
+i ˆ ˙
+18
+6ˆ “51408.
+5
+w Tính |A XA |. Ta đổi biến a1 “a ´10 ⩾ 0, a1 “a ´10 ⩾ 0 lúc này ta có
+i j 1 1 2 2
+a1 `a1 `a `a `a `a “3.
+1 2 3 4 5 6
+Theo bài toán chia kẹo thì số bộ nghiệm nguyên không âm của phương trình này sẽ là
+ˆ ˙ ˆ ˙
+3`6´1 8
+“ .
+6´1 5
+Tương tự với các trường hợp |A XA | mà 1 ⩽ i ă j ⩽ 6 khác. Vì ta đang lấy ra 2 tập hợp từ 6
+i j
+tập hợp để xét, nên tổng số cách trong trường hợp này là
+ˆ ˙ ˆ ˙
+6 8
+ˆ “840.
+2 5
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 32

@@ -1,0 +1,62 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+Do a,b,c,d,e,g, f ⩽ 9đồngthờisốnàychiahếtcho11nêntổngđandấuphảichiahếtcho11,hay
+|pa`c`e`gq´pb`d` fq|Pt0;11;22u. (2)
+Tới đây xét các trường hợp ở trên và ta giải hệ phương trình theo ẩn
+#
+u“a`c`e`g
+v “ b`d` f
+ta tìm được trường hợp duy nhất thỏa mãn là
+#
+35“a`c`e`g
+,
+24“ b`d` f
+vì b`d ` f ⩽ 27 nên không thể bằng 35 được. Tới đây chính là bài toán chia kẹo Euler rồi, điều
+kiện chặn dưới của các biến thì không phải vấn đề, tuy nhiên xử lý chặn trên (nhỏ hơn hoặc bằng
+9) thì sao? Ở đây biến a thì không thể bằng 0 được do nếu a “ 0 thì c`e` g “ 35, vô lý. Do vậy
+các biến của ta đều sẽ có điều kiện lớn hơn hoặc bằng 1. Quay lại vấn đề ban đầu, ta sẽ dùng một
+thủ thuật nhỏ, ta biến đổi như sau
+$
+’ ’l1o0om´ooan`l1o0om´oonc`l1o0om´oone`1lo0om´oogn“5
+’
+&
+x 1 ⩾1 x 2 ⩾1 x 3 ⩾1 x 4 ⩾1
+’
+’
+’
+1lo0om´oobn`1lo0om´oodn`1lo0om´oofn“6.
+%
+y 1 ⩾1 y 2 ⩾1 y 3 ⩾1
+Như vậy số bộ số thỏa mãn yêu cầu của bài toán là
+ˆ ˙ ˆ ˙
+4 5
+ˆ .
+3 2
+Cuối cùng ta đi tìm không gian mẫu, áp dụng kỹ thuật tương tự như trên, ta có
+l1o0om´ooan`l1o0om´oonc`l1o0om´oone`1lo0om´oogn`1lo0om´oobn`1lo0om´oodn`1lo0om´oofn“11
+ˆx 1 ⩾1˙ x 2 ⩾1 x 3 ⩾1 x 4 ⩾1 y 1 ⩾1 y 2 ⩾1 y 3 ⩾1
+10
+Như vậy npΩq“ . Suy ra xác suất cần tính là
+6
+npAq 4
+(cid:80)pAq“ “ .
+npΩq 21
+Ví dụ 33. Từ các số 0,1,2,3,4,5,6 lập được bao nhiêu số tự nhiên có 5 chữ số (các chữ số
+không nhất thiết khác nhau) và chia hết cho 9.
+— LỜI GIẢI
+Giả sử số cần tìm có dạng a a ...a , khi đó theo giả thiết ta có
+1 2 5
+a `a `a `a `a “t9;18;27u.
+1 2 3 4 5
+Ta xét các trường hợp sau.
+Trường hợp 1. Nếu a `a `a `a `a “9 với 1 ⩽ a ⩽ 6;0 ⩽ a ⩽ 6pi “2,...,5q, khi đó ta đổi
+1 2 3 4 5 1 i
+biến x “a `1,i “2,...,5 thì 1 ⩽ a ⩽ 6 và 1 ⩽ x ⩽ 7 đồng thời
+i i i i
+a `x `x `x `x “13. (1)
+1 2 3 4 5
+Tới đây ta sẽ sử dụng phần bù để giải quyết nó.
+ˆ ˙
+12
+w Số bộ số nguyên dương thỏa mãn (1) là “495.
+4
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 21

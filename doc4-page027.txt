@@ -1,0 +1,46 @@
+Theoquytắcnhân,sốcáchlà
+( )
+15
+6!· = 720·3003 = 2162160.
+5
+2162160
+■
+Câu2[HTN]
+Có 5 cổ đông (trong đó có ông An và ông Bình) ngồi quanh một bàn họp tròn. Ban quản trị
+có20cổphiếuthưởnghoàntoàngiốngnhaucầnphânbổcho5ngườinày.Hỏicóbaonhiêu
+cáchxếpchỗvàphânbổcổphiếusao choôngAnnhậnítnhất5cổphiếu,ôngBìnhnhậnít
+nhất4cổphiếu?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàphânbổcổphiếu.
+Xếpchỗ.Nămcổđôngkhácnhaungồiquanhbàntròncó(5−1)! = 4! = 24 cách.
+Phânbổcổphiếu.PháttrướcchoôngAn5cổphiếuvàôngBình4cổphiếu,còn20−9 = 11
+cổphiếuchiatựdochonămngười,cho
+( ) ( )
+11+5−1 15
+= = 1365
+5−1 4
+cách.
+Theoquytắcnhân,sốcáchlà
+( )
+15
+4!· = 24·1365 = 32760.
+4
+32760
+■
+Câu3[HTN]
+Có 7 học sinh (trong đó có lớp trưởng An) ngồi quanh một đống lửa trại hình tròn. Cô giáo
+có25phầnquàhoàntoàngiốngnhaucầnchiacho7họcsinhsaochoAnnhậnítnhất2phần,
+đồng thời 2 bạn ngồi ngay bên cạnh An mỗi người phải nhận ít nhất 4 phần. Tính số cách
+xếpchỗvàchiaquà.
+Lời giải. Ở bài này điều kiện chia quà phụ thuộc vị trí vì cần biết ai ngồi cạnh An. Tuy nhiên, do
+ngồitrênvòngtrònnêndùxếpthếnàoAncũngluôncóđúnghaingườibêncạnh;bởivậyhaicông
+đoạnvẫntáchrờiđược.
+Xếp chỗ. Bảy học sinh khác nhau ngồi quanh vòng tròn có (7−1)! = 6! = 720 cách, và mỗi
+cáchđềuxácđịnhrõhaibạnngồicạnhAn.
+Chia quà. Phát trước cho An 2 phần và cho hai bạn ngồi cạnh An mỗi người 4 phần, hết
+2+4+4 = 10 phần;còn25−10 = 15 phầnchiatựdochobảyem,cho
+( ) ( )
+15+7−1 21
+= = 54264
+7−1 6
+cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang17/19

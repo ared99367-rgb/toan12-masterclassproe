@@ -1,0 +1,51 @@
+Buộc ba quyển đó thành một khối, ta xem khối như một quyển sách. Cùng với bốn quyển còn
+lạitrongsốbảyquyển,tacótấtcả1+4 = 5đốitượngcầnxếpthànhmộthàngngang,cho5! = 120
+cách.Theoquytắcnhân,sốcáchxếplà
+2·5! = 2·120 = 240.
+240
+■
+Câu2[HTN]
+Có 5 học sinh nam (trong đó có Nam và Việt), 4 học sinh nữ và 1 thầy giáo xếp thành một
+hàngngang.HỏicóbaonhiêucáchxếpsaochothầygiáoluônđứngkẹpngaygiữaNamvà
+Việt,đồngthờikhôngcó2họcsinhnữnàođứngcạnhnhau?
+Lờigiải.Bàicóhairàngbuộc,taxửlílầnlượt.
+Ràngbuộcthứnhất:thầygiáođứngkẹpngaygiữaNamvàViệt,nênbangườiNam,Thầy,Việt
+đứngliềnnhauthànhmộtkhốivớiThầyởgiữa.KhốinàychỉcóhaithứtựnộibộlàNam–Thầy–
+ViệthoặcViệt–Thầy–Nam,tức2cách.
+Ràng buộc thứ hai: không có hai học sinh nữ nào đứng cạnh nhau, ta dùng phương pháp vách
+ngăn. Xem khối Nam–Thầy–Việt như một đối tượng, nhóm “không phải nữ” gồm khối ấy và ba
+bạnnamcònlại,tấtcả1+3 = 4đốitượng.Xếpbốnđốitượngnàythànhmộthàngđược4!cách,
+vàchúngtạora5khetrống.Bốnbạnnữphânbiệtđượcgàivàobốntrongnămkhe(mỗikhenhiều
+nhấtmộtbạnnữ)theochỉnhhợpA4 cách.
+5
+Theoquytắcnhân,sốcáchxếplà
+2·4!·A4 = 2·24·(5·4·3·2) = 2·24·120 = 5760.
+5
+5760
+■
+Câu3[HTN]
+Tại một buổi triển lãm nghệ thuật, ban tổ chức cần trưng bày 5 bức tranh phong cảnh khác
+nhau(trongđócóbức“Mùathu”),4bứctranhchândungkhácnhau(trongđócóbức“Thiếu
+nữ”) và 3 bức tranh tĩnh vật khác nhau (trong đó có bức “Bình hoa”). Người ta xếp ngẫu
+nhiên 12 bức tranh này thành một hàng ngang trên tường. Tính xác suất để bức “Mùa thu”
+luônđượcxếpkẹpngaygiữabức“Thiếunữ”vàbức“Bìnhhoa”,đồngthời3bứctranhtĩnh
+vậtluônđượcxếpcạnhnhau.
+Lời giải. Mười hai bức tranh đều khác nhau nên số cách xếp tùy ý thành một hàng ngang là
+n(Ω) = 12!. Gọi M là bức Mùa thu, T là bức Thiếu nữ, B là bức Bình hoa, và S ,S là hai bức
+1 2
+tĩnhvậtcònlại(ngoàiBìnhhoa).
+Bài cần thỏa đồng thời hai điều kiện: M kẹp giữa T và B, và ba bức tĩnh vật B,S ,S đứng
+1 2
+cạnh nhau. Điều đáng lưu ý là bức B vừa phải đứng sát M (theo điều kiện kẹp), lại vừa thuộc
+nhómtĩnhvậtphảiliềnnhau,nêntakhôngthểtáchrờihaiđiềukiệnmàphảixétchúngcùnglúc.
+ĐiềukiệnkẹpchohaikhảnăngT–M–B vàB–M–T.XétkhảnăngT–M–B:lúcnàyB đãở
+mép phải của cụm, nên để ba bức tĩnh vật liền nhau thì S ,S phải nối tiếp ngay sau B, cho hai
+1 2
+trườnghợp
+T–M–B–S –S và T–M–B–S –S .
+1 2 2 1
+Tươngtự,khảnăngB–M–T buộcS ,S đứngliềnphíatrướcB,cũngchohaitrườnghợp.Tổng
+1 2
+cộng,nămbứcT,M,B,S ,S luôntạothànhmộtkhốiliềnnhauvớiđúng4thứtựnộibộhợplệ.
+1 2
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang6/19

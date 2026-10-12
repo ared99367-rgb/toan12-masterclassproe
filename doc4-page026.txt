@@ -1,0 +1,46 @@
+Phươngphápgiải.Vẫnlàhaitầngxếpchỗvàchiavật,nhưngphầnchiacóthêmràngbuộc
+chặndướinêndùngmẹo“pháttrước”.Cầnđặcbiệtchúý:nếuđiềukiệnchiaphụthuộcvào
+vịtrí(chẳnghạn“ngườingồicạnhAnhậnnhiềuhơn”)thìphảigắnviệcchiavàotừngcách
+xếp chỗ, và với hàng ngang nhiều khi phải tách trường hợp vì số người đứng cạnh thay đổi
+theovịtrí.
+Vídụminhhọa
+Mộtnhómgồm5họcsinhA,B,C,D,E và20viênkẹohoàntoàngiốngnhau.Cầnxếpchỗ
+cho5họcsinh,sauđóchiakẹosaochobạnAnhậnítnhất4viên,bạnB nhậnítnhất3viên,
+3bạncònlạicóthểnhậnhoặckhông.
+Lời giải. Vì điều kiện chia kẹo ở đây gắn với từng bạn cụ thể chứ không phụ thuộc vị trí ngồi, ta
+tínhsốcáchchiamộtlầnrồinhânvớisốcáchxếpchỗ.
+Phần chia kẹo. Phát trước cho A bốn viên và B ba viên, còn 20−4−3 = 13 viên chia tự do
+chonămbạn(mỗibạncóthểnhậnthêm0viên).Sốcáchlà
+( ) ( )
+13+5−1 17
+= = 2380.
+5−1 4
+Trườnghợp1—xếpthànhhàngngang.Nămbạnkhácnhauxếpthànhhàngcó5! = 120cách,
+nênsốcáchthựchiệnlà ( )
+17
+5!· = 120·2380 = 285600.
+4
+Trường hợp 2 — xếp quanh vòng tròn. Năm bạn ngồi quanh vòng tròn có (5−1)! = 4! = 24
+cách,nênsốcáchthựchiệnlà
+( )
+17
+4!· = 24·2380 = 57120.
+4
+285600 (hàngngang); 57120 (vòngtròn)
+■
+Câu1[HTN]
+Một nhóm gồm 6 nhân viên (trong đó có giám đốc và phó giám đốc) xếp thành một hàng
+ngang để chụp ảnh kỷ niệm. Sau đó công ty có 15 phiếu mua hàng hoàn toàn giống nhau
+cần chia cho 6 nhân viên sao cho giám đốc nhận ít nhất 3 phiếu, phó giám đốc nhận ít nhất
+2phiếuvàcácnhânviêncònlạicóthểnhậnhoặckhông.Hỏicóbaonhiêucáchxếpchỗvà
+chiaphiếu?
+Lờigiải.Haicôngđoạnđộclập:xếpchỗvàchiaphiếu.
+Xếpchỗ.Sáunhânviênkhácnhauxếpthànhmộthàngngangcó6! = 720 cách.
+Chiaphiếu.Pháttrướcchogiámđốc3phiếuvàphógiámđốc2phiếu,còn15−5 = 10phiếu
+chiatựdochosáungười(mỗingườicóthểnhậnthêm0),cho
+( ) ( )
+10+6−1 15
+= = 3003
+6−1 5
+cách.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang16/19

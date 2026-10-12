@@ -1,0 +1,41 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.31
+Một trường học có cách phát thưởng cho học sinh khá, giỏi vào cuối năm học khá đặc biệt.
+Theo đó, trường sẽ phát cho mỗi lớp 200 quyển vở và yêu cầu lớp phải phát thưởng cho 10
+học sinh có thứ hạng cao nhất lớp theo quy tắc: Bạn học sinh đứng hạng i trong lớp phải
+nhận được ít nhất 15´i quyển vở. Lớp 9A của trường này có đúng 1 bạn đứng hạng i, với
+a ⩽ i ⩽ 10. Hỏi giáo viên chủ nhiệm lớp này có bao nhiêu cách chia 200 quyển vở nói trên
+cho 10 bạn này?
+i Bài tập 3.32
+Trên một bờ hồ, người ta muốn trồng các cây: hồng, cúc, lan, cau và tre. Biết rằng chu vi bờ
+hồ là 100 m và khoảng cách giữa các cây là các số nguyên dương. Giả sử kích thước của các
+gốc cây là không đáng kể. Hỏi có bao nhiêu cách sắp xếp các cây này trên bờ hồ?
+i Bài tập 3.33
+Trong mặt phẳng tọa độ Oxy, xét điểm Mpa,bq với a, b là các số nguyên dương. Gọi một con
+đường đi từ O đến M là tốt nếu nó chỉ đi lên hoặc sang phải. Chứng minh rằng số đường đi
+tốt từ O đến M là số nghiệm của phương trình
+x `x `¨¨¨`x “ b.
+1 2 a`1
+i Bài tập 3.34
+Trong không gian Oxyz, gọi S là tập hợp các điểm nguyên nằm phía trong hoặc ở trên đỉnh,
+cạnh và mặt của hình lập phương cạnh 999 , trong đó các cạnh song song hoặc vuông góc
+với trục tọa độ, một đỉnh là p0;0;0q và một đỉnh đối với nó là p999;999;999q. Hỏi mặt phẳng
+x ` y `z “2014 đi qua bao nhiêu điểm trong tập hợp S?
+i Bài tập 3.35
+Cho bốn điểm phân biệt Ap0,0q, Bpp,0q, Cpm,qq, Dpm,nq với m, n, p, q là bốn số nguyên
+dương thỏa mãn p ă m, q ă n. Xét các đường đi tốt f từ Ađến D và các đường đi tốt g từ B
+đến C. Gọi S là số các cặp đường đi pf,gq sao cho chúng không có điểm chung. Chứng minh
+rằng ˆ ˙ˆ ˙ ˆ ˙ˆ ˙
+m`n m`q´p m`q m`n´p
+S “ ´ .
+n q q n
+(cid:15) Vietnam TST 2003
+i Bài tập 3.36
+Cho đa giác đều 103 cạnh. Tô màu đỏ 79 đỉnh của đa giác và tô màu xanh các đỉnh còn lại.
+Gọi Alà số các cặp đỉnh đỏ kề nhau và B là số cặp đỉnh xanh kề nhau.
+1 Tìm tất cả các giá trị có thể nhận được của cặp pA,Bq.
+2 Xác định số cách tô màu các đỉnh của đa giác để B “14. Biết rằng hai cách tô màu được
+xem là như nhau nếu chúng có thể nhận được nhau qua một phép quay quanh tâm của
+đường tròn ngoại tiếp đa giác.
+(cid:15) VMO 2014
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 39

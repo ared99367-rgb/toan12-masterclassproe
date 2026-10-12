@@ -1,0 +1,39 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+3 Bài tập tự luyện
+i Bài tập 3.1
+Tìm số bộ số nguyên không âm px, y,z,tq thỏa mãn 1 ⩽ x ⩽ y ⩽ z ⩽ t ⩽ 1000.
+i Bài tập 3.2
+Tiền giấy của Ngân hàng quốc gia Việt Nam lưu hành phổ biến trên thị trường có 10
+loại: 200,500,1000,2000,5000,10.000,20.000,50.000,100.000,500.000. Hãy xác định số
+bộ khác nhau gồm 15 tờ giấy bạc của Ngân hàng quốc gia Việt Nam.
+i Bài tập 3.3
+Tìm số nghiệm nguyên của phương trình a`b`c`d “17 với a ⩾ 1,b ⩾ 2,c ⩾ 3,d ⩾ 4.
+i Bài tập 3.4
+Tìm số nghiệm nguyên của phương trình x `x `x `x “17 với 3 ⩽ x ⩽ 5pi “1,4q.
+1 2 3 4 i
+i Bài tập 3.5
+Tìm số nghiệm nguyên của phương trình x `x `x `x “30 với 5 ⩽ x ⩽ 10,i “1,4.
+1 2 3 4 i
+i Bài tập 3.6
+Tìm số nghiệm nguyên không âm của bất phương trình x `x `x `x ⩽ 11.
+1 2 3 4
+i Bài tập 3.7
+Tìm số nghiệm nguyên dương của bất phương trình x `x `x `x ⩽ 11.
+1 2 3 4
+i Bài tập 3.8
+"
+x `x `x `x ⩽ 11
+Tìm số nghiệm nguyên không âm của hệ 1 2 3 4 .
+⩽
+x 3
+1
+i Bài tập 3.9
+Cho phương trình x ` x ` x ` x “ 20,x P (cid:78), thỏa mãn điều kiện x ,x ,x ,x chẵn. Hỏi
+1 2 3 4 i 1 2 3 4
+phương trình có tất cả bao nhiêu nghiệm nguyên.
+i Bài tập 3.10
+Có n vật giống hệt nhau và m hộp phân biệt. pn ⩾ m,n,mPN˚q
+1 Hỏi có bao nhiêu các khác nhau phân phối hết n vật vào m hộp.
+2 Hỏi có bao nhiêu các khác nhau phân phối hết n vật vào m hộp sau cho mỗi hộp có ít
+nhất 1 vật.
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 35

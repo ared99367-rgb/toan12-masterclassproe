@@ -1,0 +1,47 @@
+Theoquytắcnhân,sốcáchlà
+( )
+21
+6!· = 720·54264 = 39070080.
+6
+39070080
+■
+Câu4[HTN]
+Mộttiểuđộigồm5chiếnsĩ(trongđócótiểuđộitrưởngtênHùng)xếpthànhmộthàngngang.
+Chỉ huy có 18 hộp đạn hoàn toàn giống nhau cần chia cho 5 chiến sĩ sao cho Hùng nhận ít
+nhất3hộp,đồngthờinhữngchiếnsĩđứngngaybêncạnhHùngmỗingườiphảinhậnítnhất
+4hộp.Tínhsốcáchxếphàngvàchiađạn.
+Lời giải. Khác với vòng tròn, ở hàng ngang số người đứng cạnh Hùng thay đổi theo vị trí của
+Hùng,nêntaphảitáchtrườnghợp.
+Trường hợp 1 — Hùng đứng ở một trong hai đầu hàng. Khi đó Hùng chỉ có một người đứng
+cạnh. Số cách xếp: chọn một trong hai đầu hàng cho Hùng (2 cách), bốn người còn lại xếp vào
+bốnvịtrícònlại(4!cách),tấtcả2·4! = 48cách.Vềchiađạn,pháttrướcchoHùng3hộpvàcho
+ngườicạnhHùng4hộp,còn18−7 = 11 hộpchiatựdochonămngười,cho
+( ) ( )
+11+5−1 15
+= = 1365
+5−1 4
+cách.Sốcáchcủatrườnghợpnàylà48·1365 = 65520.
+Trườnghợp2— Hùngđứngở mộttrongbavị trígiữa. KhiđóHùngcó haingườiđứng cạnh.
+Số cách xếp là 3·4! = 72. Phát trước cho Hùng 3 hộp và cho hai người cạnh Hùng mỗi người 4
+hộp,hết3+4+4 = 11 hộp,còn18−11 = 7 hộpchiatựdo,cho
+( ) ( )
+7+5−1 11
+= = 330
+5−1 4
+cách.Sốcáchcủatrườnghợpnàylà72·330 = 23760.
+Cộnghaitrườnghợp,tổngsốcáchlà
+65520+23760 = 89280.
+89280
+■
+Câu5[HTN]
+Có 22 chiếc kẹo giống hệt nhau. Cô giáo chia ngẫu nhiên hết số kẹo này cho 4 học sinh
+A,B,C,D sao cho mỗi học sinh nhận ít nhất 1 chiếc. Tính xác suất để không có học sinh
+nàonhậnđượcquá6chiếckẹo(làmtrònđếnhàngphầntrăm).
+Lờigiải.Gọisốkẹobốnbạnlàa,b,c,d,tacó
+a+b+c+d = 22, a,b,c,d ≥ 1.
+Sốcáchchiatùyý(khônggianmẫu)làsốnghiệmnguyêndương:
+( ) ( )
+22−1 21
+n(Ω) = = = 1330.
+4−1 3
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang18/19

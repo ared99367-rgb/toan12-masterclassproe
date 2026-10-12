@@ -1,0 +1,38 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+i Bài tập 3.11
+Một câu lạc bộ thể thao có 4 môn là bơi lội, cầu lông, bóng bàn và cờ vua. Một lớp chuyên
+toán có 30 học sinh đến câu lạc bộ mỗi em đăng kí 1 môn trong 4 môn đó và tất cả các học
+sinh đều tham gia. Hỏi có tất cả bao nhiêu cách đăng kí khác nhau.
+i Bài tập 3.12
+Một lớp học gồm 35 học sinh được xếp thành một hàng ngang. Giáo viên phụ trách lớp cần
+chọn 5 đội để tham gia một trò chở. Hỏi có bao nhiêu cách chọn biết rằng mỗi đội gồm 3 học
+sinh đứng liền kề nhau trong hàng ngang ban đầu?
+i Bài tập 3.13
+Hai đội tuyển Avà B tham gia giải bóng bàn. Mỗi đội có 7 người giao đấu với nhau theo một
+thứ tự nhất định. Đầu tiên, người thứ nhất của đội A, đấu với người thứ nhất của đội B và
+người thua sẽ bị loại. Sau đó, người chiến thắng chơi nữa với người thứ hai của đội kia, các
+bước tiếp theo người chơi tương tự. Cuộc thi đấu kết thúc cho đến khi tất cả người chơi của 1
+đội đều bị loại và đội còn lại là chiến thắng. Hỏi số cách diễn ra cuộc thi đấu.
+i Bài tập 3.14
+Một số tự nhiên Ađược gọi là số Lucky nếu tổng các chữ số của nó là 7. Sắp thứ tự tất cả các
+số Lucky theo thứ tự tăng dần và ta nhận được dãy số a ;a ;... biết a “2005. Tính số hạng
+1 2 n
+a .
+5n
+i Bài tập 3.15
+ChohaitậphợpA“ta ,a ,...,a uvà B “tb ,b ,...,b u.Nếucómộtánhxạ f :AÑB sao
+1 2 100 1 2 50
+cho mỗi phần tử trong B có duy nhất một tạo ảnh, đồng thời fpa q ⩽ fpa q ⩽ ... ⩽ f pa q.
+1 2 100
+Số ánh xạ f bằng bao nhiêu?
+i Bài tập 3.16
+Có15ngườixếpthànhmộthàngdọc(vịtrícủamỗingıuờitronghànglàcốđịnh).Chọnngẫu
+nhiên 4 người trong hàng. Tính xác suất để 4 người được chọn không có hai người nào đứng
+cạnh nhau.
+i Bài tập 3.17
+Một lớp học có 21 học sinh nam và 22 học sinh nữ.
+1 Hỏi có tất cả bao nhiêu cách xếp 43 học sinh thành một hàng dọc sao cho không có hai
+học sinh nam đứng cạnh nhau.
+2 Hỏi có tất cả bao nhiêu cách xếp 43 học sinh đó thành một hàng dọc sao cho xuất hiện
+đúng một cặp nam-nữ thỏa mãn nam đứng trước nữ?
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 36

@@ -1,0 +1,47 @@
+được ( ) ( )
+15−1 14
+= = 2002
+6−1 5
+cách.
+Theoquytắcnhân,sốcáchlà
+( )
+14
+5!· = 120·2002 = 240240.
+5
+240240
+■
+Câu3[HTN]
+Có 4 học sinh nam, 3 học sinh nữ và 20 quả bóng bay hoàn toàn giống nhau. Cần xếp7 học
+sinhnàythànhmộthàngngangsaocho3họcsinhnữluônđứngcạnhnhau,sauđóchiatoàn
+bộ bóng bay cho các em sao cho mỗi em nhận được ít nhất 1 quả bóng. Tính số cách thực
+hiện.
+Lờigiải.Haicôngđoạn:xếphọcsinhrồichiabóng.
+Xếp học sinh. Vì ba bạn nữ phải đứng cạnh nhau, ta buộc ba nữ thành một khối. Khi đó cần
+xếpkhốinữcùngbốnbạnnam,tức5đốitượngthànhhàng,được5!cách;babạnnữtrongkhốilại
+hoánvịnộibộđược3! cách.Vậysốcáchxếphọcsinhlà
+5!·3! = 120·6 = 720.
+Chiabóng.Gọisốbóngmỗiemnhậnlàx ,x ,...,x ,tađếmsốnghiệmnguyêndươngcủa
+1 2 7
+x +x +···+x = 20, x ≥ 1,
+1 2 7 i
+được ( ) ( )
+20−1 19
+= = 27132
+7−1 6
+cách.
+Theoquytắcnhân,sốcáchthựchiệnlà
+( )
+19
+5!·3!· = 720·27132 = 19535040.
+6
+19535040
+■
+Câu4[HTN]
+Có5họcsinhnam(trongđócóNamvàViệt),3họcsinhnữvà20viênkẹohoàntoàngiống
+nhau.Cầnxếp8họcsinhnàyngồiquanhmộtbàntrònsaocho3họcsinhnữluônngồicạnh
+nhau,đồngthờihaibạnNamvàViệtkhôngngồicạnhnhau,sauđóchiatoànbộsốkẹocho
+cácemsaochomỗiemnhậnđượcítnhất1viênkẹo.Tínhsốcáchthựchiện.
+Lờigiải.Haicôngđoạn:xếpchỗrồichiakẹo.
+Xếpchỗ.Tađếmbằngcáchlấyphầnthỏa“banữngồicạnhnhau”trừđiphần“banữngồicạnh
+nhaunhưngNamvàViệtcũngngồicạnhnhau”.
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang12/19

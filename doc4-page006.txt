@@ -1,0 +1,35 @@
+KHÓA CHINH PHỤC 10 CÂU CUỐI
+THPT QG Thầy Nghĩa – Luyện Thi Toán 10-11-12 0362546417 06
+\
+VÍ DỤ MINH HỌA: Xếp 5 học sinh A, B, C, D, E thành một hàng ngang. Có bao nhiêu cách xếp sao cho
+học sinh A luôn đứng ngay giữa học sinh B và học sinh C?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Trên giá sách có 7 quyển sách hoàn toàn khác nhau, trong đó có quyển Toán tập 1, quyển Lý
+tập 1 và quyển Hóa tập 1. Hỏi có bao nhiêu cách xếp 7 quyển sách thành một hàng ngang sao cho quyển
+Toán tập 1 luôn đứng kẹp ngay giữa quyển Lý tập 1 và quyển Hóa tập 1?
+Câu 2 [HTN]: Có học sinh nam (trong đó có Nam và Việt), học sinh nữ và thầy giáo xếp thành một
+5 4 1
+hàng ngang. Hỏi có bao nhiêu cách xếp sao cho thầy giáo luôn đứng kẹp ngay giữa Nam và Việt, đồng thời
+không có học sinh nữ nào đứng cạnh nhau?
+2
+Câu 3 [HTN]: Tại một buổi triển lãm nghệ thuật, ban tổ chức cần trưng bày bức tranh phong cảnh khác
+5
+nhau (trong đó có bức tranh "Mùa thu"), bức tranh chân dung khác nhau (trong đó có bức tranh "Thiếu
+4
+nữ") và bức tranh tĩnh vật khác nhau (trong đó có bức tranh "Bình hoa"). Người ta xếp ngẫu nhiên
+3 12
+bức tranh này thành một hàng ngang trên tường. Tính xác suất để bức tranh "Mùa thu" luôn được xếp kẹp
+ngay giữa bức tranh "Thiếu nữ" và bức tranh "Bình hoa", đồng thời bức tranh tĩnh vật luôn được xếp
+3
+cạnh nhau.
+ DẠNG TOÁN CON: PHẦN TỬ LUÔN ĐỨNG KẸP GIỮA HAI PHẦN TỬ KHÁC TRÊN VÒNG
+TRÒN
+VÍ DỤ MINH HỌA: Có 6 người gồm A, B, C, D, E, F ngồi quanh một mâm cơm tròn. Hỏi có bao nhiêu
+cách xếp chỗ sao cho người A luôn ngồi ngay giữa người B và người C?
+BÀI TẬP VẬN DỤNG
+Câu 1 [HTN]: Xâu 8 hạt cườm hoàn toàn khác nhau thành một chiếc vòng tay tròn, trong đó có một hạt Đỏ,
+một hạt Xanh và một hạt Vàng. Hỏi có bao nhiêu cách xâu sao cho hạt Đỏ luôn nằm kẹp ngay giữa hạt Xanh
+và hạt Vàng? (Giả sử vòng tay không thể lật ngược).
+KHI BỎ CUỘC, HÃY NGHĨ ĐẾN LÍ DO BẮT ĐẦU
+BIÊN SOẠN
+HOÀNG TRỌNG NGHĨA

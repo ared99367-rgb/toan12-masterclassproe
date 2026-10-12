@@ -1,0 +1,54 @@
+π | Về bài toán chia kẹo Euler https://www.facebook.com/PimaXPro | (cid:135)
+— LỜI GIẢI
+Gọi mỗi cung chứa một cạnh của đa giác đều trên đường tròn là 1 đơn vị (có n cung như vậy). Xét
+mộthìnhthangthỏamãnmàđỉnhđầutiênchứađáynhỏlàA ,cácđỉnhtiếptheotheothứtựthuận
+i
+chiều kim đồng hồ. Gọi x, y,z lần lượt là số đo các cung chứa đáy nhỏ, hai cạnh bên và đáy lớn của
+hình thang, ta có
+x `2y `z “n,1 ⩽ x, y,z P(cid:90),x ăz.
+Ta có phương trình (*) tương đương với
+x `z “n´2y (**)
+với mỗi y thỏa mãn 1 ⩽ y ă n´2. Theo bài toán chia kẹo Euler, phương trình (**) có n´2y ´1
+2
+nghiệm nguyên dương. Bây giờ ta đếm các nghiệm nguyên dương của (**) mà x ăz.
+1 Nếu n lẻ thì (**) không có nghiệm x “z nên số nghiệm thỏa mãn x ăz là n´2y´1.
+2
+2 Nếu n chẵn thì (**) có đúng 1 nghiệm x “z nên số nghiệm thỏa mãn x ăz là n´2y´2.
+2
+Vậy số nghiệm của (*) thỏa mãn các ràng buộc đã cho là
+ÿn´3
+2 n´2y ´1 1
+“ pn´1qpn´3q với n lẻ ;
+2 8
+y“1
+ÿn´4
+2 n´2y ´2 1
+“ pn´2qpn´4q với n chẵn .
+2 8
+y“1
+Với mỗi bộ số x, y,z thỏa mãn (*) xuất phát từ 1 đỉnh đa giác là đỉnh đầu tiên của đáy nhỏ hình
+thang (ứng với cạnh x) theo chiều thuận kim đồng hồ ta có 1 hình thang thỏa mãn. Vậy tổng số
+hình thang thỏa mãn là $
+’1
+& npn´1qpn´3q với n lẻ ;
+8
+’ %1
+npn´2qpn´4q với n chẵn .
+8
+Ví dụ 28 (Saudi Arabian Mathematical Competitions 2017).
+Có bao nhiêu cách điền một hoặc nhiều dấu ` vào giữa 30 số 1 trong dãy bên dưới
+111111111111111111111111111111
+sao cho tổng thu được chia hết cho 30?
+— LỜI GIẢI
+Trước tiên ta chú ý rằng số ban đầu là một số chia hết cho 3 (vì có 30 chữ số 1), mặt khác ta lại có
+nhận xét rằng
+Spxq” x pmod 3q,
+trong đó Spxq là tổng các chữ số của x thì. Do đó, tổng sau quá trình ta điền dấu ` luôn chia hết
+cho 3. Giả sử ta điền k dấu ` thì sẽ chia các số 1 thành k`1 phần. Mỗi phần có tận cùng là 1 nên
+tổng của chúng có tận cùng là k`1 pmod 10q. Suy ra để tổng thu được chia hết cho 30 thì ta phải
+có k`1”0 pmod 10q hay k Pt9,19,29u. Gọi a ,a ,...,a là số chữ số của mỗi phần được chia
+1 2 k`1
+từ k dấu cộng, khi đó
+a `a `a `¨¨¨`a “30
+1 2 3 k`1
+[ HƯỚNG TỚI KỲ THI HSG, THPT QUỐC GIA, TSA BIÊN SOẠN BỞI PIMAX | 17

@@ -1,0 +1,46 @@
+Câu2[HTN]
+Có 6 học sinh nam, 5 học sinh nữ và 1 thầy giáo được xếp ngồi quanh một bàn tròn có 12
+chiếcghế.Tínhxácsuấtđểthầygiáongồigiữa1bạnnamvà1bạnnữ(làmtrònkếtquảđến
+hàngphầntrăm).
+Lời giải. Cả nhóm có 6 + 5 + 1 = 12 người ngồi quanh bàn tròn 12 ghế. Để khử tính quay của
+bàntròn,tacốđịnhchỗngồicủathầygiáo;khiđó11họcsinhcònlạiđượcxếpvào11ghếquanh
+thầy,chokhônggianmẫu
+n(Ω) = 11!.
+Gọi A là biến cố “thầy ngồi giữa một bạn nam và một bạn nữ”, tức hai ghế ngay sát hai bên
+thầy gồm đúng một nam và một nữ. Ta đếm số cách thuận lợi theo từng bước: chọn một bạn nam
+trong 6 bạn có 6 cách; chọn một bạn nữ trong 5 bạn có 5 cách; xếp hai bạn vừa chọn vào hai ghế
+cạnhthầycó2!cách(đổichỗtrái–phải);cuốicùng9họcsinhcònlạixếptựdovào9ghếcònlại
+có9! cách.Vậy
+n(A) = 6·5·2!·9!.
+Dođó
+n(A) 6·5·2!·9!
+P(A) = = .
+n(Ω) 11!
+Khaitriển11! = 11·10·9! rồirútgọn9! ởtửvàmẫu,tađược
+6·5·2 60 6
+P(A) = = = ≈ 0,5455.
+11·10 110 11
+Làmtrònđếnhàngphầntrăm,P(A) ≈ 0,55,tứckhoảng55%.
+6
+P(A) = ≈ 0,55(55%)
+11
+■
+Câu3[HTN]
+Có5cuốnsáchToángiốngnhau,4cuốnsáchLígiốngnhau,3cuốnsáchHóagiốngnhauvà
+5cuốnsáchVăngiống nhau.Xếpngẫu nhiêntấtcả cáccuốnsách nàylênmộtkệ sáchhình
+tròn. Tính xác suất để 4 cuốn sách Lí luôn đứng cạnh nhau và 3 cuốn sách Hóa luôn đứng
+cạnhnhau.
+Lời giải. Tổng số sách là 5+4+3+5 = 17 cuốn, trong đó các cuốn cùng môn giống hệt nhau.
+Sốcáchxếptùyý17 cuốnquanhkệtròn(hoánvịvòngquanhcóphầntửlặp)là
+(17−1)! 16!
+n(Ω) = = .
+5!4!3!5! 5!4!3!5!
+Bây giờ đếm số cách thuận lợi. Buộc bốn cuốn Lí thành một khối và ba cuốn Hóa thành một
+khối; vì các cuốn cùng môn giống nhau nên mỗi khối chỉ có đúng một cách sắp nội bộ. Sau khi
+buộc, các đối tượng cần xếp gồm 5 cuốn Toán, 5 cuốn Văn, một khối Lí và một khối Hóa — tất
+cả 5+5+1+1 = 12 đối tượng, trong đó Toán giống nhau theo nhóm và Văn giống nhau theo
+nhóm.Sốcáchxếp12 đốitượngnàyquanhvòngtrònlà
+(12−1)! 11!
+n(A) = = .
+5!5! 5!5!
+Khibỏcuộc,hãynghĩđếnlídobắtđầu Trang4/19
