@@ -1,0 +1,287 @@
+ID 83 ch6
+Q Bài nền tảng 2 · Dãy số · truy hồi: Cho $u_1=3$, $u_{n+1}=2u_n$. Tìm $u_n$ và tích bốn số hạng đầu.
+OPT ['$u_n=3·2^{n-1}$; tích bằng 5184', '$u_n=3·2^n$; tích bằng 10368', '$u_n=2n+1$; tích bằng 945', '$u_n=3^n$; tích bằng 729']
+
+ID 84 ch6
+Q Bài nền tảng 3 · Dãy số · truy hồi: Với $u_1=3$, $u_{n+1}=2+\frac12u_n$, và với $u_1=a$, $u_{n+1}=a+bu_n$, chọn công thức đúng.
+OPT ['$u_n=4-2^{1-n}$; trường hợp tổng quát $u_n=a(1-b^n)/(1-b)$ nếu b≠1, còn b=1 thì $u_n=na$', '$u_n=3·2^{n-1}$; tổng quát $u_n=a+b^n$', '$u_n=4+2^{1-n}$; tổng quát $u_n=ab^{n-1}$', '$u_n=2^n+3$; tổng quát $u_n=a(1+b)^n$']
+
+ID 85 ch6
+Q Bài nền tảng 4 · Dãy số · đơn điệu: Xét đơn điệu của $u_n=\frac{n}{n^2+1}$, $v_n=\frac{2n-1}{2n}$, $w_n=(-\frac12)^n$ (n≥1).
+OPT ['$u_n$ giảm; $v_n$ tăng; $w_n$ không đơn điệu', '$u_n$ tăng; $v_n$ giảm; $w_n$ tăng', 'cả ba đều giảm', 'cả ba đều tăng']
+
+ID 86 ch6
+Q Bài nền tảng 5 · Dãy số · đơn điệu: Với $u_n=\frac{an+2}{bn+1}$, chọn nhận xét chính xác về hiệu hai số hạng liên tiếp.
+OPT ['$u_{n+1}-u_n=\\frac{a-2b}{(bn+1)(b(n+1)+1)}$; dấu còn phụ thuộc mẫu số', '$u_{n+1}-u_n=a+2b$', '$u_{n+1}-u_n=2b-a$ với mọi a,b', 'dãy luôn tăng']
+
+ID 90 ch6
+Q Bài nền tảng 9 · Cấp số cộng · tam giác: Nếu $\cot(A/2),\cot(B/2),\cot(C/2)$ theo thứ tự lập thành CSC, kết luận nào đúng về các cạnh?
+OPT ['$a,b,c$ theo thứ tự cũng lập thành CSC', 'a,b,c lập thành cấp số nhân', 'tam giác ABC đều', 'chỉ có $a=c$']
+
+ID 103 ch6
+Q Bài nền tảng 22 · Cấp số nhân · tam giác: Ba cạnh của tam giác lập thành cấp số nhân có công bội q&gt;0. Khoảng đúng của q là?
+OPT ['$\\frac{\\sqrt5-1}{2}&lt;q&lt;\\frac{\\sqrt5+1}{2}$', '$q&gt;1$', '$0&lt;q&lt;1/2$', '$q&gt;2$']
+
+ID 107 ch6
+Q 3. Xét tính bị chặn và tính đơn điệu của các dãy số sau ? n2 +1 1 a. u = b. u =(−1)n−1 sin n n n n
+OPT ['cả hai không bị chặn', 'a) tăng, bị chặn dưới bởi 2 nhưng không chặn trên; b) bị chặn nhưng không đơn điệu', 'cả hai tăng và bị chặn', 'a giảm; b tăng']
+
+ID 109 ch6
+Q 5. Cho phương trình : x4 +3x2 −(24+m)x−26−n=0. Tìm hệ thức liên hệ giữa m và n để 3 nghiệm phân biệt x ,x ,x lập thành một cấp số 1 2 3 cộng ?
+OPT ['m+n=0', 'm=n≤−27', 'm=−n', 'Điều kiện là $m=n$ và $m&gt;-27$ để có ba nghiệm phân biệt lập CSC']
+
+ID 110 ch6
+Q 6. Tìm m để phương trình : x4 −(3m+5)x2 +(m+1)2 =0 có bốn nghiệm lập thành một cấp số cộng ?
+OPT ['m=5/2', 'm=−5/19', '$m=5$ hoặc $m=−25/19$', 'm=0']
+
+ID 115 ch6
+Q Tính $S=2^2+(1/2)^2+4^2+(1/4)^2+…+(2^n)^2+(1/2^n)^2$.
+OPT ['$S=\\frac{4^n-1}{3}$', '$S=2n+\\frac{4(4^n-1)}{3}+\\frac{1-4^{-n}}{3}$', '$S=2n+4^n$', '$S=2^n+n$']
+
+ID 121 ch6
+Q 17. Chứng minh rằng : Nếu 0&lt;N ≠1 thì điều kiện ắt có và đủ để ba số dương a,b,c tạo thành một cấp số nhân ( theo thứ tự đó ) là : log N log N −log N a = a b (a,b,c≠1) log N log N −log N c b c
+OPT ['điều kiện là tổng ba log bằng 0', 'tỉ số log bằng 1', 'không phụ thuộc thứ tự a,b,c', 'Điều kiện tương đương là $\\frac{\\log_N a}{\\log_N c}=\\frac{\\log_N a-\\log_N b}{\\log_N b-\\log_N c}$']
+
+ID 122 ch6
+Q 18. Chứng minh rằng , nếu log a,log b,log c tạo thành một cấp số cộng ( theo thứ tự x y z 2log xlog z đó ) thì : log y = a c (0&lt; x,y,z,a,b,c≠1). b log x+log z a c
+OPT ['$\\log_b y=\\log_a x\\log_c z$', '$\\log_b y=\\frac{\\log_a x+\\log_c z}{2}$', '$\\log_b y=\\frac{2\\log_a x\\log_c z}{\\log_a x+\\log_c z}$', '$\\log_b y=\\log_a x+\\log_c z$']
+
+ID 125 ch6
+Q 21.a. Tính tổng của n số hạng : 3+33+333+... b. Tìm x để ba số : ln2,ln ( 2x −1 ) ,ln ( 2x +3 ) lập thành một cấp số cộng ?
+OPT ['a) $(10^n-1)/3$; b) x=2', 'a) $(10^{n+1}-1)/27$; b) x=−1/2', 'a) $3n$; b) x=5', 'a) $S_n=(10^{n+1}-10-9n)/27$; b) $x=5/2$']
+
+ID 128 ch6
+Q Cho tam giác ABC vuông tại A. Ba số $a,b,(\sqrt6/3)c$ theo thứ tự lập thành cấp số nhân. Xác định các góc của tam giác.
+OPT ['Tam giác có $A=90°$, $B=60°$, $C=30°$', 'tam giác đều', 'B=30°, C=60°', 'B=C=45°']
+
+ID 129 ch6
+Q 25. Cho tam giác ABC, có ba cạnh a,b,c , theo thứ tự đó lập thành một cấp số cộng . A C Hãy chứng minh rằng : cot .cot =3. 2 2
+OPT ['bằng 1', 'bằng 2', 'bằng 4', '$\\cot(A/2)\\cot(C/2)=3$']
+
+ID 130 ch6
+Q Tam giác $ABC$ thỏa mãn $\tan A \tan B=6$ và $\tan A \tan C=3$. Chứng minh rằng $\tan A,\tan B,\tan C$ theo thứ tự lập thành cấp số cộng.
+OPT ['lập CSN công bội 2', 'không lập thành cấp số', '$\\tan A,\\tan B,\\tan C$ lập thành CSC với công sai $-1$', 'lập CSC công sai 3']
+
+ID 132 ch6
+Q 28. Tam giác ABC có : cot A,cotB,cotC theo thứ tự đó lập thành một cấp cộng . Hãy chứng minh rằng : a2,b2,c2 theo thứ tự đó cũng lập thành một cấp số cộng ?
+OPT ['$a^2,b^2,c^2$ lập CSC', 'a,b,c lập CSN', 'a²=c²', 'a²+b²+c²=0']
+
+ID 133 ch6
+Q 29. Cho tam giác ABC cân ( AB=AC ), có cạnh đáy BC , đường cao AH , cạnh bên AB theo thứ tự đó lập thành một cấp số nhân . Hãy tính công bội q của cấp số nhân đó ?<br><img src="./quiz-assets/sequence-triangle-q29.svg" alt="Sơ đồ tam giác trong bài 29" class="mt-3 max-h-56 max-w-full rounded-lg border border-slate-200 bg-white p-2">
+OPT ['$q=1/2$', '$q=\\sqrt2$', '$q=\\sqrt{2(\\sqrt2-1)}$', '$q=\\sqrt{(1+\\sqrt2)/2}$']
+
+ID 134 ch6
+Q Tam giác $ABC$ có các cạnh $a,b,c$ theo thứ tự lập thành cấp số cộng. Chứng minh công sai được tính bởi $d=\frac{3r}{2}(\tan \frac{C}{2}-\tan \frac{A}{2})$, trong đó $r$ là bán kính đường tròn nội tiếp.
+OPT ['$d=\\frac{1}{2}r(\\tan \\frac{C}{2}+\\tan \\frac{A}{2})$', '$d=3r(\\tan \\frac{C}{2}-\\tan \\frac{A}{2})$', '$d=\\frac{3r}{2}(\\tan \\frac{C}{2}-\\tan \\frac{A}{2})$', '$d=r(\\tan A+\\tan C)$']
+
+ID 135 ch7
+Q Cho 5 điểm đồng phẳng sao cho các đường thẳng đi qua các cặp điểm trong 5 điểm đó không có 2 đường thẳng nào song song, vuông góc hay trùng nhau. Qua mỗi điểm ta vẽ các đường vuông góc với tất cả các đường thẳng nối 2 điểm trong 4 điểm còn lại. Không kể 5 điểm đã cho số giao điểm của các đường thẳng vuông góc đó nhiều nhất là bao nhiêu?
+OPT ['310.', '330.', '360.', '325.']
+
+ID 143 ch7
+Q Có bao nhiêu cách điền các số 1, 2, 3, 4, 5, 6 (mỗi số một lần) vào các ô tròn ở trên Hình 1 sao cho tổng các số ở mỗi cạnh của tam giác là bằng nhau? (ví dụ ở hình 2, tổng các số ở mỗi cạnh đều bằng 10). 1 6 4 3 2 5 Hình 1 Hình 2<br><img src="./quiz-assets/count-triangle-q9.png" alt="Sơ đồ điền số vào các nút tam giác" class="mt-3 max-h-72 max-w-full rounded-lg border border-slate-200 bg-white p-2">
+OPT ['24', '18', '36', '12']
+
+ID 146 ch7
+Q Từ các chữ số 1,2,3,4,5,6,7,8,9 có thể lập được bao nhiêu số tự nhiên có 15 chữ số, trong đó các chữ số 1 và 2 mỗi chữ số xuất hiện 5 lần, các chữ số còn lại xuất hiện không quá 1 lần và các chữ số lớn hơn 2 không có bất kì hai chữ số nào đứng cạnh nhau.
+OPT ['293388478.', '293388479.', '293388480.', '293388481.']
+
+ID 151 ch7
+Q Cho tam giác ABC, trên cạnh AB lấy 4 điểm khácA,B, trên cạnh BC lấy 5 điểm khácB,C, trên cạnh CA lấy 6 điểm khácC,A. Gọi S tổng số tứ giác tạo thành khi lấy 4 điểm trong 15 điểm nói trên. Khi đó S bằng?
+OPT ['S =1365.', 'S =1020.', 'S =991.', 'S =1041.']
+
+ID 153 ch7
+Q Cho hình đa giác đều có 2n đỉnh n≥2;n∈Z+ . Biết số đường chéo của hình đa giác bằng 6 số lần hình chữ nhật tạo từ 4 đỉnh trong 2n của hình đa giác đó. Hỏi đa giác đó có bao nhiêu đỉnh.
+OPT ['24.', '20.', '26.', '30']
+
+ID 155 ch7
+Q Từ các chữ số thuộc tập X ={0;1;2;3;4;5;6;7;8;9}, ta lập được bao nhiêu số tự nhiên có 6 chữ số sao cho trong đó có một chữ số lặp lại 3 lần, một chữ số khác lặp lại 2 lần, và một chữ số khác với hai chữ số trên?
+OPT ['43200.', '480.', '3888.', '38880.']
+
+ID 157 ch7
+Q Có tất cả bao nhiêu số tự nhiên gồm 5 chữ số mà trong mỗi số đó không có chữ số nào lặp lại đúng 4 lần?
+OPT ['99595.', '89560.', '89640.', '89595.']
+
+ID 158 ch7
+Q Có bao nhiêu số tự nhiên có 4chữ số khác nhau, chia hết cho 4, nhỏ hơn 4567 và có chữ số hàng chục là chữ số lẻ.
+OPT ['171.', '172.', '173.', '170.']
+
+ID 164 ch8
+Q Từ 1 hộp đựng 100 thẻ đánh số thứ tự từ 1 đến 100 lấy ngẫu nhiên 3 thẻ. Xác suất của biến cố: A=”Số ghi trên 3 thẻ là số đo 3 cạnh của một tam giác” là: 95 65 35 55
+OPT ['95/132', '65/132', '35/236', '55/236']
+
+ID 166 ch8
+Q Thầy chủ nhiệm có 16 cuốn sách đôi một khác nhau gồm 8 cuốn sách toán, 5 cuốn sách lý và 3 cuốn sách anh. Thầy lấy 8 cuốn tặng đều cho 8 bạn học sinh. Tính xác suất để sau khi tặng mỗi loại sách còn ít nhất một cuốn. 173 163 127 134
+OPT ['173/195', '163/185', '127/175', '134/165']
+
+ID 168 ch8
+Q Gọi S là tập tất cả các số tự nhiên có 8 chữ số đôi một khác nhau. Chọn ngẫu nhiên một số thuộc S . Tính xác suất để chọn được số chia hết cho 45. 53 53 53 5
+OPT ['53/2268', '53/2520', '53/252', '5/324']
+
+ID 170 ch8
+Q Gọi S là tập hợp các số tự nhiên gồm 10 chữ số lập từ tập X ={6;8}. Chọn 1 số từS , tính xác suất để số được chọn là số không có hai chữ số 6 nào đứng cạnh nhau?. 9 143 143 145
+OPT ['9/26', '143/210', '143/26', '145/210']
+
+ID 172 ch8
+Q Có 8 bạn cùng ngồi xung quanh một cái bàn tròn, mỗi bạn cầm một đồng xu như nhau. Tất cả 8 bạn cùng tung đồng xu của mình, bạn có đồng xu ngửa thì đứng, bạn có đồng xu sấp thì ngồi. Tính xác suất để không có hai bạn liền kề cùng đứng là 46 45 48 47
+OPT ['46/256', '45/256', '48/256', '47/256']
+
+ID 174 ch8
+Q Cho tam giác đều H có cạnh bằng 8. Chia tam giác đều này thành 64 tam giác đều có cạnh bằng 1 bởi các đường thẳng song song với các cạnh của tam giác đều đã cho. Gọi S là tập hợp các đỉnh của 64 tam giác đều có cạnh bằng 1. Chọn ngẫu nhiên 4 đỉnh của tập S. Tính xác suất để 4 đỉnh chọn được là bốn đỉnh của một hình bình hành nằm trong miền trong tam giác đều Hvà có cạnh chứa các cạnh của tam giác đều cạnh bằng 1 ở trên. 45 64 2 2<br><img src="./quiz-assets/prob-triangle-q11.svg" alt="Lưới tam giác đều cạnh 8" class="mt-3 max-h-72 max-w-full rounded-lg border border-slate-200 bg-white p-2">
+OPT ['45/473', '64/473', '2/210', '2/473']
+
+ID 175 ch8
+Q Từ 1 hộp đựng 100 thẻ đánh số thứ tự từ 1 đến 100 lấy ngẫu nhiên 2 thẻ. Xác suất của biến cố: A=”Tổng số ghi trên 2 thẻ nhỏ hơn 70” là: 49 119 161 578
+OPT ['49/198', '119/495', '161/330', '578/2475']
+
+ID 177 ch8
+Q Thầy giáo có 7 quyển sách Toán, 8 quyển sách Vật lí và 9 quyển sách Hóa Học (các quyển sách cùng loại là giống nhau) dùng để làm phần thưởng cho 12 học sinh, sao cho mỗi học sinh được 2 quyển sách khác loại. Trong số 12 học sinh đó có bạn An và bạn Bình. Tính xác suất để bạn An và bạn Bình có phần thưởng giống nhau. 23 6 7 19
+OPT ['23/66', '6/11', '7/11', '19/66']
+
+ID 179 ch8
+Q Một nhóm gồm 5 bạn nam, 4 bạn nữ và cầu thủ Công Phượng đứng thành2hàng, mỗi hàng 5 người để chụp ảnh kỉ niệm. Xác suất để khi đứng, Công Phượng xen giữa hai bạn nam đồng thời các bạn nữ không đứng cạnh nhau trong cùng một hàng bằng 1 1 1 2
+OPT ['1/35', '1/105', '1/70', '2/105']
+
+ID 180 ch8
+Q Hai bạn Nam và Minh hẹn gặp nhau tại thư viện từ 8 giờ đến 9 giờ. Người đến trước đợi quá 10 phút mà không gặp thì rời đi. Tìm xác suất để hai người đi ngẫu nhiên để đến nơi hẹn theo quy định mà gặp nhau. 7 11 10 13
+OPT ['7/36', '11/36', '10/36', '13/36']
+
+ID 183 ch8
+Q Gọi $A$ là tập các số tự nhiên có 5 chữ số. Chọn ngẫu nhiên một số trong $A$. Tính xác suất để số đó chia hết cho 7 và có chữ số hàng đơn vị bằng 2.
+OPT ['257/90000', '257/18000', '127/90000', '127/30000']
+
+ID 184 ch8
+Q Chọn ngẫu nhiên ba số a,b,c trong tập hợp S ={1;2;3;...;20}. Biết xác suất để ba số tìm được m m thoả mãn a2 +b2 +c2 chia hết cho 3 bằng , với m,n là các số nguyên dương và phân số n n tối giản. Biếu thức S =m+n bằng
+OPT ['85.', '239.', '58.', '127.']
+
+ID 185 ch8
+Q Có 25 quả cầu gồm hai loại Đen và Đỏ đặt trong hai hộp. Hộp nào có số quả cầu nhiều hơn thì số quả Đỏ sẽ nhiều hơn. Lấy ngẫu nhiên mỗi hộp một quả. Biết xác suất để hai quả cùng Đỏ là 0,48. Tinh xác suất để lấy được một quả Đen và một quả Đỏ. 11 8 12 13
+OPT ['11/25', '8/25', '12/25', '13/25']
+
+ID 187 ch8
+Q Trong một cuộc thi có 10 câu hỏi trắc nghiệm, mỗi câu có 4 phương án trả lời, trong đó chỉ có một phương án đúng. Với mỗi câu, nếu chọn phương án trả lời đúng thì thí sinh được cộng 5 điểm, nếu chọn phương án trả lời sai sẽ bị trừ 1 điểm. Tính xác suất để một thí sinh làm bài bằng cách lựa chọn ngẫu nhiên phương án được 32 điểm, biết thí sinh phải làm hết các câu hỏi và mỗi câu hỏi chỉ chọn duy nhất một phương án trả lời. 45 15 21 405
+OPT ['45/131072', '15/131072', '21/1048576', '405/131072']
+
+ID 189 ch8
+Q Chọn ngẫu nhiên 6 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong xấp bài này chứa một bộ ba, một bộ đôi (tức là có ba quân cùng thuộc một bộ, hai quân thuộc một bộ khác và quân còn lại khác bộ với 5 quân trước) 2028 396 1584 169
+OPT ['2028/195755', '396/195755', '1584/195755', '169/978755']
+
+ID 190 ch8
+Q Chọn ngẫu nhiên 6 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong xấp bài này chứa hai bộ ba (tức là có ba quân cùng thuộc một bộ và ba quân còn lại cùng thuộc một bộ khác) 24 26 18 12
+OPT ['24/195755', '26/195755', '18/195755', '12/195755']
+
+ID 191 ch8
+Q Chọn ngẫu nhiên 5 quân bài từ một cỗ bài tú lơ khơ ta được một xấp bài. Tính xác suất để trong xấp bài này chứa hai đôi (tức là có hai quân cùng thuộc bộ bộ, hai quân thuộc một bộ khác và quân còn lại khác bộ với 4 quân trước ) 396 198 33 234
+OPT ['396/4165', '198/4165', '33/83300', '234/4165']
+
+ID 192 ch8
+Q Cho tập hợp M ={1;2;3;4}. Gọi E là tập hợp các số tự nhiên có 6 chữ số được lập từ tập M. Lấy ngẫu nhiên một số từ tập E. Tính xác suất để số được chọn thỏa mãn chữ số 1 xuất hiện không quá 2 lần, chữ số 2 xuất hiện không quá 3 lần, các chữ số 3, 4 xuất hiện không quá 1 lần. 105 345 45 135
+OPT ['105/1024', '345/512', '45/64', '135/2048']
+
+ID 194 ch8
+Q Cho một đa giác đều gồm 2n đỉnh (n≥2, n∈N). Chọn ngẫu nhiên ba đỉnh trong số 2n đỉnh 1 của đa giác, xác suất ba đỉnh được chọn tạo thành một tam giác vuông là . Tổng tất cả các ước 5 nguyên dương của n là
+OPT ['14.', '15.', '17.', '18.']
+
+ID 196 ch8
+Q Từ các chữ số {0,1;2;3;4;5,6} viết ngẫu nhiên một số tự nhiên gồm 6 chữ số khác nhau có dạng aa a a a a Tính xác suất để viết được các số thỏa mãn điều kiện a +a =a +a =a +a 1 2 3 4 5 6 1 2 3 4 5 6 5 4 4 3
+OPT ['5/158', '4/135', '4/85', '3/20']
+
+ID 199 ch8
+Q Có hai chuồng thỏ, chuồng thứ nhất có 5 con thỏ đen, 10 con thỏ trắng, chuồng thứ hai có 3 con thỏ trắng, 7 con thỏ đen. Từ chuồng thứ hai bắt ngẫu nhiên một con cho vào chuồng thứ nhất rồi bắt ngẫu nhiên một con trong chuồng thứ nhất ra thì thấy màu trắng. Tính xác suất để con thỏ bắt được là của chuồng thứ nhất ở thời điểm ban đầu. 3 10 100 1
+OPT ['3/10', '10/13', '100/103', '1/6']
+
+ID 200 ch8
+Q Một chuồng gà có 9 con gà mái và 1 con trống. Chuồng gà kia có 1 con mái và 5 con trống. Bắt ngẫu nhiên từ mỗi chuồng 1 con để làm thịt, số gà còn lại ở cả hai chuồng được dồn chung vào chuồng thứ 3, bắt ngẫu nhiên một con nữa ra để làm thịt. Tính xác suất để con thứ ba bắt ra là con trống. 34 6 38 1
+OPT ['34/84', '6/16', '38/105', '1/6']
+
+ID 201 ch8
+Q Mỗi lượt, ta gieo một con súc sắc (loại 6 mặt, cân đối, đồng chất) và một đồng xu (cân đối, đồng chất). Tính xác suất để trong 3 lượt gieo như vậy, có ít nhất một lượt gieo được kết quả con súc sắc xuất hiện mặt 1 chấm, đồng tiền xu suất hiện mặt sấp. 397 1 398 125
+OPT ['397/1728', '1/1728', '398/1728', '125/1728']
+
+ID 204 ch8
+Q Một hộp đựng 50 chiếc thẻ được đánh số từ 1 đến 50. Chọn ngẫu nhiên từ hộp hai thẻ. Tính xác suất để hiệu bình phương số ghi trên hai thẻ là số chia hết cho 3. 801 8 409 681
+OPT ['801/1225', '8/25', '409/1225', '681/1225']
+
+ID 205 ch8
+Q Chọn ngẫu nhiên một số tự nhiên có năm chữ số. Tính xác suất để số được chọn có dạng abcde trong đó 1≤ a≤b≤c≤ d ≤e≤9. 143 138 11 3
+OPT ['143/10000', '138/1420', '11/200', '3/7']
+
+ID 210 ch8
+Q Cho E là tập các số tự nhiên gồm bốn chữ số đôi một khác nhau được lập từ tập X ={0, 1, 2, 3, 4, 5, 6, 7, 8}. Chọn ngẫu nhiên một số từ tập E. Tính xác suất để số được chọn chia hết cho 3. 37 75 3 83
+OPT ['37/112', '75/224', '3/8', '83/224']
+
+ID 212 ch8
+Q Lấy ngẫu nhiên một số tự nhiên có 9 chữ số khác nhau. Tính xác suất để số đó chia hết cho 3. 17 11 1 5
+OPT ['17/81', '11/27', '1/9', '5/18']
+
+ID 213 ch8
+Q Cho đa giác đều 2n đỉnh, lấy ngẫu nhiên một đường chéo của đa giác này thì xác suất để đường 1 7 chéo được chọn có độ dài lớn nhất là . Tìm hệ số của số hạng chứa x trong khai triển 9 ( 2 )n x −3x+2 .
+OPT ['-1364.', '-5418.', '-3812.', '-4028.']
+
+ID 214 ch8
+Q Gieo một con súc sắc cân đối đồng chất hai lần. Giả sử m là tích số chấm mà con súc sắc xuất hiện sau hai lần gieo. Tính xác suất sao cho hàm số y=(m−3)x2+(41−2m)x+2 đồng biến trên khoảng (0;+∞). 1 2 3 17
+OPT ['1/2', '2/3', '3/4', '17/36']
+
+ID 215 ch8
+Q Hộp A chứa 3 quả bóng màu trắng và 4 quả bóng màu đen, hộp B chứa 4 quả bóng màu trắng và 6 quả bóng màu đen. Lấy ngẫu nhiêu một quả bóng từ hộp B và bỏ vào hộp A. Sau đó lấy ngẫu nhiên một quả bóng từ hộp A. Tính xác suất để quả bóng lấy được là màu đen. 9 23 8 5
+OPT ['9/20', '23/10', '8/17', '5/8']
+
+ID 217 ch8
+Q Cho tập X ={1;2;3;4;5;6;7;8;9}. Gọi S là tập hợp các số tự nhiên có sáu chữ khác nhau được tạo từ X . Chọn ngẫu nhiên từ S ra hai số. Khi đó xác suất để trong hai số được chọn có đúng một số không chia hết cho 2 đồng thời có đúng hai chữ số chẵn đứng cạnh nhau gần với kết quả nào dưới đây nhất ?
+OPT ['0,2.', '0,4.', '0,5.', '0,7.']
+
+ID 218 ch8
+Q Chọn ngẫu nhiên một số tự nhiên có 6 chữ số khác nhau. Tính xác suất để số được chọn là số lẻ và có tổng các chữ số bằng 18. 5 16 15 6
+OPT ['5/378', '16/2835', '15/2385', '6/837']
+
+ID 219 ch8
+Q Hội phụ huynh của một lớp dùng 18 cuốn sách bao gồm 7 cuốn sách Toán, 6 cuốn sách Lý và 5 cuốn sách Hóa (các cuốn sách cùng loại thì giống nhau) để làm phần thưởng cho 9 học sinh giỏi (có tên khác nhau) trong đó có An và Bình, mỗi học sinh nhận được 2 cuốn sách khác thể loại. Tính xác suất để hai học sinh An và Bình nhận được phần thưởng giống nhau. 2 1 13 5
+OPT ['2/3', '1/3', '13/18', '5/18']
+
+ID 220 ch8
+Q Bài thi có 50 câu, mỗi câu đúng được 0.2 điểm, sai bị trừ 0.1 điểm. Hoa chọn ngẫu nhiên một phương án trong 4 phương án ở mỗi câu. Tính xác suất để Hoa đạt đúng 4 điểm.
+OPT ['C(50,10)·3^40/4^50', 'C(50,30)·3^20/4^50', 'C(50,20)·3^30/4^50', 'C(50,40)·3^10/4^50']
+
+ID 221 ch8
+Q Gọi S là tập hợp các số tự nhiên có 5 chữ số khác nhau. Chọn ngẫu nhiên một số từ tập S. Tính xác suất để chọn được số mà trong đó hai chữ số kề nhau không cùng là số lẻ. 311 143 379 53
+OPT ['311/9072', '143/378', '379/1134', '53/378']
+
+ID 222 ch8
+Q Gọi A là tập hợp tất cả các số tự nhiên có 5 chữ số. Chọn ngẫu nhiên một số từ tập A, tính xác suất để chọn được một số chia hết cho 7 và chữ số hàng đơn vị bằng 1. 643 107 16 643
+OPT ['643/45000', '107/7500', '16/1125', '643/13608']
+
+ID 223 ch8
+Q Cho đa giác lồi n cạnh ( n∈∞*,n≥6 ) nội tiếp đường tròn (O) sao cho không có ba đường chéo nào đồng quy. Các cạnh và các đường chéo của đa giác giao nhau tạo thành các tam giác. Gọi X là tập hợp các tam giác như thế. Lấy ngẫu nhiên một tam giác trong tậpX . Tìm n để xác 4 suất lấy được tam giác không có đỉnh nào là đỉnh của đa giác bằng . 15<br><img src="./quiz-assets/prob-polygon-q60.png" alt="Các trường hợp tam giác tạo bởi dây cung đa giác" class="mt-3 max-h-72 max-w-full rounded-lg border border-slate-200 bg-white p-2">
+OPT ['n =23.', 'n =19.', 'n=15.', 'n=11.']
+
+ID 224 ch8
+Q Một bài kiểm tra theo hình thức trắc nghiệm có 10 câu hỏi. Mỗi câu hỏi có 4 phương án trả lời, trong đó có đúng 1 phương án trả lời đúng. Với mỗi câu hỏi, người làm bài thi chỉ được chọn đúng một phương án trả lời. Trả lời đúng 1 câu hỏi, người làm bài được 1,0 điểm; trả lời sai 1 câu hỏi, người làm bài bị trừ 0,25 điểm. Một học sinh làm bài kiểm tra trên theo cách: Với mỗi câu hỏi, học sinh đó chọn ngẫu nhiên 1 phương án trả lời. Xác suất để học sinh đó được 5,0 điểm là 17010 210 153090 81
+OPT ['17010/420', '210/420', '153090/420', '81/420']
+
+ID 225 ch8
+Q Có 30 viên bi gồm hai loại là bi màu trắng và bi màu đen được đựng trong hai hộp. Lấy ngẫu 51 nhiên từ mỗi hộp đúng một viên bi và xác suất để lấy được hai viên cùng màu đen là . 209 Tính xác suất để lấy được hai viên cùng màu trắng là? 16 158 45 12
+OPT ['16/209', '158/209', '45/209', '12/209']
+
+ID 226 ch8
+Q Gọi S là tập tất cả các số tự nhiên gồm bốn chữ số khác nhau được chọn từ các chữ số 1,2,3,4,5,6,7. Từ S chọn ngẫu nhiên 1 số, tính xác suất để số được chọn là số lẻ và số lẻ đó có mặt chữ số 5. 25 1 1 5
+OPT ['25/168', '1/6', '1/7', '5/14']
+
+ID 227 ch8
+Q Trong một lớp học có 2n+3học sinh gồm An, Bình, Chi cùng 2n học sinh khác. Khi xếp tùy ý các học sinh này vào dãy ghế được đánh số từ 1 đến 2n+3, mỗi học sinh ngồi 1 ghế thì xác suất 12 để số ghế của Bình bằng trung bình cộng số ghế của An và số ghế của Chi là . Tính số học 575 sinh của lớp.
+OPT ['10.', '25.', '20.', '15.']
+
+ID 228 ch8
+Q Thầy Quý viết lên bảng 2 số tự nhiên A và B, mỗi số đều có các chữ số đôi một khác nhau. Số A có 3 chữ số và số B có 4 chữ số. Xác xuất để chữ số của A chỉ có thể trùng với chữ số của B nhiều nhất là 1 chữ số là 485 195 40 215
+OPT ['485/972', '195/324', '40/243', '215/324']
+
+ID 229 ch8
+Q Cho đa giác (H) gồm 20 cạnh. Chọn ngẫu nhiên 4 đỉnh từ các đỉnh của đa giác (H). Tính xác suất để 4 đỉnh được chọn tạo thành một tứ giác mà không có cạnh nào là cạnh của đa giác?…. 365 395 443 473
+OPT ['365/969', '395/969', '443/P = 969', '473/P = 969']
+
+ID 231 ch8
+Q Nhà trường cần xếp phòng thi chọn đội tuyển học sinh giỏi cho 8 môn thi: Toán, Lý, Hóa, Sinh, Sử, Địa, Văn, Anh vào một dãy có 6 phòng được đánh số từ 1 đến 6, trong đó mỗi phòng thi có 1 hoặc 2 môn thi và mỗi môn thi chỉ xếp vào 1 phòng thi. Tính xác suất để sắp xếp 2 môn Toán và Lý không cùng phòng thi. 20 27 6 13
+OPT ['20/21', '27/28', '6/7', '13/14']
+
+ID 232 ch8
+Q Gọi A là tập hợp các số tự nhiên có chín chữ số đôi một khác nhau. Chọn ngẫu nhiên một số tự nhiên thuộc vào tập A. Tính xác suất để chọn được một số thuộc A và số đó chia hết cho 3. 10 4 11 1
+OPT ['10/27', '4/9', '11/27', '1/3']

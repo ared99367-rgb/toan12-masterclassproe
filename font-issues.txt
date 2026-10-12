@@ -1,0 +1,15 @@
+ODD$ 85 O3: '$c\u1ea3 ba \u0111\u1ec1u gi\u1ea3m'
+ODD$ 85 O4: '$c\u1ea3 ba \u0111\u1ec1u t\u0103ng'
+ODD$ 86 O4: '$d\xe3y lu\xf4n t\u0103ng'
+ODD$ 123 O1: '$x=3^{6/7},y=3^{8/7},q=3'
+UNICODE 84 [('U+000C', '?', 'Cc')]
+UNICODE 85 [('U+000C', '?', 'Cc')]
+UNICODE 86 [('U+000C', '?', 'Cc')]
+UNICODE 103 [('U+000C', '?', 'Cc')]
+UNICODE 105 [('U+000C', '?', 'Cc')]
+UNICODE 106 [('U+000C', '?', 'Cc')]
+UNICODE 115 [('U+000C', '?', 'Cc')]
+UNICODE 121 [('U+000C', '?', 'Cc')]
+UNICODE 122 [('U+000C', '?', 'Cc')]
+UNICODE 134 [('U+000C', '?', 'Cc')]
+UNICODE 203 [('U+0000', '?', 'Cc')]

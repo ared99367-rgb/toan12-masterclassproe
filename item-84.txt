@@ -1,0 +1,13 @@
+{
+  "chapter": 6,
+  "question": "Bài nền tảng 3 · Dãy số · truy hồi: Với $u_1=3$, $u_{n+1}=2+\frac12u_n$, và với $u_1=a$, $u_{n+1}=a+bu_n$, chọn công thức đúng.",
+  "options": [
+    "$u_n=4-2^{1-n}$; trường hợp tổng quát $u_n=a(1-b^n)/(1-b)$ nếu b≠1, còn b=1 thì $u_n=na$",
+    "$u_n=3·2^{n-1}$; tổng quát $u_n=a+b^n$",
+    "$u_n=4+2^{1-n}$; tổng quát $u_n=ab^{n-1}$",
+    "$u_n=2^n+3$; tổng quát $u_n=a(1+b)^n$"
+  ],
+  "correct": 0,
+  "explanation": "Ở câu a, điểm bất động L thỏa L=2+L/2 nên L=4. Hiệu $u_n-4$ bị nhân 1/2 sau mỗi bước và $u_1-4=-1$, do đó $u_n=4-2^{1-n}$. Ở câu b, khai triển truy hồi được $u_n=a(1+b+…+b^{n-1})$. Đây là cấp số nhân; tổng bằng $a(1-b^n)/(1-b)$ khi b≠1 và bằng na khi b=1.",
+  "id": 84
+}

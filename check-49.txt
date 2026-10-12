@@ -1,0 +1,4 @@
+correct=1
+question=Gọi $A$ là tập các số tự nhiên có 5 chữ số. Chọn ngẫu nhiên một số trong $A$. Tính xác suất để số đó chia hết cho 7 và có chữ số hàng đơn vị bằng 2.
+options=['257/90000', '257/18000', '127/90000', '127/30000']
+explanation=Tác giả, FB :Hoàng Thị Hồng Hạnh<br>Gọi số tự nhiên gồm 5 chữ số là abcde<br>Chọn a ≠ 0có 9 cách.<br>Chọn b,c,d,emỗi số có 10 cách.<br>Nên A =9.104.<br>Gọi Blà biến cố "chọn được tự nhiên gồm 5 chữ số chia hết cho 7 và có chữ số hàng đơn vị<br>bằng 2''.<br>Gọi số tự nhiên gồm 5 chữ số chia hết cho 7 và có chữ số hàng đơn vị bằng 2 là abcd2<br>Ta có

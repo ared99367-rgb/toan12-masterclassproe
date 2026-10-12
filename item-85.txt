@@ -1,0 +1,13 @@
+{
+  "chapter": 6,
+  "question": "Bài nền tảng 4 · Dãy số · đơn điệu: Xét đơn điệu của $u_n=\frac{n}{n^2+1}$, $v_n=\frac{2n-1}{2n}$, $w_n=(-\frac12)^n$ (n≥1).",
+  "options": [
+    "$u_n$ giảm; $v_n$ tăng; $w_n$ không đơn điệu",
+    "$u_n$ tăng; $v_n$ giảm; $w_n$ tăng",
+    "$cả ba đều giảm",
+    "$cả ba đều tăng"
+  ],
+  "correct": 0,
+  "explanation": "Với $u_n$, hiệu $u_{n+1}-u_n$ có tử số $1-n-n^2$, âm với n≥1, nên dãy giảm. $v_n=1-1/(2n)$ tăng theo n. $w_n$ đổi dấu luân phiên nên không tăng cũng không giảm.",
+  "id": 85
+}

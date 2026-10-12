@@ -1,0 +1,4 @@
+correct=1
+question=Bài thi có 50 câu, mỗi câu đúng được 0.2 điểm, sai bị trừ 0.1 điểm. Hoa chọn ngẫu nhiên một phương án trong 4 phương án ở mỗi câu. Tính xác suất để Hoa đạt đúng 4 điểm.
+options=['C(50,10)·3^40/4^50', 'C(50,30)·3^20/4^50', 'C(50,20)·3^30/4^50', 'C(50,40)·3^10/4^50']
+explanation=Gọi x là số câu trả lời đúng suy ra 50−x là số câu trả lời sai.<br>Ta có số điểm của Hoa là 0,2.x−0,1.(50−x)=4 Σ x =30.<br>Do đó bạn Hoa trả lời đúng 30 câu và sai 20 câu.<br>Không gian mẫu là số phương án trả lời 50 câu hỏi mà bạn Hoa chọn ngẫu nhiên. Mỗi câu có 4<br>phương án trả lời nên có 450 khả năng. Suy ra số phần tử của không gian mẫu là Ω 

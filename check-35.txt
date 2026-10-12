@@ -1,0 +1,4 @@
+correct=2
+question=Cho $A=\{0,1,2,3,4,5,6\}$. Gọi $X$ là tập các số tự nhiên có 5 chữ số khác nhau lập từ $A$. Chọn ngẫu nhiên một số trong $X$. Tính xác suất để số đó có đúng 3 chữ số chẵn.
+options=['4/7', '17/35', '281/540', '2/3']
+explanation=Có 6.A4 =2160 số tự nhiên có 5 chữ số khác nhau lập từ A, ⇒n(X)=2160<br>6<br>Chọn một số từ X , số phần tử của không gian mẫu là n(Ω)=2160<br>Gọi B là biến cố “chọn được số có đúng 3 chữ số chẵn”<br>Xét: abcde là số tự nhiên có 5 chữ số khác nhau trong đó có đúng 3 chữ số chẵn<br>TH1: Xét bộ có 5 số trong đó có 3 chữ số chẵn có mặt số 0 và 2 số lẻ.

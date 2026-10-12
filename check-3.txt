@@ -1,0 +1,4 @@
+correct=0
+question=(THPT Chuyên Hùng Vương-Phú Thọ-lần 1-NH2017-2018) Một khối lập phương có độ dài cạnh là 2cm được chia thành 8 khối lập phương cạnh 1cm. Hỏi có bao nhiêu tam giác được tạo thành từ các đỉnh của khối lập phương cạnh 1cm.<br><img src="./quiz-assets/count-cube-q3.png" alt="Khối lập phương chia thành 8 khối nhỏ" class="mt-3 max-h-72 max-w-full rounded-lg border border-slate-200 bg-white p-2">
+options=['2876.', '2898.', '2915.', '2012.']
+explanation=Có tất cả 27 điểm.<br>Chọn 3 điểm trong 27 có C3 =2925.<br>27<br>Có tất cả (8.2+6.2+4.2+4+3+2+2+2)=49 bộ ba điểm thẳng hàng.<br>Vậy có 2925−49=2876 tam giác.<br>tranquocan1980@gmail.com

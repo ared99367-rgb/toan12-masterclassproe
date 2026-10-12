@@ -1,0 +1,7 @@
+const fs=require('fs'),vm=require('vm');const s=fs.readFileSync('outputs/index.html','utf8'),old=fs.readFileSync('work/index-before-math-pdfs.html','utf8');
+function bank(src,label){const p=src.indexOf('const quizBank = ['),i=src.indexOf('[',p);let d=0,q=false,e=false,k;for(k=i;k<src.length;k++){const c=src[k];if(q){if(e)e=false;else if(c==='\\')e=true;else if(c==='"')q=false;continue;}if(c==='"')q=true;else if(c==='[')d++;else if(c===']'&&--d===0)break;}if(k<0)throw Error(label+' missing');return vm.runInNewContext('('+src.slice(i,k+1)+')');}
+const b=bank(s,'current'),ob=bank(old,'backup');const raw=x=>(x.match(/var RAW_BANK = R`([\s\S]*?)`;/)||[])[1]||'';const nr=raw(s),or=raw(old);const count=x=>(x.match(/^#[A-Z_0-9]+/gm)||[]).length;
+console.log('quiz records old/current',ob.length,b.length,'adaptive question records old/current',count(or),count(nr));
+const bad=[];for(const x of b){const all=[x.question,...x.options,x.explanation].join(' ');if(/[�]|\(cid:|xác xuất|xác suẩt|xác suât|giứa|bổ xung|xếp xếp|hợp hợp|số các các/i.test(all))bad.push(x.id);for(const [kind,t] of [['Q',x.question],['A',x.explanation]])if((t.match(/\$/g)||[]).length%2)bad.push(`${x.id}:${kind}:unbalanced-$`);}
+console.log('suspect quiz entries',Array.from(new Set(bad)));
+console.log('utf8 replacement/CID in HTML',/[�]|\(cid:/.test(s),'question count retained',b.length===ob.length,'adaptive count retained',count(nr)===count(or));

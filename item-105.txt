@@ -1,0 +1,13 @@
+{
+  "chapter": 6,
+  "question": "Cho $x_1,x_2,\\ldots,x_n&gt;0$ và $x_1x_2\\cdots x_n=1$. Chứng minh bất đẳng thức nào đúng?",
+  "options": [
+    "Σxᵢ=n với mọi bộ số",
+    "Σxᵢ≤n",
+    "Σxᵢ≥1",
+    "Σxᵢ ≥ n khi xᵢ&gt;0 và ∏xᵢ=1"
+  ],
+  "correct": 3,
+  "explanation": "Theo bất đẳng thức AM-GM, $\frac{x_1+\\cdots+x_n}{n}\\ge\\sqrt[n]{x_1\\cdots x_n}=1$. Suy ra $x_1+\\cdots+x_n\\ge n$. Dấu bằng xảy ra khi và chỉ khi mọi $x_i=1$.",
+  "id": 105
+}

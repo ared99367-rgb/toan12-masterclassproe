@@ -1,0 +1,4 @@
+correct=1
+question=Cho $A=\{1,2,\ldots,2019\}$. Chọn ngẫu nhiên đồng thời hai số phân biệt. Tính xác suất để bình phương của số lớn cộng ba lần số bé đều là số chính phương.
+options=['0', '1/C(2019,2)', '2/C(2019,2)', '5/C(2019,2)']
+explanation=Gọi hai số được lấy ra đồng thời từ tập A thỏa mãn yêu cầu bài toán là<br>x, y ( x, y∈⁺* ,x ≠ y ) .<br>+<br>Không làm mất tính tổng quát giả sử x &gt; y.<br>x2+3y=k2 ( k∈⁺* ,k&gt;x ) . Ta thấy rằng 4x&gt;3x&gt;3y. Đặt k = x+t(t ≥1)<br>+<br>Nếu t≥2 thì x2 +2xt+t2 =k2 ⇒2xt+t2 =3y⇒3y≥2xt ≥4x (Vô lý)<br>3y−1 9y−3<br>Nên t &lt;2⇒t =1. Khi đó, 2x+1=2y⇒x 

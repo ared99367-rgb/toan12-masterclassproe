@@ -1,0 +1,4 @@
+correct=1
+question=Cho $E=\{1,2,3,4,5,6,7\}$. Viết ngẫu nhiên lên bảng hai số tự nhiên có 3 chữ số, mỗi số có các chữ số đôi một khác nhau thuộc $E$. Tính xác suất để trong hai số có đúng một số chứa chữ số 5.
+options=['3/4', '24/49', '25/49', '1/4']
+explanation=Số các các số tự nhiên có 3 chữ số đôi một khác nhau thuộc tập E là A3 =210. Trong đó số<br>7<br>các số không có mặt chữ số 5 là A3 =120, và các số có mặt chữ số 5 là 90.<br>6<br>Gọi Alà biến cố hai số được viết lên bảng đều có mặt chữ số 5 thì<br>C1 .C1 9<br>P(A)= 90 90 ⇒ P(A)=<br>C1 .C1 49<br>210 210<br>Gọi Blà biến cố hai số được viết lên bảng đ

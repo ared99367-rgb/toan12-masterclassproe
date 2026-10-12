@@ -1,0 +1,4 @@
+correct=3
+question=Trên đường tròn (C) có 2018 điểm phân biệt. Hỏi có bao nhiêu cách xóa đi 18 điểm sao cho không có hai điểm bị xóa nào cạnh nhau?
+options=['C(2018,18)', 'C(2000,18)', 'C(1999,17)', 'C(2000,18)+C(1999,17)']
+explanation=Giả sử trong 2018 điểm đó có điểm A, khi đó có 2 trường hợp<br>TH1: Điểm A không bị xóa<br>Sau khi xóa đi 18 điểm còn lại 2000 điểm. Xen giữa 2000 điểm đó có 2000 khoảng trống, 18<br>điểm bị xóa tương ứng với 18 trong số 2000 khoảng trống nên có C18<br>2000<br>TH2: Điểm A bị xóa<br>Xóa tiếp 17 điểm, còn lại 2000 điểm. Xen giứa 2000 điểm này có 1999

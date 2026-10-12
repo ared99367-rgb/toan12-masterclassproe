@@ -1,0 +1,13 @@
+{
+  "chapter": 6,
+  "question": "Bài nền tảng 22 · Cấp số nhân · tam giác: Ba cạnh của tam giác lập thành cấp số nhân có công bội q&gt;0. Khoảng đúng của q là?",
+  "options": [
+    "$\frac{\\sqrt5-1}{2}&lt;q&lt;\frac{\\sqrt5+1}{2}$",
+    "$q&gt;1$",
+    "$0&lt;q&lt;1/2$",
+    "$q&gt;2$"
+  ],
+  "correct": 0,
+  "explanation": "Ba cạnh tỉ lệ $1,q,q²$ sau khi chia cho cạnh nhỏ nhất. Bất đẳng thức tam giác $1+q>q²$ và $q+q²>1$ cho lần lượt $q<(1+\\sqrt5)/2$ và $q>(\\sqrt5−1)/2$.",
+  "id": 103
+}

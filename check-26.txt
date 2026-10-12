@@ -1,0 +1,4 @@
+correct=2
+question=Có bao nhiêu số tự nhiên chia hết cho 3, biết số đó gồm 2018 chữ số lấy từ tập hợp $X=\{3,5,7,9\}$?
+options=['(4^2018+4)/3', '(4^2018+3)/3', '(4^2018+2)/3', '(4^2018+1)/3']
+explanation=Gọi S là số các số tự nhiên chia hết cho 3, mỗi số gồm n chữ số lấy từ tập hợp X. Dễ thấy S =2<br>n 1<br>Gọi P là số các số tự nhiên không chia hết cho 3, mỗi số gồm n chữ số lấy từ tập hợp X.<br>n<br>Ta có S +P =4n (n=1,2,3...)<br>n n<br>Ta tính S như sau:<br>n+1<br>Giả sử A là số tự nhiên bất kì gồm n chữ số lấy từ tập hợp X, có các trường hợp sa

@@ -1,0 +1,4 @@
+correct=0
+question=Một nhóm 6 người đều sinh năm 2004 (năm nhuận). Tính xác suất để có ít nhất hai người cùng ngày, tháng sinh.
+options=['(366^6−A(366,6))/366^6', '(366^6−C(366,6))/366^6', 'C(366,6)/366^6', 'A(366,6)/366^6']
+explanation=Năm 2004 là năm nhuận nên có 366 ngày. Giả sử các ngày được đánh số từ 1 đến 366.<br>Số phần tử của không gian mẫu là: n(Ω)=3666.<br>Mỗi phần tử của không gian mẫu là một bộ số (a ;a ;a ;a ;a ;a ).<br>1 2 3 4 5 6<br>Gọi A là biến cố: “Có ít nhất hai người có cùng ngày tháng năm sinh”.<br>Suy ra A là biến cố: “Không có hai người nào cùng ngày tháng 

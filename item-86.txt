@@ -1,0 +1,13 @@
+{
+  "chapter": 6,
+  "question": "Bài nền tảng 5 · Dãy số · đơn điệu: Với $u_n=\frac{an+2}{bn+1}$, chọn nhận xét chính xác về hiệu hai số hạng liên tiếp.",
+  "options": [
+    "$u_{n+1}-u_n=\frac{a-2b}{(bn+1)(b(n+1)+1)}$; dấu còn phụ thuộc mẫu số",
+    "$u_{n+1}-u_n=a+2b$",
+    "$u_{n+1}-u_n=2b-a$ với mọi a,b",
+    "$dãy luôn tăng"
+  ],
+  "correct": 0,
+  "explanation": "Quy đồng trực tiếp: $(a(n+1)+2)(bn+1)-(an+2)(b(n+1)+1)=a-2b$. Vì vậy hiệu có dạng nêu ở đáp án. Nếu b≥0 thì mẫu dương với n≥1 và dấu đơn điệu do a−2b quyết định; với b tùy ý phải kiểm tra mẫu khác 0 và dấu mẫu.",
+  "id": 86
+}
